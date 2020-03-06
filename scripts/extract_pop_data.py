@@ -22,4 +22,4 @@ mdf = pd.read_csv(snakemake.input[1])[["Country Code", "Region", "IncomeGroup"]]
         "IncomeGroup": "income",
     }
 )
-df.merge(mdf, on="country_code", how="left").to_csv("pop.csv", index=False)
+df.merge(mdf, on="country_code", how="left").to_csv(snakemake.output[0], index=False)
