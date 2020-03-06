@@ -1,7 +1,15 @@
+*.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Mac
+.DS_Store
+
+# Snakemake
+.snakemake/
 
 # C extensions
 *.so
