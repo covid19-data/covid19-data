@@ -1,2 +1,2 @@
 all:
-	snakemake -R `snakemake --list-code-changes`
+	snakemake -R `snakemake --lc --li --lp`
