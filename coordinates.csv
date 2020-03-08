@@ -1,0 +1,226 @@
+country,state,lat,lng
+Mainland China,Anhui,31.8257,117.2264
+Mainland China,Beijing,40.1824,116.4142
+Mainland China,Chongqing,30.0572,107.874
+Mainland China,Fujian,26.0789,117.9874
+Mainland China,Gansu,36.0611,103.8343
+Mainland China,Guangdong,23.3417,113.4244
+Mainland China,Guangxi,23.8298,108.7881
+Mainland China,Guizhou,26.8154,106.8748
+Mainland China,Hainan,19.1959,109.7453
+Mainland China,Hebei,38.0428,114.5149
+Mainland China,Heilongjiang,47.861999999999995,127.7615
+Mainland China,Henan,33.882020000000004,113.61399999999999
+Mainland China,Hubei,30.9756,112.2707
+Mainland China,Hunan,27.6104,111.7088
+Mainland China,Inner Mongolia,44.0935,113.9448
+Mainland China,Jiangsu,32.9711,119.455
+Mainland China,Jiangxi,27.614,115.7221
+Mainland China,Jilin,43.6661,126.1923
+Mainland China,Liaoning,41.2956,122.6085
+Mainland China,Ningxia,37.2692,106.1655
+Mainland China,Qinghai,35.7452,95.9956
+Mainland China,Shaanxi,35.1917,108.8701
+Mainland China,Shandong,36.3427,118.1498
+Mainland China,Shanghai,31.201999999999998,121.4491
+Mainland China,Shanxi,37.5777,112.2922
+Mainland China,Sichuan,30.6171,102.7103
+Mainland China,Tianjin,39.3054,117.323
+Mainland China,Tibet,31.6927,88.0924
+Mainland China,Xinjiang,41.1129,85.2401
+Mainland China,Yunnan,24.974,101.48700000000001
+Mainland China,Zhejiang,29.1832,120.0934
+Thailand,,15.0,101.0
+Japan,,36.0,138.0
+South Korea,,36.0,128.0
+Taiwan,Taiwan,23.7,121.0
+US,"King County, WA",47.6062,-122.3321
+US,"Cook County, IL",41.7377,-87.6976
+Macau,Macau,22.1667,113.55
+Hong Kong,Hong Kong,22.3,114.2
+Singapore,,1.2833,103.8333
+Vietnam,,16.0,108.0
+France,,47.0,2.0
+Nepal,,28.1667,84.25
+Malaysia,,2.5,112.5
+Canada,"Toronto, ON",43.6532,-79.3832
+Canada,British Columbia,49.2827,-123.1207
+US,"Los Angeles, CA",34.0522,-118.2437
+Australia,New South Wales,-33.8688,151.2093
+Australia,Victoria,-37.8136,144.9631
+Australia,Queensland,-28.0167,153.4
+Cambodia,,11.55,104.9167
+Sri Lanka,,7.0,81.0
+Germany,,51.0,9.0
+Finland,,64.0,26.0
+United Arab Emirates,,24.0,54.0
+Philippines,,13.0,122.0
+India,,21.0,78.0
+Canada,"London, ON",42.9849,-81.2453
+Italy,,43.0,12.0
+UK,,55.0,-3.0
+Russia,,60.0,90.0
+Sweden,,63.0,16.0
+Spain,,40.0,-4.0
+Australia,South Australia,-34.9285,138.6007
+US,"San Benito, CA",36.5761,-120.9876
+Belgium,,50.8333,4.0
+US,"Madison, WI",43.0731,-89.4012
+Others,Diamond Princess cruise ship,35.4437,139.638
+US,"San Diego County, CA",32.7157,-117.1611
+US,"San Antonio, TX",29.4241,-98.4936
+Egypt,,26.0,30.0
+Iran,,32.0,53.0
+US,"Omaha, NE (From Diamond Princess)",41.2545,-95.9758
+US,"Travis, CA (From Diamond Princess)",38.2721,-121.9399
+Australia,From Diamond Princess,35.4437,139.638
+US,"Lackland, TX (From Diamond Princess)",29.3829,-98.6134
+Lebanon,,33.8547,35.8623
+US,"Humboldt County, CA",40.745,-123.8695
+US,"Sacramento County, CA",38.4747,-121.3542
+Iraq,,33.0,44.0
+US,Unassigned Location (From Diamond Princess),35.4437,139.638
+Oman,,21.0,57.0
+Afghanistan,,33.0,65.0
+Bahrain,,26.0275,50.55
+Kuwait,,29.5,47.75
+Algeria,,28.0339,1.6596
+Croatia,,45.1,15.2
+Switzerland,,46.8182,8.2275
+Austria,,47.5162,14.5501
+Israel,,31.0,35.0
+Pakistan,,30.3753,69.3451
+Brazil,,-14.235,-51.9253
+Georgia,,42.3154,43.3569
+Greece,,39.0742,21.8243
+North Macedonia,,41.6086,21.7453
+Norway,,60.472,8.4689
+Romania,,45.9432,24.9668
+Denmark,,56.2639,9.5018
+Estonia,,58.5953,25.0136
+Netherlands,,52.1326,5.2913
+San Marino,,43.9424,12.4578
+Belarus,,53.7098,27.9534
+Canada," Montreal, QC",45.5017,-73.5673
+Iceland,,64.9631,-19.0208
+Lithuania,,55.1694,23.8813
+Mexico,,23.6345,-102.5528
+New Zealand,,-40.9006,174.886
+Nigeria,,9.082,8.6753
+Australia,Western Australia,-31.9505,115.8605
+Ireland,,53.1424,-7.6921
+Luxembourg,,49.8153,6.1296
+Monaco,,43.7333,7.4167
+Qatar,,25.3548,51.1839
+US,"Snohomish County, WA",48.033,-121.8339
+Ecuador,,-1.8312,-78.1834
+Azerbaijan,,40.1431,47.5769
+Czech Republic,,49.8175,15.472999999999999
+Armenia,,40.0691,45.0382
+Dominican Republic,,18.7357,-70.1627
+Indonesia,,-0.7893,113.9213
+Portugal,,39.3999,-8.2245
+Andorra,,42.5063,1.5218
+Australia,Tasmania,-41.4545,145.9707
+Latvia,,56.8796,24.6032
+Morocco,,31.7917,-7.0926
+Saudi Arabia,,24.0,45.0
+Senegal,,14.4974,-14.4524
+US,"Grafton County, NH",43.9088,-71.82600000000001
+US,"Hillsborough, FL",27.9904,-82.3018
+US,"Placer County, CA",39.0916,-120.8039
+US,"San Mateo, CA",37.563,-122.3255
+US,"Sarasota, FL",27.3364,-82.5307
+US,"Sonoma County, CA",38.578,-122.9888
+US,"Umatilla, OR",45.775,-118.7606
+US,"Fulton County, GA",33.8034,-84.3963
+US,"Washington County, OR",45.547,-123.1386
+Argentina,,-38.4161,-63.6167
+Chile,,-35.6751,-71.543
+Jordan,,31.24,36.51
+US," Norfolk County, MA",42.1767,-71.1449
+US,"Maricopa County, AZ",33.2918,-112.4291
+US,"Wake County, NC",35.8032,-78.5661
+US,"Westchester County, NY",41.122,-73.7949
+Ukraine,,48.3794,31.1656
+Saint Barthelemy,,17.9,-62.8333
+US,"Orange County, CA",33.7879,-117.8531
+Hungary,,47.1625,19.5033
+Australia,Northern Territory,-12.4634,130.8456
+Faroe Islands,,61.8926,-6.9118
+Gibraltar,,36.1408,-5.3536
+Liechtenstein,,47.14,9.55
+Poland,,51.9194,19.1451
+Tunisia,,34.0,9.0
+US,"Contra Costa County, CA",37.8534,-121.9018
+Palestine,,31.9522,35.2332
+Bosnia and Herzegovina,,43.9159,17.6791
+Slovenia,,46.1512,14.9955
+US,"Bergen County, NJ",40.9263,-74.077
+US,"Harris County, TX",29.7752,-95.3103
+US,"San Francisco County, CA",37.7749,-122.4194
+South Africa,,-30.5595,22.9375
+US,"Clark County, NV",36.0796,-115.094
+US,"Fort Bend County, TX",29.5693,-95.8143
+US,"Grant County, WA",47.1981,-119.3732
+US,"Santa Rosa County, FL",30.769000000000002,-86.9824
+US,"Williamson County, TN",35.9179,-86.8622
+US,"New York County, NY",40.7128,-74.006
+US,"Unassigned Location, WA",47.7511,-120.7401
+US,"Montgomery County, MD",39.1547,-77.2405
+US,"Suffolk County, MA",42.3601,-71.0589
+US,"Denver County, CO",39.7392,-104.9903
+US,"Summit County, CO",39.5912,-106.064
+Bhutan,,27.5142,90.4336
+Cameroon,,3.8480000000000003,11.5021
+Canada,"Calgary, Alberta",51.0447,-114.0719
+Colombia,,4.5709,-74.2973
+Costa Rica,,9.7489,-83.7534
+Peru,,-9.19,-75.0152
+Serbia,,44.0165,21.0059
+Slovakia,,48.669,19.699
+Togo,,8.6195,0.8248
+US,"Chatham County, NC",35.7211,-79.1781
+US,"Delaware County, PA",39.9078,-75.3879
+US,"Douglas County, NE",41.3148,-96.1951
+US,"Fayette County, KY",38.0606,-84.4803
+US,"Floyd County, GA",34.2829,-85.2308
+US,"Marion County, IN",39.8362,-86.1752
+US,"Middlesex County, MA",42.4672,-71.2874
+US,"Nassau County, NY",40.6546,-73.5594
+US,"Ramsey County, MN",44.9964,-93.0616
+US,"Washoe County, NV",40.5608,-119.6035
+US,"Wayne County, PA",41.6739,-75.2479
+US,"Yolo County, CA",38.7646,-121.9018
+Vatican City,,41.9029,12.4534
+US,"Santa Clara County, CA",37.3541,-121.9552
+US,Grand Princess Cruise Ship,37.6489,-122.6655
+French Guiana,,3.9339,-53.1258
+Malta,,35.9375,14.3754
+US,"Douglas County, CO",39.2587,-104.9389
+US,"Providence County, RI",41.8882,-71.4774
+Martinique,,14.6415,-61.0242
+US,"Alameda County, CA",37.6017,-121.7195
+US,"Broward County, FL",26.1901,-80.3659
+US,"Fairfield County, CT",41.256,-73.3709
+US,"Lee County, FL",26.663,-81.9535
+US,"Pinal County, AZ",32.8162,-111.2845
+US,"Rockland County, NY",41.1489,-73.983
+US,"Saratoga County, NY",43.0324,-73.936
+Canada,"Edmonton, Alberta",53.5461,-113.4938
+US,"Charleston County, SC",32.7957,-79.7848
+US,"Clark County, WA",45.7466,-122.5194
+US,"Cobb County, GA",33.8999,-84.5641
+US,"Davis County, UT",40.9629,-112.0953
+US,"El Paso County, CO",38.9108,-104.4723
+US,"Honolulu County, HI",21.307,-157.8584
+US,"Jackson County, OR ",42.3345,-122.7647
+US,"Jefferson County, WA",47.7425,-123.304
+US,"Kershaw County, SC",34.3672,-80.5883
+US,"Klamath County, OR",42.6953,-121.6142
+US,"Madera County, CA",37.2519,-119.6963
+US,"Pierce County, WA",47.0676,-122.1295
+US,"Plymouth County, MA",42.1615,-70.7928
+US,"Santa Cruz County, CA",36.9741,-122.0308
+US,"Tulsa County, OK",36.1593,-95.941
+US,"Montgomery County, TX",30.3213,-95.4778
