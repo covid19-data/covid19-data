@@ -5,6 +5,7 @@ import json
 import pandas as pd
 
 DATA_TYPES = ("confirmed", "deaths", "recovered")
+DROPPED_COUNTRIES = {"Republic of Ireland"}
 
 
 def convert_date(x):
@@ -40,7 +41,7 @@ def melt_and_merge(dfs, values=DATA_TYPES, merge_on=("country", "state", "date")
         .merge(molten_dfs[2], on=merge_on)
     )
     df.loc[:, "date"] = df.date.apply(convert_date)
-    return df
+    return df[~df.country.isin(DROPPED_COUNTRIES)]
 
 
 melt_and_merge(list(map(load_data, snakemake.input[0:3]))).to_csv(

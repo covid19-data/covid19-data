@@ -9,8 +9,8 @@ Mainland China,Guangxi,23.8298,108.7881
 Mainland China,Guizhou,26.8154,106.8748
 Mainland China,Hainan,19.1959,109.7453
 Mainland China,Hebei,38.0428,114.5149
-Mainland China,Heilongjiang,47.862,127.7615
-Mainland China,Henan,33.882020000000004,113.614
+Mainland China,Heilongjiang,47.861999999999995,127.7615
+Mainland China,Henan,33.882020000000004,113.61399999999999
 Mainland China,Hubei,30.9756,112.2707
 Mainland China,Hunan,27.6104,111.7088
 Mainland China,Inner Mongolia,44.0935,113.9448
@@ -22,13 +22,13 @@ Mainland China,Ningxia,37.2692,106.1655
 Mainland China,Qinghai,35.7452,95.9956
 Mainland China,Shaanxi,35.1917,108.8701
 Mainland China,Shandong,36.3427,118.1498
-Mainland China,Shanghai,31.202,121.4491
+Mainland China,Shanghai,31.201999999999998,121.4491
 Mainland China,Shanxi,37.5777,112.2922
 Mainland China,Sichuan,30.6171,102.7103
 Mainland China,Tianjin,39.3054,117.323
 Mainland China,Tibet,31.6927,88.0924
 Mainland China,Xinjiang,41.1129,85.2401
-Mainland China,Yunnan,24.974,101.487
+Mainland China,Yunnan,24.974,101.48700000000001
 Mainland China,Zhejiang,29.1832,120.0934
 Thailand,,15.0,101.0
 Japan,,36.0,138.0
@@ -115,7 +115,7 @@ Qatar,,25.3548,51.1839
 US,"Snohomish County, WA",48.033,-121.8339
 Ecuador,,-1.8312,-78.1834
 Azerbaijan,,40.1431,47.5769
-Czech Republic,,49.8175,15.473
+Czech Republic,,49.8175,15.472999999999999
 Armenia,,40.0691,45.0382
 Dominican Republic,,18.7357,-70.1627
 Indonesia,,-0.7893,113.9213
@@ -126,7 +126,7 @@ Latvia,,56.8796,24.6032
 Morocco,,31.7917,-7.0926
 Saudi Arabia,,24.0,45.0
 Senegal,,14.4974,-14.4524
-US,"Grafton County, NH",43.9088,-71.82600000000002
+US,"Grafton County, NH",43.9088,-71.82600000000001
 US,"Hillsborough, FL",27.9904,-82.3018
 US,"Placer County, CA",39.0916,-120.8039
 US,"San Mateo, CA",37.563,-122.3255
@@ -163,7 +163,7 @@ South Africa,,-30.5595,22.9375
 US,"Clark County, NV",36.0796,-115.094
 US,"Fort Bend County, TX",29.5693,-95.8143
 US,"Grant County, WA",47.1981,-119.3732
-US,"Santa Rosa County, FL",30.769,-86.9824
+US,"Santa Rosa County, FL",30.769000000000002,-86.9824
 US,"Williamson County, TN",35.9179,-86.8622
 US,"New York County, NY",40.7128,-74.006
 US,"Unassigned Location, WA",47.7511,-120.7401
@@ -172,7 +172,7 @@ US,"Suffolk County, MA",42.3601,-71.0589
 US,"Denver County, CO",39.7392,-104.9903
 US,"Summit County, CO",39.5912,-106.064
 Bhutan,,27.5142,90.4336
-Cameroon,,3.848,11.5021
+Cameroon,,3.8480000000000003,11.5021
 Canada,"Calgary, Alberta",51.0447,-114.0719
 Colombia,,4.5709,-74.2973
 Costa Rica,,9.7489,-83.7534
@@ -184,7 +184,6 @@ US,"Chatham County, NC",35.7211,-79.1781
 US,"Delaware County, PA",39.9078,-75.3879
 US,"Douglas County, NE",41.3148,-96.1951
 US,"Fayette County, KY",38.0606,-84.4803
-US,"Floyd County, GA",34.2829,-85.2308
 US,"Marion County, IN",39.8362,-86.1752
 US,"Middlesex County, MA",42.4672,-71.2874
 US,"Nassau County, NY",40.6546,-73.5594
@@ -221,6 +220,37 @@ US,"Klamath County, OR",42.6953,-121.6142
 US,"Madera County, CA",37.2519,-119.6963
 US,"Pierce County, WA",47.0676,-122.1295
 US,"Plymouth County, MA",42.1615,-70.7928
-US,"Santa Cruz County, CA",36.9741,-122.0308
 US,"Tulsa County, OK",36.1593,-95.941
 US,"Montgomery County, TX",30.3213,-95.4778
+Republic of Ireland,,53.1424,-7.6921
+Bulgaria,,42.7339,25.4858
+Maldives,,3.2028,73.2207
+US,"Montgomery County, PA",40.229,-75.3879
+Bangladesh,,23.685,90.3563
+US,"Fairfax County, VA",38.9085,-77.2405
+US,"Rockingham County, NH",42.9931,-71.0498
+US,"Washington, D.C.",38.9072,-77.0369
+Moldova,,47.4116,28.3699
+Paraguay,,-23.4425,-58.4438
+US,"Berkshire County, MA",42.3118,-73.1822
+US,"Davidson County, TN",36.1343,-86.822
+US,"Douglas County, OR",43.1261,-123.2492
+US,"Fresno County, CA",36.9859,-119.2321
+US,"Harford County, MD",39.5839,-76.3637
+US,"Hendricks County, IN",39.8065,-86.5401
+US,"Hudson County, NJ",40.7453,-74.0535
+US,"Johnson County, KS",38.8454,-94.8521
+US,"Kittitas County, WA",47.175,-120.9319
+US,"Manatee County, FL",27.4799,-82.3452
+US,"Marion County, OR",44.8446,-122.5927
+US,"Okaloosa County, FL",30.5773,-86.6611
+US,"Polk County, GA",34.0132,-85.1479
+US,"Riverside County, CA",33.9533,-117.3961
+US,"Shelby County, TN",35.1269,-89.9253
+US,"Spokane County, WA",47.6587,-117.4225
+US,"St. Louis County, MO",38.6103,-90.4125
+US,"Suffolk County, NY",40.9849,-72.6151
+US,"Ulster County, NY",41.8586,-74.3118
+US,"Unassigned Location, VT",44.3378,-72.7563
+US,"Unknown Location, MA",42.4072,-71.3824
+US,"Volusia County, FL",29.028000000000002,-81.0755
