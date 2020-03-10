@@ -7,4 +7,4 @@ all:
 	git commit -a -m "data update"
 
 watch:
-	watch -n 300 "python check_new_commit.py"
+	watch -n 100 "python check_new_commit.py"
