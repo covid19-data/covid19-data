@@ -43,7 +43,6 @@ Vietnam,,16.0,108.0
 France,,47.0,2.0
 Nepal,,28.1667,84.25
 Malaysia,,2.5,112.5
-Canada,"Toronto, ON",43.6532,-79.3832
 Canada,British Columbia,49.2827,-123.1207
 US,"Los Angeles, CA",34.0522,-118.2437
 Australia,New South Wales,-33.8688,151.2093
@@ -56,7 +55,6 @@ Finland,,64.0,26.0
 United Arab Emirates,,24.0,54.0
 Philippines,,13.0,122.0
 India,,21.0,78.0
-Canada,"London, ON",42.9849,-81.2453
 Italy,,43.0,12.0
 UK,,55.0,-3.0
 Russia,,60.0,90.0
@@ -101,7 +99,6 @@ Estonia,,58.5953,25.0136
 Netherlands,,52.1326,5.2913
 San Marino,,43.9424,12.4578
 Belarus,,53.7098,27.9534
-Canada," Montreal, QC",45.5017,-73.5673
 Iceland,,64.9631,-19.0208
 Lithuania,,55.1694,23.8813
 Mexico,,23.6345,-102.5528
@@ -173,7 +170,6 @@ US,"Denver County, CO",39.7392,-104.9903
 US,"Summit County, CO",39.5912,-106.064
 Bhutan,,27.5142,90.4336
 Cameroon,,3.8480000000000003,11.5021
-Canada,"Calgary, Alberta",51.0447,-114.0719
 Colombia,,4.5709,-74.2973
 Costa Rica,,9.7489,-83.7534
 Peru,,-9.19,-75.0152
@@ -206,7 +202,6 @@ US,"Lee County, FL",26.663,-81.9535
 US,"Pinal County, AZ",32.8162,-111.2845
 US,"Rockland County, NY",41.1489,-73.983
 US,"Saratoga County, NY",43.0324,-73.936
-Canada,"Edmonton, Alberta",53.5461,-113.4938
 US,"Charleston County, SC",32.7957,-79.7848
 US,"Clark County, WA",45.7466,-122.5194
 US,"Cobb County, GA",33.8999,-84.5641
@@ -222,7 +217,6 @@ US,"Pierce County, WA",47.0676,-122.1295
 US,"Plymouth County, MA",42.1615,-70.7928
 US,"Tulsa County, OK",36.1593,-95.941
 US,"Montgomery County, TX",30.3213,-95.4778
-Republic of Ireland,,53.1424,-7.6921
 Bulgaria,,42.7339,25.4858
 Maldives,,3.2028,73.2207
 US,"Montgomery County, PA",40.229,-75.3879
@@ -251,6 +245,23 @@ US,"Spokane County, WA",47.6587,-117.4225
 US,"St. Louis County, MO",38.6103,-90.4125
 US,"Suffolk County, NY",40.9849,-72.6151
 US,"Ulster County, NY",41.8586,-74.3118
-US,"Unassigned Location, VT",44.3378,-72.7563
 US,"Unknown Location, MA",42.4072,-71.3824
 US,"Volusia County, FL",29.028000000000002,-81.0755
+Canada,Ontario,51.2538,-85.3232
+Canada,Alberta,53.9333,-116.5765
+Canada,Quebec,52.9399,-73.5491
+US,"Johnson County, IA",41.6699,-91.5984
+Albania,,41.1533,20.1683
+Cyprus,,35.1264,33.4299
+St. Martin,,18.0708,-63.0501
+US,"Harrison County, KY",38.4333,-84.3542
+Brunei,,4.5353,114.7277
+US,"Bennington County, VT",43.0279,-73.135
+US,"Carver County, MN",44.8254,-93.7842
+US,"Charlotte County, FL",26.8946,-81.9098
+US,"Cherokee County, GA",34.2515,-84.4803
+US,"Collin County, TX",33.1795,-96.493
+US,"Jefferson County, KY",38.1938,-85.6435
+US,"Jefferson Parish, LA",29.6499,-90.1121
+US,"Shasta County, CA",40.7909,-121.8474
+US,"Spartanburg County, SC",34.8606,-81.9535

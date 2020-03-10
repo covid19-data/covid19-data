@@ -5,7 +5,10 @@ import json
 import pandas as pd
 
 DATA_TYPES = ("confirmed", "deaths", "recovered")
-DROPPED_COUNTRIES = {"Republic of Ireland"}
+
+# {"Republic of Ireland" } this issue was fixed here:
+# https://github.com/CSSEGISandData/COVID-19/issues/316
+DROPPED_COUNTRIES = set([])
 
 
 def convert_date(x):
