@@ -6,7 +6,7 @@ import requests
 
 def notify(title, text):
     os.system(
-        """osascript -e 'display notification "{}" with title "{}"''""".format(
+        """osascript -e 'display notification "{}" with title "{}"'""".format(
             text, title
         )
     )
@@ -18,7 +18,7 @@ timestamp_lastcommit = atoma.parse_atom_bytes(
     ).content
 ).updated.timestamp()
 
-if os.path.getmtime("cntry_stat.json") < timestamp_lastcommit:
+if os.path.getmtime("cntry_stat.json") > timestamp_lastcommit:
     notify(
         title="COVID-19 data updated",
         text="There is a new commit in the COVID-19 data repository!",
