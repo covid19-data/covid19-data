@@ -8,7 +8,20 @@ DATA_TYPES = ("confirmed", "deaths", "recovered")
 
 # {"Republic of Ireland" } this issue was fixed here:
 # https://github.com/CSSEGISandData/COVID-19/issues/316
-DROPPED_COUNTRIES = set([])
+TO_BE_DROPPED = set([])
+TO_BE_REPLACED = {
+    "Vatican City": "Holy See",
+    "Hong Kong SAR": "Hong Kong",
+    "Iran (Islamic Republic of)": "Iran",
+    "Macao SAR": "Macau",
+    "Republic of Korea": "South Korea",
+    "Republic of Moldova": "Moldova",
+    "Russian Federation": "Russia",
+    "Saint Martin": "St. Martin",
+    "Taipei and environs": "Taiwan",
+    "Viet Nam": "Vietnam",
+    "occupied Palestinian territory": "Palestine",
+}
 
 
 def convert_date(x):
@@ -44,7 +57,8 @@ def melt_and_merge(dfs, values=DATA_TYPES, merge_on=("country", "state", "date")
         .merge(molten_dfs[2], on=merge_on)
     )
     df.loc[:, "date"] = df.date.apply(convert_date)
-    return df[~df.country.isin(DROPPED_COUNTRIES)]
+    df.loc[:, "country"] = df.country.replace(TO_BE_REPLACED)
+    return df[~df.country.isin(TO_BE_DROPPED)]
 
 
 melt_and_merge(list(map(load_data, snakemake.input[0:3]))).to_csv(
