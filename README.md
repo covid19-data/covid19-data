@@ -15,17 +15,19 @@ git submodule init
 git submodule
 ```
 
-Install [pandas](https://pandas.pydata.org/) and [snakemake](https://snakemake.readthedocs.io/en/stable/) using `conda` or `pip`.
+Install [pandas](https://pandas.pydata.org/) and [snakemake](https://snakemake.readthedocs.io/en/stable/) using `conda` 
 
 ```sh
 conda install -c bioconda -c conda-forge snakemake pandas
 ```
 
+or `pip`:
+
 ```sh
 pip install pandas snakemake
 ```
 
-Run 
+Run `make`.
 
 ```sh
 make
