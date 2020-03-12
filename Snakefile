@@ -11,7 +11,7 @@ COORDINATES = 'coordinates.csv'
 TABLEAU_TS = 'tableau_ts.csv'
 
 # Data file from Our World in Data
-OWID_TS = 'owid_ts.csv'
+OWID_TS = 'data_sources/our_world_in_data/owid_ts.csv')
 
 # Population data from Worldbank
 POP_RAW_DATA_DIR = "worldbank_population_data"
