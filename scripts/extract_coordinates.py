@@ -8,6 +8,6 @@ df = pd.read_csv(snakemake.input[0]).rename(
         "Lat": "lat",
         "Long": "lng",
     }
-)[["country", "state", "lat", "lng"]]
+)[["country", "state", "lat", "lng"]].drop_duplicates()
 
 df.to_csv(snakemake.output[0], index=False)

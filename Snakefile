@@ -1,16 +1,12 @@
 from os.path import join as j
 
-# Time series raw data
-# TIME_SERIES_PATH = "COVID-19/csse_covid_19_data/csse_covid_19_time_series/"
-# TIME_SERIES_FNAME = j(TIME_SERIES_PATH, "time_series_19-covid-{data_type}.csv")
-# DATA_TYPES = ["Confirmed", "Deaths", "Recovered"]
-# CONFIRMED_TS, DEATHS_TS, RECOVERED_TS = expand(TIME_SERIES_FNAME, data_type=DATA_TYPES)
-# COMBINED_TS = 'combined_ts.csv'
-COORDINATES = 'coordinates.csv'
+# Data feed from Tableau. Raw data is from JHU CSSE GitHub.
+TABLEAU_TS = 'data_sources/tableau/tableau_ts.csv'
 
-TABLEAU_TS = 'tableau_ts.csv'
+# Location data pulled from tableau/jhu dataset.
+COORDINATES = 'output/location/coordinates.csv'
 
-# Data file from Our World in Data
+# Data file from Our World in Data. Directly from WHO
 OWID_TS = 'data_sources/our_world_in_data/owid_ts.csv'
 
 # Population data from Worldbank
@@ -21,19 +17,19 @@ WB_RAW = j(WB_DATA_DIR, 'wb_raw.csv')
 
 # Population data cleaning and matching with JHU data
 POP_ADDITION = j(WB_DATA_DIR, 'pop_addition.csv')
-POP_CONVERSION = 'pop_conversion.csv'
-POP_CLEANED_CSV = 'pop.csv'
-
+POP_CONVERSION = j(WB_DATA_DIR, 'pop_conversion.csv')
+POP_CLEANED_CSV = j(WB_DATA_DIR, 'pop.csv')
 
 # Final json file for the visualization
 CNTRY_STAT_JSON = 'cntry_stat.json'
 
-include: "data_sources/tableau/Snakefile"
-include: "data_sources/our_world_in_data/Snakefile"
-include: "data_sources/worldbank_population_data/Snakefile"
+include: "snakemake_tableau.smk"
+include: "snakemake_owid.smk"
+#include: "data_sources/our_world_in_data/Snakefile"
+#include: "data_sources/worldbank_population_data/Snakefile"
 
 rule all:
-    input: CNTRY_STAT_JSON #, COORDINATES
+    input: COORDINATES # CNTRY_STAT_JSON
 
 rule extract_coordinates:
     input: TABLEAU_TS
