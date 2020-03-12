@@ -1,13 +1,17 @@
 from os.path import join as j
 
 # Time series raw data
-TIME_SERIES_PATH = "COVID-19/csse_covid_19_data/csse_covid_19_time_series/"
-TIME_SERIES_FNAME = j(TIME_SERIES_PATH, "time_series_19-covid-{data_type}.csv")
-DATA_TYPES = ["Confirmed", "Deaths", "Recovered"]
-CONFIRMED_TS, DEATHS_TS, RECOVERED_TS = expand(TIME_SERIES_FNAME, data_type=DATA_TYPES)
-
-COMBINED_TS = 'combined_ts.csv'
+# TIME_SERIES_PATH = "COVID-19/csse_covid_19_data/csse_covid_19_time_series/"
+# TIME_SERIES_FNAME = j(TIME_SERIES_PATH, "time_series_19-covid-{data_type}.csv")
+# DATA_TYPES = ["Confirmed", "Deaths", "Recovered"]
+# CONFIRMED_TS, DEATHS_TS, RECOVERED_TS = expand(TIME_SERIES_FNAME, data_type=DATA_TYPES)
+# COMBINED_TS = 'combined_ts.csv'
 COORDINATES = 'coordinates.csv'
+
+TABLEAU_TS = 'tableau_ts.csv'
+
+# Data file from Our World in Data
+OWID_TS = 'owid_ts.csv'
 
 # Population data from Worldbank
 POP_RAW_DATA_DIR = "worldbank_population_data"
@@ -27,17 +31,25 @@ CNTRY_STAT_JSON = 'cntry_stat.json'
 
 
 rule all:
-    input: CNTRY_STAT_JSON, COORDINATES
+    input: CNTRY_STAT_JSON #, COORDINATES
 
 rule extract_coordinates:
-    input: CONFIRMED_TS
+    input: TABLEAU_TS
     output: COORDINATES
     script: "scripts/extract_coordinates.py"
 
-rule combine_ts:
-    input: CONFIRMED_TS, DEATHS_TS, RECOVERED_TS
-    output: COMBINED_TS
-    script: "scripts/combine_ts.py"
+rule download_tableau_stream:
+    output: TABLEAU_TS
+    script: "scripts/download_tableau_stream.py"
+
+rule download_owid:
+    output: OWID_TS
+    shell: "wget cowid.netlify.com/data/full_data.csv -O  {output}"
+
+# rule combine_ts:
+    # input: CONFIRMED_TS, DEATHS_TS, RECOVERED_TS
+    # output: COMBINED_TS
+    # script: "scripts/combine_ts.py"
 
 rule clean_pop_data:
     input: POP_CSV, POP_ADDITION, POP_CONVERSION
@@ -49,7 +61,7 @@ rule world_pop_data:
     output: POP_CSV
     script: "scripts/extract_pop_data.py"
 
-rule merge_ts_and_pop_data:
-    input: COMBINED_TS, POP_CLEANED_CSV
-    output: CNTRY_STAT_JSON
-    script: "scripts/merge_ts_and_pop_data.py"
+# rule merge_ts_and_pop_data:
+    # input: COMBINED, POP_CLEANED_CSV
+    # output: CNTRY_STAT_JSON
+    # script: "scripts/merge_ts_and_pop_data.py"

@@ -6,4 +6,4 @@ response = requests.get(
     )
 )
 assert response.status_code == 200, "Wrong status code"
-print(response.content)
+open("tableau_ts.csv", "w").write(response.content.decode("ascii"))

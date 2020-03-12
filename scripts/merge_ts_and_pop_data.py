@@ -8,6 +8,8 @@ import json
 import pandas as pd
 
 
+
+
 def build_json(df, meta_dict):
     """Build the final json file.
 
@@ -24,7 +26,7 @@ def build_json(df, meta_dict):
         # ignore regions within a country. TODO: incorporate regions.
         temp_df = (
             group[1]
-            .groupby(["date"])[["confirmed", "deaths", "recovered"]]
+            .groupby(["Date"])[["confirmed", "deaths", "recovered"]]
             .sum()
             .reset_index()
         )
@@ -42,7 +44,11 @@ def build_json(df, meta_dict):
 
 
 data = build_json(
-    pd.read_csv(snakemake.input[0]),
+    pd.read_csv(snakemake.input[0])
+    .drop(columns=["Lat", "Long"])
+    .rename(
+        columns={"Province/State": "state", "Country/Region": "country", "Date": "date"}
+    ),
     pd.read_csv(snakemake.input[1]).set_index("country").to_dict(),
 )
 
