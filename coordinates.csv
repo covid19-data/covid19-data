@@ -32,14 +32,9 @@ Mainland China,Yunnan,24.974,101.487
 Mainland China,Zhejiang,29.1832,120.0934
 Thailand,,15.0,101.0
 Japan,,36.0,138.0
-South Korea,,36.0,128.0
-Taiwan,Taiwan,23.7,121.0
 US,"King County, WA",47.6062,-122.3321
 US,"Cook County, IL",41.7377,-87.6976
-Macau,Macau,22.1667,113.55
-Hong Kong,Hong Kong,22.3,114.2
 Singapore,,1.2833,103.8333
-Vietnam,,16.0,108.0
 France,,47.0,2.0
 Nepal,,28.1667,84.25
 Malaysia,,2.5,112.5
@@ -57,27 +52,19 @@ Philippines,,13.0,122.0
 India,,21.0,78.0
 Italy,,43.0,12.0
 UK,,55.0,-3.0
-Russia,,60.0,90.0
 Sweden,,63.0,16.0
 Spain,,40.0,-4.0
 Australia,South Australia,-34.9285,138.6007
 US,"San Benito, CA",36.5761,-120.9876
 Belgium,,50.8333,4.0
-US,"Madison, WI",43.0731,-89.4012
 Others,Diamond Princess cruise ship,35.4437,139.638
 US,"San Diego County, CA",32.7157,-117.1611
-US,"San Antonio, TX",29.4241,-98.4936
 Egypt,,26.0,30.0
-Iran,,32.0,53.0
-US,"Omaha, NE (From Diamond Princess)",41.2545,-95.9758
-US,"Travis, CA (From Diamond Princess)",38.2721,-121.9399
 Australia,From Diamond Princess,35.4437,139.638
-US,"Lackland, TX (From Diamond Princess)",29.3829,-98.6134
 Lebanon,,33.8547,35.8623
 US,"Humboldt County, CA",40.745,-123.8695
 US,"Sacramento County, CA",38.4747,-121.3542
 Iraq,,33.0,44.0
-US,Unassigned Location (From Diamond Princess),35.4437,139.638
 Oman,,21.0,57.0
 Afghanistan,,33.0,65.0
 Bahrain,,26.0275,50.55
@@ -127,7 +114,6 @@ US,"Grafton County, NH",43.9088,-71.82600000000002
 US,"Hillsborough, FL",27.9904,-82.3018
 US,"Placer County, CA",39.0916,-120.8039
 US,"San Mateo, CA",37.563,-122.3255
-US,"Sarasota, FL",27.3364,-82.5307
 US,"Sonoma County, CA",38.578,-122.9888
 US,"Umatilla, OR",45.775,-118.7606
 US,"Fulton County, GA",33.8034,-84.3963
@@ -135,10 +121,10 @@ US,"Washington County, OR",45.547,-123.1386
 Argentina,,-38.4161,-63.6167
 Chile,,-35.6751,-71.543
 Jordan,,31.24,36.51
-US," Norfolk County, MA",42.1767,-71.1449
+US,"Norfolk County, MA",42.1767,-71.1449
 US,"Maricopa County, AZ",33.2918,-112.4291
 US,"Wake County, NC",35.8032,-78.5661
-US,"Westchester County, NY",41.122,-73.7949
+US,"Wetchester County, NY",41.122,-73.7949
 Ukraine,,48.3794,31.1656
 Saint Barthelemy,,17.9,-62.8333
 US,"Orange County, CA",33.7879,-117.8531
@@ -150,7 +136,6 @@ Liechtenstein,,47.14,9.55
 Poland,,51.9194,19.1451
 Tunisia,,34.0,9.0
 US,"Contra Costa County, CA",37.8534,-121.9018
-Palestine,,31.9522,35.2332
 Bosnia and Herzegovina,,43.9159,17.6791
 Slovenia,,46.1512,14.9955
 US,"Bergen County, NJ",40.9263,-74.077
@@ -163,7 +148,6 @@ US,"Grant County, WA",47.1981,-119.3732
 US,"Santa Rosa County, FL",30.769,-86.9824
 US,"Williamson County, TN",35.9179,-86.8622
 US,"New York County, NY",40.7128,-74.006
-US,"Unassigned Location, WA",47.7511,-120.7401
 US,"Montgomery County, MD",39.1547,-77.2405
 US,"Suffolk County, MA",42.3601,-71.0589
 US,"Denver County, CO",39.7392,-104.9903
@@ -187,9 +171,7 @@ US,"Ramsey County, MN",44.9964,-93.0616
 US,"Washoe County, NV",40.5608,-119.6035
 US,"Wayne County, PA",41.6739,-75.2479
 US,"Yolo County, CA",38.7646,-121.9018
-Vatican City,,41.9029,12.4534
 US,"Santa Clara County, CA",37.3541,-121.9552
-US,Grand Princess Cruise Ship,37.6489,-122.6655
 French Guiana,,3.9339,-53.1258
 Malta,,35.9375,14.3754
 US,"Douglas County, CO",39.2587,-104.9389
@@ -197,7 +179,6 @@ US,"Providence County, RI",41.8882,-71.4774
 Martinique,,14.6415,-61.0242
 US,"Alameda County, CA",37.6017,-121.7195
 US,"Broward County, FL",26.1901,-80.3659
-US,"Fairfield County, CT",41.256,-73.3709
 US,"Lee County, FL",26.663,-81.9535
 US,"Pinal County, AZ",32.8162,-111.2845
 US,"Rockland County, NY",41.1489,-73.983
@@ -214,9 +195,7 @@ US,"Kershaw County, SC",34.3672,-80.5883
 US,"Klamath County, OR",42.6953,-121.6142
 US,"Madera County, CA",37.2519,-119.6963
 US,"Pierce County, WA",47.0676,-122.1295
-US,"Plymouth County, MA",42.1615,-70.7928
 US,"Tulsa County, OK",36.1593,-95.941
-US,"Montgomery County, TX",30.3213,-95.4778
 Bulgaria,,42.7339,25.4858
 Maldives,,3.2028,73.2207
 US,"Montgomery County, PA",40.229,-75.3879
@@ -224,7 +203,6 @@ Bangladesh,,23.685,90.3563
 US,"Fairfax County, VA",38.9085,-77.2405
 US,"Rockingham County, NH",42.9931,-71.0498
 US,"Washington, D.C.",38.9072,-77.0369
-Moldova,,47.4116,28.3699
 Paraguay,,-23.4425,-58.4438
 US,"Berkshire County, MA",42.3118,-73.1822
 US,"Davidson County, TN",36.1343,-86.822
@@ -241,11 +219,9 @@ US,"Okaloosa County, FL",30.5773,-86.6611
 US,"Polk County, GA",34.0132,-85.1479
 US,"Riverside County, CA",33.9533,-117.3961
 US,"Shelby County, TN",35.1269,-89.9253
-US,"Spokane County, WA",47.6587,-117.4225
 US,"St. Louis County, MO",38.6103,-90.4125
 US,"Suffolk County, NY",40.9849,-72.6151
 US,"Ulster County, NY",41.8586,-74.3118
-US,"Unknown Location, MA",42.4072,-71.3824
 US,"Volusia County, FL",29.028,-81.0755
 Canada,Ontario,51.2538,-85.3232
 Canada,Alberta,53.9333,-116.5765
@@ -253,7 +229,6 @@ Canada,Quebec,52.9399,-73.5491
 US,"Johnson County, IA",41.6699,-91.5984
 Albania,,41.1533,20.1683
 Cyprus,,35.1264,33.4299
-St. Martin,,18.0708,-63.0501
 US,"Harrison County, KY",38.4333,-84.3542
 Brunei,,4.5353,114.7277
 US,"Bennington County, VT",43.0279,-73.135
@@ -281,7 +256,7 @@ US,Georgia,33.0406,-83.6431
 US,Colorado,39.0598,-105.3111
 US,Florida,27.7663,-81.6868
 US,New Jersey,40.2989,-74.521
-US,Oregon,44.571999999999996,-122.0709
+US,Oregon,44.572,-122.0709
 US,Texas,31.0545,-97.5635
 US,Illinois,40.3495,-88.9861
 US,Pennsylvania,40.5908,-77.2098
@@ -328,7 +303,103 @@ US,Michigan,43.3266,-84.5361
 US,Mississippi,32.7416,-89.6787
 US,Montana,46.9219,-110.4544
 US,New Mexico,34.8405,-106.2485
-US,North Dakota,47.5289,-99.78399999999999
+US,North Dakota,47.5289,-99.784
 US,South Dakota,44.2998,-99.4388
 US,West Virginia,38.4912,-80.9545
 US,Wyoming,42.756,-107.3025
+US,"Kitsap, WA",47.6477,-122.6413
+US,"Solano, CA",38.3105,-121.9018
+US,"Santa Cruz, CA",37.0454,-121.958
+US,"Napa, CA",38.5025,-122.2654
+US,"Ventura, CA",34.3705,-119.1391
+US,"Worcester, MA",42.4097,-71.8571
+US,"Gwinnett, GA",33.9191,-84.0167
+US,"DeKalb, GA",33.7956,-84.2279
+US,"Floyd, GA",37.5455,-82.7779
+US,"Fayette, GA",33.4502,-84.4803
+US,"Gregg, TX",32.4893,-94.8521
+US,"Monmouth, NJ",40.2589,-74.124
+US,"Burlington, NJ",40.0712,-74.8649
+US,"Camden, NJ",39.9259,-75.1196
+US,"Passaic, NJ",40.8568,-74.1285
+US,"Union, NJ",40.6976,-74.2632
+US,"Eagle, CO",39.6553,-106.8287
+US,"Larimer, CO",40.6956,-105.5943
+US,"Arapahoe, CO",39.6203,-104.3326
+US,"Gunnison, CO",38.5458,-106.9253
+US,"Kane, IL",41.9879,-88.4016
+US,"Monroe, PA",41.0458,-75.2479
+US,"Philadelphia, PA",39.9526,-75.1652
+US,"Norfolk, VA",36.8508,-76.2859
+US,"Arlington, VA",38.8816,-77.09100000000002
+US,"Spotsylvania, VA",38.2042,-77.6078
+US,"Loudoun, VA",39.0768,-77.6536
+US,"Prince George, MD",38.7849,-76.8721
+US,"Pottawattamie, IA",41.3912,-95.4778
+US,"Camden, SC",34.2465,-80.607
+US,"Pima, AZ",32.0575,-111.6661
+US,"Noble, IN",41.4277,-85.355
+US,"Adams, IN",39.8522,-77.2865
+US,"Boone, IN",40.0106,-86.4997
+US,"Dane, WI",43.0186,-89.5498
+US,"Pierce, WI",44.7509,-92.3814
+US,"Cuyahoga, OH",41.4339,-81.6758
+US,"Weber, UT",41.2603,-111.9522
+US,"Wilton, CT",41.1954,-73.4379
+China,Hubei,30.9756,112.2707
+Iran,,32.0,53.0
+"Korea, South",,36.0,128.0
+France,France,46.2276,2.2137
+China,Guangdong,23.3417,113.4244
+China,Henan,33.882,113.61399999999999
+China,Zhejiang,29.1832,120.0934
+China,Hunan,27.6104,111.7088
+China,Anhui,31.8257,117.2264
+China,Jiangxi,27.614,115.7221
+China,Shandong,36.3427,118.1498
+Cruise Ship,Diamond Princess,35.4437,139.638
+China,Jiangsu,32.9711,119.455
+China,Chongqing,30.0572,107.874
+China,Sichuan,30.6171,102.7103
+China,Heilongjiang,47.861999999999995,127.7615
+United Kingdom,UK,55.3781,-3.4360000000000004
+Denmark,Denmark,56.2639,9.5018
+China,Beijing,40.1824,116.4142
+China,Shanghai,31.201999999999998,121.4491
+China,Hebei,39.549,116.1306
+China,Fujian,26.0789,117.9874
+China,Guangxi,23.8298,108.7881
+China,Shaanxi,35.1917,108.8701
+China,Yunnan,24.974,101.48700000000001
+China,Hainan,19.1959,109.7453
+China,Guizhou,26.8154,106.8748
+China,Tianjin,39.3054,117.323
+China,Shanxi,37.5777,112.2922
+China,Gansu,37.8099,101.0583
+China,Hong Kong,22.3,114.2
+China,Liaoning,41.2956,122.6085
+China,Jilin,43.6661,126.1923
+Czechia,,49.8175,15.472999999999999
+China,Xinjiang,41.1129,85.2401
+China,Inner Mongolia,44.0935,113.9448
+China,Ningxia,37.2692,106.1655
+Taiwan*,,23.7,121.0
+Vietnam,,16.0,108.0
+Russia,,60.0,90.0
+China,Qinghai,35.7452,95.9956
+China,Macau,22.1667,113.55
+Moldova,,47.4116,28.3699
+Bolivia,,-16.2902,-63.5887
+Denmark,Faroe Islands,61.8926,-6.9118
+France,St Martin,18.0708,-63.0501
+Honduras,,15.2,-86.2419
+United Kingdom,Channel Islands,49.3723,-2.3644
+Canada,New Brunswick,46.5653,-66.4619
+China,Tibet,31.6927,88.0924
+Congo (Kinshasa),,-4.0383,21.7587
+Cote d'Ivoire,,7.54,-5.5471
+France,Saint Barthelemy,17.9,-62.8333
+Jamaica,,18.1096,-77.2975
+Reunion,,-21.1151,55.5364
+Turkey,,38.9637,35.2433
+United Kingdom,Gibraltar,36.1408,-5.3536

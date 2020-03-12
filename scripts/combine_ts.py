@@ -1,6 +1,5 @@
-"""Convert CSSE COVID-19 dataset into a json file for visualization."""
+"""Convert CSSE COVID-19 dataset into the tidy format."""
 import datetime
-import json
 
 import pandas as pd
 
@@ -21,6 +20,7 @@ TO_BE_REPLACED = {
     "Taipei and environs": "Taiwan",
     "Viet Nam": "Vietnam",
     "occupied Palestinian territory": "Palestine",
+    "China": "Mainland China",
 }
 
 
