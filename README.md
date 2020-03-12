@@ -2,7 +2,7 @@
 
 [![Join the chat at https://gitter.im/covid19-data/community](https://badges.gitter.im/covid19-data/community.svg)](https://gitter.im/covid19-data/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-This repository hosts workflows to process several data sources. 
+This repository hosts workflows to process several data sources and cleaned datasets for COVID-19 cases across the world. 
 
 ## Data sources
 
