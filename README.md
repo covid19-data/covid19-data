@@ -1,4 +1,4 @@
-# 2019-nCoV) Data Processing Pipelines
+# 2019-nCoV Data Processing Pipelines
 
 This repository hosts workflows to process several data sources. 
 
