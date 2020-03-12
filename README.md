@@ -1,9 +1,17 @@
-# covid19-data
+# 2019-nCoV) Data Processing Pipelines
 
-A data workflow to combine [COVID-19 daily report by JHU](https://github.com/CSSEGISandData/COVID-19) with [Worldbank country metadata](https://data.worldbank.org/indicator/SP.POP.TOTL) to produce [`cntry_stat.json`](https://github.com/yy/covid19-data/blob/master/cntry_stat.json) this is used in an interactive visualization of case fatality rate of COVID-19.
+This repository hosts workflows to process several data sources. 
 
-- Visualization: http://yyahn.com/covid19
-- Visualization code: https://observablehq.com/@yy/covid-19-fatality-rate
+## Data sources
+
+- [COVID-19 daily report by JHU](https://github.com/CSSEGISandData/COVID-19): Note that this data source has many consistency issues regarding country names and aggregation of US data. 
+  - Tableau: Tableau cleans the JHU CSSE dataset and provides a tidy-formatted dataset. However, as of now, it does not address the data consistency issues in the raw dataset. 
+- [Worldbank country population data and country metadata](https://data.worldbank.org/indicator/SP.POP.TOTL)
+
+# Outputs
+
+- [`cntry_stat.json`](https://github.com/yy/covid19-data/blob/master/output/cntry_stat.json): this is used in [an interactive visualization of case fatality rate of COVID-19](http://yyahn.com/covid19) ([source code on ObservableHQ](https://observablehq.com/@yy/covid-19-fatality-rate)).
+
 
 # Usage
 
@@ -26,8 +34,8 @@ or `pip`:
 pip install pandas snakemake
 ```
 
-Run `make`.
+Run `snakemake`.
 
 ```sh
-make
+snakemake
 ```
