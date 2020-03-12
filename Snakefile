@@ -29,6 +29,8 @@ POP_CLEANED_CSV = 'pop.csv'
 # Final json file for the visualization
 CNTRY_STAT_JSON = 'cntry_stat.json'
 
+include: "data_sources/tableau/Snakefile"
+include: "data_sources/our_world_in_data/Snakefile"
 
 rule all:
     input: CNTRY_STAT_JSON #, COORDINATES
