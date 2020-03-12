@@ -1,0 +1,10 @@
+
+rule clean_pop_data:
+    input: WB_RAW, POP_ADDITION, POP_CONVERSION
+    output: POP_CLEANED_CSV
+    script: "../../scripts/clean_pop_data.py"
+
+rule world_pop_data:
+    input: WB_POP_RAW, WB_META
+    output: WB_RAW
+    script: "../../scripts/extract_pop_data.py"
