@@ -24,10 +24,6 @@ WB_RAW = j(WB_DATA_DIR, 'wb_raw.csv')
 CNTRY_STAT_JSON = 'output/cntry_stat.json'
 CNTRY_STAT_JSON_FROM_OWID = 'output/cntry_stat_owid.json'
 
-include: "sm_owid.smk"
-include: "sm_tableau.smk"
-#include: "data_sources/worldbank_population_data/Snakefile"
-
 rule all:
     input: COORDINATES # CNTRY_STAT_JSON
 
