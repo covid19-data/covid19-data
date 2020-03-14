@@ -1,4 +1,8 @@
-rule world_pop_data:
+WB_POP_RAW = 'API_SP.POP.TOTL_DS2_en_csv_v2_821007.csv'
+WB_META = 'Metadata_Country_API_SP.POP.TOTL_DS2_en_csv_v2_821007.csv'
+WB_RAW = "wb_raw.csv"
+
+rule all:
     input: WB_POP_RAW, WB_META
     output: WB_RAW
-    script: "../../scripts/extract_pop_data.py"
+    script: "extract_country_metadata.py"

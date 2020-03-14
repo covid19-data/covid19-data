@@ -11,15 +11,10 @@ OWID_TS = 'data_sources/our_world_in_data/owid_ts.csv'
 TABLEAU_TS = 'data_sources/tableau/tableau_ts.csv'
 
 # Population data from Worldbank
-WB_DATA_DIR = "data_sources/worldbank_population_data"
-WB_POP_RAW = j(WB_DATA_DIR, 'API_SP.POP.TOTL_DS2_en_csv_v2_821007.csv')
-WB_META = j(WB_DATA_DIR, 'Metadata_Country_API_SP.POP.TOTL_DS2_en_csv_v2_821007.csv')
-WB_RAW = j(WB_DATA_DIR, 'wb_raw.csv')
+WB_RAW = "data_sources/worldbank_population_data/wb_raw.csv"
 
 # country code data from wikipedia
-WP_DATA_DIR = "data_sources/wikipedia/"
-WP_ISO_DATA_DIR = j(WP_DATA_DIR, 'ISO3166_country_code')
-WP_CNTRY_RAW = j(WP_ISO_DATA_DIR, 'iso3166_country_code.csv')
+WP_CNTRY_RAW =  'data_sources/wikipedia/ISO3166_country_code/iso3166_country_code.csv')
 
 # Population data cleaning and matching with JHU data
 # POP_CONVERSION = j(WB_DATA_DIR, 'pop_conversion.csv')

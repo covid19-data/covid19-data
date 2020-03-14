@@ -9,7 +9,7 @@ df = pd.read_csv(snakemake.input[0], skiprows=4)[
     ["Country Name", "Country Code", "2018"]
 ].rename(
     columns={
-        "Country Name": "country",
+        "Country Name": "country_name",
         "Country Code": "country_code",
         "2018": "population",
     }
