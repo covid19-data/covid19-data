@@ -14,11 +14,10 @@ pd.concat(
                 "ISO3166-1_alpha-3": "country_code",
             }
         ),
-        pd.read_csv(snakemake.input[1], usecols=["country", "country_code"]).rename(
-            columns={"country": "country_name"}
-        ),
-        pd.read_csv(snakemake.input[2], usecols=["country_name", "country_code"]),
-        pd.read_csv(snakemake.input[3], usecols=["country_name", "country_code"]),
+    ]
+    + [
+        pd.read_csv(x, usecols=["country_name", "country_code"])
+        for x in snakemake.input[1:]
     ]
 )[["country_code", "country_name"]].drop_duplicates().sort_values(
     by=["country_code", "country_name"]

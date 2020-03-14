@@ -14,7 +14,7 @@ TABLEAU_TS = 'data_sources/tableau/tableau_ts.csv'
 WB_RAW = "data_sources/worldbank_population_data/wb_raw.csv"
 
 # country code data from wikipedia
-WP_CNTRY_RAW =  'data_sources/wikipedia/ISO3166_country_code/iso3166_country_code.csv')
+WP_CNTRY_RAW =  'data_sources/wikipedia/ISO3166_country_code/iso3166_country_code.csv'
 
 # Population data cleaning and matching with JHU data
 # POP_CONVERSION = j(WB_DATA_DIR, 'pop_conversion.csv')

@@ -1,0 +1,566 @@
+country_code,country_name
+ABW,Aruba
+AFG,Afghanistan
+AFG,The Islamic Republic of Afghanistan
+AGO,Angola
+AGO,The Republic of Angola
+AIA,Anguilla
+ALA,Åland
+ALA,Åland Islands
+ALB,Albania
+ALB,The Republic of Albania
+AND,Andorra
+AND,The Principality of Andorra
+ARB,Arab World
+ARE,The United Arab Emirates
+ARE,United Arab Emirates
+ARE,United Arab Emirates (the)
+ARG,Argentina
+ARG,The Argentine Republic
+ARM,Armenia
+ARM,The Republic of Armenia
+ASM,American Samoa
+ASM,The Territory of American Samoa
+ATA,All land and ice shelves south of the 60th parallel south
+ATA,Antarctica
+ATF,French Southern Territories (the)
+ATF,The French Southern and Antarctic Lands
+ATG,Antigua and Barbuda
+AUS,Australia
+AUS,The Commonwealth of Australia
+AUT,Austria
+AUT,The Republic of Austria
+AZE,Azerbaijan
+AZE,The Republic of Azerbaijan
+BDI,Burundi
+BDI,The Republic of Burundi
+BEL,Belgium
+BEL,The Kingdom of Belgium
+BEN,Benin
+BEN,The Republic of Benin
+BES,"Bonaire, Sint Eustatius and Saba"
+BFA,Burkina Faso
+BGD,Bangladesh
+BGD,The People's Republic of Bangladesh
+BGR,Bulgaria
+BGR,The Republic of Bulgaria
+BHR,Bahrain
+BHR,The Kingdom of Bahrain
+BHS,Bahamas (the)
+BHS,"Bahamas, The"
+BHS,The Commonwealth of The Bahamas
+BIH,Bosnia and Herzegovina
+BLM,Saint Barthelemy
+BLM,Saint Barthélemy
+BLM,The Collectivity of Saint-Barthélemy
+BLR,Belarus
+BLR,The Republic of Belarus
+BLZ,Belize
+BMU,Bermuda
+BOL,Bolivia
+BOL,Bolivia (Plurinational State of)
+BOL,The Plurinational State of Bolivia
+BRA,Brazil
+BRA,The Federative Republic of Brazil
+BRB,Barbados
+BRN,Brunei
+BRN,Brunei Darussalam
+BRN,"The Nation of Brunei, the Abode of Peace"
+BTN,Bhutan
+BTN,The Kingdom of Bhutan
+BVT,Bouvet Island
+BWA,Botswana
+BWA,The Republic of Botswana
+CAF,Central African Republic
+CAF,Central African Republic (the)
+CAF,The Central African Republic
+CAN,Canada
+CCK,Cocos (Keeling) Islands (the)
+CCK,The Territory of Cocos (Keeling) Islands
+CEB,Central Europe and the Baltics
+CHE,Switzerland
+CHE,The Swiss Confederation
+CHI,Channel Islands
+CHL,Chile
+CHL,The Republic of Chile
+CHN,China
+CHN,Mainland China
+CHN,The People's Republic of China
+CIV,Cote d'Ivoire
+CIV,Côte d'Ivoire
+CIV,The Republic of Côte d'Ivoire
+CMR,Cameroon
+CMR,The Republic of Cameroon
+COD,Congo (the Democratic Republic of the)
+COD,"Congo, Dem. Rep."
+COD,The Democratic Republic of the Congo
+COG,Congo (the)
+COG,"Congo, Rep."
+COG,The Republic of the Congo
+COK,Cook Islands (the)
+COK,The Cook Islands
+COL,Colombia
+COL,The Republic of Colombia
+COM,Comoros
+COM,Comoros (the)
+COM,The Union of the Comoros
+CPV,Cabo Verde
+CPV,The Republic of Cabo Verde
+CRI,Costa Rica
+CRI,The Republic of Costa Rica
+CSS,Caribbean small states
+CUB,Cuba
+CUB,The Republic of Cuba
+CUW,Curacao
+CUW,Curaçao
+CUW,The Country of Curaçao
+CXR,Christmas Island
+CXR,The Territory of Christmas Island
+CYM,Cayman Islands
+CYM,Cayman Islands (the)
+CYM,The Cayman Islands
+CYP,Cyprus
+CYP,The Republic of Cyprus
+CZE,Czech Republic
+CZE,Czechia
+CZE,The Czech Republic
+DEU,Germany
+DEU,The Federal Republic of Germany
+DJI,Djibouti
+DJI,The Republic of Djibouti
+DMA,Dominica
+DMA,The Commonwealth of Dominica
+DNK,Denmark
+DNK,The Kingdom of Denmark
+DOM,Dominican Republic
+DOM,Dominican Republic (the)
+DOM,The Dominican Republic
+DZA,Algeria
+DZA,The People's Democratic Republic of Algeria
+EAP,East Asia & Pacific (excluding high income)
+EAR,Early-demographic dividend
+EAS,East Asia & Pacific
+ECA,Europe & Central Asia (excluding high income)
+ECS,Europe & Central Asia
+ECU,Ecuador
+ECU,The Republic of Ecuador
+EGY,Egypt
+EGY,"Egypt, Arab Rep."
+EGY,The Arab Republic of Egypt
+EMU,Euro area
+ERI,Eritrea
+ERI,The State of Eritrea
+ESH,The Sahrawi Arab Democratic Republic
+ESH,Western Sahara
+ESP,Spain
+ESP,The Kingdom of Spain
+EST,Estonia
+EST,The Republic of Estonia
+ETH,Ethiopia
+ETH,The Federal Democratic Republic of Ethiopia
+EUU,European Union
+FCS,Fragile and conflict affected situations
+FIN,Finland
+FIN,The Republic of Finland
+FJI,Fiji
+FJI,The Republic of Fiji
+FLK,Falkland Islands (the)
+FLK,The Falkland Islands
+FRA,France
+FRA,The French Republic
+FRO,Faroe Islands
+FRO,Faroe Islands (the)
+FRO,The Faroe Islands
+FSM,Micronesia (Federated States of)
+FSM,"Micronesia, Fed. Sts."
+FSM,The Federated States of Micronesia
+GAB,Gabon
+GAB,The Gabonese Republic
+GBR,The United Kingdom of Great Britain and Northern Ireland
+GBR,UK
+GBR,United Kingdom
+GBR,United Kingdom of Great Britain and Northern Ireland (the)
+GEO,Georgia
+GGY,Guernsey
+GGY,The Bailiwick of Guernsey
+GHA,Ghana
+GHA,The Republic of Ghana
+GIB,Gibraltar
+GIN,Guinea
+GIN,The Republic of Guinea
+GLP,Guadeloupe
+GMB,Gambia (the)
+GMB,"Gambia, The"
+GMB,The Republic of The Gambia
+GNB,Guinea-Bissau
+GNB,The Republic of Guinea-Bissau
+GNQ,Equatorial Guinea
+GNQ,The Republic of Equatorial Guinea
+GRC,Greece
+GRC,The Hellenic Republic
+GRD,Grenada
+GRL,Greenland
+GRL,Kalaallit Nunaat
+GTM,Guatemala
+GTM,The Republic of Guatemala
+GUF,French Guiana
+GUF,Guyane
+GUM,Guam
+GUM,The Territory of Guam
+GUY,Guyana
+GUY,The Co-operative Republic of Guyana
+HIC,High income
+HKG,Hong Kong
+HKG,"Hong Kong SAR, China"
+HKG,The Hong Kong Special Administrative Region of China
+HMD,Heard Island and McDonald Islands
+HMD,The Territory of Heard Island and McDonald Islands
+HND,Honduras
+HND,The Republic of Honduras
+HPC,Heavily indebted poor countries (HIPC)
+HRV,Croatia
+HRV,The Republic of Croatia
+HTI,Haiti
+HTI,The Republic of Haiti
+HUN,Hungary
+IBD,IBRD only
+IBT,IDA & IBRD total
+IDA,IDA total
+IDB,IDA blend
+IDN,Indonesia
+IDN,The Republic of Indonesia
+IDX,IDA only
+IMN,Isle of Man
+IMN,The Isle of Man
+IND,India
+IND,The Republic of India
+INX,Not classified
+IOT,British Indian Ocean Territory (the)
+IOT,The British Indian Ocean Territory
+IRL,Ireland
+IRN,Iran
+IRN,Iran (Islamic Republic of)
+IRN,"Iran, Islamic Rep."
+IRN,The Islamic Republic of Iran
+IRQ,Iraq
+IRQ,The Republic of Iraq
+ISL,Iceland
+ISR,Israel
+ISR,The State of Israel
+ITA,Italy
+ITA,The Italian Republic
+JAM,Jamaica
+JEY,Jersey
+JEY,The Bailiwick of Jersey
+JOR,Jordan
+JOR,The Hashemite Kingdom of Jordan
+JPN,Japan
+KAZ,Kazakhstan
+KAZ,The Republic of Kazakhstan
+KEN,Kenya
+KEN,The Republic of Kenya
+KGZ,Kyrgyz Republic
+KGZ,Kyrgyzstan
+KGZ,The Kyrgyz Republic
+KHM,Cambodia
+KHM,The Kingdom of Cambodia
+KIR,Kiribati
+KIR,The Republic of Kiribati
+KNA,Saint Kitts and Nevis
+KNA,St. Kitts and Nevis
+KOR,Korea (the Republic of)
+KOR,"Korea, Rep."
+KOR,South Korea
+KOR,The Republic of Korea
+KWT,Kuwait
+KWT,The State of Kuwait
+LAC,Latin America & Caribbean (excluding high income)
+LAO,Lao PDR
+LAO,Lao People's Democratic Republic (the)
+LAO,The Lao People's Democratic Republic
+LBN,Lebanon
+LBN,The Lebanese Republic
+LBR,Liberia
+LBR,The Republic of Liberia
+LBY,Libya
+LBY,The State of Libya
+LCA,Saint Lucia
+LCA,St. Lucia
+LCN,Latin America & Caribbean
+LDC,Least developed countries: UN classification
+LIC,Low income
+LIE,Liechtenstein
+LIE,The Principality of Liechtenstein
+LKA,Sri Lanka
+LKA,The Democratic Socialist Republic of Sri Lanka
+LMC,Lower middle income
+LMY,Low & middle income
+LSO,Lesotho
+LSO,The Kingdom of Lesotho
+LTE,Late-demographic dividend
+LTU,Lithuania
+LTU,The Republic of Lithuania
+LUX,Luxembourg
+LUX,The Grand Duchy of Luxembourg
+LVA,Latvia
+LVA,The Republic of Latvia
+MAC,Macao
+MAC,"Macao SAR, China"
+MAC,Macao Special Administrative Region of China
+MAC,Macau
+MAF,Saint Martin (French part)
+MAF,St. Martin
+MAF,St. Martin (French part)
+MAF,The Collectivity of Saint-Martin
+MAR,Morocco
+MAR,The Kingdom of Morocco
+MCO,Monaco
+MCO,The Principality of Monaco
+MDA,Moldova
+MDA,Moldova (the Republic of)
+MDA,The Republic of Moldova
+MDG,Madagascar
+MDG,The Republic of Madagascar
+MDV,Maldives
+MDV,The Republic of Maldives
+MEA,Middle East & North Africa
+MEX,Mexico
+MEX,The United Mexican States
+MHL,Marshall Islands
+MHL,Marshall Islands (the)
+MHL,The Republic of the Marshall Islands
+MIC,Middle income
+MKD,North Macedonia
+MKD,Republic of North Macedonia
+MLI,Mali
+MLI,The Republic of Mali
+MLT,Malta
+MLT,The Republic of Malta
+MMR,Myanmar
+MMR,The Republic of the Union of Myanmar
+MNA,Middle East & North Africa (excluding high income)
+MNE,Montenegro
+MNG,Mongolia
+MNG,The State of Mongolia
+MNP,Northern Mariana Islands
+MNP,Northern Mariana Islands (the)
+MNP,The Commonwealth of the Northern Mariana Islands
+MOZ,Mozambique
+MOZ,The Republic of Mozambique
+MRT,Mauritania
+MRT,The Islamic Republic of Mauritania
+MSR,Montserrat
+MTQ,Martinique
+MUS,Mauritius
+MUS,The Republic of Mauritius
+MWI,Malawi
+MWI,The Republic of Malawi
+MYS,Malaysia
+MYT,Mayotte
+MYT,The Department of Mayotte
+NAC,North America
+NAM,Namibia
+NAM,The Republic of Namibia
+NCL,New Caledonia
+NER,Niger
+NER,Niger (the)
+NER,The Republic of the Niger
+NFK,Norfolk Island
+NFK,The Territory of Norfolk Island
+NGA,Nigeria
+NGA,The Federal Republic of Nigeria
+NIC,Nicaragua
+NIC,The Republic of Nicaragua
+NIU,Niue
+NLD,Netherlands
+NLD,Netherlands (the)
+NLD,The Kingdom of the Netherlands
+NOR,Norway
+NOR,The Kingdom of Norway
+NPL,Nepal
+NPL,The Federal Democratic Republic of Nepal
+NRU,Nauru
+NRU,The Republic of Nauru
+NZL,New Zealand
+OED,OECD members
+OMN,Oman
+OMN,The Sultanate of Oman
+OSS,Other small states
+PAK,Pakistan
+PAK,The Islamic Republic of Pakistan
+PAN,Panama
+PAN,The Republic of Panamá
+PCN,Pitcairn
+PCN,"The Pitcairn, Henderson, Ducie and Oeno Islands"
+PER,Peru
+PER,The Republic of Perú
+PHL,Philippines
+PHL,Philippines (the)
+PHL,The Republic of the Philippines
+PLW,Palau
+PLW,The Republic of Palau
+PNG,Papua New Guinea
+PNG,The Independent State of Papua New Guinea
+POL,Poland
+POL,The Republic of Poland
+PRE,Pre-demographic dividend
+PRI,Puerto Rico
+PRI,The Commonwealth of Puerto Rico
+PRK,Korea (the Democratic People's Republic of)
+PRK,"Korea, Dem. People’s Rep."
+PRK,The Democratic People's Republic of Korea
+PRT,Portugal
+PRT,The Portuguese Republic
+PRY,Paraguay
+PRY,The Republic of Paraguay
+PSE,Palestine
+PSE,"Palestine, State of"
+PSE,The State of Palestine
+PSE,West Bank and Gaza
+PSS,Pacific island small states
+PST,Post-demographic dividend
+PYF,French Polynesia
+QAT,Qatar
+QAT,The State of Qatar
+REU,Réunion
+ROU,Romania
+RUS,Russia
+RUS,Russian Federation
+RUS,Russian Federation (the)
+RUS,The Russian Federation
+RWA,Rwanda
+RWA,The Republic of Rwanda
+SAS,South Asia
+SAU,Saudi Arabia
+SAU,The Kingdom of Saudi Arabia
+SDN,Sudan
+SDN,Sudan (the)
+SDN,The Republic of the Sudan
+SEN,Senegal
+SEN,The Republic of Senegal
+SGP,Singapore
+SGP,The Republic of Singapore
+SGS,South Georgia and the South Sandwich Islands
+SHN,"Saint Helena, Ascension and Tristan da Cunha"
+SJM,Svalbard and Jan Mayen
+SLB,Solomon Islands
+SLB,The Solomon Islands
+SLE,Sierra Leone
+SLE,The Republic of Sierra Leone
+SLV,El Salvador
+SLV,The Republic of El Salvador
+SMR,San Marino
+SMR,The Republic of San Marino
+SOM,Somalia
+SOM,The Federal Republic of Somalia
+SPM,Saint Pierre and Miquelon
+SPM,The Overseas Collectivity of Saint-Pierre and Miquelon
+SRB,Serbia
+SRB,The Republic of Serbia
+SSA,Sub-Saharan Africa (excluding high income)
+SSD,South Sudan
+SSD,The Republic of South Sudan
+SSF,Sub-Saharan Africa
+SST,Small states
+STP,Sao Tome and Principe
+STP,The Democratic Republic of São Tomé and Príncipe
+SUR,Suriname
+SUR,The Republic of Suriname
+SVK,Slovak Republic
+SVK,Slovakia
+SVK,The Slovak Republic
+SVN,Slovenia
+SVN,The Republic of Slovenia
+SWE,Sweden
+SWE,The Kingdom of Sweden
+SWZ,Eswatini
+SWZ,The Kingdom of Eswatini
+SXM,Sint Maarten
+SXM,Sint Maarten (Dutch part)
+SYC,Seychelles
+SYC,The Republic of Seychelles
+SYR,Syrian Arab Republic
+SYR,Syrian Arab Republic (the)
+SYR,The Syrian Arab Republic
+TCA,The Turks and Caicos Islands
+TCA,Turks and Caicos Islands
+TCA,Turks and Caicos Islands (the)
+TCD,Chad
+TCD,The Republic of Chad
+TEA,East Asia & Pacific (IDA & IBRD countries)
+TEC,Europe & Central Asia (IDA & IBRD countries)
+TGO,The Togolese Republic
+TGO,Togo
+THA,Thailand
+THA,The Kingdom of Thailand
+TJK,Tajikistan
+TJK,The Republic of Tajikistan
+TKL,Tokelau
+TKM,Turkmenistan
+TLA,Latin America & the Caribbean (IDA & IBRD countries)
+TLS,The Democratic Republic of Timor-Leste
+TLS,Timor-Leste
+TMN,Middle East & North Africa (IDA & IBRD countries)
+TON,The Kingdom of Tonga
+TON,Tonga
+TSA,South Asia (IDA & IBRD)
+TSS,Sub-Saharan Africa (IDA & IBRD countries)
+TTO,The Republic of Trinidad and Tobago
+TTO,Trinidad and Tobago
+TUN,The Republic of Tunisia
+TUN,Tunisia
+TUR,The Republic of Turkey
+TUR,Turkey
+TUV,Tuvalu
+TWN,Taiwan
+TWN,Taiwan (Province of China)
+TWN,The Republic of China
+TZA,Tanzania
+TZA,"Tanzania, the United Republic of"
+TZA,The United Republic of Tanzania
+UGA,The Republic of Uganda
+UGA,Uganda
+UKR,Ukraine
+UMC,Upper middle income
+UMI,"Baker Island, Howland Island, Jarvis Island, Johnston Atoll, Kingman Reef, Midway Atoll, Navassa Island, Palmyra Atoll, and Wake Island"
+UMI,United States Minor Outlying Islands (the)
+URY,The Oriental Republic of Uruguay
+URY,Uruguay
+USA,The United States of America
+USA,US
+USA,United States
+USA,United States of America (the)
+UZB,The Republic of Uzbekistan
+UZB,Uzbekistan
+VAT,Holy See (the)
+VAT,The Holy See
+VCT,Saint Vincent and the Grenadines
+VCT,St. Vincent and the Grenadines
+VEN,The Bolivarian Republic of Venezuela
+VEN,Venezuela (Bolivarian Republic of)
+VEN,"Venezuela, RB"
+VGB,British Virgin Islands
+VGB,The Virgin Islands
+VGB,Virgin Islands (British)
+VIR,The Virgin Islands of the United States
+VIR,Virgin Islands (U.S.)
+VNM,The Socialist Republic of Viet Nam
+VNM,Viet Nam
+VNM,Vietnam
+VUT,The Republic of Vanuatu
+VUT,Vanuatu
+WLD,World
+WLF,The Territory of the Wallis and Futuna Islands
+WLF,Wallis and Futuna
+WSM,Samoa
+WSM,The Independent State of Samoa
+XKX,Kosovo
+YEM,The Republic of Yemen
+YEM,Yemen
+YEM,"Yemen, Rep."
+ZAF,South Africa
+ZAF,The Republic of South Africa
+ZMB,The Republic of Zambia
+ZMB,Zambia
+ZWE,The Republic of Zimbabwe
+ZWE,Zimbabwe

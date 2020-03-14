@@ -6,7 +6,7 @@ import pandas as pd
 # Load the OWID data
 df = (
     pd.read_csv(snakemake.input[0], index_col=0, parse_dates=True)
-    .rename(columns={"location": "country"})
+    .rename(columns={"location": "country_name"})
     .fillna(0, downcast="infer")
 )
 
@@ -17,7 +17,7 @@ all_dates = idx.strftime("%Y-%m-%d")
 # Load the worldbank data.
 country_dict = (
     pd.read_csv(
-        snakemake.input[1], usecols=["country", "population", "region", "income"]
+        snakemake.input[1], usecols=["country_name", "population", "region", "income"]
     )
     .replace(
         {
@@ -28,12 +28,12 @@ country_dict = (
             "Korea, Rep.": "South Korea",
         }
     )
-    .set_index("country")
+    .set_index("country_name")
     .to_dict()
 )
 
 data = []
-for group in df.groupby(["country"]):
+for group in df.groupby(["country_name"]):
     cntry_df = group[1][["total_cases", "total_deaths"]].reindex(idx, fill_value=0)
     try:
         country_data = {
