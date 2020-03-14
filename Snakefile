@@ -16,6 +16,11 @@ WB_POP_RAW = j(WB_DATA_DIR, 'API_SP.POP.TOTL_DS2_en_csv_v2_821007.csv')
 WB_META = j(WB_DATA_DIR, 'Metadata_Country_API_SP.POP.TOTL_DS2_en_csv_v2_821007.csv')
 WB_RAW = j(WB_DATA_DIR, 'wb_raw.csv')
 
+# country code data from wikipedia
+WP_DATA_DIR = "data_sources/wikipedia/"
+WP_ISO_DATA_DIR = j(WP_DATA_DIR, 'ISO3166_country_code')
+WP_CNTRY_RAW = j(WP_ISO_DATA_DIR, 'iso3166_country_code.csv')
+
 # Population data cleaning and matching with JHU data
 # POP_ADDITION = j(WB_DATA_DIR, 'pop_addition.csv')
 # POP_CONVERSION = j(WB_DATA_DIR, 'pop_conversion.csv')
@@ -28,6 +33,9 @@ WB_RAW = j(WB_DATA_DIR, 'wb_raw.csv')
 # Location data pulled from tableau/jhu dataset.
 COORDINATES = 'output/location/coordinates.csv'
 
+# Country-level metadata
+CNTRY_META = 'output/metadata/country/country_metadata.csv'
+
 # json file for the visualization: http://yyahn.com/covid19
 CNTRY_STAT_JSON = 'output/cntry_stat.json'
 CNTRY_STAT_JSON_FROM_OWID = 'output/cntry_stat_owid.json'
@@ -38,7 +46,7 @@ CNTRY_STAT_JSON_FROM_OWID = 'output/cntry_stat_owid.json'
 ###############################################################################
 
 rule all:
-    input: CNTRY_STAT_JSON_FROM_OWID, COORDINATES
+    input: CNTRY_STAT_JSON_FROM_OWID, COORDINATES, CNTRY_META
 
 rule extract_coordinates:
     input: TABLEAU_TS
@@ -49,3 +57,8 @@ rule prepare_viz_data:
     input: OWID_TS, WB_RAW
     output: CNTRY_STAT_JSON_FROM_OWID
     script: "scripts/prepare_viz_data_owid.py"
+
+rule extract_country_metadata:
+    input: WB_RAW
+    output: CNTRY_META
+    script: "scripts/extract_country_metadata.py"
