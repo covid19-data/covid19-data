@@ -6,5 +6,3 @@ all:
 	cd data_sources/tableau; ./download.sh
 	snakemake -R `snakemake --lc --li --lp`
 
-watch:
-	watch -n 100 "python check_new_commit.py"
