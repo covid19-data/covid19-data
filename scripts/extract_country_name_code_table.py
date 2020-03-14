@@ -18,6 +18,7 @@ pd.concat(
             columns={"country": "country_name"}
         ),
         pd.read_csv(snakemake.input[2], usecols=["country_name", "country_code"]),
+        pd.read_csv(snakemake.input[3], usecols=["country_name", "country_code"]),
     ]
 )[["country_code", "country_name"]].drop_duplicates().sort_values(
     by=["country_code", "country_name"]

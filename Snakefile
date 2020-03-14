@@ -16,17 +16,22 @@ WB_POP_RAW = j(WB_DATA_DIR, 'API_SP.POP.TOTL_DS2_en_csv_v2_821007.csv')
 WB_META = j(WB_DATA_DIR, 'Metadata_Country_API_SP.POP.TOTL_DS2_en_csv_v2_821007.csv')
 WB_RAW = j(WB_DATA_DIR, 'wb_raw.csv')
 
-WB_ADDED = 'curation_data/country/extra_country_metadata.csv'
-
 # country code data from wikipedia
 WP_DATA_DIR = "data_sources/wikipedia/"
 WP_ISO_DATA_DIR = j(WP_DATA_DIR, 'ISO3166_country_code')
 WP_CNTRY_RAW = j(WP_ISO_DATA_DIR, 'iso3166_country_code.csv')
 
 # Population data cleaning and matching with JHU data
-# POP_ADDITION = j(WB_DATA_DIR, 'pop_addition.csv')
 # POP_CONVERSION = j(WB_DATA_DIR, 'pop_conversion.csv')
 # POP_CLEANED_CSV = j(WB_DATA_DIR, 'pop.csv')
+
+
+###############################################################################
+# Manually curated datasets
+###############################################################################
+
+WB_ADDED = 'curation_data/country/extra_country_metadata.csv'
+EXTRA_CNTRY_NAME_CODE = 'curation_data/country/extra_country_name_code.csv'
 
 ###############################################################################
 # Final outputs
@@ -54,7 +59,7 @@ rule all:
     input: CNTRY_STAT_JSON_FROM_OWID, COORDINATES, CNTRY_META, CNTRY_NAME_CODE_TABLE
 
 rule extract_country_name_code_table:
-    input: WP_CNTRY_RAW, WB_RAW, WB_ADDED
+    input: WP_CNTRY_RAW, WB_RAW, WB_ADDED, EXTRA_CNTRY_NAME_CODE
     output: CNTRY_NAME_CODE_TABLE
     script: "scripts/extract_country_name_code_table.py"
 
