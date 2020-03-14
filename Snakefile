@@ -32,11 +32,14 @@ EXTRA_CNTRY_NAME_CODE = 'curation_data/country/extra_country_name_code.csv'
 # Final outputs
 ###############################################################################
 
+OUT_META_DIR = 'output/metadata'
+
 # Location data pulled from tableau/jhu dataset.
 COORDINATES = 'output/location/coordinates.csv'
 
 # Country name and code conversion table
-CNTRY_NAME_CODE_TABLE = 'output/metadata/country/country_name_code.csv'
+CNTRY_NAME_CODE_TABLE = j(OUT_META_DIR, 'country/country_name_code.csv')
+CNTRY_CODE_NAME_TABLE = j(OUT_META_DIR, 'country/country_code_name.csv')
 
 # Country-level metadata
 CNTRY_META = 'output/metadata/country/country_metadata.csv'
@@ -51,7 +54,12 @@ CNTRY_STAT_JSON_FROM_OWID = 'output/cntry_stat_owid.json'
 ###############################################################################
 
 rule all:
-    input: CNTRY_STAT_JSON_FROM_OWID, COORDINATES, CNTRY_META, CNTRY_NAME_CODE_TABLE
+    input: CNTRY_STAT_JSON_FROM_OWID, COORDINATES, CNTRY_META, CNTRY_CODE_NAME_TABLE
+
+rule extract_country_code_name_table:
+    input: CNTRY_NAME_CODE_TABLE
+    output: CNTRY_CODE_NAME_TABLE
+    script: "scripts/extract_country_code_name_table.py"
 
 rule extract_country_name_code_table:
     input: WP_CNTRY_RAW, WB_RAW, WB_ADDED, EXTRA_CNTRY_NAME_CODE
