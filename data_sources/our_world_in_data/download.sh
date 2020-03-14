@@ -1,5 +1,5 @@
 #!/bin/bash
-wget cowid.netlify.com/data/full_data.csv
+wget -q cowid.netlify.com/data/full_data.csv
 DIFF=`diff full_data.csv owid_ts.csv`
 if [ "$DIFF" != "" ] 
 then
