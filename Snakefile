@@ -72,7 +72,7 @@ rule extract_coordinates:
     script: "scripts/extract_coordinates.py"
 
 rule prepare_viz_data:
-    input: OWID_TS, WB_RAW
+    input: OWID_TS, CNTRY_META, CNTRY_NAME_CODE_TABLE, CNTRY_CODE_NAME_TABLE
     output: CNTRY_STAT_JSON_FROM_OWID
     script: "scripts/prepare_viz_data_owid.py"
 

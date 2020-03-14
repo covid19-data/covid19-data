@@ -1,4 +1,5 @@
 country_code,country_name
+---,International
 ABW,Aruba
 AFG,Afghanistan
 AFG,The Islamic Republic of Afghanistan
@@ -51,6 +52,7 @@ BHS,"Bahamas, The"
 BHS,The Commonwealth of The Bahamas
 BIH,Bosnia and Herzegovina
 BLM,Saint Barthelemy
+BLM,Saint Barthlemy
 BLM,Saint Barthélemy
 BLM,The Collectivity of Saint-Barthélemy
 BLR,Belarus
@@ -93,6 +95,7 @@ CMR,Cameroon
 CMR,The Republic of Cameroon
 COD,Congo (the Democratic Republic of the)
 COD,"Congo, Dem. Rep."
+COD,Democratic Republic of Congo
 COD,The Democratic Republic of the Congo
 COG,Congo (the)
 COG,"Congo, Rep."
@@ -168,6 +171,7 @@ FLK,Falkland Islands (the)
 FLK,The Falkland Islands
 FRA,France
 FRA,The French Republic
+FRO,Faeroe Islands
 FRO,Faroe Islands
 FRO,Faroe Islands (the)
 FRO,The Faroe Islands
@@ -330,6 +334,7 @@ MHL,Marshall Islands
 MHL,Marshall Islands (the)
 MHL,The Republic of the Marshall Islands
 MIC,Middle income
+MKD,Macedonia
 MKD,North Macedonia
 MKD,Republic of North Macedonia
 MLI,Mali
@@ -422,6 +427,7 @@ PST,Post-demographic dividend
 PYF,French Polynesia
 QAT,Qatar
 QAT,The State of Qatar
+REU,Reunion
 REU,Réunion
 ROU,Romania
 RUS,Russia
@@ -534,6 +540,7 @@ UZB,The Republic of Uzbekistan
 UZB,Uzbekistan
 VAT,Holy See (the)
 VAT,The Holy See
+VAT,Vatican
 VCT,Saint Vincent and the Grenadines
 VCT,St. Vincent and the Grenadines
 VEN,The Bolivarian Republic of Venezuela
@@ -554,6 +561,8 @@ WLF,The Territory of the Wallis and Futuna Islands
 WLF,Wallis and Futuna
 WSM,Samoa
 WSM,The Independent State of Samoa
+WWW,World
+WWW,Worldwide
 XKX,Kosovo
 YEM,The Republic of Yemen
 YEM,Yemen

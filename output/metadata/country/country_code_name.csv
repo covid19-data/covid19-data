@@ -1,4 +1,5 @@
 country_code,country_name
+---,International
 ABW,Aruba
 AFG,Afghanistan
 AGO,Angola
@@ -27,7 +28,7 @@ BGR,Bulgaria
 BHR,Bahrain
 BHS,"Bahamas, The"
 BIH,Bosnia and Herzegovina
-BLM,Saint Barthelemy
+BLM,Saint Barthlemy
 BLR,Belarus
 BLZ,Belize
 BMU,Bermuda
@@ -172,7 +173,7 @@ MEA,Middle East & North Africa
 MEX,Mexico
 MHL,Marshall Islands
 MIC,Middle income
-MKD,North Macedonia
+MKD,Macedonia
 MLI,Mali
 MLT,Malta
 MMR,Myanmar
@@ -222,7 +223,7 @@ PSS,Pacific island small states
 PST,Post-demographic dividend
 PYF,French Polynesia
 QAT,Qatar
-REU,Réunion
+REU,Reunion
 ROU,Romania
 RUS,Russia
 RWA,Rwanda
@@ -282,7 +283,7 @@ UMI,United States Minor Outlying Islands (the)
 URY,Uruguay
 USA,US
 UZB,Uzbekistan
-VAT,The Holy See
+VAT,Vatican
 VCT,St. Vincent and the Grenadines
 VEN,"Venezuela, RB"
 VGB,The Virgin Islands
@@ -292,6 +293,7 @@ VUT,Vanuatu
 WLD,World
 WLF,Wallis and Futuna
 WSM,Samoa
+WWW,World
 XKX,Kosovo
 YEM,Yemen
 ZAF,South Africa
