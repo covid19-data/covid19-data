@@ -26,7 +26,7 @@ def prepare_data_structure(df, date_idx, meta_dict, code2name_dict):
         cntry_df = group[1][["total_cases", "total_deaths"]].reindex(
             date_idx, fill_value=0
         )
-        if group[0] in {"---"}:
+        if group[0] in {"---", "WWW"}:
             continue
         try:
             country_data = {
