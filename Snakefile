@@ -33,6 +33,7 @@ EXTRA_CNTRY_NAME_CODE = 'curation_data/country/extra_country_name_code.csv'
 ###############################################################################
 
 OUT_META_DIR = 'output/metadata'
+CASE_DATA_DIR = 'output/cases'
 
 # Location data pulled from tableau/jhu dataset.
 COORDINATES = 'output/location/coordinates.csv'
@@ -48,13 +49,18 @@ CNTRY_META = 'output/metadata/country/country_metadata.csv'
 CNTRY_STAT_JSON = 'output/cntry_stat.json'
 CNTRY_STAT_JSON_FROM_OWID = 'output/cntry_stat_owid.json'
 
+# WHO case data csv
+WHO_CASE_DATA = j(CASE_DATA_DIR, 'cases_WHO.csv')
 
 ###############################################################################
 # Workflows
 ###############################################################################
 
 rule all:
-    input: CNTRY_STAT_JSON_FROM_OWID, COORDINATES, CNTRY_META, CNTRY_CODE_NAME_TABLE
+    input:
+        CNTRY_STAT_JSON_FROM_OWID,
+        COORDINATES,
+        WHO_CASE_DATA
 
 rule extract_country_code_name_table:
     input: CNTRY_NAME_CODE_TABLE
@@ -65,6 +71,11 @@ rule extract_country_name_code_table:
     input: WP_CNTRY_RAW, WB_RAW, WB_ADDED, EXTRA_CNTRY_NAME_CODE
     output: CNTRY_NAME_CODE_TABLE
     script: "scripts/extract_country_name_code_table.py"
+
+rule extract_who_case_data:
+    input: OWID_TS, CNTRY_NAME_CODE_TABLE, CNTRY_CODE_NAME_TABLE
+    output: WHO_CASE_DATA
+    script: "scripts/owid_who_case_data.py"
 
 rule extract_coordinates:
     input: TABLEAU_TS
