@@ -38,14 +38,7 @@ This repository hosts workflows to process several data sources and cleaned data
 
 # Usage
 
-After cloning the repository, pull the submodule (JHU CSSE dataset). 
-
-```sh
-git submodule init
-git submodule
-```
-
-Install [pandas](https://pandas.pydata.org/) and [snakemake](https://snakemake.readthedocs.io/en/stable/) using `conda` 
+Install [pandas](https://pandas.pydata.org/) and [snakemake](https://snakemake.readthedocs.io/en/stable/) using `conda`.
 
 ```sh
 conda install -c bioconda -c conda-forge snakemake pandas
@@ -57,8 +50,3 @@ or `pip`:
 pip install pandas snakemake
 ```
 
-Run `snakemake`.
-
-```sh
-snakemake
-```
