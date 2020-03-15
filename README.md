@@ -22,6 +22,13 @@ This repository hosts workflows to process several data sources and cleaned data
 
 - [`output/cases/cases_WHO.csv`](https://github.com/covid19-data/covid19-data/blob/master/output/cases/cases_WHO.csv): This converts the CSV dataset cleaned by Our World in Data team by using ISO 3166 Alpha-3 country code. It also fills up non-existing dates so that for every country, the dataset starts from the same date (Jan. 21st). One may want to combine this with country-level metadata or alternative country names [here](https://github.com/covid19-data/covid19-data/tree/master/output/metadata/country).
 
+## Daily case data in JSON
+
+- [`cntry_stat_owid.json`](https://github.com/yy/covid19-data/blob/master/output/cntry_stat_owid.json)
+  - Used in [an interactive visualization of case fatality rate of COVID-19](http://yyahn.com/covid19) ([source code on ObservableHQ](https://observablehq.com/@yy/covid-19-fatality-rate)).
+  - [An example to create case time series charts in ObservableHQ](https://observablehq.com/@benjyz/covid-chart-alpha) by [benjyz](https://github.com/benjyz)
+
+
 ## Country name conversion table
 
 - [`output/metadata/country/country_name_code.csv`](https://github.com/yy/covid19-data/blob/master/output/metadata/country/country_name_code.csv): a conversion table from country name to code (ISO 3166 Alpha 3). Note that multiple names point to the same code. 
@@ -34,12 +41,6 @@ This repository hosts workflows to process several data sources and cleaned data
 ## Location data
 
 - [`coordinates.csv`](https://github.com/yy/covid19-data/blob/master/output/location/coordinates.csv): Lat Lng location data from JHU dataset (Unreliable).
-
-## For visualizations
-
-- [`cntry_stat_owid.json`](https://github.com/yy/covid19-data/blob/master/output/cntry_stat_owid.json)
-  - Used in [an interactive visualization of case fatality rate of COVID-19](http://yyahn.com/covid19) ([source code on ObservableHQ](https://observablehq.com/@yy/covid-19-fatality-rate)).
-  - [An example to create case time series charts in ObservableHQ](https://observablehq.com/@benjyz/covid-chart-alpha) by [benjyz](https://github.com/benjyz)
 
 
 # Usage
