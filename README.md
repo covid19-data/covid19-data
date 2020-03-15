@@ -16,7 +16,7 @@ This repository hosts workflows to process several data sources and cleaned data
 - [Worldbank country population data and country metadata](https://data.worldbank.org/indicator/SP.POP.TOTL)
 - Wikipedia ISO3166 Country code data
 
-# Outputs
+# Data Outputs and Usages
 
 ## Daily case data based on WHO report, cleaned by Our World in Data
 
@@ -37,7 +37,9 @@ This repository hosts workflows to process several data sources and cleaned data
 
 ## For visualizations
 
-- [`cntry_stat_owid.json`](https://github.com/yy/covid19-data/blob/master/output/cntry_stat_owid.json): this is used in [an interactive visualization of case fatality rate of COVID-19](http://yyahn.com/covid19) ([source code on ObservableHQ](https://observablehq.com/@yy/covid-19-fatality-rate)).
+- [`cntry_stat_owid.json`](https://github.com/yy/covid19-data/blob/master/output/cntry_stat_owid.json)
+  - Used in [an interactive visualization of case fatality rate of COVID-19](http://yyahn.com/covid19) ([source code on ObservableHQ](https://observablehq.com/@yy/covid-19-fatality-rate)).
+  - [An example to create case time series charts in ObservableHQ](https://observablehq.com/@benjyz/covid-chart-alpha)
 
 
 # Usage
