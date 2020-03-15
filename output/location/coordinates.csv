@@ -81,6 +81,7 @@ Cote d'Ivoire,,7.54,-5.5471
 Croatia,,45.1,15.2
 Cruise Ship,Diamond Princess,35.4437,139.638
 Cuba,,22.0,-80.0
+Curacao,,12.1696,-68.99
 Cyprus,,35.1264,33.4299
 Czechia,,49.8175,15.472999999999999
 Denmark,Denmark,56.2639,9.5018
@@ -89,17 +90,23 @@ Dominican Republic,,18.7357,-70.1627
 Ecuador,,-1.8312,-78.1834
 Egypt,,26.0,30.0
 Estonia,,58.5953,25.0136
+Eswatini,,-26.5225,31.4659
 Ethiopia,,9.145,40.4897
 Finland,,64.0,26.0
+France,Fench Guiana,4.0,-53.0
 France,France,46.2276,2.2137
 France,French Polynesia,-17.6797,149.4068
 France,Saint Barthelemy,17.9,-62.8333
 France,St Martin,18.0708,-63.0501
 French Guiana,,3.9339,-53.1258
+Gabon,,-0.8037,11.6094
 Georgia,,42.3154,43.3569
 Germany,,51.0,9.0
+Ghana,,7.9465,-1.0232
 Greece,,39.0742,21.8243
 Guadeloupe,,16.265,-61.551
+Guatemala,,15.7835,-90.2308
+Guernsey,,49.45,-2.58
 Guinea,,9.9456,-9.6966
 Guyana,,5.0,-58.75
 Honduras,,15.2,-86.2419
@@ -114,6 +121,7 @@ Israel,,31.0,35.0
 Italy,,43.0,12.0
 Jamaica,,18.1096,-77.2975
 Japan,,36.0,138.0
+Jersey,,49.19,-2.11
 Jordan,,31.24,36.51
 Kazakhstan,,48.0196,66.9237
 Kenya,,-0.0236,37.9062
@@ -128,11 +136,13 @@ Malaysia,,2.5,112.5
 Maldives,,3.2028,73.2207
 Malta,,35.9375,14.3754
 Martinique,,14.6415,-61.0242
+Mauritania,,21.0079,10.9408
 Mexico,,23.6345,-102.5528
 Moldova,,47.4116,28.3699
 Monaco,,43.7333,7.4167
 Mongolia,,46.8625,103.8467
 Morocco,,31.7917,-7.0926
+Namibia,,-22.9576,18.4904
 Nepal,,28.1667,84.25
 Netherlands,,52.1326,5.2913
 New Zealand,,-40.9006,174.886
@@ -141,6 +151,7 @@ North Macedonia,,41.6086,21.7453
 Norway,,60.472,8.4689
 Oman,,21.0,57.0
 Pakistan,,30.3753,69.3451
+Palestine,,31.9522,35.2332
 Panama,,8.538,-80.7821
 Paraguay,,-23.4425,-58.4438
 Peru,,-9.19,-75.0152
@@ -151,10 +162,14 @@ Qatar,,25.3548,51.1839
 Reunion,,-21.1151,55.5364
 Romania,,45.9432,24.9668
 Russia,,60.0,90.0
+Rwanda,,-1.9403,29.8739
+Saint Lucia,,13.9094,-60.9789
+Saint Vincent and the Grenadines,,12.9843,-61.2872
 San Marino,,43.9424,12.4578
 Saudi Arabia,,24.0,45.0
 Senegal,,14.4974,-14.4524
 Serbia,,44.0165,21.0059
+Seychelles,,-4.6796,55.492
 Singapore,,1.2833,103.8333
 Slovakia,,48.669,19.699
 Slovenia,,46.1512,14.9955
@@ -162,11 +177,13 @@ South Africa,,-30.5595,22.9375
 Spain,,40.0,-4.0
 Sri Lanka,,7.0,81.0
 Sudan,,12.8628,30.2176
+Suriname,,3.9193,-56.0278
 Sweden,,63.0,16.0
 Switzerland,,46.8182,8.2275
 Taiwan*,,23.7,121.0
 Thailand,,15.0,101.0
 Togo,,8.6195,0.8248
+Trinidad and Tobago,,10.6918,-61.2225
 Tunisia,,34.0,9.0
 Turkey,,38.9637,35.2433
 US,Alabama,32.3182,-86.9023
@@ -241,6 +258,7 @@ US,Oregon,43.1261,-123.2492
 US,Oregon,44.571999999999996,-122.0709
 US,Pennsylvania,40.5908,-77.2098
 US,Pennsylvania,41.0458,-75.2479
+US,Puerto Rico,18.2208,-66.5901
 US,Rhode Island,41.6809,-71.5118
 US,Rhode Island,41.8882,-71.4774
 US,South Carolina,33.8569,-80.945
@@ -255,6 +273,7 @@ US,Utah,40.15,-111.8624
 US,Utah,41.2603,-111.9522
 US,Vermont,43.0279,-73.135
 US,Vermont,44.0459,-72.7107
+US,Virgin Islands,18.3358,-64.8963
 US,Virginia,36.8508,-76.2859
 US,Virginia,37.7693,-78.17
 US,Washington,47.4009,-121.4905
@@ -268,5 +287,7 @@ United Arab Emirates,,24.0,54.0
 United Kingdom,Channel Islands,49.3723,-2.3644
 United Kingdom,Gibraltar,36.1408,-5.3536
 United Kingdom,United Kingdom,55.3781,-3.4360000000000004
+Uruguay,,-32.5228,-55.7658
 Vatican City,,41.9029,12.4534
+Venezuela,,6.4238,-66.5897
 Vietnam,,16.0,108.0
