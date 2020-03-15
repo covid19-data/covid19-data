@@ -8,13 +8,19 @@ This repository hosts workflows to process several data sources and cleaned data
 
 ## Data sources
 
+### Currently used
+
 - WHO
   - Processed by Our World in Data: https://ourworldindata.org/coronavirus-source-data
-- [COVID-19 daily report by JHU](https://github.com/CSSEGISandData/COVID-19): Note that this data source has many consistency issues regarding country names and aggregation of US data. 
   - Tableau: Tableau cleans the JHU CSSE dataset and provides a tidy-formatted dataset. However, as of now, it does not 
  address the data consistency issues in the raw dataset. 
 - [Worldbank country population data and country metadata](https://data.worldbank.org/indicator/SP.POP.TOTL)
 - Wikipedia ISO3166 Country code data
+
+### Not used at the moment
+
+- [COVID-19 daily report by JHU](https://github.com/CSSEGISandData/COVID-19): This has many consistency issues regarding country names and aggregation of US data. Aggregation mechanism is not so transparent. 
+- https://www.worldometers.info/coronavirus/
 
 # Data Outputs and Usages
 
