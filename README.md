@@ -31,7 +31,9 @@ This repository hosts workflows to process several data sources and cleaned data
 ### Daily case data in JSON
 
 - [`cntry_stat_owid.json`](https://github.com/yy/covid19-data/blob/master/output/cntry_stat_owid.json)
-  - Used in [an interactive visualization of case fatality rate of COVID-19](http://yyahn.com/covid19) ([source code on ObservableHQ](https://observablehq.com/@yy/covid-19-fatality-rate)).
+  - Used in [an interactive visualization of case fatality rate of COVID-19](http://yyahn.com/covid19)
+    - Website source code: https://github.com/covid19-data/covid19-dashboard 
+    - visualization source code on ObservableHQ: https://observablehq.com/@yy/covid-19-fatality-rate and https://observablehq.com/@yy/covid-19-trends
   - [An example to create case time series charts in ObservableHQ](https://observablehq.com/@benjyz/covid-chart-alpha) by [benjyz](https://github.com/benjyz)
 
 
