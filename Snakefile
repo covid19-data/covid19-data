@@ -25,6 +25,9 @@ WP_CNTRY_RAW =  'data_sources/wikipedia/ISO3166_country_code/iso3166_country_cod
 # Manually curated datasets
 ###############################################################################
 
+# US confirmed & death time series data from Wikipedia
+USA_TS = 'data_sources/wikipedia/cases/USA/USA_ts.csv'
+
 WB_ADDED = 'curation_data/country/extra_country_metadata.csv'
 EXTRA_CNTRY_NAME_CODE = 'curation_data/country/extra_country_name_code.csv'
 
@@ -51,6 +54,7 @@ CNTRY_STAT_JSON_FROM_OWID = 'output/cntry_stat_owid.json'
 
 # WHO case data csv
 WHO_CASE_DATA = j(CASE_DATA_DIR, 'cases_WHO.csv')
+WHO_WP_CASE_DATA = j(CASE_DATA_DIR, 'cases_WHO_WP.csv')
 
 ###############################################################################
 # Workflows
