@@ -26,7 +26,7 @@ WP_CNTRY_RAW =  'data_sources/wikipedia/ISO3166_country_code/iso3166_country_cod
 ###############################################################################
 
 # US confirmed & death time series data from Wikipedia
-USA_TS = 'data_sources/wikipedia/cases/USA/USA_ts.csv'
+WP_USA_TS = 'data_sources/wikipedia/cases/USA/USA_ts.csv'
 
 WB_ADDED = 'curation_data/country/extra_country_metadata.csv'
 EXTRA_CNTRY_NAME_CODE = 'curation_data/country/extra_country_name_code.csv'
@@ -75,6 +75,11 @@ rule extract_country_name_code_table:
     input: WP_CNTRY_RAW, WB_RAW, WB_ADDED, EXTRA_CNTRY_NAME_CODE
     output: CNTRY_NAME_CODE_TABLE
     script: "scripts/extract_country_name_code_table.py"
+
+rule extract_who_wp_case_data:
+    input: WHO_CASE_DATA, WP_USA_TS
+    output: WHO_WP_CASE_DATA
+    script: "scripts/extract_who_wp_case_data.py"
 
 rule extract_who_case_data:
     input: OWID_TS, CNTRY_NAME_CODE_TABLE, CNTRY_CODE_NAME_TABLE
