@@ -51,6 +51,7 @@ CNTRY_META = 'output/metadata/country/country_metadata.csv'
 # json file for the visualization: http://yyahn.com/covid19
 CNTRY_STAT_JSON = 'output/cntry_stat.json'
 CNTRY_STAT_JSON_FROM_OWID = 'output/cntry_stat_owid.json'
+CNTRY_STAT_JSON_WHO_WP = 'output/cntry_stat_who_wp.json'
 
 # WHO case data csv
 WHO_CASE_DATA = j(CASE_DATA_DIR, 'cases_WHO.csv')
@@ -63,8 +64,9 @@ WHO_WP_CASE_DATA = j(CASE_DATA_DIR, 'cases_WHO_WP.csv')
 rule all:
     input:
         CNTRY_STAT_JSON_FROM_OWID,
+        CNTRY_STAT_JSON_WHO_WP,
         COORDINATES,
-        WHO_CASE_DATA
+        WHO_WP_CASE_DATA
 
 rule extract_country_code_name_table:
     input: CNTRY_NAME_CODE_TABLE
@@ -93,6 +95,11 @@ rule extract_coordinates:
 
 rule prepare_viz_data:
     input: WHO_WP_CASE_DATA, CNTRY_META, CNTRY_CODE_NAME_TABLE
+    output: CNTRY_STAT_JSON_WHO_WP
+    script: "scripts/prepare_viz_data_owid.py"
+
+rule prepare_viz_data_from_owid:
+    input: WHO_CASE_DATA, CNTRY_META, CNTRY_CODE_NAME_TABLE
     output: CNTRY_STAT_JSON_FROM_OWID
     script: "scripts/prepare_viz_data_owid.py"
 

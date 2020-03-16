@@ -33,4 +33,4 @@ meta_dict = pd.read_csv(snakemake.input[1]).set_index("country_code").to_dict()
 data = prepare_data_structure(
     df, meta_dict, utils.country_code2name_dict(snakemake.input[2])
 )
-open(snakemake.output[0], "w").write(json.dumps(data, indent=2))
+open(snakemake.output[0], "w").write(json.dumps(data, separators=(",", ":")))
