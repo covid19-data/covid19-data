@@ -36,10 +36,13 @@ Canada,British Columbia,49.2827,-123.1207
 Canada,Grand Princess,37.6489,-122.6655
 Canada,Manitoba,53.7609,-98.8139
 Canada,New Brunswick,46.5653,-66.4619
+Canada,Newfoundland and Labrador,53.1355,-57.6604
 Canada,Ontario,51.2538,-85.3232
+Canada,Prince Edward Island,46.5107,-63.4168
 Canada,Quebec,52.9399,-73.5491
 Canada,Saskatchewan,52.9399,-106.4509
 Cayman Islands,,19.3133,-81.2546
+Central African Republic,,6.6111,20.9394
 Chile,,-35.6751,-71.543
 China,Anhui,31.8257,117.2264
 China,Beijing,40.1824,116.4142
@@ -75,6 +78,7 @@ China,Xinjiang,41.1129,85.2401
 China,Yunnan,24.974,101.48700000000001
 China,Zhejiang,29.1832,120.0934
 Colombia,,4.5709,-74.2973
+Congo (Brazzaville),,-4.0383,21.7587
 Congo (Kinshasa),,-4.0383,21.7587
 Costa Rica,,9.7489,-83.7534
 Cote d'Ivoire,,7.54,-5.5471
@@ -89,16 +93,17 @@ Denmark,Faroe Islands,61.8926,-6.9118
 Dominican Republic,,18.7357,-70.1627
 Ecuador,,-1.8312,-78.1834
 Egypt,,26.0,30.0
+Equatorial Guinea,,1.5,10.0
 Estonia,,58.5953,25.0136
 Eswatini,,-26.5225,31.4659
 Ethiopia,,9.145,40.4897
 Finland,,64.0,26.0
-France,Fench Guiana,4.0,-53.0
 France,France,46.2276,2.2137
+France,French Guiana,3.9339,-53.1258
 France,French Polynesia,-17.6797,149.4068
+France,Mayotte,-12.8275,45.1662
 France,Saint Barthelemy,17.9,-62.8333
 France,St Martin,18.0708,-63.0501
-French Guiana,,3.9339,-53.1258
 Gabon,,-0.8037,11.6094
 Georgia,,42.3154,43.3569
 Germany,,51.0,9.0
@@ -126,6 +131,7 @@ Jordan,,31.24,36.51
 Kazakhstan,,48.0196,66.9237
 Kenya,,-0.0236,37.9062
 "Korea, South",,36.0,128.0
+Kosovo,,42.6026,20.903000000000002
 Kuwait,,29.5,47.75
 Latvia,,56.8796,24.6032
 Lebanon,,33.8547,35.8623
@@ -207,6 +213,7 @@ US,Florida,27.7663,-81.6868
 US,Georgia,33.0406,-83.6431
 US,Georgia,33.9191,-84.0167
 US,Grand Princess,37.6489,-122.6655
+US,Guam,13.4443,144.7937
 US,Hawaii,21.0943,-157.4983
 US,Hawaii,21.307,-157.8584
 US,Idaho,44.2405,-114.4788
@@ -288,6 +295,7 @@ United Kingdom,Channel Islands,49.3723,-2.3644
 United Kingdom,Gibraltar,36.1408,-5.3536
 United Kingdom,United Kingdom,55.3781,-3.4360000000000004
 Uruguay,,-32.5228,-55.7658
+Uzbekistan,,41.3775,64.5853
 Vatican City,,41.9029,12.4534
 Venezuela,,6.4238,-66.5897
 Vietnam,,16.0,108.0
