@@ -5,8 +5,8 @@ df = (
     pd.read_csv(snakemake.input[0])
     .rename(
         columns={
-            "Province/State": "state",
-            "Country/Region": "country_name",
+            "Province_State": "state",
+            "Country_Region": "country_name",
             "Lat": "lat",
             "Long": "lng",
         }
