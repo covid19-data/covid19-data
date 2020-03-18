@@ -117,11 +117,11 @@ US,New Mexico,33.8837,-106.7235
 US,New Mexico,35.0178,-106.6291
 US,New York,40.7128,-74.006
 US,New York,41.122,-73.7949
-US,New York,40.6546,-73.5594
 US,New York,40.9849,-72.6151
+US,New York,40.6546,-73.5594
 US,New York,43.0324,-73.936
-US,New York,41.1489,-73.983
 US,New York,41.8586,-74.3118
+US,New York,41.1489,-73.983
 US,North Carolina,35.7211,-79.1781
 US,North Carolina,34.2465,-80.607
 US,North Carolina,35.8032,-78.5661
@@ -138,9 +138,9 @@ US,Oregon,45.5146,-122.5863
 US,Oregon,43.1261,-123.2492
 US,Oregon,42.3345,-122.7647
 US,Pennsylvania,41.6739,-75.2479
+US,Pennsylvania,39.9078,-75.3879
 US,Pennsylvania,41.0458,-75.2479
 US,Pennsylvania,39.9526,-75.1652
-US,Pennsylvania,39.9078,-75.3879
 US,Pennsylvania,40.229,-75.3879
 US,Pennsylvania,40.4108,-75.2479
 US,Rhode Island,41.8882,-71.4774
@@ -264,7 +264,6 @@ Bhutan,,27.5142,90.4336
 Cameroon,,3.8480000000000003,11.5021
 Taiwan*,,23.7,121.0
 Brazil,,-14.235,-51.9253
-Reunion,,-21.1151,55.5364
 Vietnam,,16.0,108.0
 Albania,,41.1533,20.1683
 Ethiopia,,9.145,40.4897
@@ -284,7 +283,6 @@ Guyana,,5.0,-58.75
 Germany,,51.0,9.0
 Uzbekistan,,41.3775,64.5853
 South Africa,,-30.5595,22.9375
-French Guiana,,3.9339,-53.1258
 Georgia,,42.3154,43.3569
 Saudi Arabia,,24.0,45.0
 Maldives,,3.2028,73.2207
@@ -293,8 +291,8 @@ Guinea,,9.9456,-9.6966
 New Zealand,,-40.9006,174.886
 Ireland,,53.1424,-7.6921
 Saint Lucia,,13.9094,-60.9789
+Barbados,,13.1939,-59.5432
 Jersey,,49.19,-2.11
-Puerto Rico,,18.2,-66.5
 Singapore,,1.2833,103.8333
 Cote d'Ivoire,,7.54,-5.5471
 Malaysia,,2.5,112.5
@@ -325,11 +323,11 @@ Switzerland,,46.8182,8.2275
 San Marino,,43.9424,12.4578
 Saint Vincent and the Grenadines,,12.9843,-61.2872
 Panama,,8.538,-80.7821
+The Gambia,,13.4667,-16.6
 Seychelles,,-4.6796,55.492
 Guernsey,,49.45,-2.58
 Bolivia,,-16.2902,-63.5887
 Paraguay,,-23.4425,-58.4438
-occupied Palestinian territory,,31.9522,35.2332
 Greenland,,71.7069,-42.6043
 Andorra,,42.5063,1.5218
 Azerbaijan,,40.1431,47.5769
@@ -362,18 +360,17 @@ Croatia,,45.1,15.2
 Rwanda,,-1.9403,29.8739
 Jordan,,31.24,36.51
 Uruguay,,-32.5228,-55.7658
+Montenegro,,42.5,19.3
 Iceland,,64.9631,-19.0208
 Suriname,,3.9193,-56.0278
 Bulgaria,,42.7339,25.4858
 Sri Lanka,,7.0,81.0
 Romania,,45.9432,24.9668
 Hungary,,47.1625,19.5033
-Mayotte,,-12.8275,45.1662
 Republic of the Congo,,-1.44,15.556
 Colombia,,4.5709,-74.2973
 Armenia,,40.0691,45.0382
 Somalia,,5.1521,46.1996
-Guam,,13.4443,144.7937
 Liechtenstein,,47.14,9.55
 Senegal,,14.4974,-14.4524
 Bangladesh,,23.685,90.3563
@@ -383,6 +380,7 @@ Slovakia,,48.669,19.699
 Morocco,,31.7917,-7.0926
 Moldova,,47.4116,28.3699
 Dominican Republic,,18.7357,-70.1627
+North Macedonia,,41.6086,21.7453
 Thailand,,15.0,101.0
 Afghanistan,,33.0,65.0
 Central African Republic,,6.6111,20.9394
@@ -394,14 +392,12 @@ Bahrain,,26.0275,50.55
 Bosnia and Herzegovina,,43.9159,17.6791
 Cuba,,22.0,-80.0
 Mongolia,,46.8625,103.8467
-Guadeloupe,,16.265,-61.551
 Czechia,,49.8175,15.472999999999999
 Holy See,,41.9029,12.4534
+Tanzania,,-6.369,34.8888
 Argentina,,-38.4161,-63.6167
 Liberia,,6.4281,-9.4295
-North Macedonia,,41.6086,21.7453
 Lebanon,,33.8547,35.8623
-Tanzania,,-6.369,34.8888
 Belarus,,53.7098,27.9534
 Pakistan,,30.3753,69.3451
 China,Inner Mongolia,44.0935,113.9448
@@ -421,6 +417,7 @@ US,Minnesota,45.6945,-93.9002
 China,Beijing,40.1824,116.4142
 US,Puerto Rico,18.2208,-66.5901
 US,Florida,27.7663,-81.6868
+France,Reunion,-21.1351,55.2471
 China,Shanghai,31.201999999999998,121.4491
 Australia,New South Wales,-33.8688,151.2093
 US,Kentucky,37.6681,-84.6701
