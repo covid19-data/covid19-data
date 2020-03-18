@@ -28,6 +28,10 @@ This repository hosts workflows to process several data sources and cleaned data
 
 - [`output/cases/cases_WHO.csv`](https://github.com/covid19-data/covid19-data/blob/master/output/cases/cases_WHO.csv): This converts the CSV dataset cleaned by Our World in Data team by using ISO 3166 Alpha-3 country code. It also fills up non-existing dates so that for every country, the dataset starts from the same date (Jan. 21st). One may want to combine this with country-level metadata or alternative country names [here](https://github.com/covid19-data/covid19-data/tree/master/output/metadata/country).
 
+### Daily case data (WHO + US case data from Wikipedia)
+
+- [`output/cases/cases_WHO_WP.csv`](https://github.com/covid19-data/covid19-data/blob/master/output/cases/cases_WHO_WP.csv): similar to `cases_WHO.csv`, but US data is overrided by the data from Wikipedia.
+
 ### Daily case data in JSON
 
 - [`cntry_stat_owid.json`](https://github.com/yy/covid19-data/blob/master/output/cntry_stat_owid.json)
