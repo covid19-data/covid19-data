@@ -1,0 +1,9 @@
+date,country_code,country_name,total_cases,total_deaths
+2020-03-11,TUR,Turkey,1,0
+2020-03-12,TUR,Turkey,1,0
+2020-03-13,TUR,Turkey,5,0
+2020-03-14,TUR,Turkey,6,0
+2020-03-15,TUR,Turkey,18,0
+2020-03-16,TUR,Turkey,47,0
+2020-03-17,TUR,Turkey,97,1
+2020-03-18,TUR,Turkey,189,2
