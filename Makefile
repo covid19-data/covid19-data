@@ -1,6 +1,7 @@
 .PHONY: all watch
 
 all:
+	cd data_sources/wikipedia/cases; snakemake -R `snakemake --lc --li --lp`
 	snakemake -R `snakemake --lc --li --lp`
 
 owid:
