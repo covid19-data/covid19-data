@@ -2,7 +2,7 @@
 CURR_DATA="owid_ts.csv"
 NEW_DATA="full_data.csv"
 
-wget -q -O $NEW_DATA cowid.netlify.com/data/full_data.csv
+wget -q -O $NEW_DATA https://covid.ourworldindata.org/data/ecdc/full_data.csv
 
 if [ ! -f "$CURR_DATA" ]; then
     if [ -f "$NEW_DATA" ]; then
