@@ -59,6 +59,7 @@ CNTRY_META = 'output/metadata/country/country_metadata.csv'
 CNTRY_STAT_JSON = 'output/cntry_stat.json'
 CNTRY_STAT_JSON_FROM_OWID = 'output/cntry_stat_owid.json'
 CNTRY_STAT_JSON_WHO_WP = 'output/cntry_stat_who_wp.json'
+CNTRY_STAT_JSON_ECDC_WP = 'output/cntry_stat_ecdc_wp.json'
 
 # WHO case data csv
 WHO_CASE_DATA = j(CASE_DATA_DIR, 'cases_WHO.csv')
@@ -75,9 +76,9 @@ ECDC_WP_CASE_DATA = j(CASE_DATA_DIR, 'cases_ECDC_WP.csv')
 rule all:
     input:
         CNTRY_STAT_JSON_FROM_OWID,
-        CNTRY_STAT_JSON_WHO_WP,
+        CNTRY_STAT_JSON_ECDC_WP,
         COORDINATES,
-        WHO_WP_CASE_DATA,
+        ECDC_WP_CASE_DATA,
 
 rule extract_country_code_name_table:
     input: CNTRY_NAME_CODE_TABLE
@@ -95,8 +96,8 @@ rule extract_who_wp_case_data:
     script: "scripts/extract_ecdc_wp_case_data.py"
 
 rule prepare_viz_data:
-    input: WHO_WP_CASE_DATA, CNTRY_META, CNTRY_CODE_NAME_TABLE
-    output: CNTRY_STAT_JSON_WHO_WP
+    input: ECDC_WP_CASE_DATA, CNTRY_META, CNTRY_CODE_NAME_TABLE
+    output: CNTRY_STAT_JSON_ECDC_WP
     script: "scripts/prepare_viz_data_owid.py"
 
 rule prepare_viz_data_from_owid:
@@ -119,13 +120,18 @@ rule extract_owid_case_data:
 ###############################################################################
 
 # Deprecated: OWID is not using WHO anymore.
-rule extract_who_case_data:
-    input: OWID_WHO_TS, CNTRY_NAME_CODE_TABLE, CNTRY_CODE_NAME_TABLE
-    output: WHO_CASE_DATA
-    script: "scripts/owid_who_case_data.py"
+# rule extract_who_case_data:
+    # input: OWID_WHO_TS, CNTRY_NAME_CODE_TABLE, CNTRY_CODE_NAME_TABLE
+    # output: WHO_CASE_DATA
+    # script: "scripts/owid_who_case_data.py"
+
+# rule prepare_viz_data:
+    # input: WHO_WP_CASE_DATA, CNTRY_META, CNTRY_CODE_NAME_TABLE
+    # output: CNTRY_STAT_JSON_WHO_WP
+    # script: "scripts/prepare_viz_data_owid.py"
 
 # Deprecated: Tableau data relies on JHU github, which has many issues.
-rule extract_coordinates:
-    input: TABLEAU_TS
-    output: COORDINATES
-    script: "scripts/extract_coordinates.py"
+# rule extract_coordinates:
+    # input: TABLEAU_TS
+    # output: COORDINATES
+    # script: "scripts/extract_coordinates.py"
