@@ -54,7 +54,6 @@ def get_confirmed_and_deaths(content):
 
 for idx, row in enumerate(pd.read_csv(snakemake.input[0]).itertuples()):
     url = URL_TEMPLATE.format(row.page_name)
-    print(url)
     content = get_content_from_url(url)
     df = get_confirmed_and_deaths(content)
     df["country_code"] = row.country_code
@@ -62,5 +61,4 @@ for idx, row in enumerate(pd.read_csv(snakemake.input[0]).itertuples()):
     df[["date", "country_code", "country_name", "total_cases", "total_deaths"]].to_csv(
         snakemake.output[idx], index=False
     )
-    print("Done")
 
