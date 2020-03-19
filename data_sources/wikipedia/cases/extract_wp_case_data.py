@@ -19,14 +19,24 @@ def get_content_from_url(url):
 def get_case_and_death_dict(content):
     data = {}
     for line in content.splitlines():
-        if not line.startswith("{{Medical cases chart/Row|"):
+        line = line.lower()
+        if not line.startswith("{{medical cases chart/row|") and not line.startswith("{{bar stacked|"):
             continue
-        temp = line.split("|")
+        temp  = [x.strip() for x in line.split("|")]
         if temp[1]:
-            data[temp[1]] = (
-                int(temp[4]) if temp[4] else 0,
-                int(temp[2]) if temp[2] else 0,
-            )
+            if temp[4].startswith("{{#expr:"):
+                temp[4] = temp[4].split("/")[0].split("&nbsp;")[0].lstrip("{{#expr:").strip()
+                temp[2] = temp[2].split("/")[0].split("&nbsp;")[0].lstrip("{{#expr:").strip() 
+                data[temp[1]] = (
+                    int(temp[2]) if temp[2] else 0,
+                    int(temp[4]) if temp[4] else 0,
+                )
+            else:
+                data[temp[1]] = (
+		    int(eval(temp[4])) if temp[4] else 0,
+                    int(eval(temp[2])) if temp[2] else 0,
+                )
+
     return data
 
 
@@ -35,7 +45,8 @@ def get_confirmed_and_deaths(content):
     df = pd.DataFrame.from_dict(
         data, orient="index", columns=["total_cases", "total_deaths"]
     )
-    df.index = pd.DatetimeIndex(df.index)
+    df.index = pd.DatetimeIndex(df.index, dayfirst=True)
+
     return (
         df.reindex(pd.date_range(df.index[0], df.index[-1]), method="pad")
         .reset_index()
