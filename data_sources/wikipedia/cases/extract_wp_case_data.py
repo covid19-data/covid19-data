@@ -1,11 +1,8 @@
 import json
-import os
 
-import dateutil.parser
 import pandas as pd
 import requests
 
-# BASE_DIR = os.path.dirname(os.path.realpath(__file__))
 URL_TEMPLATE = (
     "https://en.wikipedia.org/w/api.php?action=query&format=json"
     "&prop=revisions&titles={}&formatversion=2&rvprop=content&rvslots=*"
