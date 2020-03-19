@@ -1,5 +1,7 @@
 from os.path import join as j
 
+import pandas as pd
+
 ###############################################################################
 # Raw datasets
 ###############################################################################
@@ -26,8 +28,10 @@ WP_CNTRY_RAW =  'data_sources/wikipedia/ISO3166_country_code/iso3166_country_cod
 ###############################################################################
 
 # US confirmed & death time series data from Wikipedia
-WP_TS = 'data_sources/wikipedia/cases/country-level/{country}_ts.csv'
-WP_COUNTRIES = ['USA']
+WP_CASE_DIR = 'data_sources/wikipedia/cases'
+WP_TS = j(WP_CASE_DIR, 'country-level/{country}_ts.csv')
+WP_COUNTRIES = pd.read_csv(
+        j(WP_CASE_DIR,'country_case_wp_pages.csv'))['country_code'].to_list()
 
 WB_ADDED = 'curation_data/country/extra_country_metadata.csv'
 EXTRA_CNTRY_NAME_CODE = 'curation_data/country/extra_country_name_code.csv'
