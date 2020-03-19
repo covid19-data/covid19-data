@@ -1,4 +1,5 @@
 import json
+
 import pandas as pd
 import requests
 
@@ -35,6 +36,7 @@ def get_case_and_death_dict(content):
 		    int(eval(temp[4])) if temp[4] else 0,
                     int(eval(temp[2])) if temp[2] else 0,
                 )
+
     return data
 
 
@@ -44,6 +46,7 @@ def get_confirmed_and_deaths(content):
         data, orient="index", columns=["total_cases", "total_deaths"]
     )
     df.index = pd.DatetimeIndex(df.index, dayfirst=True)
+
     return (
         df.reindex(pd.date_range(df.index[0], df.index[-1]), method="pad")
         .reset_index()
@@ -60,4 +63,3 @@ for idx, row in enumerate(pd.read_csv(snakemake.input[0]).itertuples()):
     df[["date", "country_code", "country_name", "total_cases", "total_deaths"]].to_csv(
         snakemake.output[idx], index=False
     )
-
