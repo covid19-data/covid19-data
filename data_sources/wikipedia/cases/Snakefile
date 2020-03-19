@@ -3,7 +3,6 @@ import pandas as pd
 WP_TS = 'country-level/{country_code}_ts.csv'
 
 COUNTRIES = pd.read_csv('country_case_wp_pages.csv')['country_code'].to_list()
-print(COUNTRIES)
 
 rule all:
     input:
