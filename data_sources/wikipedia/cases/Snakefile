@@ -1,9 +1,9 @@
+import pandas as pd
+
 WP_TS = 'country-level/{country_code}_ts.csv'
 
-#COUNTRIES = ['KOR']
-f_in = open('country_case_wp_pages.csv', "r")
-COUNTRIES = [text.split(",")[0] for text in list(f_in)][1:]
-f_in.close()
+COUNTRIES = pd.read_csv('country_case_wp_pages.csv')['country_code'].to_list()
+print(COUNTRIES)
 
 rule all:
     input:

@@ -21,8 +21,7 @@ def get_case_and_death_dict(content):
         line = line.lower()
         if not line.startswith("{{medical cases chart/row|") and not line.startswith("{{bar stacked|"):
             continue
-        temp = line.split("|")
-        temp = [tempitem.strip() for tempitem in temp]
+        temp  = [x.strip() for x in line.split("|")]
         if temp[1]:
             if temp[4].startswith("{{#expr:"):
                 temp[4] = temp[4].split("/")[0].split("&nbsp;")[0].lstrip("{{#expr:").strip()
