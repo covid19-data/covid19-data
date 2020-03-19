@@ -56,4 +56,5 @@ date,country_code,country_name,total_cases,total_deaths
 2020-03-15,USA,United States,3497,62
 2020-03-16,USA,United States,4372,75
 2020-03-17,USA,United States,5656,96
-2020-03-18,USA,United States,8054,118
+2020-03-18,USA,United States,8054,122
+2020-03-19,USA,United States,11164,137
