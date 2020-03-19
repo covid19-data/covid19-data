@@ -8658,11 +8658,12 @@ date,country_code,country_name,total_cases,total_deaths
 2020-03-10,USA,United States,936,31
 2020-03-11,USA,United States,1205,38
 2020-03-12,USA,United States,1598,42
-2020-03-13,USA,United States,2163,50
+2020-03-13,USA,United States,2163,49
 2020-03-14,USA,United States,2825,56
-2020-03-15,USA,United States,3497,59
-2020-03-16,USA,United States,4372,74
-2020-03-17,USA,United States,5637,94
+2020-03-15,USA,United States,3497,62
+2020-03-16,USA,United States,4372,75
+2020-03-17,USA,United States,5656,96
+2020-03-18,USA,United States,7999,118
 2020-01-21,UZB,Uzbekistan,0,0
 2020-01-22,UZB,Uzbekistan,0,0
 2020-01-23,UZB,Uzbekistan,0,0

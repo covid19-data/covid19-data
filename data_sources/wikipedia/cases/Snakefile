@@ -1,0 +1,11 @@
+WP_TS = 'country-level/{country_code}_ts.csv'
+COUNTRIES = ['USA']
+
+rule all:
+    input:
+        expand(WP_TS, country_code=COUNTRIES)
+
+rule download_table:
+    input: 'country_case_wp_pages.csv'
+    output: expand(WP_TS, country_code=COUNTRIES)
+    script: "extract_wp_case_data.py"
