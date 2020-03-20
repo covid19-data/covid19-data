@@ -53,4 +53,5 @@ date,country_code,country_name,total_cases,total_deaths
 2020-03-16,AUS,Australia,376,5
 2020-03-17,AUS,Australia,453,5
 2020-03-18,AUS,Australia,566,6
-2020-03-19,AUS,Australia,707,6
+2020-03-19,AUS,Australia,708,6
+2020-03-20,AUS,Australia,875,7

@@ -9,5 +9,6 @@ date,country_code,country_name,total_cases,total_deaths
 2020-03-15,BGR,Bulgaria,51,2
 2020-03-16,BGR,Bulgaria,62,2
 2020-03-17,BGR,Bulgaria,81,2
-2020-03-18,BGR,Bulgaria,92,2
-2020-03-19,BGR,Bulgaria,107,3
+2020-03-18,BGR,Bulgaria,94,2
+2020-03-19,BGR,Bulgaria,112,3
+2020-03-20,BGR,Bulgaria,127,3

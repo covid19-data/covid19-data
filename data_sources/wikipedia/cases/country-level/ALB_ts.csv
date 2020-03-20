@@ -9,4 +9,6 @@ date,country_code,country_name,total_cases,total_deaths
 2020-03-15,ALB,Albania,42,1
 2020-03-16,ALB,Albania,51,1
 2020-03-17,ALB,Albania,55,1
-2020-03-18,ALB,Albania,64,2
+2020-03-18,ALB,Albania,59,2
+2020-03-19,ALB,Albania,64,2
+2020-03-20,ALB,Albania,70,2
