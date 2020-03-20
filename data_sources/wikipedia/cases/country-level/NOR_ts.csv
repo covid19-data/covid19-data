@@ -20,4 +20,6 @@ date,country_code,country_name,total_cases,total_deaths
 2020-03-15,NOR,Norway,1077,3
 2020-03-16,NOR,Norway,1169,3
 2020-03-17,NOR,Norway,1308,3
-2020-03-18,NOR,Norway,1552,6
+2020-03-18,NOR,Norway,1423,6
+2020-03-19,NOR,Norway,1552,6
+2020-03-20,NOR,Norway,1742,7
