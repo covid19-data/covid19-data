@@ -54,5 +54,3 @@ for idx, row in enumerate(pd.read_csv(snakemake.input[0]).itertuples()):
     df[["date", "country_code", "country_name", "total_cases", "total_deaths"]].to_csv(
         snakemake.output[idx], index=False
     )
-
-
