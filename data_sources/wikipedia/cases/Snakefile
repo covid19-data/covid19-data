@@ -3,8 +3,6 @@ import pandas as pd
 WP_TS = 'country-level/{country_code}_ts.csv'
 
 COUNTRIES = pd.read_csv('country_case_wp_pages.csv')['country_code'].to_list()
-CIDX_TOT_CASE = pd.read_csv('country_case_wp_pages.csv')['cidx_total_case'].to_list()
-CIDX_TOT_DEATH = pd.read_csv('country_case_wp_pages.csv')['cidx_total_death'].to_list()
 
 rule all:
     input:
