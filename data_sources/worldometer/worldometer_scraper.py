@@ -1,19 +1,25 @@
 """
 get country data from worldometers
+live page from domain and archive from webarchive
 """
 
 import urllib3
 import json
 from bs4 import BeautifulSoup
+from datetime import datetime
 
 
-url = "https://www.worldometers.info/coronavirus/#countries" 
+live_url = "https://www.worldometers.info/coronavirus/#countries" 
 
-def get_page():
+#webarchive
+url2 = "http://web.archive.org/web/20200319012758/https://www.worldometers.info/coronavirus/"
+archive_url = "http://web.archive.org/web/20200318022844/https://www.worldometers.info/coronavirus/"
+
+def get_page(url, sdate, table_name):
     http = urllib3.PoolManager()
     r = http.request('GET', url)
     soup = BeautifulSoup(r.data, 'html.parser')
-    daily_table = soup.find(id='main_table_countries_today')
+    daily_table = soup.find(id=table_name)
     rows = daily_table.find_all('tr')
     country_data = {}
     country_data_csv = []
@@ -41,12 +47,25 @@ def get_page():
     #with open('worldometer_country.json','w') as f:
     #    f.write(json.dumps(country_data))
 
-    with open('worldometer_country.csv','w') as f:
+
+    with open('worldometer_country_' + sdate + '.csv','w') as f:
         h = "\t".join(["country", "total cases", "new cases", "total deaths", "new deaths"])
         f.write(h +'\n')
         for r in country_data_csv:
             f.write(r + '\n')
 
 
-get_page()
+def get_live():
+    sdate = datetime.today().strftime('%Y-%m-%d')
+    table_name = "main_table_countries_yesterday"
+    get_page(live_url, sdate, table_name)
 
+
+def get_archive():
+    sdate = "20200318022844"
+    #table_name = "main_table_countries_yesterday"
+    #table_name = 'main_table_countries_today'
+    table_name = 'main_table_countries'
+    get_page(archive_url, sdate, table_name)
+
+get_archive()
