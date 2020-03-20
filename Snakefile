@@ -1,11 +1,15 @@
 from os.path import join as j
 
+import pandas as pd
+
 ###############################################################################
 # Raw datasets
 ###############################################################################
 
 # Data file from Our World in Data. Directly from WHO
-OWID_TS = 'data_sources/our_world_in_data/owid_ts.csv'
+OWID_DIR = 'data_sources/our_world_in_data'
+OWID_WHO_TS = j(OWID_DIR, 'owid_who_ts.csv')
+OWID_ECDC_TS = j(OWID_DIR, 'owid_ecdc_ts.csv')
 
 # Data feed from Tableau. Raw data is from JHU CSSE GitHub. currently not used.
 TABLEAU_TS = 'data_sources/tableau/tableau_ts.csv'
@@ -26,8 +30,10 @@ WP_CNTRY_RAW =  'data_sources/wikipedia/ISO3166_country_code/iso3166_country_cod
 ###############################################################################
 
 # US confirmed & death time series data from Wikipedia
-WP_TS = 'data_sources/wikipedia/cases/country-level/{country}_ts.csv'
-WP_COUNTRIES = ['USA']
+WP_CASE_DIR = 'data_sources/wikipedia/cases'
+WP_TS = j(WP_CASE_DIR, 'country-level/{country}_ts.csv')
+WP_COUNTRIES = pd.read_csv(
+        j(WP_CASE_DIR,'country_case_wp_pages.csv'))['country_code'].to_list()
 
 WB_ADDED = 'curation_data/country/extra_country_metadata.csv'
 EXTRA_CNTRY_NAME_CODE = 'curation_data/country/extra_country_name_code.csv'
@@ -53,10 +59,15 @@ CNTRY_META = 'output/metadata/country/country_metadata.csv'
 CNTRY_STAT_JSON = 'output/cntry_stat.json'
 CNTRY_STAT_JSON_FROM_OWID = 'output/cntry_stat_owid.json'
 CNTRY_STAT_JSON_WHO_WP = 'output/cntry_stat_who_wp.json'
+CNTRY_STAT_JSON_ECDC_WP = 'output/cntry_stat_ecdc_wp.json'
 
 # WHO case data csv
 WHO_CASE_DATA = j(CASE_DATA_DIR, 'cases_WHO.csv')
 WHO_WP_CASE_DATA = j(CASE_DATA_DIR, 'cases_WHO_WP.csv')
+
+# ECDC case data csv
+ECDC_CASE_DATA = j(CASE_DATA_DIR, 'cases_ECDC.csv')
+ECDC_WP_CASE_DATA = j(CASE_DATA_DIR, 'cases_ECDC_WP.csv')
 
 ###############################################################################
 # Workflows
@@ -65,9 +76,9 @@ WHO_WP_CASE_DATA = j(CASE_DATA_DIR, 'cases_WHO_WP.csv')
 rule all:
     input:
         CNTRY_STAT_JSON_FROM_OWID,
-        CNTRY_STAT_JSON_WHO_WP,
+        CNTRY_STAT_JSON_ECDC_WP,
         COORDINATES,
-        WHO_WP_CASE_DATA,
+        ECDC_WP_CASE_DATA,
 
 rule extract_country_code_name_table:
     input: CNTRY_NAME_CODE_TABLE
@@ -80,27 +91,17 @@ rule extract_country_name_code_table:
     script: "scripts/extract_country_name_code_table.py"
 
 rule extract_who_wp_case_data:
-    input: WHO_CASE_DATA, expand(WP_TS, country=WP_COUNTRIES)
-    output: WHO_WP_CASE_DATA
-    script: "scripts/extract_who_wp_case_data.py"
-
-rule extract_who_case_data:
-    input: OWID_TS, CNTRY_NAME_CODE_TABLE, CNTRY_CODE_NAME_TABLE
-    output: WHO_CASE_DATA
-    script: "scripts/owid_who_case_data.py"
-
-rule extract_coordinates:
-    input: TABLEAU_TS
-    output: COORDINATES
-    script: "scripts/extract_coordinates.py"
+    input: ECDC_CASE_DATA, expand(WP_TS, country=WP_COUNTRIES)
+    output: ECDC_WP_CASE_DATA
+    script: "scripts/extract_ecdc_wp_case_data.py"
 
 rule prepare_viz_data:
-    input: WHO_WP_CASE_DATA, CNTRY_META, CNTRY_CODE_NAME_TABLE
-    output: CNTRY_STAT_JSON_WHO_WP
+    input: ECDC_WP_CASE_DATA, CNTRY_META, CNTRY_CODE_NAME_TABLE
+    output: CNTRY_STAT_JSON_ECDC_WP
     script: "scripts/prepare_viz_data_owid.py"
 
 rule prepare_viz_data_from_owid:
-    input: WHO_CASE_DATA, CNTRY_META, CNTRY_CODE_NAME_TABLE
+    input: ECDC_CASE_DATA, CNTRY_META, CNTRY_CODE_NAME_TABLE
     output: CNTRY_STAT_JSON_FROM_OWID
     script: "scripts/prepare_viz_data_owid.py"
 
@@ -108,3 +109,29 @@ rule extract_country_metadata:
     input: WB_RAW, WB_ADDED
     output: CNTRY_META
     script: "scripts/extract_country_metadata.py"
+
+rule extract_owid_case_data:
+    input: OWID_ECDC_TS, CNTRY_NAME_CODE_TABLE, CNTRY_CODE_NAME_TABLE
+    output: ECDC_CASE_DATA
+    script: "scripts/owid_ecdc_case_data.py"
+
+###############################################################################
+# Deprecated workflows
+###############################################################################
+
+# Deprecated: OWID is not using WHO anymore.
+# rule extract_who_case_data:
+    # input: OWID_WHO_TS, CNTRY_NAME_CODE_TABLE, CNTRY_CODE_NAME_TABLE
+    # output: WHO_CASE_DATA
+    # script: "scripts/owid_who_case_data.py"
+
+# rule prepare_viz_data:
+    # input: WHO_WP_CASE_DATA, CNTRY_META, CNTRY_CODE_NAME_TABLE
+    # output: CNTRY_STAT_JSON_WHO_WP
+    # script: "scripts/prepare_viz_data_owid.py"
+
+# Deprecated: Tableau data relies on JHU github, which has many issues.
+# rule extract_coordinates:
+    # input: TABLEAU_TS
+    # output: COORDINATES
+    # script: "scripts/extract_coordinates.py"

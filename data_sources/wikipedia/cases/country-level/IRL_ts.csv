@@ -1,0 +1,21 @@
+date,country_code,country_name,total_cases,total_deaths
+2020-02-29,IRL,Republic of Ireland,1,0
+2020-03-01,IRL,Republic of Ireland,1,0
+2020-03-02,IRL,Republic of Ireland,1,0
+2020-03-03,IRL,Republic of Ireland,2,0
+2020-03-04,IRL,Republic of Ireland,6,0
+2020-03-05,IRL,Republic of Ireland,13,0
+2020-03-06,IRL,Republic of Ireland,18,0
+2020-03-07,IRL,Republic of Ireland,19,0
+2020-03-08,IRL,Republic of Ireland,21,0
+2020-03-09,IRL,Republic of Ireland,24,0
+2020-03-10,IRL,Republic of Ireland,34,0
+2020-03-11,IRL,Republic of Ireland,43,1
+2020-03-12,IRL,Republic of Ireland,70,1
+2020-03-13,IRL,Republic of Ireland,90,1
+2020-03-14,IRL,Republic of Ireland,129,2
+2020-03-15,IRL,Republic of Ireland,169,2
+2020-03-16,IRL,Republic of Ireland,223,2
+2020-03-17,IRL,Republic of Ireland,292,2
+2020-03-18,IRL,Republic of Ireland,366,2
+2020-03-19,IRL,Republic of Ireland,557,3

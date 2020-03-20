@@ -18,9 +18,11 @@ def get_case_and_death_dict(content, cidx_total_case, cidx_total_death):
     data = {}
     for line in content.splitlines():
         line = line.lower()
-        if not line.startswith("{{medical cases chart/row|") and not line.startswith("{{bar stacked|"):
+        if not line.startswith("{{medical cases chart/row|") and not line.startswith(
+            "{{bar stacked|"
+        ):
             continue
-        temp  = [x.strip() for x in line.split("|")]
+        temp = [x.strip() for x in line.split("|")]
         if temp[1]:
             if temp[cidx_total_case].startswith("{{#expr:") or temp[cidx_total_death].startswith("{{#expr:"):
                 temp[cidx_total_case] = temp[cidx_total_case].split("/")[0].split("&nbsp;")[0].lstrip("{{#expr:").strip() 
@@ -36,7 +38,11 @@ def get_confirmed_and_deaths(content, cidx_total_case, cidx_total_death):
     df = pd.DataFrame.from_dict(
         data, orient="index", columns=["total_cases", "total_deaths"]
     )
-    df.index = pd.DatetimeIndex(df.index, dayfirst=True)
+    if country_code == "DNK":
+        df.index = pd.DatetimeIndex(df.index, dayfirst=True)
+    else:
+        df.index = pd.DatetimeIndex(df.index, dayfirst=False)
+
     return (
         df.reindex(pd.date_range(df.index[0], df.index[-1]), method="pad")
         .reset_index()
