@@ -90,7 +90,7 @@ rule extract_country_name_code_table:
     output: CNTRY_NAME_CODE_TABLE
     script: "scripts/extract_country_name_code_table.py"
 
-rule extract_who_wp_case_data:
+rule extract_ecdc_wp_case_data:
     input: ECDC_CASE_DATA, expand(WP_TS, country=WP_COUNTRIES)
     output: ECDC_WP_CASE_DATA
     script: "scripts/extract_ecdc_wp_case_data.py"
