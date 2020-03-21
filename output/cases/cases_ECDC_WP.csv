@@ -1861,7 +1861,7 @@ date,country_code,country_name,total_cases,total_deaths
 2020-03-17,BRA,Brazil,291,1
 2020-03-18,BRA,Brazil,428,4
 2020-03-19,BRA,Brazil,621,7
-2020-03-20,BRA,Brazil,904,11
+2020-03-20,BRA,Brazil,977,11
 2019-12-31,BRB,Barbados,0,0
 2020-01-01,BRB,Barbados,0,0
 2020-01-02,BRB,Barbados,0,0
@@ -2266,7 +2266,7 @@ date,country_code,country_name,total_cases,total_deaths
 2020-03-17,CAN,Canada,569,8
 2020-03-18,CAN,Canada,690,9
 2020-03-19,CAN,Canada,846,12
-2020-03-20,CAN,Canada,846,10
+2020-03-20,CAN,Canada,1052,13
 2019-12-31,CHE,Switzerland,0,0
 2020-01-01,CHE,Switzerland,0,0
 2020-01-02,CHE,Switzerland,0,0
@@ -3966,8 +3966,8 @@ date,country_code,country_name,total_cases,total_deaths
 2020-03-16,ESP,Spain,9942,342
 2020-03-17,ESP,Spain,11826,533
 2020-03-18,ESP,Spain,14769,638
-2020-03-19,ESP,Spain,18077,831
-2020-03-20,ESP,Spain,21510,1092
+2020-03-19,ESP,Spain,18077,833
+2020-03-20,ESP,Spain,21571,1093
 2019-12-31,EST,Estonia,0,0
 2020-01-01,EST,Estonia,0,0
 2020-01-02,EST,Estonia,0,0
@@ -5799,15 +5799,15 @@ date,country_code,country_name,total_cases,total_deaths
 2020-03-09,HRV,Croatia,13,0
 2020-03-10,HRV,Croatia,15,0
 2020-03-11,HRV,Croatia,19,0
-2020-03-12,HRV,Croatia,26,0
-2020-03-13,HRV,Croatia,31,0
-2020-03-14,HRV,Croatia,37,0
-2020-03-15,HRV,Croatia,47,0
-2020-03-16,HRV,Croatia,52,0
-2020-03-17,HRV,Croatia,64,0
-2020-03-18,HRV,Croatia,84,0
+2020-03-12,HRV,Croatia,27,0
+2020-03-13,HRV,Croatia,32,0
+2020-03-14,HRV,Croatia,39,0
+2020-03-15,HRV,Croatia,49,0
+2020-03-16,HRV,Croatia,56,0
+2020-03-17,HRV,Croatia,69,0
+2020-03-18,HRV,Croatia,89,0
 2020-03-19,HRV,Croatia,105,0
-2020-03-20,HRV,Croatia,123,0
+2020-03-20,HRV,Croatia,128,0
 2019-12-31,HTI,Haiti,0,0
 2020-01-01,HTI,Haiti,0,0
 2020-01-02,HTI,Haiti,0,0
@@ -6131,7 +6131,7 @@ date,country_code,country_name,total_cases,total_deaths
 2020-03-17,IND,India,140,3
 2020-03-18,IND,India,170,3
 2020-03-19,IND,India,198,3
-2020-03-20,IND,India,223,4
+2020-03-20,IND,India,249,4
 2019-12-31,IRL,Ireland,0,0
 2020-01-01,IRL,Ireland,0,0
 2020-01-02,IRL,Ireland,0,0
@@ -7346,7 +7346,7 @@ date,country_code,country_name,total_cases,total_deaths
 2020-03-17,KOR,South Korea,8413,84
 2020-03-18,KOR,South Korea,8565,91
 2020-03-19,KOR,South Korea,8652,94
-2020-03-20,KOR,South Korea,8652,100
+2020-03-20,KOR,South Korea,8799,102
 2019-12-31,KWT,Kuwait,0,0
 2020-01-01,KWT,Kuwait,0,0
 2020-01-02,KWT,Kuwait,0,0
@@ -7913,7 +7913,7 @@ date,country_code,country_name,total_cases,total_deaths
 2020-03-17,LTU,Lithuania,26,0
 2020-03-18,LTU,Lithuania,34,0
 2020-03-19,LTU,Lithuania,48,0
-2020-03-20,LTU,Lithuania,63,0
+2020-03-20,LTU,Lithuania,64,1
 2019-12-31,LUX,Luxembourg,0,0
 2020-01-01,LUX,Luxembourg,0,0
 2020-01-02,LUX,Luxembourg,0,0
@@ -9696,6 +9696,7 @@ date,country_code,country_name,total_cases,total_deaths
 2020-03-18,NZL,New Zealand,20,0
 2020-03-19,NZL,New Zealand,28,0
 2020-03-20,NZL,New Zealand,39,0
+2020-03-21,NZL,New Zealand,52,0
 2019-12-31,OMN,Oman,0,0
 2020-01-01,OMN,Oman,0,0
 2020-01-02,OMN,Oman,0,0
@@ -12854,7 +12855,7 @@ date,country_code,country_name,total_cases,total_deaths
 2020-03-17,USA,United States,5560,96
 2020-03-18,USA,United States,7952,122
 2020-03-19,USA,United States,11808,172
-2020-03-20,USA,United States,16009,181
+2020-03-20,USA,United States,17014,221
 2019-12-31,UZB,Uzbekistan,0,0
 2020-01-01,UZB,Uzbekistan,0,0
 2020-01-02,UZB,Uzbekistan,0,0
