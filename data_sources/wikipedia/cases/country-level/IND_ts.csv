@@ -45,3 +45,5 @@ date,country_code,country_name,total_cases,total_deaths
 2020-03-16,IND,India,114,2
 2020-03-17,IND,India,140,3
 2020-03-18,IND,India,170,3
+2020-03-19,IND,India,198,3
+2020-03-20,IND,India,249,4

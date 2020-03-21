@@ -19,4 +19,5 @@ date,country_code,country_name,total_cases,total_deaths
 2020-03-16,LTU,Lithuania,18,0
 2020-03-17,LTU,Lithuania,26,0
 2020-03-18,LTU,Lithuania,34,0
-2020-03-19,LTU,Lithuania,41,0
+2020-03-19,LTU,Lithuania,48,0
+2020-03-20,LTU,Lithuania,64,1
