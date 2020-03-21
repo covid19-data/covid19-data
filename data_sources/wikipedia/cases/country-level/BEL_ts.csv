@@ -40,8 +40,9 @@ date,country_code,country_name,total_cases,total_deaths
 2020-03-13,BEL,Belgium,559,3
 2020-03-14,BEL,Belgium,689,4
 2020-03-15,BEL,Belgium,886,4
-2020-03-16,BEL,Belgium,1058,10
+2020-03-16,BEL,Belgium,1058,5
 2020-03-17,BEL,Belgium,1243,10
 2020-03-18,BEL,Belgium,1486,14
 2020-03-19,BEL,Belgium,1795,21
 2020-03-20,BEL,Belgium,2257,37
+2020-03-21,BEL,Belgium,2815,67
