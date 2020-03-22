@@ -29,7 +29,6 @@ def get_page(url, sdate, table_name):
     for row in rows[:-1]:
         try:
             cols = row.find_all("td")
-            # print (cols)
             country = cols[0].text.strip()
             total_cases = cols[1].text.strip()
             total_cases = total_cases.replace(",", "")
@@ -43,12 +42,15 @@ def get_page(url, sdate, table_name):
             country_data[country] = total_cases
             s = "\t".join([country, total_cases, new_cases, td, nd])
             country_data_csv.append(s)
+
+        # TODO: except should catch specific exception
         except:
             continue
 
     # with open('worldometer_country.json','w') as f:
     #    f.write(json.dumps(country_data))
 
+    # TODO: it's probably better to use pandas or csv module.
     with open("worldometer_country_" + sdate + ".csv", "w") as f:
         h = "\t".join(
             ["country", "total cases", "new cases", "total deaths", "new deaths"]
@@ -58,6 +60,7 @@ def get_page(url, sdate, table_name):
             f.write(r + "\n")
 
 
+# TODO: Ideally we want to have a way to automatically get historical data.
 def get_live():
     sdate = datetime.today().strftime("%Y-%m-%d")
     table_name = "main_table_countries_yesterday"
