@@ -1883,8 +1883,8 @@ date,country_code,country_name,total_cases,total_deaths
 2020-03-17,BRA,Brazil,291,1
 2020-03-18,BRA,Brazil,428,4
 2020-03-19,BRA,Brazil,621,7
-2020-03-20,BRA,Brazil,977,11
-2020-03-21,BRA,Brazil,1021,18
+2020-03-20,BRA,Brazil,904,11
+2020-03-21,BRA,Brazil,1128,18
 2019-12-31,BRB,Barbados,0,0
 2020-01-01,BRB,Barbados,0,0
 2020-01-02,BRB,Barbados,0,0
@@ -2294,7 +2294,7 @@ date,country_code,country_name,total_cases,total_deaths
 2020-03-18,CAN,Canada,690,9
 2020-03-19,CAN,Canada,846,12
 2020-03-20,CAN,Canada,1055,13
-2020-03-21,CAN,Canada,971,12
+2020-03-21,CAN,Canada,1281,18
 2019-12-31,CHE,Switzerland,0,0
 2020-01-01,CHE,Switzerland,0,0
 2020-01-02,CHE,Switzerland,0,0
@@ -2375,8 +2375,8 @@ date,country_code,country_name,total_cases,total_deaths
 2020-03-17,CHE,Switzerland,2677,0
 2020-03-18,CHE,Switzerland,3070,0
 2020-03-19,CHE,Switzerland,3888,0
-2020-03-20,CHE,Switzerland,4840,0
-2020-03-21,CHE,Switzerland,4840,43
+2020-03-20,CHE,Switzerland,5369,0
+2020-03-21,CHE,Switzerland,6747,0
 2019-12-31,CHL,Chile,0,0
 2020-01-01,CHL,Chile,0,0
 2020-01-02,CHL,Chile,0,0
@@ -4098,7 +4098,7 @@ date,country_code,country_name,total_cases,total_deaths
 2020-03-18,ESP,Spain,14769,638
 2020-03-19,ESP,Spain,18077,833
 2020-03-20,ESP,Spain,21571,1093
-2020-03-21,ESP,Spain,24980,1378
+2020-03-21,ESP,Spain,25496,1381
 2019-12-31,EST,Estonia,0,0
 2020-01-01,EST,Estonia,0,0
 2020-01-02,EST,Estonia,0,0
@@ -4508,7 +4508,7 @@ date,country_code,country_name,total_cases,total_deaths
 2020-03-18,FRA,France,9134,244
 2020-03-19,FRA,France,10995,375
 2020-03-20,FRA,France,12612,450
-2020-03-21,FRA,France,12612,450
+2020-03-21,FRA,France,14459,562
 2019-12-31,FRO,Faeroe Islands,0,0
 2020-01-01,FRO,Faeroe Islands,0,0
 2020-01-02,FRO,Faeroe Islands,0,0
@@ -6838,7 +6838,7 @@ date,country_code,country_name,total_cases,total_deaths
 2020-02-23,ITA,Italy,150,3
 2020-02-24,ITA,Italy,229,6
 2020-02-25,ITA,Italy,322,10
-2020-02-26,ITA,Italy,400,12
+2020-02-26,ITA,Italy,430,12
 2020-02-27,ITA,Italy,650,17
 2020-02-28,ITA,Italy,888,21
 2020-02-29,ITA,Italy,1128,29
@@ -8174,7 +8174,7 @@ date,country_code,country_name,total_cases,total_deaths
 2020-03-18,LTU,Lithuania,34,0
 2020-03-19,LTU,Lithuania,48,0
 2020-03-20,LTU,Lithuania,69,1
-2020-03-21,LTU,Lithuania,83,1
+2020-03-21,LTU,Lithuania,99,1
 2019-12-31,LUX,Luxembourg,0,0
 2020-01-01,LUX,Luxembourg,0,0
 2020-01-02,LUX,Luxembourg,0,0
@@ -10880,7 +10880,7 @@ date,country_code,country_name,total_cases,total_deaths
 2020-03-18,POL,Poland,287,5
 2020-03-19,POL,Poland,355,5
 2020-03-20,POL,Poland,425,5
-2020-03-21,POL,Poland,492,5
+2020-03-21,POL,Poland,536,5
 2019-12-31,PRT,Portugal,0,0
 2020-01-01,PRT,Portugal,0,0
 2020-01-02,PRT,Portugal,0,0
@@ -12028,7 +12028,7 @@ date,country_code,country_name,total_cases,total_deaths
 2020-03-18,SMR,San Marino,127,14
 2020-03-19,SMR,San Marino,144,14
 2020-03-20,SMR,San Marino,151,14
-2020-03-21,SMR,San Marino,151,14
+2020-03-21,SMR,San Marino,160,20
 2019-12-31,SOM,Somalia,0,0
 2020-01-01,SOM,Somalia,0,0
 2020-01-02,SOM,Somalia,0,0
@@ -12520,7 +12520,7 @@ date,country_code,country_name,total_cases,total_deaths
 2020-03-18,SWE,Sweden,1292,10
 2020-03-19,SWE,Sweden,1439,11
 2020-03-20,SWE,Sweden,1639,16
-2020-03-21,SWE,Sweden,1623,16
+2020-03-21,SWE,Sweden,1770,20
 2019-12-31,SWZ,Swaziland,0,0
 2020-01-01,SWZ,Swaziland,0,0
 2020-01-02,SWZ,Swaziland,0,0
@@ -13176,7 +13176,7 @@ date,country_code,country_name,total_cases,total_deaths
 2020-03-18,TUR,Turkey,191,2
 2020-03-19,TUR,Turkey,359,4
 2020-03-20,TUR,Turkey,670,9
-2020-03-21,TUR,Turkey,670,9
+2020-03-21,TUR,Turkey,947,21
 2019-12-31,TWN,Taiwan,0,0
 2020-01-01,TWN,Taiwan,0,0
 2020-01-02,TWN,Taiwan,0,0
@@ -13422,7 +13422,7 @@ date,country_code,country_name,total_cases,total_deaths
 2020-03-18,UKR,Ukraine,16,2
 2020-03-19,UKR,Ukraine,26,3
 2020-03-20,UKR,Ukraine,41,3
-2020-03-21,UKR,Ukraine,26,3
+2020-03-21,UKR,Ukraine,47,3
 2019-12-31,URY,Uruguay,0,0
 2020-01-01,URY,Uruguay,0,0
 2020-01-02,URY,Uruguay,0,0
@@ -13565,28 +13565,28 @@ date,country_code,country_name,total_cases,total_deaths
 2020-02-26,USA,United States,15,0
 2020-02-27,USA,United States,15,0
 2020-02-28,USA,United States,19,0
-2020-02-29,USA,United States,23,1
-2020-03-01,USA,United States,40,2
-2020-03-02,USA,United States,51,6
-2020-03-03,USA,United States,76,9
-2020-03-04,USA,United States,99,12
-2020-03-05,USA,United States,163,12
-2020-03-06,USA,United States,234,18
-2020-03-07,USA,United States,334,19
-2020-03-08,USA,United States,475,22
-2020-03-09,USA,United States,619,26
-2020-03-10,USA,United States,905,31
-2020-03-11,USA,United States,1167,38
-2020-03-12,USA,United States,1556,42
-2020-03-13,USA,United States,2114,49
-2020-03-14,USA,United States,2769,56
-2020-03-15,USA,United States,3435,62
-2020-03-16,USA,United States,4297,75
-2020-03-17,USA,United States,5560,96
-2020-03-18,USA,United States,7952,122
-2020-03-19,USA,United States,11808,172
-2020-03-20,USA,United States,17014,221
-2020-03-21,USA,United States,19624,260
+2020-02-29,USA,United States,24,1
+2020-03-01,USA,United States,42,2
+2020-03-02,USA,United States,57,6
+2020-03-03,USA,United States,85,9
+2020-03-04,USA,United States,111,12
+2020-03-05,USA,United States,175,12
+2020-03-06,USA,United States,252,18
+2020-03-07,USA,United States,353,19
+2020-03-08,USA,United States,497,22
+2020-03-09,USA,United States,645,26
+2020-03-10,USA,United States,936,31
+2020-03-11,USA,United States,1205,38
+2020-03-12,USA,United States,1598,42
+2020-03-13,USA,United States,2163,49
+2020-03-14,USA,United States,2825,56
+2020-03-15,USA,United States,3497,62
+2020-03-16,USA,United States,4372,75
+2020-03-17,USA,United States,5656,96
+2020-03-18,USA,United States,8074,122
+2020-03-19,USA,United States,12018,172
+2020-03-20,USA,United States,17438,229
+2020-03-21,USA,United States,23573,263
 2019-12-31,UZB,Uzbekistan,0,0
 2020-01-01,UZB,Uzbekistan,0,0
 2020-01-02,UZB,Uzbekistan,0,0
@@ -13913,8 +13913,8 @@ date,country_code,country_name,total_cases,total_deaths
 2020-03-17,VEN,Venezuela,36,0
 2020-03-18,VEN,Venezuela,36,0
 2020-03-19,VEN,Venezuela,42,0
-2020-03-20,VEN,Venezuela,33,0
-2020-03-21,VEN,Venezuela,36,0
+2020-03-20,VEN,Venezuela,42,0
+2020-03-21,VEN,Venezuela,70,0
 2019-12-31,VNM,Vietnam,0,0
 2020-01-01,VNM,Vietnam,0,0
 2020-01-02,VNM,Vietnam,0,0
