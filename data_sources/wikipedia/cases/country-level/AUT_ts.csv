@@ -20,4 +20,5 @@ date,country_code,country_name,total_cases,total_deaths
 2020-03-18,AUT,Austria,1646,4
 2020-03-19,AUT,Austria,2013,6
 2020-03-20,AUT,Austria,2338,6
-2020-03-21,AUT,Austria,2664,8
+2020-03-21,AUT,Austria,2814,8
+2020-03-22,AUT,Austria,3244,16

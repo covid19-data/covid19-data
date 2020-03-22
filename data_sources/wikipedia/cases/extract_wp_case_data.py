@@ -1,5 +1,6 @@
 import json
 import logging
+import sys
 
 import pandas as pd
 import requests
@@ -66,7 +67,8 @@ class WikiCaseParser:
         )
 
         return (
-            df.reindex(pd.date_range(df.index[0], df.index[-1]), method="pad")
+            df.sort_index()
+            .reindex(pd.date_range(df.index[0], df.index[-1]), method="pad")
             .reset_index()
             .rename(columns={"index": "date"})
         )
