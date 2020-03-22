@@ -30,11 +30,11 @@ date,country_code,country_name,total_cases,total_deaths
 2020-02-18,USA,United States,12,0
 2020-02-19,USA,United States,12,0
 2020-02-20,USA,United States,14,0
-2020-02-21,USA,United States,14,0
-2020-02-22,USA,United States,14,0
-2020-02-23,USA,United States,14,0
-2020-02-24,USA,United States,14,0
-2020-02-25,USA,United States,14,0
+2020-02-21,USA,United States,20,2
+2020-02-22,USA,United States,20,2
+2020-02-23,USA,United States,20,2
+2020-02-24,USA,United States,20,2
+2020-02-25,USA,United States,20,2
 2020-02-26,USA,United States,15,0
 2020-02-27,USA,United States,15,0
 2020-02-28,USA,United States,19,0
@@ -59,4 +59,4 @@ date,country_code,country_name,total_cases,total_deaths
 2020-03-18,USA,United States,8074,122
 2020-03-19,USA,United States,12018,172
 2020-03-20,USA,United States,17438,229
-2020-03-21,USA,United States,23573,263
+2020-03-21,USA,United States,23623,268
