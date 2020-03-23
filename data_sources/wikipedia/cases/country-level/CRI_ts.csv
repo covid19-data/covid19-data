@@ -1,17 +1,18 @@
-date,country_code,country_name,total_cases,total_deaths
-2020-03-06,CRI,Costa Rica,1,0
-2020-03-07,CRI,Costa Rica,5,0
-2020-03-08,CRI,Costa Rica,9,0
-2020-03-09,CRI,Costa Rica,9,0
-2020-03-10,CRI,Costa Rica,13,0
-2020-03-11,CRI,Costa Rica,22,0
-2020-03-12,CRI,Costa Rica,23,0
-2020-03-13,CRI,Costa Rica,26,0
-2020-03-14,CRI,Costa Rica,27,0
-2020-03-15,CRI,Costa Rica,35,0
-2020-03-16,CRI,Costa Rica,41,0
-2020-03-17,CRI,Costa Rica,50,0
-2020-03-18,CRI,Costa Rica,69,1
-2020-03-19,CRI,Costa Rica,87,2
-2020-03-20,CRI,Costa Rica,113,2
-2020-03-21,CRI,Costa Rica,117,2
+date,country_code,country_name,total_cases,total_deaths,total_recoveries
+2020-03-06,CRI,Costa Rica,1,0,
+2020-03-07,CRI,Costa Rica,5,0,
+2020-03-08,CRI,Costa Rica,9,0,
+2020-03-09,CRI,Costa Rica,9,0,
+2020-03-10,CRI,Costa Rica,13,0,
+2020-03-11,CRI,Costa Rica,22,0,
+2020-03-12,CRI,Costa Rica,23,0,
+2020-03-13,CRI,Costa Rica,26,0,
+2020-03-14,CRI,Costa Rica,27,0,
+2020-03-15,CRI,Costa Rica,35,0,
+2020-03-16,CRI,Costa Rica,41,0,
+2020-03-17,CRI,Costa Rica,50,0,
+2020-03-18,CRI,Costa Rica,69,1,
+2020-03-19,CRI,Costa Rica,87,2,
+2020-03-20,CRI,Costa Rica,113,2,
+2020-03-21,CRI,Costa Rica,117,2,
+2020-03-22,CRI,Costa Rica,134,2,

@@ -1,0 +1,15 @@
+date,country_code,state_code,state_name,total_cases,total_deaths,total_recoveries
+2020-03-09,USA,OH,Ohio,3,0,0
+2020-03-10,USA,OH,Ohio,3,0,0
+2020-03-11,USA,OH,Ohio,4,0,0
+2020-03-12,USA,OH,Ohio,5,0,0
+2020-03-13,USA,OH,Ohio,13,0,0
+2020-03-14,USA,OH,Ohio,26,0,0
+2020-03-15,USA,OH,Ohio,37,0,0
+2020-03-16,USA,OH,Ohio,50,0,0
+2020-03-17,USA,OH,Ohio,67,0,0
+2020-03-18,USA,OH,Ohio,88,0,0
+2020-03-19,USA,OH,Ohio,119,0,0
+2020-03-20,USA,OH,Ohio,169,1,0
+2020-03-21,USA,OH,Ohio,247,3,0
+2020-03-22,USA,OH,Ohio,351,3,0

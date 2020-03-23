@@ -1,0 +1,12 @@
+date,country_code,state_code,state_name,total_cases,total_deaths,total_recoveries
+2020-03-11,USA,NM,New Mexico,4,0,0
+2020-03-12,USA,NM,New Mexico,6,0,0
+2020-03-13,USA,NM,New Mexico,10,0,0
+2020-03-14,USA,NM,New Mexico,13,0,0
+2020-03-15,USA,NM,New Mexico,17,0,0
+2020-03-16,USA,NM,New Mexico,21,0,0
+2020-03-17,USA,NM,New Mexico,23,0,0
+2020-03-18,USA,NM,New Mexico,28,0,0
+2020-03-19,USA,NM,New Mexico,35,0,0
+2020-03-20,USA,NM,New Mexico,43,0,0
+2020-03-21,USA,NM,New Mexico,57,0,0
