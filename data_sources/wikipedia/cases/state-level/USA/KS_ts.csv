@@ -1,0 +1,15 @@
+date,country_code,state_code,state_name,total_cases,total_deaths,total_recoveries
+2020-03-07,USA,KS,Kansas,1,0,0
+2020-03-08,USA,KS,Kansas,1,0,0
+2020-03-09,USA,KS,Kansas,1,0,0
+2020-03-10,USA,KS,Kansas,1,0,0
+2020-03-11,USA,KS,Kansas,1,0,0
+2020-03-12,USA,KS,Kansas,4,1,0
+2020-03-13,USA,KS,Kansas,5,1,0
+2020-03-14,USA,KS,Kansas,7,1,0
+2020-03-15,USA,KS,Kansas,8,1,0
+2020-03-16,USA,KS,Kansas,10,1,0
+2020-03-17,USA,KS,Kansas,15,1,0
+2020-03-18,USA,KS,Kansas,20,1,0
+2020-03-19,USA,KS,Kansas,35,1,0
+2020-03-20,USA,KS,Kansas,45,1,0

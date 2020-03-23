@@ -1,52 +1,52 @@
-country_code,country_name,page_name,cidx_total_case,cidx_total_death
-ISL,Iceland,"Template:2019–20_coronavirus_pandemic_data/Iceland_medical_cases_chart",2,4
-USA,United States,"Template:2019–20_coronavirus_pandemic_data/United_States_medical_cases_chart",4,2
-ALB,Albania,"Template:2019–20_coronavirus_pandemic_data/Albania_medical_cases_chart",4,2
-AUS,Australia,"Template:2019–20_coronavirus_pandemic_data/Australia_medical_cases_chart",4,2
-AUT,Austria,"Template:2019–20_coronavirus_pandemic_data/Austria_medical_cases_chart",4,2
-BLR,Belarus,"Template:2019–20_coronavirus_pandemic_data/Belarus_medical_cases_chart",4,2
-BEL,Belgium,"Template:2019–20_coronavirus_pandemic_data/Belgium_medical_cases_chart",4,2
-BRA,Brazil,"Template:2019–20_coronavirus_pandemic_data/Brazil_medical_cases_chart",4,2
-BGR,Bulgaria,"Template:2019–20_coronavirus_pandemic_data/Bulgaria_medical_cases_chart",4,2
-CAN,Canada,"Template:2019–20_coronavirus_pandemic_data/Canada_medical_cases_chart",4,2
-COL,Colombia,"Template:2019–20_coronavirus_pandemic_data/Colombia_medical_cases_chart",4,2
-CRI,Costa Rica,"Template:2019–20_coronavirus_pandemic_data/Costa_Rica_medical_cases_chart",2,4
-HRV,Croatia,"Template:2019–20_coronavirus_pandemic_data/Croatia_medical_cases_chart",4,2
-DNK,Denmark,"Template:2019–20_coronavirus_pandemic_data/Denmark_medical_cases_chart",4,2
-EST,Estonia,"Template:2019–20_coronavirus_pandemic_data/Estonia_medical_cases_chart",4,2
-FIN,Finland,"Template:2019–20_coronavirus_pandemic_data/Finland_medical_cases_chart",4,2
-DEU,Germany,"Template:2019–20_coronavirus_pandemic_data/Germany_medical_cases_chart",4,2
-HKG,Hong Kong,"Template:2019–20_coronavirus_pandemic_data/Hong_Kong_medical_cases_chart",4,2
-HUN,Hungary,"Template:2019–20_coronavirus_pandemic_data/Hungary_medical_cases_chart",4,2
-IND,India,"Template:2019–20_coronavirus_pandemic_data/India_medical_cases_chart",4,2
-IRN,Iran,"Template:2019–20_coronavirus_pandemic_data/Iran_medical_cases_chart",4,2
-ISR,Israel,"Template:2019–20_coronavirus_pandemic_data/Israel_medical_cases_chart",4,2
-ITA,Italy,"Template:2019–20_coronavirus_pandemic_data/Italy_medical_cases_chart",4,2
-JPN,Japan,"Template:2019–20_coronavirus_pandemic_data/Japan_medical_cases_chart",4,2
-LVA,Latvia,"Template:2019–20_coronavirus_pandemic_data/Latvia_medical_cases_chart",4,2
-LTU,Lithuania,"Template:2019–20_coronavirus_pandemic_data/Lithuania_medical_cases_chart",4,2
-LUX,Luxembourg,"Template:2019–20_coronavirus_pandemic_data/Luxembourg_medical_cases_chart",4,2
-MYS,Malaysia,"Template:2019–20_coronavirus_pandemic_data/Malaysia_medical_cases_chart",4,2
-MDA,Moldova,"Template:2019–20_coronavirus_pandemic_data/Moldova_medical_cases_chart",4,2
-NLD,Netherlands,"Template:2019–20_coronavirus_pandemic_data/Netherlands_medical_cases_chart",4,2
-NZL,New Zealand,"Template:2019–20_coronavirus_pandemic_data/New_Zealand_medical_cases_chart",4,2
-NOR,Norway,"Template:2019–20_coronavirus_pandemic_data/Norway_medical_cases_chart",4,2
-PHL,Philippines,"Template:2019–20_coronavirus_pandemic_data/Philippines_medical_cases_chart",4,2
-POL,Poland,"Template:2019–20_coronavirus_pandemic_data/Poland_medical_cases_chart",4,2
-PRT,Portugal,"Template:2019–20_coronavirus_pandemic_data/Portugal_medical_cases_chart",4,2
-IRL,Republic of Ireland,"Template:2019–20_coronavirus_pandemic_data/Republic_of_Ireland_medical_cases_chart",4,2
-ROU,Romania,"Template:2019–20_coronavirus_pandemic_data/Romania_medical_cases_chart",4,2
-RUS,Russia,"Template:2019–20_coronavirus_pandemic_data/Russia_medical_cases_chart",4,2
-SMR,San Marino,"Template:2019–20_coronavirus_pandemic_data/San_Marino_medical_cases_chart",4,2
-SRB,Serbia,"Template:2019–20_coronavirus_pandemic_data/Serbia_medical_cases_chart",4,2
-SVK,Slovakia,"Template:2019–20_coronavirus_pandemic_data/Slovakia_medical_cases_chart",4,2
-ZAF,South Africa,"Template:2019–20_coronavirus_pandemic_data/South_Africa_medical_cases_chart",4,2
-KOR,South Korea,"Template:2019–20_coronavirus_pandemic_data/South_Korea_medical_cases_chart",4,2
-ESP,Spain,"Template:2019–20_coronavirus_pandemic_data/Spain_medical_cases_chart",4,2
-LKA,Sri Lanka,"Template:2019–20_coronavirus_pandemic_data/Sri_Lanka_medical_cases_chart",4,2
-SWE,Sweden,"Template:2019–20_coronavirus_pandemic_data/Sweden_medical_cases_chart",4,2
-TUR,Turkey,"Template:2019–20_coronavirus_pandemic_data/Turkey_medical_cases_chart",4,2
-UKR,Ukraine,"Template:2019–20_coronavirus_pandemic_data/Ukraine_medical_cases_chart",4,2
-GBR,United Kingdom,"Template:2019–20_coronavirus_pandemic_data/United_Kingdom_medical_cases_chart",4,2
-VEN,Venezuela,"Template:2019–20_coronavirus_pandemic_data/Venezuela_medical_cases_chart",4,2
-VNM,Vietnam,"Template:2019–20_coronavirus_pandemic_data/Vietnam_medical_cases_chart",4,2
+country_code,country_name,page_name,cidx_total_case,cidx_total_death,cidx_total_recovery
+ISL,Iceland,"Template:2019–20_coronavirus_pandemic_data/Iceland_medical_cases_chart",2,4,-1
+USA,United States,"Template:2019–20_coronavirus_pandemic_data/United_States_medical_cases_chart",4,2,3
+ALB,Albania,"Template:2019–20_coronavirus_pandemic_data/Albania_medical_cases_chart",4,2,3
+AUS,Australia,"Template:2019–20_coronavirus_pandemic_data/Australia_medical_cases_chart",4,2,3
+AUT,Austria,"Template:2019–20_coronavirus_pandemic_data/Austria_medical_cases_chart",4,2,3
+BLR,Belarus,"Template:2019–20_coronavirus_pandemic_data/Belarus_medical_cases_chart",4,2,3
+BEL,Belgium,"Template:2019–20_coronavirus_pandemic_data/Belgium_medical_cases_chart",4,2,3
+BRA,Brazil,"Template:2019–20_coronavirus_pandemic_data/Brazil_medical_cases_chart",4,2,3
+BGR,Bulgaria,"Template:2019–20_coronavirus_pandemic_data/Bulgaria_medical_cases_chart",4,2,3
+CAN,Canada,"Template:2019–20_coronavirus_pandemic_data/Canada_medical_cases_chart",4,2,3
+COL,Colombia,"Template:2019–20_coronavirus_pandemic_data/Colombia_medical_cases_chart",4,2,3
+CRI,Costa Rica,"Template:2019–20_coronavirus_pandemic_data/Costa_Rica_medical_cases_chart",2,4, -1
+HRV,Croatia,"Template:2019–20_coronavirus_pandemic_data/Croatia_medical_cases_chart",4,2,3
+DNK,Denmark,"Template:2019–20_coronavirus_pandemic_data/Denmark_medical_cases_chart",4,2,3
+EST,Estonia,"Template:2019–20_coronavirus_pandemic_data/Estonia_medical_cases_chart",4,2,3
+FIN,Finland,"Template:2019–20_coronavirus_pandemic_data/Finland_medical_cases_chart",4,2,3
+DEU,Germany,"Template:2019–20_coronavirus_pandemic_data/Germany_medical_cases_chart",4,2,3
+HKG,Hong Kong,"Template:2019–20_coronavirus_pandemic_data/Hong_Kong_medical_cases_chart",4,2,3
+HUN,Hungary,"Template:2019–20_coronavirus_pandemic_data/Hungary_medical_cases_chart",4,2,3
+IND,India,"Template:2019–20_coronavirus_pandemic_data/India_medical_cases_chart",4,2,3
+IRN,Iran,"Template:2019–20_coronavirus_pandemic_data/Iran_medical_cases_chart",4,2,3
+ISR,Israel,"Template:2019–20_coronavirus_pandemic_data/Israel_medical_cases_chart",4,2,3
+ITA,Italy,"Template:2019–20_coronavirus_pandemic_data/Italy_medical_cases_chart",4,2,3
+JPN,Japan,"Template:2019–20_coronavirus_pandemic_data/Japan_medical_cases_chart",4,2,3
+LVA,Latvia,"Template:2019–20_coronavirus_pandemic_data/Latvia_medical_cases_chart",4,2,3
+LTU,Lithuania,"Template:2019–20_coronavirus_pandemic_data/Lithuania_medical_cases_chart",4,2,3
+LUX,Luxembourg,"Template:2019–20_coronavirus_pandemic_data/Luxembourg_medical_cases_chart",4,2,3
+MYS,Malaysia,"Template:2019–20_coronavirus_pandemic_data/Malaysia_medical_cases_chart",4,2,3
+MDA,Moldova,"Template:2019–20_coronavirus_pandemic_data/Moldova_medical_cases_chart",4,2,3
+NLD,Netherlands,"Template:2019–20_coronavirus_pandemic_data/Netherlands_medical_cases_chart",4,2,3
+NZL,New Zealand,"Template:2019–20_coronavirus_pandemic_data/New_Zealand_medical_cases_chart",4,2,3
+NOR,Norway,"Template:2019–20_coronavirus_pandemic_data/Norway_medical_cases_chart",4,2,3
+PHL,Philippines,"Template:2019–20_coronavirus_pandemic_data/Philippines_medical_cases_chart",4,2,3
+POL,Poland,"Template:2019–20_coronavirus_pandemic_data/Poland_medical_cases_chart",4,2,3
+PRT,Portugal,"Template:2019–20_coronavirus_pandemic_data/Portugal_medical_cases_chart",4,2,3
+IRL,Republic of Ireland,"Template:2019–20_coronavirus_pandemic_data/Republic_of_Ireland_medical_cases_chart",4,2,3
+ROU,Romania,"Template:2019–20_coronavirus_pandemic_data/Romania_medical_cases_chart",4,2,3
+RUS,Russia,"Template:2019–20_coronavirus_pandemic_data/Russia_medical_cases_chart",4,2,3
+SMR,San Marino,"Template:2019–20_coronavirus_pandemic_data/San_Marino_medical_cases_chart",4,2,3
+SRB,Serbia,"Template:2019–20_coronavirus_pandemic_data/Serbia_medical_cases_chart",4,2,3
+SVK,Slovakia,"Template:2019–20_coronavirus_pandemic_data/Slovakia_medical_cases_chart",4,2,3
+ZAF,South Africa,"Template:2019–20_coronavirus_pandemic_data/South_Africa_medical_cases_chart",4,2,3
+KOR,South Korea,"Template:2019–20_coronavirus_pandemic_data/South_Korea_medical_cases_chart",4,2,3
+ESP,Spain,"Template:2019–20_coronavirus_pandemic_data/Spain_medical_cases_chart",4,2,3
+LKA,Sri Lanka,"Template:2019–20_coronavirus_pandemic_data/Sri_Lanka_medical_cases_chart",4,2,3
+SWE,Sweden,"Template:2019–20_coronavirus_pandemic_data/Sweden_medical_cases_chart",4,2,3
+TUR,Turkey,"Template:2019–20_coronavirus_pandemic_data/Turkey_medical_cases_chart",4,2,3
+UKR,Ukraine,"Template:2019–20_coronavirus_pandemic_data/Ukraine_medical_cases_chart",4,2,3
+GBR,United Kingdom,"Template:2019–20_coronavirus_pandemic_data/United_Kingdom_medical_cases_chart",4,2,3
+VEN,Venezuela,"Template:2019–20_coronavirus_pandemic_data/Venezuela_medical_cases_chart",4,2,3
+VNM,Vietnam,"Template:2019–20_coronavirus_pandemic_data/Vietnam_medical_cases_chart",4,2,3

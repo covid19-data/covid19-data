@@ -9,16 +9,21 @@ logging.basicConfig(level=logging.INFO)
 
 
 class WikiCaseParser:
-    def __init__(self, country_code, page_name, cidx_total_case, cidx_total_death):
+    def __init__(self, code, page_name, cidx_total_case, cidx_total_death, cidx_total_recovery):
         self.url = (
             "https://en.wikipedia.org/w/api.php?action=query&format=json"
             "&prop=revisions&"
             "titles={}"
             "&formatversion=2&rvprop=content&rvslots=*"
         ).format(page_name)
-        self.country_code = country_code
+        if isinstance(code, list):
+            self.country_code = code[0]
+            self.state_code = code[1]
+        else:
+            self.country_code = code
         self.cidx_total_case = int(cidx_total_case)
         self.cidx_total_death = int(cidx_total_death)
+        self.cidx_total_recovery = int(cidx_total_recovery)
 
     def download_content(self):
         r = requests.get(self.url)
@@ -38,8 +43,12 @@ class WikiCaseParser:
         date = items[1]
         total_cases = parse_case_str(items, self.cidx_total_case)
         total_deaths = parse_case_str(items, self.cidx_total_death)
+        if self.cidx_total_recovery >= 0:
+            total_recoveries = parse_case_str(items, self.cidx_total_recovery)
+        else:
+            total_recoveries = None
 
-        return date, (total_cases, total_deaths)
+        return date, (total_cases, total_deaths, total_recoveries)
 
     def get_case_and_death_dict(self, content):
         def is_valid(line):
@@ -57,7 +66,7 @@ class WikiCaseParser:
     def get_confirmed_and_deaths(self):
         data = self.get_case_and_death_dict(self.download_content())
         df = pd.DataFrame.from_dict(
-            data, orient="index", columns=["total_cases", "total_deaths"]
+            data, orient="index", columns=["total_cases", "total_deaths", "total_recoveries"]
         )
 
         df.index = (
@@ -76,12 +85,27 @@ class WikiCaseParser:
 
 for idx, row in enumerate(pd.read_csv(snakemake.input[0]).itertuples()):
     df = WikiCaseParser(
-        row.country_code, row.page_name, row.cidx_total_case, row.cidx_total_death
+        row.country_code, row.page_name, row.cidx_total_case, row.cidx_total_death, row.cidx_total_recovery
     ).get_confirmed_and_deaths()
 
+    columns = ["date", "country_code"]
     df["country_code"] = row.country_code
-    df["country_name"] = row.country_name
-    df[["date", "country_code", "country_name", "total_cases", "total_deaths"]].to_csv(
+
+    if hasattr(row, 'state_code'):
+        columns.append("state_code")
+        columns.append("state_name")
+        df["state_code"] = row.state_code
+        df["state_name"] = row.state_name
+    else:
+        columns.append("country_name")
+        df["country_name"] = row.country_name
+
+    columns.append("total_cases")
+    columns.append("total_deaths")
+    columns.append("total_recoveries")
+
+    df[columns].to_csv(
         snakemake.output[idx], index=False
     )
-    logging.info("%s data downloaded & parsed.", row.country_code)
+
+    logging.info("%s data downloaded & parsed.", row.page_name)

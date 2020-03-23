@@ -1,14 +1,23 @@
 import pandas as pd
+import numpy as np
 
-WP_TS = 'country-level/{country_code}_ts.csv'
+WP_COUNTRY_TS = 'country-level/{country_code}_ts.csv'
+WP_STATE_TS = 'state-level/{code[0]}/{code[1]}_ts.csv'
 
 COUNTRIES = pd.read_csv('country_case_wp_pages.csv')['country_code'].to_list()
+STATES = np.array(pd.read_csv('country_case_wp_state_pages.csv'))[:,[0,1]].tolist()
 
 rule all:
     input:
-        expand(WP_TS, country_code=COUNTRIES)
+        expand(WP_COUNTRY_TS, country_code=COUNTRIES),
+        expand(WP_STATE_TS, code=STATES)
 
-rule download_table:
+rule download_and_parse_countries:
     input: 'country_case_wp_pages.csv'
-    output: expand(WP_TS, country_code=COUNTRIES)
+    output: expand(WP_COUNTRY_TS, country_code=COUNTRIES)
+    script: "extract_wp_case_data.py"
+
+rule download_and_parse_states:
+    input: 'country_case_wp_state_pages.csv'
+    output: expand(WP_STATE_TS, code=STATES)
     script: "extract_wp_case_data.py"
