@@ -45,9 +45,10 @@ date,country_code,country_name,total_cases,total_deaths,total_recoveries
 2020-03-14,GBR,United Kingdom,1061,21,18
 2020-03-15,GBR,United Kingdom,1391,35,18
 2020-03-16,GBR,United Kingdom,1543,55,52
-2020-03-17,GBR,United Kingdom,1950,60,65
+2020-03-17,GBR,United Kingdom,1950,71,65
 2020-03-18,GBR,United Kingdom,2626,103,65
 2020-03-19,GBR,United Kingdom,3269,144,79
 2020-03-20,GBR,United Kingdom,3983,177,79
 2020-03-21,GBR,United Kingdom,5018,233,93
 2020-03-22,GBR,United Kingdom,5683,281,135
+2020-03-23,GBR,United Kingdom,6650,335,135

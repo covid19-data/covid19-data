@@ -7,4 +7,5 @@ date,country_code,country_name,total_cases,total_deaths,total_recoveries
 2020-03-18,VEN,Venezuela,36,0,0
 2020-03-19,VEN,Venezuela,42,0,0
 2020-03-20,VEN,Venezuela,42,0,0
-2020-03-21,VEN,Venezuela,77,0,15
+2020-03-21,VEN,Venezuela,70,0,15
+2020-03-22,VEN,Venezuela,77,0,15
