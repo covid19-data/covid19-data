@@ -57,4 +57,5 @@ date,country_code,country_name,total_cases,total_deaths,total_recoveries
 2020-03-20,AUS,Australia,875,7,46
 2020-03-21,AUS,Australia,1071,7,46
 2020-03-22,AUS,Australia,1352,7,46
-2020-03-23,AUS,Australia,1717,7,92
+2020-03-23,AUS,Australia,1716,7,92
+2020-03-24,AUS,Australia,2146,8,135
