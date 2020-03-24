@@ -65,4 +65,5 @@ date,country_code,country_name,total_cases,total_deaths,total_recoveries
 2020-03-19,JPN,Japan,950,33,227
 2020-03-20,JPN,Japan,1007,35,232
 2020-03-21,JPN,Japan,1046,36,272
-2020-03-22,JPN,Japan,1086,41,272
+2020-03-22,JPN,Japan,1086,41,285
+2020-03-23,JPN,Japan,1128,42,285
