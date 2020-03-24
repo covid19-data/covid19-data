@@ -24,4 +24,5 @@ date,country_code,country_name,total_cases,total_deaths,total_recoveries
 2020-03-19,BRA,Brazil,621,7,1
 2020-03-20,BRA,Brazil,964,11,1
 2020-03-21,BRA,Brazil,1178,18,2
-2020-03-22,BRA,Brazil,1604,25,2
+2020-03-22,BRA,Brazil,1546,25,2
+2020-03-23,BRA,Brazil,1891,34,2
