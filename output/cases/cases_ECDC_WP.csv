@@ -838,7 +838,7 @@ date,country_code,country_name,total_cases,total_deaths,total_recoveries
 2020-03-20,AUS,Australia,875,7,46.0
 2020-03-21,AUS,Australia,1071,7,46.0
 2020-03-22,AUS,Australia,1352,7,46.0
-2020-03-23,AUS,Australia,1709,7,
+2020-03-23,AUS,Australia,1717,7,92.0
 2019-12-31,AUT,Austria,0,0,
 2020-01-01,AUT,Austria,0,0,
 2020-01-02,AUT,Austria,0,0,
@@ -2013,8 +2013,8 @@ date,country_code,country_name,total_cases,total_deaths,total_recoveries
 2020-03-19,BRA,Brazil,621,7,1.0
 2020-03-20,BRA,Brazil,964,11,1.0
 2020-03-21,BRA,Brazil,1178,18,2.0
-2020-03-22,BRA,Brazil,1604,25,2.0
-2020-03-23,BRA,Brazil,1546,25,
+2020-03-22,BRA,Brazil,1546,25,2.0
+2020-03-23,BRA,Brazil,1891,34,2.0
 2019-12-31,BRB,Barbados,0,0,
 2020-01-01,BRB,Barbados,0,0,
 2020-01-02,BRB,Barbados,0,0,
@@ -2434,7 +2434,7 @@ date,country_code,country_name,total_cases,total_deaths,total_recoveries
 2020-03-20,CAN,Canada,1055,13,15.0
 2020-03-21,CAN,Canada,1281,18,16.0
 2020-03-22,CAN,Canada,1429,20,18.0
-2020-03-23,CAN,Canada,1430,18,
+2020-03-23,CAN,Canada,2061,24,112.0
 2019-12-31,CHE,Switzerland,0,0,
 2020-01-01,CHE,Switzerland,0,0,
 2020-01-02,CHE,Switzerland,0,0,
@@ -3274,7 +3274,7 @@ date,country_code,country_name,total_cases,total_deaths,total_recoveries
 2020-03-20,CRI,Costa Rica,113,2,
 2020-03-21,CRI,Costa Rica,117,2,
 2020-03-22,CRI,Costa Rica,134,2,
-2020-03-23,CRI,Costa Rica,134,2,
+2020-03-23,CRI,Costa Rica,158,2,
 2019-12-31,CUB,Cuba,0,0,
 2020-01-01,CUB,Cuba,0,0,
 2020-01-02,CUB,Cuba,0,0,
@@ -4450,7 +4450,7 @@ date,country_code,country_name,total_cases,total_deaths,total_recoveries
 2020-03-20,ESP,Spain,21571,1093,1588.0
 2020-03-21,ESP,Spain,25496,1381,2125.0
 2020-03-22,ESP,Spain,29909,1813,2575.0
-2020-03-23,ESP,Spain,33089,2207,3355.0
+2020-03-23,ESP,Spain,35136,2311,3355.0
 2019-12-31,EST,Estonia,0,0,
 2020-01-01,EST,Estonia,0,0,
 2020-01-02,EST,Estonia,0,0,
@@ -9131,7 +9131,7 @@ date,country_code,country_name,total_cases,total_deaths,total_recoveries
 2020-03-20,MDA,Moldova,66,1,1.0
 2020-03-21,MDA,Moldova,80,1,2.0
 2020-03-22,MDA,Moldova,94,1,2.0
-2020-03-23,MDA,Moldova,94,1,
+2020-03-23,MDA,Moldova,109,1,2.0
 2019-12-31,MDG,Madagascar,0,0,
 2020-01-01,MDG,Madagascar,0,0,
 2020-01-02,MDG,Madagascar,0,0,
@@ -10980,6 +10980,7 @@ date,country_code,country_name,total_cases,total_deaths,total_recoveries
 2020-03-21,NZL,New Zealand,53,0,
 2020-03-22,NZL,New Zealand,66,0,
 2020-03-23,NZL,New Zealand,102,0,
+2020-03-24,NZL,New Zealand,155,0,12.0
 2019-12-31,OMN,Oman,0,0,
 2020-01-01,OMN,Oman,0,0,
 2020-01-02,OMN,Oman,0,0,
@@ -11567,7 +11568,7 @@ date,country_code,country_name,total_cases,total_deaths,total_recoveries
 2020-03-20,POL,Poland,425,5,1.0
 2020-03-21,POL,Poland,536,5,1.0
 2020-03-22,POL,Poland,634,7,1.0
-2020-03-23,POL,Poland,692,8,1.0
+2020-03-23,POL,Poland,749,8,1.0
 2019-12-31,PRT,Portugal,0,0,
 2020-01-01,PRT,Portugal,0,0,
 2020-01-02,PRT,Portugal,0,0,
@@ -12909,9 +12910,9 @@ date,country_code,country_name,total_cases,total_deaths,total_recoveries
 2020-03-18,SRB,Serbia,89,0,0.0
 2020-03-19,SRB,Serbia,103,0,2.0
 2020-03-20,SRB,Serbia,135,1,2.0
-2020-03-21,SRB,Serbia,171,1,3.0
-2020-03-22,SRB,Serbia,222,2,4.0
-2020-03-23,SRB,Serbia,249,3,4.0
+2020-03-21,SRB,Serbia,171,1,2.0
+2020-03-22,SRB,Serbia,222,2,2.0
+2020-03-23,SRB,Serbia,249,3,3.0
 2019-12-31,SUR,Suriname,0,0,
 2020-01-01,SUR,Suriname,0,0,
 2020-01-02,SUR,Suriname,0,0,
@@ -13079,7 +13080,7 @@ date,country_code,country_name,total_cases,total_deaths,total_recoveries
 2020-03-20,SVK,Slovakia,138,0,7.0
 2020-03-21,SVK,Slovakia,179,0,7.0
 2020-03-22,SVK,Slovakia,186,0,7.0
-2020-03-23,SVK,Slovakia,187,0,7.0
+2020-03-23,SVK,Slovakia,186,0,7.0
 2019-12-31,SVN,Slovenia,0,0,
 2020-01-01,SVN,Slovenia,0,0,
 2020-01-02,SVN,Slovenia,0,0,
@@ -14087,7 +14088,7 @@ date,country_code,country_name,total_cases,total_deaths,total_recoveries
 2020-03-20,TUR,Turkey,670,9,0.0
 2020-03-21,TUR,Turkey,947,21,0.0
 2020-03-22,TUR,Turkey,1236,30,0.0
-2020-03-23,TUR,Turkey,1236,30,
+2020-03-23,TUR,Turkey,1529,37,0.0
 2019-12-31,TWN,Taiwan,0,0,
 2020-01-01,TWN,Taiwan,0,0,
 2020-01-02,TWN,Taiwan,0,0,
@@ -14591,7 +14592,7 @@ date,country_code,country_name,total_cases,total_deaths,total_recoveries
 2020-03-20,USA,United States,17438,229,0.0
 2020-03-21,USA,United States,23710,292,0.0
 2020-03-22,USA,United States,32518,401,0.0
-2020-03-23,USA,United States,35206,471,
+2020-03-23,USA,United States,41036,401,0.0
 2019-12-31,UZB,Uzbekistan,0,0,
 2020-01-01,UZB,Uzbekistan,0,0,
 2020-01-02,UZB,Uzbekistan,0,0,
@@ -14927,7 +14928,7 @@ date,country_code,country_name,total_cases,total_deaths,total_recoveries
 2020-03-20,VEN,Venezuela,42,0,0.0
 2020-03-21,VEN,Venezuela,70,0,15.0
 2020-03-22,VEN,Venezuela,77,0,15.0
-2020-03-23,VEN,Venezuela,36,0,
+2020-03-23,VEN,Venezuela,84,0,15.0
 2019-12-31,VNM,Vietnam,0,0,
 2020-01-01,VNM,Vietnam,0,0,
 2020-01-02,VNM,Vietnam,0,0,
