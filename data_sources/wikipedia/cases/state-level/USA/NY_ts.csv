@@ -22,3 +22,4 @@ date,country_code,state_code,state_name,total_cases,total_deaths,total_recoverie
 2020-03-21,USA,NY,New York,10356,58,0
 2020-03-22,USA,NY,New York,15168,76,0
 2020-03-23,USA,NY,New York,20875,157,0
+2020-03-24,USA,NY,New York,25665,157,0

@@ -24,3 +24,5 @@ date,country_code,country_name,total_cases,total_deaths,total_recoveries
 2020-03-21,BLR,Belarus,76,0,15
 2020-03-22,BLR,Belarus,76,0,15
 2020-03-23,BLR,Belarus,81,0,22
+2020-03-24,BLR,Belarus,81,0,22
+2020-03-25,BLR,Belarus,86,0,29
