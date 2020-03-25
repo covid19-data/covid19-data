@@ -50,3 +50,5 @@ date,country_code,country_name,total_cases,total_deaths,total_recoveries
 2020-03-21,IND,India,329,5,23
 2020-03-22,IND,India,391,7,23
 2020-03-23,IND,India,468,9,34
+2020-03-24,IND,India,519,9,39
+2020-03-25,IND,India,562,9,41

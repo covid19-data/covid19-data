@@ -44,7 +44,7 @@ date,country_code,country_name,total_cases,total_deaths,total_recoveries
 2020-03-11,FIN,Finland,65,0,2
 2020-03-12,FIN,Finland,111,0,2
 2020-03-13,FIN,Finland,157,0,2
-2020-03-14,FIN,Finland,227,0,10
+2020-03-14,FIN,Finland,225,0,10
 2020-03-15,FIN,Finland,243,0,10
 2020-03-16,FIN,Finland,275,0,10
 2020-03-17,FIN,Finland,315,0,10
