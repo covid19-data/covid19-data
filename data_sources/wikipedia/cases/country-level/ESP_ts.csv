@@ -53,4 +53,5 @@ date,country_code,country_name,total_cases,total_deaths,total_recoveries
 2020-03-22,ESP,Spain,29909,1813,2575
 2020-03-23,ESP,Spain,35480,2342,3355
 2020-03-24,ESP,Spain,42058,2994,3794
-2020-03-25,ESP,Spain,47610,3434,5367
+2020-03-25,ESP,Spain,50105,3650,5367
+2020-03-26,ESP,Spain,56188,4089,7015

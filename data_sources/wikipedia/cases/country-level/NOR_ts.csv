@@ -26,3 +26,6 @@ date,country_code,country_name,total_cases,total_deaths,total_recoveries
 2020-03-21,NOR,Norway,1926,7,1
 2020-03-22,NOR,Norway,2132,7,1
 2020-03-23,NOR,Norway,2371,7,1
+2020-03-24,NOR,Norway,2566,10,1
+2020-03-25,NOR,Norway,2916,12,1
+2020-03-26,NOR,Norway,3156,14,1

@@ -19,3 +19,4 @@ date,country_code,state_code,state_name,total_cases,total_deaths,total_recoverie
 2020-03-22,USA,CO,Colorado,591,6,0
 2020-03-23,USA,CO,Colorado,720,7,0
 2020-03-24,USA,CO,Colorado,912,11,0
+2020-03-25,USA,CO,Colorado,1086,19,0

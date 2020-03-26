@@ -18,3 +18,4 @@ date,country_code,state_code,state_name,total_cases,total_deaths,total_recoverie
 2020-03-22,USA,PA,Pennsylvania,479,3,0
 2020-03-23,USA,PA,Pennsylvania,644,6,0
 2020-03-24,USA,PA,Pennsylvania,851,7,0
+2020-03-25,USA,PA,Pennsylvania,1127,11,0

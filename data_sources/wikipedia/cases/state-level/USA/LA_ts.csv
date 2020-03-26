@@ -15,3 +15,4 @@ date,country_code,state_code,state_name,total_cases,total_deaths,total_recoverie
 2020-03-22,USA,LA,Louisiana,837,20,0
 2020-03-23,USA,LA,Louisiana,1172,34,0
 2020-03-24,USA,LA,Louisiana,1388,46,0
+2020-03-25,USA,LA,Louisiana,1795,65,0

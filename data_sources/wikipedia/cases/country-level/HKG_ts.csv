@@ -57,8 +57,9 @@ date,country_code,country_name,total_cases,total_deaths,total_recoveries
 2020-03-18,HKG,Hong Kong,192,4,95
 2020-03-19,HKG,Hong Kong,208,4,98
 2020-03-20,HKG,Hong Kong,256,4,98
-2020-03-21,HKG,Hong Kong,274,4,101
-2020-03-22,HKG,Hong Kong,317,4,101
-2020-03-23,HKG,Hong Kong,357,4,102
+2020-03-21,HKG,Hong Kong,274,4,100
+2020-03-22,HKG,Hong Kong,317,4,100
+2020-03-23,HKG,Hong Kong,357,4,101
 2020-03-24,HKG,Hong Kong,386,4,102
-2020-03-25,HKG,Hong Kong,410,4,102
+2020-03-25,HKG,Hong Kong,410,4,106
+2020-03-26,HKG,Hong Kong,453,4,110

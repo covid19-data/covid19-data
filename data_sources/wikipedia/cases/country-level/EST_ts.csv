@@ -26,3 +26,5 @@ date,country_code,country_name,total_cases,total_deaths,total_recoveries
 2020-03-22,EST,Estonia,326,0,4
 2020-03-23,EST,Estonia,352,0,4
 2020-03-24,EST,Estonia,369,0,8
+2020-03-25,EST,Estonia,404,1,8
+2020-03-26,EST,Estonia,538,1,8

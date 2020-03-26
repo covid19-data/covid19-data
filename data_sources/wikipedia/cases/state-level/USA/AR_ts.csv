@@ -13,3 +13,5 @@ date,country_code,state_code,state_name,total_cases,total_deaths,total_recoverie
 2020-03-22,USA,AR,Arkansas,165,0,0
 2020-03-23,USA,AR,Arkansas,201,0,6
 2020-03-24,USA,AR,Arkansas,232,2,10
+2020-03-25,USA,AR,Arkansas,308,2,12
+2020-03-26,USA,AR,Arkansas,310,2,12
