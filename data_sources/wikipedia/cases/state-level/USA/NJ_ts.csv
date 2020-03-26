@@ -20,3 +20,4 @@ date,country_code,state_code,state_name,total_cases,total_deaths,total_recoverie
 2020-03-22,USA,NJ,New Jersey,1914,20,0
 2020-03-23,USA,NJ,New Jersey,2844,27,0
 2020-03-24,USA,NJ,New Jersey,3675,44,0
+2020-03-25,USA,NJ,New Jersey,4402,62,0

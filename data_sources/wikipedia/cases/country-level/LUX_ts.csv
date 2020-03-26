@@ -21,6 +21,7 @@ date,country_code,country_name,total_cases,total_deaths,total_recoveries
 2020-03-19,LUX,Luxembourg,335,4,6
 2020-03-20,LUX,Luxembourg,484,5,6
 2020-03-21,LUX,Luxembourg,670,8,6
-2020-03-22,LUX,Luxembourg,798,8,10
-2020-03-23,LUX,Luxembourg,875,8,10
-2020-03-24,LUX,Luxembourg,1099,8,10
+2020-03-22,LUX,Luxembourg,798,8,6
+2020-03-23,LUX,Luxembourg,875,8,6
+2020-03-24,LUX,Luxembourg,1099,8,6
+2020-03-25,LUX,Luxembourg,1333,8,6

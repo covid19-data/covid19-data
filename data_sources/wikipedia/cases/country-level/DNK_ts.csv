@@ -26,3 +26,5 @@ date,country_code,country_name,total_cases,total_deaths,total_recoveries
 2020-03-22,DNK,Denmark,1512,24,0
 2020-03-23,DNK,Denmark,1582,24,0
 2020-03-24,DNK,Denmark,1717,32,0
+2020-03-25,DNK,Denmark,1861,34,0
+2020-03-26,DNK,Denmark,2014,34,0

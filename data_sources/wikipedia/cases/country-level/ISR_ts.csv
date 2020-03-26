@@ -32,4 +32,5 @@ date,country_code,country_name,total_cases,total_deaths,total_recoveries
 2020-03-22,ISR,Israel,1071,1,37
 2020-03-23,ISR,Israel,1442,1,41
 2020-03-24,ISR,Israel,1930,3,53
-2020-03-25,ISR,Israel,2030,5,58
+2020-03-25,ISR,Israel,2369,5,64
+2020-03-26,ISR,Israel,2666,8,68

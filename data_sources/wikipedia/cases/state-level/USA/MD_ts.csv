@@ -19,3 +19,5 @@ date,country_code,state_code,state_name,total_cases,total_deaths,total_recoverie
 2020-03-22,USA,MD,Maryland,244,3,3
 2020-03-23,USA,MD,Maryland,288,3,3
 2020-03-24,USA,MD,Maryland,349,3,3
+2020-03-25,USA,MD,Maryland,423,4,3
+2020-03-26,USA,MD,Maryland,580,4,3

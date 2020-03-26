@@ -59,5 +59,6 @@ date,country_code,country_name,total_cases,total_deaths,total_recoveries
 2020-03-21,MYS,Malaysia,1183,8,114
 2020-03-22,MYS,Malaysia,1306,11,139
 2020-03-23,MYS,Malaysia,1518,14,159
-2020-03-24,MYS,Malaysia,1624,15,183
-2020-03-25,MYS,Malaysia,1796,19,199
+2020-03-24,MYS,Malaysia,1624,16,183
+2020-03-25,MYS,Malaysia,1796,20,199
+2020-03-26,MYS,Malaysia,2031,23,215

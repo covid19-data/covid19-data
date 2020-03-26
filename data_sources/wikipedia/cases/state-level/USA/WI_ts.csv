@@ -48,3 +48,4 @@ date,country_code,state_code,state_name,total_cases,total_deaths,total_recoverie
 2020-03-22,USA,WI,Wisconsin,381,4,1
 2020-03-23,USA,WI,Wisconsin,416,5,1
 2020-03-24,USA,WI,Wisconsin,457,5,1
+2020-03-25,USA,WI,Wisconsin,585,6,1

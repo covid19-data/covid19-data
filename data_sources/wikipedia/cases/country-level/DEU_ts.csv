@@ -28,5 +28,6 @@ date,country_code,country_name,total_cases,total_deaths,total_recoveries
 2020-03-21,DEU,Germany,16662,47,72
 2020-03-22,DEU,Germany,18610,55,72
 2020-03-23,DEU,Germany,22672,86,422
-2020-03-24,DEU,Germany,27436,149,3290
-2020-03-25,DEU,Germany,31554,149,3290
+2020-03-24,DEU,Germany,27436,114,3290
+2020-03-25,DEU,Germany,31554,149,5600
+2020-03-26,DEU,Germany,36508,198,5900

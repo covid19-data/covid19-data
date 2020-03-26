@@ -13,8 +13,9 @@ date,country_code,country_name,total_cases,total_deaths,total_recoveries
 2020-03-17,SVK,Slovakia,97,0,0
 2020-03-18,SVK,Slovakia,105,0,0
 2020-03-19,SVK,Slovakia,123,0,0
-2020-03-20,SVK,Slovakia,137,0,7
-2020-03-21,SVK,Slovakia,178,0,7
-2020-03-22,SVK,Slovakia,185,0,7
-2020-03-23,SVK,Slovakia,204,0,7
-2020-03-24,SVK,Slovakia,216,0,7
+2020-03-20,SVK,Slovakia,137,0,0
+2020-03-21,SVK,Slovakia,178,0,0
+2020-03-22,SVK,Slovakia,185,0,0
+2020-03-23,SVK,Slovakia,204,0,0
+2020-03-24,SVK,Slovakia,216,0,0
+2020-03-25,SVK,Slovakia,222,0,2

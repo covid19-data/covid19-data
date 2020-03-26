@@ -19,5 +19,6 @@ date,country_code,country_name,total_cases,total_deaths,total_recoveries
 2020-03-21,POL,Poland,536,5,1
 2020-03-22,POL,Poland,634,7,1
 2020-03-23,POL,Poland,749,8,1
-2020-03-24,POL,Poland,901,10,1
-2020-03-25,POL,Poland,957,13,1
+2020-03-24,POL,Poland,900,10,1
+2020-03-25,POL,Poland,1051,14,1
+2020-03-26,POL,Poland,1120,14,1

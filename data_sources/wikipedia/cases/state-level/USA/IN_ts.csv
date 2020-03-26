@@ -18,3 +18,4 @@ date,country_code,state_code,state_name,total_cases,total_deaths,total_recoverie
 2020-03-22,USA,IN,Indiana,201,6,0
 2020-03-23,USA,IN,Indiana,259,7,0
 2020-03-24,USA,IN,Indiana,365,12,0
+2020-03-25,USA,IN,Indiana,477,14,0

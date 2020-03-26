@@ -24,3 +24,5 @@ date,country_code,country_name,total_cases,total_deaths,total_recoveries
 2020-03-21,ISL,Iceland,568,1,
 2020-03-22,ISL,Iceland,588,1,
 2020-03-23,ISL,Iceland,648,2,
+2020-03-24,ISL,Iceland,737,2,
+2020-03-25,ISL,Iceland,802,2,
