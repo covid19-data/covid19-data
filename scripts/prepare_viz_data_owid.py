@@ -6,9 +6,9 @@ import pandas as pd
 import utils
 
 
-def prepare_data_structure(df, meta_dict, code2name_dict):
+def prepare_data_structure(df, meta_dict, code2name_dict, code_col_name="country_code"):
     data = []
-    for g in df.groupby(["country_code"]):
+    for g in df.groupby([code_col_name]):
         code = g[0]
         cntry_df = g[1]
         try:

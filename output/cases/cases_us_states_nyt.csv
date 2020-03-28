@@ -1,0 +1,1282 @@
+date,state_code,fips,state_name,total_cases,total_deaths
+2020-03-12,AK,2,Alaska,1,0
+2020-03-13,AK,2,Alaska,1,0
+2020-03-14,AK,2,Alaska,1,0
+2020-03-15,AK,2,Alaska,1,0
+2020-03-16,AK,2,Alaska,3,0
+2020-03-17,AK,2,Alaska,6,0
+2020-03-18,AK,2,Alaska,9,0
+2020-03-19,AK,2,Alaska,12,0
+2020-03-20,AK,2,Alaska,14,0
+2020-03-21,AK,2,Alaska,21,0
+2020-03-22,AK,2,Alaska,22,0
+2020-03-23,AK,2,Alaska,36,0
+2020-03-24,AK,2,Alaska,42,0
+2020-03-25,AK,2,Alaska,59,0
+2020-03-13,AL,1,Alabama,6,0
+2020-03-14,AL,1,Alabama,12,0
+2020-03-15,AL,1,Alabama,23,0
+2020-03-16,AL,1,Alabama,29,0
+2020-03-17,AL,1,Alabama,39,0
+2020-03-18,AL,1,Alabama,51,0
+2020-03-19,AL,1,Alabama,78,0
+2020-03-20,AL,1,Alabama,106,0
+2020-03-21,AL,1,Alabama,131,0
+2020-03-22,AL,1,Alabama,157,0
+2020-03-23,AL,1,Alabama,196,0
+2020-03-24,AL,1,Alabama,242,0
+2020-03-25,AL,1,Alabama,386,1
+2020-03-11,AR,5,Arkansas,1,0
+2020-03-12,AR,5,Arkansas,6,0
+2020-03-13,AR,5,Arkansas,7,0
+2020-03-14,AR,5,Arkansas,9,0
+2020-03-15,AR,5,Arkansas,16,0
+2020-03-16,AR,5,Arkansas,22,0
+2020-03-17,AR,5,Arkansas,22,0
+2020-03-18,AR,5,Arkansas,33,0
+2020-03-19,AR,5,Arkansas,62,0
+2020-03-20,AR,5,Arkansas,100,0
+2020-03-21,AR,5,Arkansas,118,0
+2020-03-22,AR,5,Arkansas,165,0
+2020-03-23,AR,5,Arkansas,201,0
+2020-03-24,AR,5,Arkansas,232,2
+2020-03-25,AR,5,Arkansas,308,2
+2020-01-26,AZ,4,Arizona,1,0
+2020-01-27,AZ,4,Arizona,1,0
+2020-01-28,AZ,4,Arizona,1,0
+2020-01-29,AZ,4,Arizona,1,0
+2020-01-30,AZ,4,Arizona,1,0
+2020-01-31,AZ,4,Arizona,1,0
+2020-02-01,AZ,4,Arizona,1,0
+2020-02-02,AZ,4,Arizona,1,0
+2020-02-03,AZ,4,Arizona,1,0
+2020-02-04,AZ,4,Arizona,1,0
+2020-02-05,AZ,4,Arizona,1,0
+2020-02-06,AZ,4,Arizona,1,0
+2020-02-07,AZ,4,Arizona,1,0
+2020-02-08,AZ,4,Arizona,1,0
+2020-02-09,AZ,4,Arizona,1,0
+2020-02-10,AZ,4,Arizona,1,0
+2020-02-11,AZ,4,Arizona,1,0
+2020-02-12,AZ,4,Arizona,1,0
+2020-02-13,AZ,4,Arizona,1,0
+2020-02-14,AZ,4,Arizona,1,0
+2020-02-15,AZ,4,Arizona,1,0
+2020-02-16,AZ,4,Arizona,1,0
+2020-02-17,AZ,4,Arizona,1,0
+2020-02-18,AZ,4,Arizona,1,0
+2020-02-19,AZ,4,Arizona,1,0
+2020-02-20,AZ,4,Arizona,1,0
+2020-02-21,AZ,4,Arizona,1,0
+2020-02-22,AZ,4,Arizona,1,0
+2020-02-23,AZ,4,Arizona,1,0
+2020-02-24,AZ,4,Arizona,1,0
+2020-02-25,AZ,4,Arizona,1,0
+2020-02-26,AZ,4,Arizona,1,0
+2020-02-27,AZ,4,Arizona,1,0
+2020-02-28,AZ,4,Arizona,1,0
+2020-02-29,AZ,4,Arizona,1,0
+2020-03-01,AZ,4,Arizona,1,0
+2020-03-02,AZ,4,Arizona,1,0
+2020-03-03,AZ,4,Arizona,2,0
+2020-03-04,AZ,4,Arizona,2,0
+2020-03-05,AZ,4,Arizona,2,0
+2020-03-06,AZ,4,Arizona,3,0
+2020-03-07,AZ,4,Arizona,5,0
+2020-03-08,AZ,4,Arizona,5,0
+2020-03-09,AZ,4,Arizona,6,0
+2020-03-10,AZ,4,Arizona,6,0
+2020-03-11,AZ,4,Arizona,9,0
+2020-03-12,AZ,4,Arizona,9,0
+2020-03-13,AZ,4,Arizona,9,0
+2020-03-14,AZ,4,Arizona,12,0
+2020-03-15,AZ,4,Arizona,13,0
+2020-03-16,AZ,4,Arizona,18,0
+2020-03-17,AZ,4,Arizona,20,0
+2020-03-18,AZ,4,Arizona,28,0
+2020-03-19,AZ,4,Arizona,47,0
+2020-03-20,AZ,4,Arizona,70,1
+2020-03-21,AZ,4,Arizona,104,1
+2020-03-22,AZ,4,Arizona,153,2
+2020-03-23,AZ,4,Arizona,234,2
+2020-03-24,AZ,4,Arizona,326,6
+2020-03-25,AZ,4,Arizona,402,6
+2020-01-25,CA,6,California,1,0
+2020-01-26,CA,6,California,2,0
+2020-01-27,CA,6,California,2,0
+2020-01-28,CA,6,California,2,0
+2020-01-29,CA,6,California,2,0
+2020-01-30,CA,6,California,2,0
+2020-01-31,CA,6,California,3,0
+2020-02-01,CA,6,California,3,0
+2020-02-02,CA,6,California,6,0
+2020-02-03,CA,6,California,6,0
+2020-02-04,CA,6,California,6,0
+2020-02-05,CA,6,California,6,0
+2020-02-06,CA,6,California,6,0
+2020-02-07,CA,6,California,6,0
+2020-02-08,CA,6,California,6,0
+2020-02-09,CA,6,California,6,0
+2020-02-10,CA,6,California,7,0
+2020-02-11,CA,6,California,7,0
+2020-02-12,CA,6,California,7,0
+2020-02-13,CA,6,California,7,0
+2020-02-14,CA,6,California,7,0
+2020-02-15,CA,6,California,7,0
+2020-02-16,CA,6,California,7,0
+2020-02-17,CA,6,California,7,0
+2020-02-18,CA,6,California,7,0
+2020-02-19,CA,6,California,7,0
+2020-02-20,CA,6,California,8,0
+2020-02-21,CA,6,California,9,0
+2020-02-22,CA,6,California,9,0
+2020-02-23,CA,6,California,9,0
+2020-02-24,CA,6,California,11,0
+2020-02-25,CA,6,California,11,0
+2020-02-26,CA,6,California,26,0
+2020-02-27,CA,6,California,26,0
+2020-02-28,CA,6,California,27,0
+2020-02-29,CA,6,California,28,0
+2020-03-01,CA,6,California,33,0
+2020-03-02,CA,6,California,38,0
+2020-03-03,CA,6,California,45,0
+2020-03-04,CA,6,California,55,1
+2020-03-05,CA,6,California,67,1
+2020-03-06,CA,6,California,81,1
+2020-03-07,CA,6,California,100,1
+2020-03-08,CA,6,California,112,1
+2020-03-09,CA,6,California,172,2
+2020-03-10,CA,6,California,179,3
+2020-03-11,CA,6,California,202,4
+2020-03-12,CA,6,California,252,4
+2020-03-13,CA,6,California,320,5
+2020-03-14,CA,6,California,381,5
+2020-03-15,CA,6,California,478,6
+2020-03-16,CA,6,California,588,11
+2020-03-17,CA,6,California,732,14
+2020-03-18,CA,6,California,893,17
+2020-03-19,CA,6,California,1067,19
+2020-03-20,CA,6,California,1283,24
+2020-03-21,CA,6,California,1544,28
+2020-03-22,CA,6,California,1851,35
+2020-03-23,CA,6,California,2240,39
+2020-03-24,CA,6,California,2644,52
+2020-03-25,CA,6,California,3183,67
+2020-03-05,CO,8,Colorado,2,0
+2020-03-06,CO,8,Colorado,8,0
+2020-03-07,CO,8,Colorado,8,0
+2020-03-08,CO,8,Colorado,8,0
+2020-03-09,CO,8,Colorado,12,0
+2020-03-10,CO,8,Colorado,17,0
+2020-03-11,CO,8,Colorado,34,0
+2020-03-12,CO,8,Colorado,49,1
+2020-03-13,CO,8,Colorado,78,2
+2020-03-14,CO,8,Colorado,103,2
+2020-03-15,CO,8,Colorado,136,2
+2020-03-16,CO,8,Colorado,161,2
+2020-03-17,CO,8,Colorado,183,3
+2020-03-18,CO,8,Colorado,216,3
+2020-03-19,CO,8,Colorado,278,5
+2020-03-20,CO,8,Colorado,364,5
+2020-03-21,CO,8,Colorado,475,6
+2020-03-22,CO,8,Colorado,591,7
+2020-03-23,CO,8,Colorado,721,10
+2020-03-24,CO,8,Colorado,912,11
+2020-03-25,CO,8,Colorado,1086,19
+2020-03-08,CT,9,Connecticut,1,0
+2020-03-09,CT,9,Connecticut,2,0
+2020-03-10,CT,9,Connecticut,2,0
+2020-03-11,CT,9,Connecticut,3,0
+2020-03-12,CT,9,Connecticut,6,0
+2020-03-13,CT,9,Connecticut,11,0
+2020-03-14,CT,9,Connecticut,20,0
+2020-03-15,CT,9,Connecticut,26,0
+2020-03-16,CT,9,Connecticut,41,0
+2020-03-17,CT,9,Connecticut,68,0
+2020-03-18,CT,9,Connecticut,96,1
+2020-03-19,CT,9,Connecticut,159,4
+2020-03-20,CT,9,Connecticut,194,4
+2020-03-21,CT,9,Connecticut,223,5
+2020-03-22,CT,9,Connecticut,327,8
+2020-03-23,CT,9,Connecticut,415,10
+2020-03-24,CT,9,Connecticut,618,12
+2020-03-25,CT,9,Connecticut,875,19
+2020-03-07,DC,11,District of Columbia,1,0
+2020-03-08,DC,11,District of Columbia,1,0
+2020-03-09,DC,11,District of Columbia,4,0
+2020-03-10,DC,11,District of Columbia,4,0
+2020-03-11,DC,11,District of Columbia,10,0
+2020-03-12,DC,11,District of Columbia,10,0
+2020-03-13,DC,11,District of Columbia,10,0
+2020-03-14,DC,11,District of Columbia,16,0
+2020-03-15,DC,11,District of Columbia,17,0
+2020-03-16,DC,11,District of Columbia,22,0
+2020-03-17,DC,11,District of Columbia,31,0
+2020-03-18,DC,11,District of Columbia,36,0
+2020-03-19,DC,11,District of Columbia,68,0
+2020-03-20,DC,11,District of Columbia,77,1
+2020-03-21,DC,11,District of Columbia,98,1
+2020-03-22,DC,11,District of Columbia,116,2
+2020-03-23,DC,11,District of Columbia,138,2
+2020-03-24,DC,11,District of Columbia,183,2
+2020-03-25,DC,11,District of Columbia,231,3
+2020-03-11,DE,10,Delaware,1,0
+2020-03-12,DE,10,Delaware,4,0
+2020-03-13,DE,10,Delaware,4,0
+2020-03-14,DE,10,Delaware,4,0
+2020-03-15,DE,10,Delaware,7,0
+2020-03-16,DE,10,Delaware,8,0
+2020-03-17,DE,10,Delaware,16,0
+2020-03-18,DE,10,Delaware,26,0
+2020-03-19,DE,10,Delaware,30,0
+2020-03-20,DE,10,Delaware,39,0
+2020-03-21,DE,10,Delaware,45,0
+2020-03-22,DE,10,Delaware,56,0
+2020-03-23,DE,10,Delaware,87,0
+2020-03-24,DE,10,Delaware,104,0
+2020-03-25,DE,10,Delaware,119,0
+2020-03-01,FL,12,Florida,2,0
+2020-03-02,FL,12,Florida,2,0
+2020-03-03,FL,12,Florida,3,0
+2020-03-04,FL,12,Florida,3,0
+2020-03-05,FL,12,Florida,4,0
+2020-03-06,FL,12,Florida,7,2
+2020-03-07,FL,12,Florida,12,2
+2020-03-08,FL,12,Florida,13,2
+2020-03-09,FL,12,Florida,14,2
+2020-03-10,FL,12,Florida,23,2
+2020-03-11,FL,12,Florida,26,2
+2020-03-12,FL,12,Florida,46,2
+2020-03-13,FL,12,Florida,70,2
+2020-03-14,FL,12,Florida,70,3
+2020-03-15,FL,12,Florida,109,3
+2020-03-16,FL,12,Florida,141,4
+2020-03-17,FL,12,Florida,210,6
+2020-03-18,FL,12,Florida,326,7
+2020-03-19,FL,12,Florida,434,8
+2020-03-20,FL,12,Florida,564,9
+2020-03-21,FL,12,Florida,764,11
+2020-03-22,FL,12,Florida,1000,13
+2020-03-23,FL,12,Florida,1222,18
+2020-03-24,FL,12,Florida,1467,19
+2020-03-25,FL,12,Florida,1965,23
+2020-03-02,GA,13,Georgia,2,0
+2020-03-03,GA,13,Georgia,2,0
+2020-03-04,GA,13,Georgia,2,0
+2020-03-05,GA,13,Georgia,2,0
+2020-03-06,GA,13,Georgia,3,0
+2020-03-07,GA,13,Georgia,7,0
+2020-03-08,GA,13,Georgia,11,0
+2020-03-09,GA,13,Georgia,17,0
+2020-03-10,GA,13,Georgia,22,0
+2020-03-11,GA,13,Georgia,31,0
+2020-03-12,GA,13,Georgia,31,1
+2020-03-13,GA,13,Georgia,41,1
+2020-03-14,GA,13,Georgia,65,1
+2020-03-15,GA,13,Georgia,97,1
+2020-03-16,GA,13,Georgia,118,1
+2020-03-17,GA,13,Georgia,142,1
+2020-03-18,GA,13,Georgia,193,3
+2020-03-19,GA,13,Georgia,282,10
+2020-03-20,GA,13,Georgia,482,14
+2020-03-21,GA,13,Georgia,552,20
+2020-03-22,GA,13,Georgia,620,25
+2020-03-23,GA,13,Georgia,800,25
+2020-03-24,GA,13,Georgia,1097,38
+2020-03-25,GA,13,Georgia,1387,47
+2020-03-15,GU,66,Guam,3,0
+2020-03-16,GU,66,Guam,3,0
+2020-03-17,GU,66,Guam,3,0
+2020-03-18,GU,66,Guam,8,0
+2020-03-19,GU,66,Guam,12,0
+2020-03-20,GU,66,Guam,14,0
+2020-03-21,GU,66,Guam,15,0
+2020-03-22,GU,66,Guam,27,1
+2020-03-23,GU,66,Guam,29,1
+2020-03-24,GU,66,Guam,32,1
+2020-03-25,GU,66,Guam,32,1
+2020-03-06,HI,15,Hawaii,1,0
+2020-03-07,HI,15,Hawaii,1,0
+2020-03-08,HI,15,Hawaii,2,0
+2020-03-09,HI,15,Hawaii,2,0
+2020-03-10,HI,15,Hawaii,2,0
+2020-03-11,HI,15,Hawaii,2,0
+2020-03-12,HI,15,Hawaii,2,0
+2020-03-13,HI,15,Hawaii,2,0
+2020-03-14,HI,15,Hawaii,4,0
+2020-03-15,HI,15,Hawaii,7,0
+2020-03-16,HI,15,Hawaii,10,0
+2020-03-17,HI,15,Hawaii,14,0
+2020-03-18,HI,15,Hawaii,16,0
+2020-03-19,HI,15,Hawaii,26,0
+2020-03-20,HI,15,Hawaii,37,0
+2020-03-21,HI,15,Hawaii,48,0
+2020-03-22,HI,15,Hawaii,56,0
+2020-03-23,HI,15,Hawaii,77,0
+2020-03-24,HI,15,Hawaii,90,1
+2020-03-25,HI,15,Hawaii,95,1
+2020-03-08,IA,19,Iowa,3,0
+2020-03-09,IA,19,Iowa,8,0
+2020-03-10,IA,19,Iowa,13,0
+2020-03-11,IA,19,Iowa,14,0
+2020-03-12,IA,19,Iowa,16,0
+2020-03-13,IA,19,Iowa,17,0
+2020-03-14,IA,19,Iowa,18,0
+2020-03-15,IA,19,Iowa,22,0
+2020-03-16,IA,19,Iowa,22,0
+2020-03-17,IA,19,Iowa,29,0
+2020-03-18,IA,19,Iowa,38,0
+2020-03-19,IA,19,Iowa,44,0
+2020-03-20,IA,19,Iowa,45,0
+2020-03-21,IA,19,Iowa,68,0
+2020-03-22,IA,19,Iowa,90,0
+2020-03-23,IA,19,Iowa,105,0
+2020-03-24,IA,19,Iowa,124,1
+2020-03-25,IA,19,Iowa,145,1
+2020-03-13,ID,16,Idaho,1,0
+2020-03-14,ID,16,Idaho,5,0
+2020-03-15,ID,16,Idaho,5,0
+2020-03-16,ID,16,Idaho,5,0
+2020-03-17,ID,16,Idaho,9,0
+2020-03-18,ID,16,Idaho,11,0
+2020-03-19,ID,16,Idaho,23,0
+2020-03-20,ID,16,Idaho,31,0
+2020-03-21,ID,16,Idaho,42,0
+2020-03-22,ID,16,Idaho,47,0
+2020-03-23,ID,16,Idaho,50,0
+2020-03-24,ID,16,Idaho,73,0
+2020-03-25,ID,16,Idaho,123,0
+2020-01-24,IL,17,Illinois,1,0
+2020-01-25,IL,17,Illinois,1,0
+2020-01-26,IL,17,Illinois,1,0
+2020-01-27,IL,17,Illinois,1,0
+2020-01-28,IL,17,Illinois,1,0
+2020-01-29,IL,17,Illinois,1,0
+2020-01-30,IL,17,Illinois,2,0
+2020-01-31,IL,17,Illinois,2,0
+2020-02-01,IL,17,Illinois,2,0
+2020-02-02,IL,17,Illinois,2,0
+2020-02-03,IL,17,Illinois,2,0
+2020-02-04,IL,17,Illinois,2,0
+2020-02-05,IL,17,Illinois,2,0
+2020-02-06,IL,17,Illinois,2,0
+2020-02-07,IL,17,Illinois,2,0
+2020-02-08,IL,17,Illinois,2,0
+2020-02-09,IL,17,Illinois,2,0
+2020-02-10,IL,17,Illinois,2,0
+2020-02-11,IL,17,Illinois,2,0
+2020-02-12,IL,17,Illinois,2,0
+2020-02-13,IL,17,Illinois,2,0
+2020-02-14,IL,17,Illinois,2,0
+2020-02-15,IL,17,Illinois,2,0
+2020-02-16,IL,17,Illinois,2,0
+2020-02-17,IL,17,Illinois,2,0
+2020-02-18,IL,17,Illinois,2,0
+2020-02-19,IL,17,Illinois,2,0
+2020-02-20,IL,17,Illinois,2,0
+2020-02-21,IL,17,Illinois,2,0
+2020-02-22,IL,17,Illinois,2,0
+2020-02-23,IL,17,Illinois,2,0
+2020-02-24,IL,17,Illinois,2,0
+2020-02-25,IL,17,Illinois,2,0
+2020-02-26,IL,17,Illinois,2,0
+2020-02-27,IL,17,Illinois,2,0
+2020-02-28,IL,17,Illinois,2,0
+2020-02-29,IL,17,Illinois,3,0
+2020-03-01,IL,17,Illinois,3,0
+2020-03-02,IL,17,Illinois,4,0
+2020-03-03,IL,17,Illinois,4,0
+2020-03-04,IL,17,Illinois,4,0
+2020-03-05,IL,17,Illinois,5,0
+2020-03-06,IL,17,Illinois,6,0
+2020-03-07,IL,17,Illinois,6,0
+2020-03-08,IL,17,Illinois,7,0
+2020-03-09,IL,17,Illinois,11,0
+2020-03-10,IL,17,Illinois,19,0
+2020-03-11,IL,17,Illinois,25,0
+2020-03-12,IL,17,Illinois,32,0
+2020-03-13,IL,17,Illinois,46,0
+2020-03-14,IL,17,Illinois,66,0
+2020-03-15,IL,17,Illinois,94,0
+2020-03-16,IL,17,Illinois,104,0
+2020-03-17,IL,17,Illinois,159,1
+2020-03-18,IL,17,Illinois,286,1
+2020-03-19,IL,17,Illinois,420,4
+2020-03-20,IL,17,Illinois,583,5
+2020-03-21,IL,17,Illinois,751,6
+2020-03-22,IL,17,Illinois,1047,9
+2020-03-23,IL,17,Illinois,1285,12
+2020-03-24,IL,17,Illinois,1535,16
+2020-03-25,IL,17,Illinois,1875,21
+2020-03-06,IN,18,Indiana,1,0
+2020-03-07,IN,18,Indiana,1,0
+2020-03-08,IN,18,Indiana,2,0
+2020-03-09,IN,18,Indiana,4,0
+2020-03-10,IN,18,Indiana,6,0
+2020-03-11,IN,18,Indiana,11,0
+2020-03-12,IN,18,Indiana,12,0
+2020-03-13,IN,18,Indiana,12,0
+2020-03-14,IN,18,Indiana,15,0
+2020-03-15,IN,18,Indiana,19,0
+2020-03-16,IN,18,Indiana,24,1
+2020-03-17,IN,18,Indiana,30,2
+2020-03-18,IN,18,Indiana,39,2
+2020-03-19,IN,18,Indiana,56,2
+2020-03-20,IN,18,Indiana,79,3
+2020-03-21,IN,18,Indiana,126,4
+2020-03-22,IN,18,Indiana,201,6
+2020-03-23,IN,18,Indiana,259,7
+2020-03-24,IN,18,Indiana,366,12
+2020-03-25,IN,18,Indiana,479,14
+2020-03-07,KS,20,Kansas,1,0
+2020-03-08,KS,20,Kansas,1,0
+2020-03-09,KS,20,Kansas,1,0
+2020-03-10,KS,20,Kansas,1,0
+2020-03-11,KS,20,Kansas,1,0
+2020-03-12,KS,20,Kansas,5,1
+2020-03-13,KS,20,Kansas,6,1
+2020-03-14,KS,20,Kansas,8,1
+2020-03-15,KS,20,Kansas,9,1
+2020-03-16,KS,20,Kansas,11,1
+2020-03-17,KS,20,Kansas,17,1
+2020-03-18,KS,20,Kansas,22,1
+2020-03-19,KS,20,Kansas,35,1
+2020-03-20,KS,20,Kansas,49,1
+2020-03-21,KS,20,Kansas,57,2
+2020-03-22,KS,20,Kansas,66,2
+2020-03-23,KS,20,Kansas,82,2
+2020-03-24,KS,20,Kansas,99,3
+2020-03-25,KS,20,Kansas,132,3
+2020-03-06,KY,21,Kentucky,1,0
+2020-03-07,KY,21,Kentucky,1,0
+2020-03-08,KY,21,Kentucky,4,0
+2020-03-09,KY,21,Kentucky,5,0
+2020-03-10,KY,21,Kentucky,7,0
+2020-03-11,KY,21,Kentucky,7,0
+2020-03-12,KY,21,Kentucky,11,0
+2020-03-13,KY,21,Kentucky,11,0
+2020-03-14,KY,21,Kentucky,18,0
+2020-03-15,KY,21,Kentucky,21,0
+2020-03-16,KY,21,Kentucky,22,1
+2020-03-17,KY,21,Kentucky,26,1
+2020-03-18,KY,21,Kentucky,35,1
+2020-03-19,KY,21,Kentucky,47,2
+2020-03-20,KY,21,Kentucky,63,2
+2020-03-21,KY,21,Kentucky,84,3
+2020-03-22,KY,21,Kentucky,103,3
+2020-03-23,KY,21,Kentucky,124,3
+2020-03-24,KY,21,Kentucky,157,3
+2020-03-25,KY,21,Kentucky,198,5
+2020-03-09,LA,22,Louisiana,1,0
+2020-03-10,LA,22,Louisiana,6,0
+2020-03-11,LA,22,Louisiana,13,0
+2020-03-12,LA,22,Louisiana,14,0
+2020-03-13,LA,22,Louisiana,36,0
+2020-03-14,LA,22,Louisiana,77,1
+2020-03-15,LA,22,Louisiana,103,2
+2020-03-16,LA,22,Louisiana,137,3
+2020-03-17,LA,22,Louisiana,196,5
+2020-03-18,LA,22,Louisiana,280,7
+2020-03-19,LA,22,Louisiana,392,10
+2020-03-20,LA,22,Louisiana,537,10
+2020-03-21,LA,22,Louisiana,763,16
+2020-03-22,LA,22,Louisiana,837,20
+2020-03-23,LA,22,Louisiana,1172,34
+2020-03-24,LA,22,Louisiana,1388,46
+2020-03-25,LA,22,Louisiana,1795,65
+2020-02-01,MA,25,Massachusetts,1,0
+2020-02-02,MA,25,Massachusetts,1,0
+2020-02-03,MA,25,Massachusetts,1,0
+2020-02-04,MA,25,Massachusetts,1,0
+2020-02-05,MA,25,Massachusetts,1,0
+2020-02-06,MA,25,Massachusetts,1,0
+2020-02-07,MA,25,Massachusetts,1,0
+2020-02-08,MA,25,Massachusetts,1,0
+2020-02-09,MA,25,Massachusetts,1,0
+2020-02-10,MA,25,Massachusetts,1,0
+2020-02-11,MA,25,Massachusetts,1,0
+2020-02-12,MA,25,Massachusetts,1,0
+2020-02-13,MA,25,Massachusetts,1,0
+2020-02-14,MA,25,Massachusetts,1,0
+2020-02-15,MA,25,Massachusetts,1,0
+2020-02-16,MA,25,Massachusetts,1,0
+2020-02-17,MA,25,Massachusetts,1,0
+2020-02-18,MA,25,Massachusetts,1,0
+2020-02-19,MA,25,Massachusetts,1,0
+2020-02-20,MA,25,Massachusetts,1,0
+2020-02-21,MA,25,Massachusetts,1,0
+2020-02-22,MA,25,Massachusetts,1,0
+2020-02-23,MA,25,Massachusetts,1,0
+2020-02-24,MA,25,Massachusetts,1,0
+2020-02-25,MA,25,Massachusetts,1,0
+2020-02-26,MA,25,Massachusetts,1,0
+2020-02-27,MA,25,Massachusetts,1,0
+2020-02-28,MA,25,Massachusetts,1,0
+2020-02-29,MA,25,Massachusetts,1,0
+2020-03-01,MA,25,Massachusetts,1,0
+2020-03-02,MA,25,Massachusetts,2,0
+2020-03-03,MA,25,Massachusetts,2,0
+2020-03-04,MA,25,Massachusetts,2,0
+2020-03-05,MA,25,Massachusetts,3,0
+2020-03-06,MA,25,Massachusetts,8,0
+2020-03-07,MA,25,Massachusetts,13,0
+2020-03-08,MA,25,Massachusetts,28,0
+2020-03-09,MA,25,Massachusetts,41,0
+2020-03-10,MA,25,Massachusetts,92,0
+2020-03-11,MA,25,Massachusetts,95,0
+2020-03-12,MA,25,Massachusetts,108,0
+2020-03-13,MA,25,Massachusetts,123,0
+2020-03-14,MA,25,Massachusetts,138,0
+2020-03-15,MA,25,Massachusetts,164,0
+2020-03-16,MA,25,Massachusetts,197,0
+2020-03-17,MA,25,Massachusetts,218,0
+2020-03-18,MA,25,Massachusetts,256,0
+2020-03-19,MA,25,Massachusetts,328,0
+2020-03-20,MA,25,Massachusetts,413,1
+2020-03-21,MA,25,Massachusetts,525,2
+2020-03-22,MA,25,Massachusetts,646,5
+2020-03-23,MA,25,Massachusetts,777,5
+2020-03-24,MA,25,Massachusetts,1159,11
+2020-03-25,MA,25,Massachusetts,1838,15
+2020-03-05,MD,24,Maryland,3,0
+2020-03-06,MD,24,Maryland,3,0
+2020-03-07,MD,24,Maryland,3,0
+2020-03-08,MD,24,Maryland,5,0
+2020-03-09,MD,24,Maryland,6,0
+2020-03-10,MD,24,Maryland,9,0
+2020-03-11,MD,24,Maryland,13,0
+2020-03-12,MD,24,Maryland,13,0
+2020-03-13,MD,24,Maryland,18,0
+2020-03-14,MD,24,Maryland,27,0
+2020-03-15,MD,24,Maryland,32,0
+2020-03-16,MD,24,Maryland,39,0
+2020-03-17,MD,24,Maryland,57,0
+2020-03-18,MD,24,Maryland,85,1
+2020-03-19,MD,24,Maryland,108,1
+2020-03-20,MD,24,Maryland,150,2
+2020-03-21,MD,24,Maryland,195,3
+2020-03-22,MD,24,Maryland,245,3
+2020-03-23,MD,24,Maryland,290,3
+2020-03-24,MD,24,Maryland,349,4
+2020-03-25,MD,24,Maryland,423,4
+2020-03-12,ME,23,Maine,1,0
+2020-03-13,ME,23,Maine,2,0
+2020-03-14,ME,23,Maine,3,0
+2020-03-15,ME,23,Maine,12,0
+2020-03-16,ME,23,Maine,17,0
+2020-03-17,ME,23,Maine,32,0
+2020-03-18,ME,23,Maine,43,0
+2020-03-19,ME,23,Maine,52,0
+2020-03-20,ME,23,Maine,57,0
+2020-03-21,ME,23,Maine,70,0
+2020-03-22,ME,23,Maine,89,0
+2020-03-23,ME,23,Maine,107,0
+2020-03-24,ME,23,Maine,118,0
+2020-03-25,ME,23,Maine,142,0
+2020-03-10,MI,26,Michigan,2,0
+2020-03-11,MI,26,Michigan,2,0
+2020-03-12,MI,26,Michigan,12,0
+2020-03-13,MI,26,Michigan,25,0
+2020-03-14,MI,26,Michigan,33,0
+2020-03-15,MI,26,Michigan,53,0
+2020-03-16,MI,26,Michigan,54,0
+2020-03-17,MI,26,Michigan,65,0
+2020-03-18,MI,26,Michigan,80,1
+2020-03-19,MI,26,Michigan,334,3
+2020-03-20,MI,26,Michigan,548,4
+2020-03-21,MI,26,Michigan,787,6
+2020-03-22,MI,26,Michigan,1033,9
+2020-03-23,MI,26,Michigan,1324,16
+2020-03-24,MI,26,Michigan,1791,24
+2020-03-25,MI,26,Michigan,2294,43
+2020-03-06,MN,27,Minnesota,1,0
+2020-03-07,MN,27,Minnesota,1,0
+2020-03-08,MN,27,Minnesota,2,0
+2020-03-09,MN,27,Minnesota,2,0
+2020-03-10,MN,27,Minnesota,3,0
+2020-03-11,MN,27,Minnesota,5,0
+2020-03-12,MN,27,Minnesota,9,0
+2020-03-13,MN,27,Minnesota,14,0
+2020-03-14,MN,27,Minnesota,21,0
+2020-03-15,MN,27,Minnesota,35,0
+2020-03-16,MN,27,Minnesota,54,0
+2020-03-17,MN,27,Minnesota,60,0
+2020-03-18,MN,27,Minnesota,77,0
+2020-03-19,MN,27,Minnesota,89,0
+2020-03-20,MN,27,Minnesota,115,0
+2020-03-21,MN,27,Minnesota,138,1
+2020-03-22,MN,27,Minnesota,171,1
+2020-03-23,MN,27,Minnesota,235,1
+2020-03-24,MN,27,Minnesota,262,1
+2020-03-25,MN,27,Minnesota,287,1
+2020-03-07,MO,29,Missouri,1,0
+2020-03-08,MO,29,Missouri,1,0
+2020-03-09,MO,29,Missouri,1,0
+2020-03-10,MO,29,Missouri,1,0
+2020-03-11,MO,29,Missouri,1,0
+2020-03-12,MO,29,Missouri,2,0
+2020-03-13,MO,29,Missouri,4,0
+2020-03-14,MO,29,Missouri,5,0
+2020-03-15,MO,29,Missouri,5,0
+2020-03-16,MO,29,Missouri,9,0
+2020-03-17,MO,29,Missouri,16,0
+2020-03-18,MO,29,Missouri,21,1
+2020-03-19,MO,29,Missouri,35,1
+2020-03-20,MO,29,Missouri,73,3
+2020-03-21,MO,29,Missouri,93,3
+2020-03-22,MO,29,Missouri,130,3
+2020-03-23,MO,29,Missouri,183,4
+2020-03-24,MO,29,Missouri,255,5
+2020-03-25,MO,29,Missouri,377,8
+2020-03-11,MS,28,Mississippi,1,0
+2020-03-12,MS,28,Mississippi,1,0
+2020-03-13,MS,28,Mississippi,6,0
+2020-03-14,MS,28,Mississippi,6,0
+2020-03-15,MS,28,Mississippi,10,0
+2020-03-16,MS,28,Mississippi,12,0
+2020-03-17,MS,28,Mississippi,21,0
+2020-03-18,MS,28,Mississippi,34,0
+2020-03-19,MS,28,Mississippi,50,1
+2020-03-20,MS,28,Mississippi,80,1
+2020-03-21,MS,28,Mississippi,140,1
+2020-03-22,MS,28,Mississippi,207,1
+2020-03-23,MS,28,Mississippi,249,1
+2020-03-24,MS,28,Mississippi,320,1
+2020-03-25,MS,28,Mississippi,377,5
+2020-03-13,MT,30,Montana,4,0
+2020-03-14,MT,30,Montana,6,0
+2020-03-15,MT,30,Montana,6,0
+2020-03-16,MT,30,Montana,8,0
+2020-03-17,MT,30,Montana,8,0
+2020-03-18,MT,30,Montana,12,0
+2020-03-19,MT,30,Montana,19,0
+2020-03-20,MT,30,Montana,19,0
+2020-03-21,MT,30,Montana,29,0
+2020-03-22,MT,30,Montana,34,0
+2020-03-23,MT,30,Montana,45,0
+2020-03-24,MT,30,Montana,51,0
+2020-03-25,MT,30,Montana,65,0
+2020-03-03,NC,37,North Carolina,1,0
+2020-03-04,NC,37,North Carolina,1,0
+2020-03-05,NC,37,North Carolina,1,0
+2020-03-06,NC,37,North Carolina,2,0
+2020-03-07,NC,37,North Carolina,2,0
+2020-03-08,NC,37,North Carolina,2,0
+2020-03-09,NC,37,North Carolina,7,0
+2020-03-10,NC,37,North Carolina,7,0
+2020-03-11,NC,37,North Carolina,8,0
+2020-03-12,NC,37,North Carolina,16,0
+2020-03-13,NC,37,North Carolina,18,0
+2020-03-14,NC,37,North Carolina,25,0
+2020-03-15,NC,37,North Carolina,32,0
+2020-03-16,NC,37,North Carolina,34,0
+2020-03-17,NC,37,North Carolina,42,0
+2020-03-18,NC,37,North Carolina,66,0
+2020-03-19,NC,37,North Carolina,104,0
+2020-03-20,NC,37,North Carolina,144,0
+2020-03-21,NC,37,North Carolina,184,0
+2020-03-22,NC,37,North Carolina,269,0
+2020-03-23,NC,37,North Carolina,303,0
+2020-03-24,NC,37,North Carolina,399,0
+2020-03-25,NC,37,North Carolina,563,1
+2020-03-11,ND,38,North Dakota,1,0
+2020-03-12,ND,38,North Dakota,1,0
+2020-03-13,ND,38,North Dakota,1,0
+2020-03-14,ND,38,North Dakota,1,0
+2020-03-15,ND,38,North Dakota,1,0
+2020-03-16,ND,38,North Dakota,1,0
+2020-03-17,ND,38,North Dakota,5,0
+2020-03-18,ND,38,North Dakota,7,0
+2020-03-19,ND,38,North Dakota,19,0
+2020-03-20,ND,38,North Dakota,27,0
+2020-03-21,ND,38,North Dakota,28,0
+2020-03-22,ND,38,North Dakota,30,0
+2020-03-23,ND,38,North Dakota,32,0
+2020-03-24,ND,38,North Dakota,36,0
+2020-03-25,ND,38,North Dakota,45,0
+2020-02-17,NE,31,Nebraska,10,0
+2020-02-18,NE,31,Nebraska,10,0
+2020-02-19,NE,31,Nebraska,10,0
+2020-02-20,NE,31,Nebraska,11,0
+2020-02-21,NE,31,Nebraska,11,0
+2020-02-22,NE,31,Nebraska,11,0
+2020-02-23,NE,31,Nebraska,11,0
+2020-02-24,NE,31,Nebraska,12,0
+2020-02-25,NE,31,Nebraska,13,0
+2020-02-26,NE,31,Nebraska,13,0
+2020-02-27,NE,31,Nebraska,13,0
+2020-02-28,NE,31,Nebraska,13,0
+2020-02-29,NE,31,Nebraska,13,0
+2020-03-01,NE,31,Nebraska,13,0
+2020-03-02,NE,31,Nebraska,13,0
+2020-03-03,NE,31,Nebraska,13,0
+2020-03-04,NE,31,Nebraska,13,0
+2020-03-05,NE,31,Nebraska,13,0
+2020-03-06,NE,31,Nebraska,14,0
+2020-03-07,NE,31,Nebraska,14,0
+2020-03-08,NE,31,Nebraska,16,0
+2020-03-09,NE,31,Nebraska,16,0
+2020-03-10,NE,31,Nebraska,17,0
+2020-03-11,NE,31,Nebraska,23,0
+2020-03-12,NE,31,Nebraska,24,0
+2020-03-13,NE,31,Nebraska,27,0
+2020-03-14,NE,31,Nebraska,29,0
+2020-03-15,NE,31,Nebraska,31,0
+2020-03-16,NE,31,Nebraska,33,0
+2020-03-17,NE,31,Nebraska,36,0
+2020-03-18,NE,31,Nebraska,43,0
+2020-03-19,NE,31,Nebraska,47,0
+2020-03-20,NE,31,Nebraska,53,0
+2020-03-21,NE,31,Nebraska,61,0
+2020-03-22,NE,31,Nebraska,62,0
+2020-03-23,NE,31,Nebraska,73,0
+2020-03-24,NE,31,Nebraska,77,0
+2020-03-25,NE,31,Nebraska,84,0
+2020-03-02,NH,33,New Hampshire,1,0
+2020-03-03,NH,33,New Hampshire,2,0
+2020-03-04,NH,33,New Hampshire,2,0
+2020-03-05,NH,33,New Hampshire,2,0
+2020-03-06,NH,33,New Hampshire,2,0
+2020-03-07,NH,33,New Hampshire,4,0
+2020-03-08,NH,33,New Hampshire,4,0
+2020-03-09,NH,33,New Hampshire,4,0
+2020-03-10,NH,33,New Hampshire,5,0
+2020-03-11,NH,33,New Hampshire,5,0
+2020-03-12,NH,33,New Hampshire,6,0
+2020-03-13,NH,33,New Hampshire,7,0
+2020-03-14,NH,33,New Hampshire,7,0
+2020-03-15,NH,33,New Hampshire,13,0
+2020-03-16,NH,33,New Hampshire,17,0
+2020-03-17,NH,33,New Hampshire,26,0
+2020-03-18,NH,33,New Hampshire,39,0
+2020-03-19,NH,33,New Hampshire,44,0
+2020-03-20,NH,33,New Hampshire,55,0
+2020-03-21,NH,33,New Hampshire,65,0
+2020-03-22,NH,33,New Hampshire,78,0
+2020-03-23,NH,33,New Hampshire,101,1
+2020-03-24,NH,33,New Hampshire,108,0
+2020-03-25,NH,33,New Hampshire,137,1
+2020-03-04,NJ,34,New Jersey,1,0
+2020-03-05,NJ,34,New Jersey,2,0
+2020-03-06,NJ,34,New Jersey,4,0
+2020-03-07,NJ,34,New Jersey,4,0
+2020-03-08,NJ,34,New Jersey,6,0
+2020-03-09,NJ,34,New Jersey,11,0
+2020-03-10,NJ,34,New Jersey,15,1
+2020-03-11,NJ,34,New Jersey,23,1
+2020-03-12,NJ,34,New Jersey,29,1
+2020-03-13,NJ,34,New Jersey,50,1
+2020-03-14,NJ,34,New Jersey,75,2
+2020-03-15,NJ,34,New Jersey,98,2
+2020-03-16,NJ,34,New Jersey,176,3
+2020-03-17,NJ,34,New Jersey,268,3
+2020-03-18,NJ,34,New Jersey,427,5
+2020-03-19,NJ,34,New Jersey,735,9
+2020-03-20,NJ,34,New Jersey,896,11
+2020-03-21,NJ,34,New Jersey,1336,16
+2020-03-22,NJ,34,New Jersey,1914,20
+2020-03-23,NJ,34,New Jersey,2844,27
+2020-03-24,NJ,34,New Jersey,3675,44
+2020-03-25,NJ,34,New Jersey,4402,62
+2020-03-11,NM,35,New Mexico,4,0
+2020-03-12,NM,35,New Mexico,6,0
+2020-03-13,NM,35,New Mexico,10,0
+2020-03-14,NM,35,New Mexico,13,0
+2020-03-15,NM,35,New Mexico,17,0
+2020-03-16,NM,35,New Mexico,21,0
+2020-03-17,NM,35,New Mexico,23,0
+2020-03-18,NM,35,New Mexico,28,0
+2020-03-19,NM,35,New Mexico,35,0
+2020-03-20,NM,35,New Mexico,43,0
+2020-03-21,NM,35,New Mexico,57,0
+2020-03-22,NM,35,New Mexico,65,0
+2020-03-23,NM,35,New Mexico,83,0
+2020-03-24,NM,35,New Mexico,100,0
+2020-03-25,NM,35,New Mexico,112,1
+2020-03-05,NV,32,Nevada,2,0
+2020-03-06,NV,32,Nevada,2,0
+2020-03-07,NV,32,Nevada,2,0
+2020-03-08,NV,32,Nevada,4,0
+2020-03-09,NV,32,Nevada,4,0
+2020-03-10,NV,32,Nevada,4,0
+2020-03-11,NV,32,Nevada,7,0
+2020-03-12,NV,32,Nevada,11,0
+2020-03-13,NV,32,Nevada,19,0
+2020-03-14,NV,32,Nevada,21,0
+2020-03-15,NV,32,Nevada,26,0
+2020-03-16,NV,32,Nevada,45,1
+2020-03-17,NV,32,Nevada,55,1
+2020-03-18,NV,32,Nevada,82,1
+2020-03-19,NV,32,Nevada,99,1
+2020-03-20,NV,32,Nevada,165,2
+2020-03-21,NV,32,Nevada,165,2
+2020-03-22,NV,32,Nevada,190,2
+2020-03-23,NV,32,Nevada,265,4
+2020-03-24,NV,32,Nevada,315,6
+2020-03-25,NV,32,Nevada,405,10
+2020-03-01,NY,36,New York,1,0
+2020-03-02,NY,36,New York,1,0
+2020-03-03,NY,36,New York,2,0
+2020-03-04,NY,36,New York,11,0
+2020-03-05,NY,36,New York,22,0
+2020-03-06,NY,36,New York,44,0
+2020-03-07,NY,36,New York,89,0
+2020-03-08,NY,36,New York,106,0
+2020-03-09,NY,36,New York,142,0
+2020-03-10,NY,36,New York,173,0
+2020-03-11,NY,36,New York,217,0
+2020-03-12,NY,36,New York,326,0
+2020-03-13,NY,36,New York,421,0
+2020-03-14,NY,36,New York,610,2
+2020-03-15,NY,36,New York,732,6
+2020-03-16,NY,36,New York,950,10
+2020-03-17,NY,36,New York,1374,17
+2020-03-18,NY,36,New York,2382,27
+2020-03-19,NY,36,New York,4152,30
+2020-03-20,NY,36,New York,7102,57
+2020-03-21,NY,36,New York,10356,80
+2020-03-22,NY,36,New York,15168,122
+2020-03-23,NY,36,New York,20875,159
+2020-03-24,NY,36,New York,25665,218
+2020-03-25,NY,36,New York,33066,325
+2020-03-09,OH,39,Ohio,3,0
+2020-03-10,OH,39,Ohio,3,0
+2020-03-11,OH,39,Ohio,4,0
+2020-03-12,OH,39,Ohio,5,0
+2020-03-13,OH,39,Ohio,13,0
+2020-03-14,OH,39,Ohio,26,0
+2020-03-15,OH,39,Ohio,37,0
+2020-03-16,OH,39,Ohio,50,0
+2020-03-17,OH,39,Ohio,67,0
+2020-03-18,OH,39,Ohio,90,0
+2020-03-19,OH,39,Ohio,120,0
+2020-03-20,OH,39,Ohio,169,1
+2020-03-21,OH,39,Ohio,247,3
+2020-03-22,OH,39,Ohio,351,3
+2020-03-23,OH,39,Ohio,444,6
+2020-03-24,OH,39,Ohio,564,8
+2020-03-25,OH,39,Ohio,706,11
+2020-03-06,OK,40,Oklahoma,1,0
+2020-03-07,OK,40,Oklahoma,1,0
+2020-03-08,OK,40,Oklahoma,1,0
+2020-03-09,OK,40,Oklahoma,1,0
+2020-03-10,OK,40,Oklahoma,2,0
+2020-03-11,OK,40,Oklahoma,2,0
+2020-03-12,OK,40,Oklahoma,2,0
+2020-03-13,OK,40,Oklahoma,3,0
+2020-03-14,OK,40,Oklahoma,4,0
+2020-03-15,OK,40,Oklahoma,8,0
+2020-03-16,OK,40,Oklahoma,10,0
+2020-03-17,OK,40,Oklahoma,18,0
+2020-03-18,OK,40,Oklahoma,29,0
+2020-03-19,OK,40,Oklahoma,44,1
+2020-03-20,OK,40,Oklahoma,49,1
+2020-03-21,OK,40,Oklahoma,53,1
+2020-03-22,OK,40,Oklahoma,67,2
+2020-03-23,OK,40,Oklahoma,81,2
+2020-03-24,OK,40,Oklahoma,106,3
+2020-03-25,OK,40,Oklahoma,164,5
+2020-02-28,OR,41,Oregon,1,0
+2020-02-29,OR,41,Oregon,1,0
+2020-03-01,OR,41,Oregon,2,0
+2020-03-02,OR,41,Oregon,2,0
+2020-03-03,OR,41,Oregon,2,0
+2020-03-04,OR,41,Oregon,2,0
+2020-03-05,OR,41,Oregon,2,0
+2020-03-06,OR,41,Oregon,2,0
+2020-03-07,OR,41,Oregon,6,0
+2020-03-08,OR,41,Oregon,13,0
+2020-03-09,OR,41,Oregon,13,0
+2020-03-10,OR,41,Oregon,14,0
+2020-03-11,OR,41,Oregon,20,0
+2020-03-12,OR,41,Oregon,30,0
+2020-03-13,OR,41,Oregon,30,0
+2020-03-14,OR,41,Oregon,36,1
+2020-03-15,OR,41,Oregon,39,1
+2020-03-16,OR,41,Oregon,46,1
+2020-03-17,OR,41,Oregon,66,2
+2020-03-18,OR,41,Oregon,74,3
+2020-03-19,OR,41,Oregon,87,3
+2020-03-20,OR,41,Oregon,114,3
+2020-03-21,OR,41,Oregon,137,4
+2020-03-22,OR,41,Oregon,161,5
+2020-03-23,OR,41,Oregon,191,5
+2020-03-24,OR,41,Oregon,209,8
+2020-03-25,OR,41,Oregon,266,10
+2020-03-06,PA,42,Pennsylvania,2,0
+2020-03-07,PA,42,Pennsylvania,4,0
+2020-03-08,PA,42,Pennsylvania,6,0
+2020-03-09,PA,42,Pennsylvania,10,0
+2020-03-10,PA,42,Pennsylvania,12,0
+2020-03-11,PA,42,Pennsylvania,16,0
+2020-03-12,PA,42,Pennsylvania,22,0
+2020-03-13,PA,42,Pennsylvania,41,0
+2020-03-14,PA,42,Pennsylvania,47,0
+2020-03-15,PA,42,Pennsylvania,68,0
+2020-03-16,PA,42,Pennsylvania,81,0
+2020-03-17,PA,42,Pennsylvania,101,0
+2020-03-18,PA,42,Pennsylvania,139,1
+2020-03-19,PA,42,Pennsylvania,187,1
+2020-03-20,PA,42,Pennsylvania,269,1
+2020-03-21,PA,42,Pennsylvania,388,2
+2020-03-22,PA,42,Pennsylvania,504,3
+2020-03-23,PA,42,Pennsylvania,644,6
+2020-03-24,PA,42,Pennsylvania,851,7
+2020-03-25,PA,42,Pennsylvania,1151,11
+2020-03-13,PR,72,Puerto Rico,3,0
+2020-03-14,PR,72,Puerto Rico,4,0
+2020-03-15,PR,72,Puerto Rico,5,0
+2020-03-16,PR,72,Puerto Rico,5,0
+2020-03-17,PR,72,Puerto Rico,5,0
+2020-03-18,PR,72,Puerto Rico,5,0
+2020-03-19,PR,72,Puerto Rico,6,0
+2020-03-20,PR,72,Puerto Rico,14,0
+2020-03-21,PR,72,Puerto Rico,21,1
+2020-03-22,PR,72,Puerto Rico,23,1
+2020-03-23,PR,72,Puerto Rico,31,2
+2020-03-24,PR,72,Puerto Rico,52,2
+2020-03-25,PR,72,Puerto Rico,51,2
+2020-03-01,RI,44,Rhode Island,2,0
+2020-03-02,RI,44,Rhode Island,2,0
+2020-03-03,RI,44,Rhode Island,2,0
+2020-03-04,RI,44,Rhode Island,2,0
+2020-03-05,RI,44,Rhode Island,2,0
+2020-03-06,RI,44,Rhode Island,3,0
+2020-03-07,RI,44,Rhode Island,3,0
+2020-03-08,RI,44,Rhode Island,3,0
+2020-03-09,RI,44,Rhode Island,3,0
+2020-03-10,RI,44,Rhode Island,5,0
+2020-03-11,RI,44,Rhode Island,5,0
+2020-03-12,RI,44,Rhode Island,5,0
+2020-03-13,RI,44,Rhode Island,20,0
+2020-03-14,RI,44,Rhode Island,20,0
+2020-03-15,RI,44,Rhode Island,20,0
+2020-03-16,RI,44,Rhode Island,21,0
+2020-03-17,RI,44,Rhode Island,23,0
+2020-03-18,RI,44,Rhode Island,33,0
+2020-03-19,RI,44,Rhode Island,44,0
+2020-03-20,RI,44,Rhode Island,44,0
+2020-03-21,RI,44,Rhode Island,66,0
+2020-03-22,RI,44,Rhode Island,83,0
+2020-03-23,RI,44,Rhode Island,106,0
+2020-03-24,RI,44,Rhode Island,124,0
+2020-03-25,RI,44,Rhode Island,132,0
+2020-03-06,SC,45,South Carolina,2,0
+2020-03-07,SC,45,South Carolina,2,0
+2020-03-08,SC,45,South Carolina,6,0
+2020-03-09,SC,45,South Carolina,7,0
+2020-03-10,SC,45,South Carolina,9,0
+2020-03-11,SC,45,South Carolina,10,0
+2020-03-12,SC,45,South Carolina,12,0
+2020-03-13,SC,45,South Carolina,13,0
+2020-03-14,SC,45,South Carolina,19,0
+2020-03-15,SC,45,South Carolina,28,0
+2020-03-16,SC,45,South Carolina,33,1
+2020-03-17,SC,45,South Carolina,47,1
+2020-03-18,SC,45,South Carolina,60,1
+2020-03-19,SC,45,South Carolina,81,1
+2020-03-20,SC,45,South Carolina,126,3
+2020-03-21,SC,45,South Carolina,172,3
+2020-03-22,SC,45,South Carolina,194,3
+2020-03-23,SC,45,South Carolina,299,5
+2020-03-24,SC,45,South Carolina,342,7
+2020-03-25,SC,45,South Carolina,424,7
+2020-03-10,SD,46,South Dakota,5,1
+2020-03-11,SD,46,South Dakota,8,1
+2020-03-12,SD,46,South Dakota,8,1
+2020-03-13,SD,46,South Dakota,9,1
+2020-03-14,SD,46,South Dakota,9,1
+2020-03-15,SD,46,South Dakota,9,1
+2020-03-16,SD,46,South Dakota,10,1
+2020-03-17,SD,46,South Dakota,11,1
+2020-03-18,SD,46,South Dakota,11,1
+2020-03-19,SD,46,South Dakota,14,1
+2020-03-20,SD,46,South Dakota,14,1
+2020-03-21,SD,46,South Dakota,14,1
+2020-03-22,SD,46,South Dakota,21,1
+2020-03-23,SD,46,South Dakota,28,1
+2020-03-24,SD,46,South Dakota,30,1
+2020-03-25,SD,46,South Dakota,41,1
+2020-03-05,TN,47,Tennessee,1,0
+2020-03-06,TN,47,Tennessee,1,0
+2020-03-07,TN,47,Tennessee,1,0
+2020-03-08,TN,47,Tennessee,3,0
+2020-03-09,TN,47,Tennessee,4,0
+2020-03-10,TN,47,Tennessee,7,0
+2020-03-11,TN,47,Tennessee,8,0
+2020-03-12,TN,47,Tennessee,18,0
+2020-03-13,TN,47,Tennessee,26,0
+2020-03-14,TN,47,Tennessee,32,0
+2020-03-15,TN,47,Tennessee,39,0
+2020-03-16,TN,47,Tennessee,52,0
+2020-03-17,TN,47,Tennessee,73,0
+2020-03-18,TN,47,Tennessee,98,0
+2020-03-19,TN,47,Tennessee,155,0
+2020-03-20,TN,47,Tennessee,237,0
+2020-03-21,TN,47,Tennessee,312,2
+2020-03-22,TN,47,Tennessee,424,2
+2020-03-23,TN,47,Tennessee,522,2
+2020-03-24,TN,47,Tennessee,679,2
+2020-03-25,TN,47,Tennessee,784,3
+2020-02-12,TX,48,Texas,1,0
+2020-02-13,TX,48,Texas,2,0
+2020-02-14,TX,48,Texas,2,0
+2020-02-15,TX,48,Texas,2,0
+2020-02-16,TX,48,Texas,2,0
+2020-02-17,TX,48,Texas,2,0
+2020-02-18,TX,48,Texas,2,0
+2020-02-19,TX,48,Texas,2,0
+2020-02-20,TX,48,Texas,2,0
+2020-02-21,TX,48,Texas,4,0
+2020-02-22,TX,48,Texas,4,0
+2020-02-23,TX,48,Texas,4,0
+2020-02-24,TX,48,Texas,10,0
+2020-02-25,TX,48,Texas,10,0
+2020-02-26,TX,48,Texas,10,0
+2020-02-27,TX,48,Texas,10,0
+2020-02-28,TX,48,Texas,11,0
+2020-02-29,TX,48,Texas,11,0
+2020-03-01,TX,48,Texas,11,0
+2020-03-02,TX,48,Texas,11,0
+2020-03-03,TX,48,Texas,11,0
+2020-03-04,TX,48,Texas,12,0
+2020-03-05,TX,48,Texas,16,0
+2020-03-06,TX,48,Texas,19,0
+2020-03-07,TX,48,Texas,19,0
+2020-03-08,TX,48,Texas,23,0
+2020-03-09,TX,48,Texas,24,0
+2020-03-10,TX,48,Texas,31,0
+2020-03-11,TX,48,Texas,33,0
+2020-03-12,TX,48,Texas,41,0
+2020-03-13,TX,48,Texas,58,0
+2020-03-14,TX,48,Texas,69,0
+2020-03-15,TX,48,Texas,80,0
+2020-03-16,TX,48,Texas,87,1
+2020-03-17,TX,48,Texas,106,1
+2020-03-18,TX,48,Texas,166,2
+2020-03-19,TX,48,Texas,248,4
+2020-03-20,TX,48,Texas,377,5
+2020-03-21,TX,48,Texas,547,5
+2020-03-22,TX,48,Texas,632,7
+2020-03-23,TX,48,Texas,728,7
+2020-03-24,TX,48,Texas,857,11
+2020-03-25,TX,48,Texas,1119,12
+2020-02-25,UT,49,Utah,1,0
+2020-02-26,UT,49,Utah,1,0
+2020-02-27,UT,49,Utah,1,0
+2020-02-28,UT,49,Utah,1,0
+2020-02-29,UT,49,Utah,1,0
+2020-03-01,UT,49,Utah,1,0
+2020-03-02,UT,49,Utah,1,0
+2020-03-03,UT,49,Utah,1,0
+2020-03-04,UT,49,Utah,1,0
+2020-03-05,UT,49,Utah,1,0
+2020-03-06,UT,49,Utah,3,0
+2020-03-07,UT,49,Utah,3,0
+2020-03-08,UT,49,Utah,3,0
+2020-03-09,UT,49,Utah,3,0
+2020-03-10,UT,49,Utah,4,0
+2020-03-11,UT,49,Utah,5,0
+2020-03-12,UT,49,Utah,7,0
+2020-03-13,UT,49,Utah,7,0
+2020-03-14,UT,49,Utah,21,0
+2020-03-15,UT,49,Utah,29,0
+2020-03-16,UT,49,Utah,40,0
+2020-03-17,UT,49,Utah,51,0
+2020-03-18,UT,49,Utah,65,0
+2020-03-19,UT,49,Utah,80,0
+2020-03-20,UT,49,Utah,112,0
+2020-03-21,UT,49,Utah,138,0
+2020-03-22,UT,49,Utah,182,1
+2020-03-23,UT,49,Utah,257,1
+2020-03-24,UT,49,Utah,298,1
+2020-03-25,UT,49,Utah,346,1
+2020-03-07,VA,51,Virginia,1,0
+2020-03-08,VA,51,Virginia,2,0
+2020-03-09,VA,51,Virginia,5,0
+2020-03-10,VA,51,Virginia,8,0
+2020-03-11,VA,51,Virginia,10,0
+2020-03-12,VA,51,Virginia,17,0
+2020-03-13,VA,51,Virginia,30,0
+2020-03-14,VA,51,Virginia,42,1
+2020-03-15,VA,51,Virginia,45,1
+2020-03-16,VA,51,Virginia,51,1
+2020-03-17,VA,51,Virginia,67,2
+2020-03-18,VA,51,Virginia,78,2
+2020-03-19,VA,51,Virginia,94,2
+2020-03-20,VA,51,Virginia,115,2
+2020-03-21,VA,51,Virginia,152,3
+2020-03-22,VA,51,Virginia,219,6
+2020-03-23,VA,51,Virginia,254,6
+2020-03-24,VA,51,Virginia,290,7
+2020-03-25,VA,51,Virginia,391,9
+2020-03-14,VI,78,Virgin Islands,1,0
+2020-03-15,VI,78,Virgin Islands,1,0
+2020-03-16,VI,78,Virgin Islands,2,0
+2020-03-17,VI,78,Virgin Islands,2,0
+2020-03-18,VI,78,Virgin Islands,3,0
+2020-03-19,VI,78,Virgin Islands,3,0
+2020-03-20,VI,78,Virgin Islands,6,0
+2020-03-21,VI,78,Virgin Islands,6,0
+2020-03-22,VI,78,Virgin Islands,17,0
+2020-03-23,VI,78,Virgin Islands,17,0
+2020-03-24,VI,78,Virgin Islands,17,0
+2020-03-25,VI,78,Virgin Islands,17,0
+2020-03-07,VT,50,Vermont,1,0
+2020-03-08,VT,50,Vermont,1,0
+2020-03-09,VT,50,Vermont,1,0
+2020-03-10,VT,50,Vermont,1,0
+2020-03-11,VT,50,Vermont,2,0
+2020-03-12,VT,50,Vermont,2,0
+2020-03-13,VT,50,Vermont,2,0
+2020-03-14,VT,50,Vermont,5,0
+2020-03-15,VT,50,Vermont,8,0
+2020-03-16,VT,50,Vermont,12,0
+2020-03-17,VT,50,Vermont,14,0
+2020-03-18,VT,50,Vermont,19,0
+2020-03-19,VT,50,Vermont,22,2
+2020-03-20,VT,50,Vermont,29,2
+2020-03-21,VT,50,Vermont,49,2
+2020-03-22,VT,50,Vermont,52,2
+2020-03-23,VT,50,Vermont,75,2
+2020-03-24,VT,50,Vermont,95,7
+2020-03-25,VT,50,Vermont,123,8
+2020-01-21,WA,53,Washington,1,0
+2020-01-22,WA,53,Washington,1,0
+2020-01-23,WA,53,Washington,1,0
+2020-01-24,WA,53,Washington,1,0
+2020-01-25,WA,53,Washington,1,0
+2020-01-26,WA,53,Washington,1,0
+2020-01-27,WA,53,Washington,1,0
+2020-01-28,WA,53,Washington,1,0
+2020-01-29,WA,53,Washington,1,0
+2020-01-30,WA,53,Washington,1,0
+2020-01-31,WA,53,Washington,1,0
+2020-02-01,WA,53,Washington,1,0
+2020-02-02,WA,53,Washington,1,0
+2020-02-03,WA,53,Washington,1,0
+2020-02-04,WA,53,Washington,1,0
+2020-02-05,WA,53,Washington,1,0
+2020-02-06,WA,53,Washington,1,0
+2020-02-07,WA,53,Washington,1,0
+2020-02-08,WA,53,Washington,1,0
+2020-02-09,WA,53,Washington,1,0
+2020-02-10,WA,53,Washington,1,0
+2020-02-11,WA,53,Washington,1,0
+2020-02-12,WA,53,Washington,1,0
+2020-02-13,WA,53,Washington,1,0
+2020-02-14,WA,53,Washington,1,0
+2020-02-15,WA,53,Washington,1,0
+2020-02-16,WA,53,Washington,1,0
+2020-02-17,WA,53,Washington,1,0
+2020-02-18,WA,53,Washington,1,0
+2020-02-19,WA,53,Washington,1,0
+2020-02-20,WA,53,Washington,1,0
+2020-02-21,WA,53,Washington,1,0
+2020-02-22,WA,53,Washington,1,0
+2020-02-23,WA,53,Washington,1,0
+2020-02-24,WA,53,Washington,5,0
+2020-02-25,WA,53,Washington,5,0
+2020-02-26,WA,53,Washington,5,0
+2020-02-27,WA,53,Washington,5,0
+2020-02-28,WA,53,Washington,7,0
+2020-02-29,WA,53,Washington,10,1
+2020-03-01,WA,53,Washington,17,3
+2020-03-02,WA,53,Washington,23,6
+2020-03-03,WA,53,Washington,32,10
+2020-03-04,WA,53,Washington,47,11
+2020-03-05,WA,53,Washington,75,11
+2020-03-06,WA,53,Washington,86,12
+2020-03-07,WA,53,Washington,110,16
+2020-03-08,WA,53,Washington,141,19
+2020-03-09,WA,53,Washington,179,22
+2020-03-10,WA,53,Washington,279,24
+2020-03-11,WA,53,Washington,338,29
+2020-03-12,WA,53,Washington,419,32
+2020-03-13,WA,53,Washington,511,37
+2020-03-14,WA,53,Washington,609,40
+2020-03-15,WA,53,Washington,675,42
+2020-03-16,WA,53,Washington,794,48
+2020-03-17,WA,53,Washington,908,54
+2020-03-18,WA,53,Washington,1026,68
+2020-03-19,WA,53,Washington,1228,75
+2020-03-20,WA,53,Washington,1404,83
+2020-03-21,WA,53,Washington,1655,95
+2020-03-22,WA,53,Washington,1844,97
+2020-03-23,WA,53,Washington,2101,110
+2020-03-24,WA,53,Washington,2469,123
+2020-03-25,WA,53,Washington,2585,130
+2020-02-05,WI,55,Wisconsin,1,0
+2020-02-06,WI,55,Wisconsin,1,0
+2020-02-07,WI,55,Wisconsin,1,0
+2020-02-08,WI,55,Wisconsin,1,0
+2020-02-09,WI,55,Wisconsin,1,0
+2020-02-10,WI,55,Wisconsin,1,0
+2020-02-11,WI,55,Wisconsin,1,0
+2020-02-12,WI,55,Wisconsin,1,0
+2020-02-13,WI,55,Wisconsin,1,0
+2020-02-14,WI,55,Wisconsin,1,0
+2020-02-15,WI,55,Wisconsin,1,0
+2020-02-16,WI,55,Wisconsin,1,0
+2020-02-17,WI,55,Wisconsin,1,0
+2020-02-18,WI,55,Wisconsin,1,0
+2020-02-19,WI,55,Wisconsin,1,0
+2020-02-20,WI,55,Wisconsin,1,0
+2020-02-21,WI,55,Wisconsin,1,0
+2020-02-22,WI,55,Wisconsin,1,0
+2020-02-23,WI,55,Wisconsin,1,0
+2020-02-24,WI,55,Wisconsin,1,0
+2020-02-25,WI,55,Wisconsin,1,0
+2020-02-26,WI,55,Wisconsin,1,0
+2020-02-27,WI,55,Wisconsin,1,0
+2020-02-28,WI,55,Wisconsin,1,0
+2020-02-29,WI,55,Wisconsin,1,0
+2020-03-01,WI,55,Wisconsin,1,0
+2020-03-02,WI,55,Wisconsin,1,0
+2020-03-03,WI,55,Wisconsin,1,0
+2020-03-04,WI,55,Wisconsin,1,0
+2020-03-05,WI,55,Wisconsin,1,0
+2020-03-06,WI,55,Wisconsin,1,0
+2020-03-07,WI,55,Wisconsin,1,0
+2020-03-08,WI,55,Wisconsin,1,0
+2020-03-09,WI,55,Wisconsin,2,0
+2020-03-10,WI,55,Wisconsin,3,0
+2020-03-11,WI,55,Wisconsin,6,0
+2020-03-12,WI,55,Wisconsin,8,0
+2020-03-13,WI,55,Wisconsin,19,0
+2020-03-14,WI,55,Wisconsin,27,0
+2020-03-15,WI,55,Wisconsin,33,0
+2020-03-16,WI,55,Wisconsin,47,0
+2020-03-17,WI,55,Wisconsin,72,0
+2020-03-18,WI,55,Wisconsin,106,0
+2020-03-19,WI,55,Wisconsin,155,2
+2020-03-20,WI,55,Wisconsin,216,3
+2020-03-21,WI,55,Wisconsin,281,4
+2020-03-22,WI,55,Wisconsin,382,4
+2020-03-23,WI,55,Wisconsin,418,5
+2020-03-24,WI,55,Wisconsin,481,5
+2020-03-25,WI,55,Wisconsin,623,7
+2020-03-17,WV,54,West Virginia,1,0
+2020-03-18,WV,54,West Virginia,2,0
+2020-03-19,WV,54,West Virginia,5,0
+2020-03-20,WV,54,West Virginia,8,0
+2020-03-21,WV,54,West Virginia,12,0
+2020-03-22,WV,54,West Virginia,16,0
+2020-03-23,WV,54,West Virginia,16,0
+2020-03-24,WV,54,West Virginia,39,0
+2020-03-25,WV,54,West Virginia,52,0
+2020-03-11,WY,56,Wyoming,1,0
+2020-03-12,WY,56,Wyoming,1,0
+2020-03-13,WY,56,Wyoming,2,0
+2020-03-14,WY,56,Wyoming,3,0
+2020-03-15,WY,56,Wyoming,3,0
+2020-03-16,WY,56,Wyoming,10,0
+2020-03-17,WY,56,Wyoming,15,0
+2020-03-18,WY,56,Wyoming,17,0
+2020-03-19,WY,56,Wyoming,18,0
+2020-03-20,WY,56,Wyoming,22,0
+2020-03-21,WY,56,Wyoming,24,0
+2020-03-22,WY,56,Wyoming,26,0
+2020-03-23,WY,56,Wyoming,28,0
+2020-03-24,WY,56,Wyoming,37,0
+2020-03-25,WY,56,Wyoming,49,0

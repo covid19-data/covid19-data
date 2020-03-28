@@ -6,7 +6,7 @@ import pandas as pd
 # Raw datasets
 ###############################################################################
 
-# Data file from Our World in Data. Directly from WHO
+# Data file from Our World in Data. Directly from ECDC
 OWID_DIR = 'data_sources/our_world_in_data'
 OWID_WHO_TS = j(OWID_DIR, 'owid_who_ts.csv')
 OWID_ECDC_TS = j(OWID_DIR, 'owid_ecdc_ts.csv')
@@ -19,11 +19,10 @@ WB_RAW = "data_sources/worldbank_population_data/wb_raw.csv"
 
 # country code data from wikipedia
 WP_CNTRY_RAW = 'data_sources/wikipedia/ISO3166/iso3166_country_code.csv'
+US_STATE_CODE = 'data_sources/wikipedia/ISO3166/usa_state_code.csv'
 
-# Population data cleaning and matching with JHU data
-# POP_CONVERSION = j(WB_DATA_DIR, 'pop_conversion.csv')
-# POP_CLEANED_CSV = j(WB_DATA_DIR, 'pop.csv')
-
+# NYT data
+NYT_STATE_TS_RAW = 'data_sources/nyt/covid-19-data/us-states.csv'
 
 ###############################################################################
 # Manually curated datasets
@@ -33,7 +32,7 @@ WP_CNTRY_RAW = 'data_sources/wikipedia/ISO3166/iso3166_country_code.csv'
 WP_CASE_DIR = 'data_sources/wikipedia/cases'
 WP_TS = j(WP_CASE_DIR, 'country-level/{country}_ts.csv')
 WP_COUNTRIES = pd.read_csv(
-        j(WP_CASE_DIR,'country_case_wp_pages.csv'))['country_code'].to_list()
+    j(WP_CASE_DIR, 'country_case_wp_pages.csv'))['country_code'].to_list()
 
 WB_ADDED = 'curation_data/country/extra_country_metadata.csv'
 EXTRA_CNTRY_NAME_CODE = 'curation_data/country/extra_country_name_code.csv'
@@ -60,6 +59,7 @@ CNTRY_STAT_JSON = 'output/cntry_stat.json'
 CNTRY_STAT_JSON_FROM_OWID = 'output/cntry_stat_owid.json'
 CNTRY_STAT_JSON_WHO_WP = 'output/cntry_stat_who_wp.json'
 CNTRY_STAT_JSON_ECDC_WP = 'output/cntry_stat_ecdc_wp.json'
+USA_STAT_JSON_FROM_NYT = 'output/us_state_nyt.json'
 
 # WHO case data csv
 WHO_CASE_DATA = j(CASE_DATA_DIR, 'cases_WHO.csv')
@@ -68,6 +68,9 @@ WHO_WP_CASE_DATA = j(CASE_DATA_DIR, 'cases_WHO_WP.csv')
 # ECDC case data csv
 ECDC_CASE_DATA = j(CASE_DATA_DIR, 'cases_ECDC.csv')
 ECDC_WP_CASE_DATA = j(CASE_DATA_DIR, 'cases_ECDC_WP.csv')
+
+# USA state data from NYT
+NYT_STATE_TS = 'output/cases/cases_us_states_nyt.csv'
 
 ###############################################################################
 # Workflows
@@ -79,6 +82,12 @@ rule all:
         CNTRY_STAT_JSON_ECDC_WP,
         COORDINATES,
         ECDC_WP_CASE_DATA,
+        NYT_STATE_TS,
+
+rule nyt_state_ts:
+    input: NYT_STATE_TS_RAW, US_STATE_CODE
+    output: NYT_STATE_TS
+    shell: "python scripts/nyt_state_data.py {input} {output}"
 
 rule extract_country_code_name_table:
     input: CNTRY_NAME_CODE_TABLE
@@ -104,6 +113,11 @@ rule prepare_viz_data_from_owid:
     input: ECDC_CASE_DATA, CNTRY_META, CNTRY_CODE_NAME_TABLE
     output: CNTRY_STAT_JSON_FROM_OWID
     script: "scripts/prepare_viz_data_owid.py"
+
+rule prepare_us_states_viz_data:
+    input: NYT_STATE_TS
+    output: USA_STAT_JSON_FROM_NYT
+    shell: "python scripts/prepare_state_level_viz_data.py {input} {output}"
 
 rule extract_country_metadata:
     input: WB_RAW, WB_ADDED
