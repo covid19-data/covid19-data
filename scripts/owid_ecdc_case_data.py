@@ -1,6 +1,4 @@
 """Prepare the CFR data visualization data from OWID (WHO)."""
-import json
-
 import pandas as pd
 
 import utils
