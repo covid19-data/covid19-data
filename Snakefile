@@ -83,6 +83,7 @@ rule all:
         COORDINATES,
         ECDC_WP_CASE_DATA,
         NYT_STATE_TS,
+        USA_STAT_JSON_FROM_NYT,
 
 rule nyt_state_ts:
     input: NYT_STATE_TS_RAW, US_STATE_CODE
