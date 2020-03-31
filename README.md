@@ -9,6 +9,7 @@ This repository hosts workflows to process several data sources and cleaned data
 ### Historical (daily) case data 
 
 - [`output/cases/cases_ECDC.csv`](https://github.com/covid19-data/covid19-data/blob/master/output/cases/cases_ECDC.csv): European Centre for Disease Prevention and Control (ECDC) historical world-wide case data (currently through [Our World in Data](https://ourworldindata.org/coronavirus-source-data)).
+- [`output/cases/cases_us_states_nyt.csv`](https://github.com/covid19-data/covid19-data/blob/master/output/cases/cases_us_states_nyt.csv): US state-level historical case data from [New York Times](https://github.com/nytimes/covid-19-data)
 
 ### Country metadata 
 
