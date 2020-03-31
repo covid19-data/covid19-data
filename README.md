@@ -19,15 +19,15 @@ This repository hosts workflows to process several data sources and cleaned data
     - [`output/metadata/country/country_name_code.csv`](https://github.com/yy/covid19-data/blob/master/output/metadata/country/country_name_code.csv): a conversion table from country name to code (ISO 3166 Alpha 3). Note that multiple names point to the same code.
     - [`output/metadata/country/country_code_name.csv`](https://github.com/yy/covid19-data/blob/master/output/metadata/country/country_code_name.csv): a conversion table from country code (ISO 3166 Alpha 3) to country name. The shortest country names are picked from the above dataset.
 
-
 ### Historical case data for visualizations
 
-- [`cntry_stat_owid.json`](https://github.com/yy/covid19-data/blob/master/output/cntry_stat_owid.json): ECDC historical data merged with Worldbank's country metadata and ISO 3166-1 Alpha-3 data. 
-  - Used in [an interactive visualization of case fatality rate of COVID-19](http://yyahn.com/covid19)
+- [`cntry_stat_owid.json`](https://github.com/yy/covid19-data/blob/master/output/cntry_stat_owid.json): ECDC historical data merged with Worldbank's country metadata and ISO 3166-1 Alpha-3 data. Used in:
+  - [an interactive visualization of case fatality rate of COVID-19](http://yyahn.com/covid19)
     - Website source code: https://github.com/covid19-data/covid19-dashboard
     - visualization source code on ObservableHQ: https://observablehq.com/@yy/covid-19-fatality-rate and https://observablehq.com/@yy/covid-19-trends
   - [An example to create case time series charts in ObservableHQ](https://observablehq.com/@benjyz/covid-chart-alpha) by [benjyz](https://github.com/benjyz)
-
+- [`us_state_nyt.json`](https://github.com/yy/covid19-data/blob/master/output/us_state_nyt.json): New York Time historical data. Used in:
+    - [New cases vs. all confirmed interactive visualization](https://observablehq.com/@yy/covid-19-confirmed-vs-new-cases).
 
 ### Deprecated
 
