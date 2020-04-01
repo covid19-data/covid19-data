@@ -14,7 +14,6 @@ This repository hosts workflows to process several data sources and cleaned data
 ### Country metadata 
 
 - Country metadata: [`output/metadata/country/country_metadata.csv`](https://github.com/covid19-data/covid19-data/blob/master/output/metadata/country/country_metadata.csv) from [Worldbank](https://data.worldbank.org/indicator/SP.POP.TOTL).
-
 - ISO 3166-1 Alpha-3 country code conversion table. 
     - [`output/metadata/country/country_name_code.csv`](https://github.com/yy/covid19-data/blob/master/output/metadata/country/country_name_code.csv): a conversion table from country name to code (ISO 3166 Alpha 3). Note that multiple names point to the same code.
     - [`output/metadata/country/country_code_name.csv`](https://github.com/yy/covid19-data/blob/master/output/metadata/country/country_code_name.csv): a conversion table from country code (ISO 3166 Alpha 3) to country name. The shortest country names are picked from the above dataset.
@@ -34,9 +33,7 @@ This repository hosts workflows to process several data sources and cleaned data
 WHO dataset is deprecated. See Our World in Data's announcement: [Why we stopped relying on data from the World Health Organization](https://ourworldindata.org/coronavirus#why-we-stopped-relying-on-data-from-the-world-health-organization)
 
 - [`output/cases/cases_WHO.csv`](https://github.com/covid19-data/covid19-data/blob/master/output/cases/cases_WHO.csv)
-
 - https://www.worldometers.info/coronavirus/
-
 - [`coordinates.csv`](https://github.com/yy/covid19-data/blob/master/output/location/coordinates.csv): Lat Lng location data from JHU dataset (Unreliable).
 
 ## Usage
