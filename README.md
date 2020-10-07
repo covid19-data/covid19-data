@@ -23,7 +23,7 @@ This repository hosts workflows to process several data sources and cleaned data
 - [`cntry_stat_owid.json`](https://github.com/yy/covid19-data/blob/master/output/cntry_stat_owid.json): ECDC historical data merged with Worldbank's country metadata and ISO 3166-1 Alpha-3 data. Used in:
   - [an interactive visualization of case fatality rate of COVID-19](http://yyahn.com/covid19)
     - Website source code: https://github.com/covid19-data/covid19-dashboard
-    - visualization source code on ObservableHQ: https://observablehq.com/@yy/covid-19-fatality-rate and https://observablehq.com/@yy/covid-19-trends
+    - visualization source code on ObservableHQ: https://observablehq.com/@yy/covid-19-fatality-rate and https://observablehq.com/@yy/covid-19-spreading-trends
   - [An example to create case time series charts in ObservableHQ](https://observablehq.com/@benjyz/covid-chart-alpha) by [benjyz](https://github.com/benjyz)
 - [`us_state_nyt.json`](https://github.com/yy/covid19-data/blob/master/output/us_state_nyt.json): New York Time historical data. Used in:
     - [New cases vs. all confirmed interactive visualization](https://observablehq.com/@yy/covid-19-confirmed-vs-new-cases).
