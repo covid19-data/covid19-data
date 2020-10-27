@@ -4,7 +4,7 @@ import sys
 import pandas as pd
 
 NYT_STATE_DATA = "https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv"
-OUT_FNAME = "/Users/Tal/Desktop/covid_new/output/cases/cases_us_states_nyt.csv"
+OUT_FNAME = "/Users/Tal/Desktop/covid19-data/output/cases/cases_us_states_nyt.csv"
 
 # Source: https://gist.github.com/rogerallen/1583593
 us_state_abbrev = {
