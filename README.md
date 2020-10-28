@@ -15,7 +15,7 @@ This repository hosts workflows to process several data sources and cleaned data
 ### Country metadata 
 
 - World Bank Data: Classification of **world region** (Latin America & Caribben, South Asia, Sub-Saharan African, Europea & Central Asia, Middle East & North Africa, East Asia & Pacific, North America) for each country or area is based on [`data_source/metadata/worldbank/country_metadata.csv`](https://github.com/covid19-data/covid19-data/blob/master/data_source/metadata/worldbank/country_metadata.csv) from [World Bank](https://data.worldbank.org/indicator/SP.POP.TOTL).
-- ISO-3166-Countries-with-Regional-Codes: For countries or areas not found in World Bank data, their **world region** is found in [`ISO-3166-Countries-with-Regional-Codes`](https://github.com/hongtaoh/covid19-data/blob/master/data_source/metadata/ISO-3166-Countries-with-Regional-Codes/all/all.csv).
+- ISO-3166-Countries-with-Regional-Codes: For countries or areas not found in World Bank data, their **world region** is found in [`ISO-3166-Countries-with-Regional-Codes`](https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes/blob/a4c65c8f176fd68aa2a3a08e85fff8505a09f736/all/all.csv).
 
 
 ### Historical case data for visualizations
