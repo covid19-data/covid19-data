@@ -1,0 +1,20 @@
+date,country_code,state_code,state_name,total_cases,total_deaths,total_recoveries
+2020-03-07,USA,DC,District of Columbia,2,0,0
+2020-03-08,USA,DC,District of Columbia,2,0,0
+2020-03-09,USA,DC,District of Columbia,4,0,0
+2020-03-10,USA,DC,District of Columbia,4,0,0
+2020-03-11,USA,DC,District of Columbia,10,0,0
+2020-03-12,USA,DC,District of Columbia,10,0,0
+2020-03-13,USA,DC,District of Columbia,10,0,0
+2020-03-14,USA,DC,District of Columbia,16,0,0
+2020-03-15,USA,DC,District of Columbia,17,0,0
+2020-03-16,USA,DC,District of Columbia,22,0,0
+2020-03-17,USA,DC,District of Columbia,31,0,0
+2020-03-18,USA,DC,District of Columbia,39,0,0
+2020-03-19,USA,DC,District of Columbia,71,0,0
+2020-03-20,USA,DC,District of Columbia,77,1,0
+2020-03-21,USA,DC,District of Columbia,98,1,0
+2020-03-22,USA,DC,District of Columbia,116,2,0
+2020-03-23,USA,DC,District of Columbia,137,2,0
+2020-03-24,USA,DC,District of Columbia,183,2,0
+2020-03-25,USA,DC,District of Columbia,231,3,0
