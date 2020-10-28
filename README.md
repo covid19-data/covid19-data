@@ -15,18 +15,18 @@ This repository hosts workflows to process several data sources and cleaned data
 ### Country metadata 
 
 - World Bank Data: Classification of **world region** (Latin America & Caribben, South Asia, Sub-Saharan African, Europea & Central Asia, Middle East & North Africa, East Asia & Pacific, North America) for each country or area is based on [`data_source/metadata/worldbank/country_metadata.csv`](https://github.com/covid19-data/covid19-data/blob/master/data_source/metadata/worldbank/country_metadata.csv) from [World Bank](https://data.worldbank.org/indicator/SP.POP.TOTL).
-- ISO-3166-Countries-with-Regional-Codes: For countries or areas not found in World Bank data, their **world region** is found in [`ISO-3166-Countries-with-Regional-Codes`](https://github.com/covid19-data/covid19-data/blob/master/data_source/metadata/ISO-3166-Countries-with-Regional-Codes/all/all.csv).
+- ISO-3166-Countries-with-Regional-Codes: For countries or areas not found in World Bank data, their **world region** is found in [`ISO-3166-Countries-with-Regional-Codes`](https://github.com/hongtaoh/covid19-data/blob/master/data_source/metadata/ISO-3166-Countries-with-Regional-Codes/all/all.csv).
 
 
 ### Historical case data for visualizations
 
-- [`cntry_stat_owid.json`](https://github.com/yy/covid19-data/blob/master/output/cntry_stat_owid.json): ECDC historical data merged with Worldbank's classification of world regions. Used in:
+- [`cntry_stat_owid.json`](https://github.com/honghaoh/covid19-data/blob/master/output/cntry_stat_owid.json): ECDC historical data merged with Worldbank's classification of world regions. Used in:
   - [an interactive visualization of case fatality rate of COVID-19](http://yyahn.com/covid19)
     - Website source code: https://github.com/covid19-data/covid19-dashboard
     - visualization source code on ObservableHQ: https://observablehq.com/@yy/covid-19-fatality-rate and https://observablehq.com/@yy/covid-19-spreading-trends
   - [An example to create case time series charts in ObservableHQ](https://observablehq.com/@benjyz/covid-chart-alpha) by [benjyz](https://github.com/benjyz)
-  - You can find the data manipulation process of [`cntry_stat_owid.json`](https://github.com/yy/covid19-data/blob/master/output/cntry_stat_owid.json) [here](https://observablehq.com/@hongtaoh/day-46-2020-10-08).
-- [`us_state_nyt.json`](https://github.com/yy/covid19-data/blob/master/output/us_state_nyt.json): New York Time historical data. Used in:
+  - You can find the data manipulation process of [`cntry_stat_owid.json`](https://github.com/hongtaoh/covid19-data/blob/master/output/cntry_stat_owid.json) [here](https://observablehq.com/@hongtaoh/day-46-2020-10-08).
+- [`us_state_nyt.json`](https://github.com/hongtaoh/covid19-data/blob/master/output/us_state_nyt.json): New York Time historical data. Used in:
     - [New cases vs. all confirmed interactive visualization](https://observablehq.com/@yy/covid-19-confirmed-vs-new-cases).
 
 ### Deprecated
