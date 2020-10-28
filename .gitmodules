@@ -7,3 +7,6 @@
 [submodule "data_sources/metadata/ISO-3166-Countries-with-Regional-Codes"]
 	path = data_sources/metadata/ISO-3166-Countries-with-Regional-Codes
 	url = https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes
+[submodule "ISO-3166-Countries-with-Regional-Codes"]
+	path = ISO-3166-Countries-with-Regional-Codes
+	url = https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes
