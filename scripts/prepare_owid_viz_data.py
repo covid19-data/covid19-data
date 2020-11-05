@@ -46,6 +46,10 @@ def fill_first_case_death_with_zero(df): # input is dfs
             dfs[i]["total_deaths"].iloc[0] = 0
     return dfs
 
+dfs = extract_cntry_dfs(df)
+
+dfs_first_zero_filled = fill_first_case_death_with_zero(dfs)
+
 def merge_with_meta(df): #input should be dfs_first_zero_filled
     concat_df = pd.concat(dfs).fillna(method="ffill").reset_index().rename(
         columns={"index": "date"})
@@ -56,6 +60,8 @@ def merge_with_meta(df): #input should be dfs_first_zero_filled
     left_join_df = pd.merge(concat_df, metadata, on = "country_code", how = "left")
     left_join_df['date'] = left_join_df['date'].dt.strftime('%Y-%m-%d')
     return left_join_df
+
+left_join_df = merge_with_meta(dfs_first_zero_filled)
 
 def prepare_data_structure(df, gby="country_code"): # input should be left_join_df
     data = []
@@ -76,12 +82,6 @@ def prepare_data_structure(df, gby="country_code"): # input should be left_join_
             print("metadata doesn't exist for: ", code)
             continue
     return data
-
-dfs = extract_cntry_dfs(df)
-
-dfs_first_zero_filled = fill_first_case_death_with_zero(dfs)
-
-left_join_df = merge_with_meta(dfs_first_zero_filled)
 
 data = prepare_data_structure(left_join_df)
 
