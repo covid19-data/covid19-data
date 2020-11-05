@@ -20,7 +20,6 @@ metadata = pd.read_csv("https://raw.githubusercontent.com/hongtaoh/covid19-data/
 
 # get the full date range:
 all_dates = pd.date_range(df.index.min(), df.index.max())
-
 def extract_cntry_dfs(df): # input is df
     dfs = []
     for group in df.groupby("country_code"):
