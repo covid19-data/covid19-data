@@ -46,8 +46,6 @@ def fill_first_case_death_with_zero(df): # input is dfs
             dfs[i]["total_deaths"].iloc[0] = 0
     return dfs
 
-
-
 def merge_with_meta(df): #input should be dfs_first_zero_filled
     concat_df = pd.concat(dfs).fillna(method="ffill").reset_index().rename(
         columns={"index": "date"})
