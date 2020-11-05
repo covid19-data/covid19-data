@@ -39,12 +39,13 @@ def extract_cntry_dfs(df): # input is df
     return dfs
 
 def fill_first_case_death_with_zero(df): # input is dfs
-    for i in np.arange(0, len(dfs)):
-        if math.isnan(dfs[i].total_cases.iloc[0]):
-            dfs[i]["total_cases"].iloc[0] = 0
-        if math.isnan(dfs[i]["total_deaths"].iloc[0]):
-            dfs[i]["total_deaths"].iloc[0] = 0
-    return dfs
+    dfs1 = dfs.copy()
+    for i in np.arange(0, len(dfs1)):
+        if math.isnan(dfs1[i].total_cases.iloc[0]):
+            dfs1[i]["total_cases"].iloc[0] = 0
+        if math.isnan(dfs1[i]["total_deaths"].iloc[0]):
+            dfs1[i]["total_deaths"].iloc[0] = 0
+    return dfs1
 
 dfs = extract_cntry_dfs(df)
 
@@ -85,5 +86,5 @@ def prepare_data_structure(df, gby="country_code"): # input should be left_join_
 
 data = prepare_data_structure(left_join_df)
 
-open("/Users/Tal/Desktop/covid19-data/output/cntry_state_owid.json", "w").write(
+open("/Users/Tal/Desktop/covid19-data/output/cntry_stat_owid.json", "w").write(
     json.dumps(data, separators=(",", ":")))
