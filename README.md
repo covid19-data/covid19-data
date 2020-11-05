@@ -29,6 +29,10 @@ This repository hosts workflows to process several data sources and cleaned data
 - [`us_state_nyt.json`](https://github.com/hongtaoh/covid19-data/blob/master/output/us_state_nyt.json): New York Time historical data. Used in:
     - [New cases vs. all confirmed interactive visualization](https://observablehq.com/@yy/covid-19-confirmed-vs-new-cases).
 
+### Note
+
+Cases on cruise ships were classified as "international". These data were not shown in the visualizations independently but were included in cases within the data for the "World".
+
 ### Deprecated
 
 WHO dataset is deprecated. See Our World in Data's announcement: [Why we stopped relying on data from the World Health Organization](https://ourworldindata.org/coronavirus#why-we-stopped-relying-on-data-from-the-world-health-organization)
