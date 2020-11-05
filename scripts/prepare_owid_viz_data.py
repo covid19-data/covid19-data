@@ -27,12 +27,12 @@ def extract_cntry_dfs(df): # input is df
         cntry_df = (
             group[1].reindex(all_dates, method="pad")
         )
-        cntry_df["total_cases"] = cntry_df["total_cases"]
-        cntry_df["total_deaths"] = cntry_df["total_deaths"]
-        cntry_df["country_code"] = group[0]
-        cntry_df["country_name"] = group[1]["country_name"][-1]
-        cntry_df["continent"] = group[1]["continent"][-1]
-        cntry_df["population"] = group[1]["population"][-1]
+        cntry_df.loc[:,"total_cases"] = cntry_df.loc[:,"total_cases"]
+        cntry_df.loc[:,"total_deaths"] = cntry_df.loc[:,"total_deaths"]
+        cntry_df.loc[:,"country_code"] = group[0]
+        cntry_df.loc[:,"country_name"] = group[1].loc[:,"country_name"][-1]
+        cntry_df.loc[:,"continent"] = group[1].loc[:,"continent"][-1]
+        cntry_df.loc[:,"population"] = group[1].loc[:,"population"][-1]
         dfs.append(
             cntry_df
         )
@@ -42,7 +42,7 @@ def fill_first_case_death_with_zero(df): # input is dfs
     for i in np.arange(0, len(dfs)):
         if math.isnan(dfs[i].loc[:, "total_cases"].iloc[0]):
             dfs[i].loc[:,"total_cases"].iloc[0] = 0
-        if math.isnan(dfs1[i].loc[:, "total_deaths"].iloc[0]):
+        if math.isnan(dfs[i].loc[:, "total_deaths"].iloc[0]):
             dfs[i].loc[:, "total_deaths"].iloc[0] = 0
     return dfs
 
@@ -58,7 +58,7 @@ def merge_with_meta(df): #input should be dfs_first_zero_filled
     concat_df.loc[(concat_df.country_code == "OWID_WRL"), ('country_code')] = "WLD"
     # To get the column of "world_region" in concat_df by merging with WB metadata
     left_join_df = pd.merge(concat_df, metadata, on = "country_code", how = "left")
-    left_join_df['date'] = left_join_df['date'].dt.strftime('%Y-%m-%d')
+    left_join_df.loc[:,'date'] = left_join_df.loc[:,'date'].dt.strftime('%Y-%m-%d')
     return left_join_df
 
 left_join_df = merge_with_meta(dfs_first_zero_filled)
@@ -71,9 +71,9 @@ def prepare_data_structure(df, gby="country_code"): # input should be left_join_
         try:
             country_data = {
                 "country_code": code,
-                "country_name": cntry_df["country_name"].iloc[0],
-                "population": cntry_df["population"].iloc[0],
-                "region": cntry_df["world_region"].iloc[0],
+                "country_name": cntry_df.loc[:,"country_name"].iloc[0],
+                "population": cntry_df.loc[:,"population"].iloc[0],
+                "region": cntry_df.loc[:,"world_region"].iloc[0],
                 "confirmed": list(zip(cntry_df.date, cntry_df.total_cases)),
                 "deaths": list(zip(cntry_df.date, cntry_df.total_deaths)),
             }
