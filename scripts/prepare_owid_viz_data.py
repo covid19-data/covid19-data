@@ -39,13 +39,12 @@ def extract_cntry_dfs(df): # input is df
     return dfs
 
 def fill_first_case_death_with_zero(df): # input is dfs
-    dfs1 = dfs.copy()
-    for i in np.arange(0, len(dfs1)):
-        if math.isnan(dfs1[i].total_cases.iloc[0]):
-            dfs1[i]["total_cases"].iloc[0] = 0
-        if math.isnan(dfs1[i]["total_deaths"].iloc[0]):
-            dfs1[i]["total_deaths"].iloc[0] = 0
-    return dfs1
+    for i in np.arange(0, len(dfs)):
+        if math.isnan(dfs[i].loc[:, "total_cases"].iloc[0]):
+            dfs[i].loc[:,"total_cases"].iloc[0] = 0
+        if math.isnan(dfs1[i].loc[:, "total_deaths"].iloc[0]):
+            dfs[i].loc[:, "total_deaths"].iloc[0] = 0
+    return dfs
 
 dfs = extract_cntry_dfs(df)
 
