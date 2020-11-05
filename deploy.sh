@@ -1,6 +1,7 @@
-if [ -f "dataNineNewRegionAdded.json" ]; 
-	then mv dataNineNewRegionAdded.json output/cntry_stat_owid.json; 
-fi
+#if [ -f "dataNineNewRegionAdded.json" ]; 
+#	then mv dataNineNewRegionAdded.json output/cntry_stat_owid.json; 
+#fi
+python scripts/prepare_owid_viz_data.py
 python scripts/nyt_state_data.py
 python scripts/prepare_state_level_viz_data.py 
 git add .
