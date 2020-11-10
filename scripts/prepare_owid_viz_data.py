@@ -21,12 +21,12 @@ metadata = pd.read_csv("https://raw.githubusercontent.com/hongtaoh/covid19-data/
 # get the full date range:
 all_dates = pd.date_range(df.index.min(), df.index.max())
 
-# find out which places do not have the most up-to-date data. All 'nan' will be filled by forward
-# filling in steps below. So I need change the cells that shouldn't have been filled to 'nan' 
-# before exporting data. To do that, I need to find out which places fall behind and which dates
-# shold be changed to nan. 
+# The following codes are to find out which places do not have the most up-to-date data. 
+# All 'nan' will be filled by forward filling in steps below. 
+# So I need change the cells that shouldn't have been filled to 'nan' before exporting data. 
+# To do that, I need to find out which places fall behind and which dates sholud be changed to nan. 
 
-# If that, to be readable by Observable, I changed theose cells to 'null' instead of np.nan. 
+# I changed theose cells to 'null' instead of np.nan, so that Observablehq can read the final output.
 # That's something I'll explain later. 
 
 def get_fallBehind_place_date_dateframe(df): # input is df
@@ -47,8 +47,8 @@ def get_fallBehind_place_date_dateframe(df): # input is df
     fallBehind_list = pd.DataFrame(data = d)
     return fallBehind_list # output is called fallBehind_list
 
-# input is df
-def extract_cntry_dfs(df): 
+
+def extract_cntry_dfs(df): # input is df
     dfs = []
     for group in df.groupby("country_code"):
         cntry_df = (
@@ -63,7 +63,7 @@ def extract_cntry_dfs(df):
         dfs.append(
             cntry_df
         )
-    return dfs
+    return dfs # output is literally dfs
 
 # What I intend to do in the following part of the script is to change the data for cases and deaths
 # on Dec. 31st, 2019 for each country / area to be zero. Otherwise, I cannot use forward filling 
@@ -130,9 +130,10 @@ def merge_with_meta(df): #input should be dfs_first_zero_filled
 
 left_join_df = merge_with_meta(dfs_first_zero_filled)
 
-# In the following step, I converted 
 
-# In the following step, I converted 
+# In the following step, I converted to nan the data that shouldn't have been filled with forward filling for places 
+# that do not have the updated data. Then I converted these NaNs to null because NaN is not recognized by JSON. 
+
 def fallBehind_filled_to_null (df): # input should be left_join_df
     left_join_copy_group1_with_nan = []
     for group in df.groupby('country_code'):
@@ -145,11 +146,12 @@ def fallBehind_filled_to_null (df): # input should be left_join_df
     left_join_copy_group1_concated_with_null = left_join_copy_group1_with_nan_concated
     left_join_copy_group1_concated_with_null.replace(np.nan, 'null', inplace=True)
     return left_join_copy_group1_concated_with_null 
+
 # Later, I'll name the output to be fallBehind_with_null
 
 fallBehind_with_null = fallBehind_filled_to_null(left_join_df) 
 
-def prepare_data_structure(df, gby="country_code"): # fallBehind_with_null
+def prepare_data_structure(df, gby="country_code"): # input should be fallBehind_with_null
     data = []
     for g in df.groupby([gby]):
         code = g[0]
@@ -167,7 +169,7 @@ def prepare_data_structure(df, gby="country_code"): # fallBehind_with_null
         except KeyError:
             print("metadata doesn't exist for: ", code)
             continue
-    return data
+    return data # output is literally data
 
 data = prepare_data_structure(fallBehind_with_null)
 
