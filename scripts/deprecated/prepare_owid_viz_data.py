@@ -20,59 +20,37 @@ metadata = pd.read_csv("https://raw.githubusercontent.com/hongtaoh/covid19-data/
 
 # get the full date range:
 all_dates = pd.date_range(df.index.min(), df.index.max())
-# input is df
-def extract_cntry_dfs(df): 
+def extract_cntry_dfs(df): # input is df
     dfs = []
     for group in df.groupby("country_code"):
         cntry_df = (
             group[1].reindex(all_dates, method="pad")
         )
-        cntry_df["total_cases"] = cntry_df["total_cases"]
-        cntry_df["total_deaths"] = cntry_df["total_deaths"]
-        cntry_df["country_code"] = group[0]
-        cntry_df["country_name"] = group[1]["country_name"][-1]
-        cntry_df["continent"] = group[1]["continent"][-1]
-        cntry_df["population"] = group[1]["population"][-1]
+        cntry_df.loc[:,"total_cases"] = cntry_df.loc[:,"total_cases"]
+        cntry_df.loc[:,"total_deaths"] = cntry_df.loc[:,"total_deaths"]
+        cntry_df.loc[:,"country_code"] = group[0]
+        cntry_df.loc[:,"country_name"] = group[1].loc[:,"country_name"][-1]
+        cntry_df.loc[:,"continent"] = group[1].loc[:,"continent"][-1]
+        cntry_df.loc[:,"population"] = group[1].loc[:,"population"][-1]
         dfs.append(
             cntry_df
         )
     return dfs
 
 def fill_first_case_death_with_zero(df): # input is dfs
-    for i in np.arange(0, len(df)):
-        if (df[i].head(1).total_cases.isnull()[0] & df[i].head(1).total_deaths.isnull()[0]):
-            df[i][0:1] = [df[i].country_code[-1],
-            df[i].continent[-1],
-            df[i].country_name[-1],
-            0,
-            0, 
-            df[i].population[-1]
-            ]
-        if (df[i].head(1).total_cases.isnull()[0] & df[i].head(1).total_deaths.notnull()[0]):
-            df[i][0:1] = [df[i].country_code[-1],
-            df[i].continent[-1],
-            df[i].country_name[-1],
-            0,
-            df[i].total_deaths[0],
-            df[i].population[-1]
-            ]
-        if (df[i].head(1).total_cases.notnull()[0] & df[i].head(1).total_deaths.isnull()[0]):
-            df[i][0:1] = [df[i].country_code[-1],
-            df[i].continent[-1],
-            df[i].country_name[-1],
-            df[i].total_cases[0],
-            0,
-            df[i].population[-1]
-            ]
-    return df # output is the dfs with first case & death conditionally filled with zero. 
-              # Later, I name this output to be "dfs_first_zero_filled" 
+    for i in np.arange(0, len(dfs)):
+        if math.isnan(dfs[i].loc[:, "total_cases"].iloc[0]):
+            dfs[i].loc[:,"total_cases"].iloc[0] = 0
+        if math.isnan(dfs[i].loc[:, "total_deaths"].iloc[0]):
+            dfs[i].loc[:, "total_deaths"].iloc[0] = 0
+    return dfs
 
 dfs = extract_cntry_dfs(df)
 
 dfs_first_zero_filled = fill_first_case_death_with_zero(dfs)
 
 def merge_with_meta(df): #input should be dfs_first_zero_filled
-    concat_df = pd.concat(df).fillna(method="ffill").reset_index().rename(
+    concat_df = pd.concat(dfs).fillna(method="ffill").reset_index().rename(
         columns={"index": "date"})
     #To change the original country codes of "KOS" and World to match metadata from WB:
     concat_df.loc[(concat_df.country_code == "OWID_KOS"), ('country_code')] = "XKX"
@@ -94,16 +72,6 @@ def merge_with_meta(df): #input should be dfs_first_zero_filled
     return left_join_df
 
 left_join_df = merge_with_meta(dfs_first_zero_filled)
-
-def fallBehind_zero_to_nan (df): # input should be left_join_df
-    left_join_copy_group1 = []
-    for group in df.groupby('country_code'):
-        for i in np.arange(0, len(fallBehind_list)):
-            if group[1].tail(1).country_code.iloc[0] == fallBehind_list.iloc[i, 0]:
-                group[1].tail(len(all_dates) - 1 - fallBehind_list.iloc[i, 2]).total_cases = np.nan
-                group[1].tail(len(all_dates) - 1 - fallBehind_list.iloc[i, 2]).total_deaths = np.nan
-        left_join_copy_group1.append(group[1])
-    return left_join_copy_group1 # I will name the output later to be fallBehind_nan_changed
 
 def prepare_data_structure(df, gby="country_code"): # input should be left_join_df
     data = []

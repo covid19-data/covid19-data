@@ -20,37 +20,93 @@ metadata = pd.read_csv("https://raw.githubusercontent.com/hongtaoh/covid19-data/
 
 # get the full date range:
 all_dates = pd.date_range(df.index.min(), df.index.max())
-def extract_cntry_dfs(df): # input is df
+
+# find out which places do not have the most up-to-date data. All 'nan' will be filled by forward
+# filling in steps below. So I need change the cells that shouldn't have been filled to 'nan' 
+# before exporting data. To do that, I need to find out which places fall behind and which dates
+# shold be changed to nan. 
+
+# If that, to be readable by Observable, I changed theose cells to 'null' instead of np.nan. 
+# That's something I'll explain later. 
+
+def get_fallBehind_place_date_dateframe(df): # input is df
+    fallBehind_place_list = []
+    fallBehind_last_date_available_list = []
+    fallBehind_last_date_index_list = []
+    for group in df.groupby("country_code"):
+        if group[1].tail(1).index != df.index.max():
+            fallBehind_place_list.append(group[0])
+    for p in fallBehind_place_list:
+        fallBehind_last_date_index_list.append(all_dates.get_loc(
+            df[df.loc[:, 'country_code']== p].index[-1].strftime("%Y-%m-%d")))
+        fallBehind_last_date_available_list.append(
+            df[df.loc[:, 'country_code']== p].index[-1].strftime("%Y-%m-%d"))
+    d = {'fallBehind_place': fallBehind_place_list, 
+         'fallBehind_last_date_available': fallBehind_last_date_available_list,
+         'fallBehind_last_date_index': fallBehind_last_date_index_list}
+    fallBehind_list = pd.DataFrame(data = d)
+    return fallBehind_list # output is called fallBehind_list
+
+# input is df
+def extract_cntry_dfs(df): 
     dfs = []
     for group in df.groupby("country_code"):
         cntry_df = (
             group[1].reindex(all_dates, method="pad")
         )
-        cntry_df.loc[:,"total_cases"] = cntry_df.loc[:,"total_cases"]
-        cntry_df.loc[:,"total_deaths"] = cntry_df.loc[:,"total_deaths"]
-        cntry_df.loc[:,"country_code"] = group[0]
-        cntry_df.loc[:,"country_name"] = group[1].loc[:,"country_name"][-1]
-        cntry_df.loc[:,"continent"] = group[1].loc[:,"continent"][-1]
-        cntry_df.loc[:,"population"] = group[1].loc[:,"population"][-1]
+        cntry_df["total_cases"] = cntry_df["total_cases"]
+        cntry_df["total_deaths"] = cntry_df["total_deaths"]
+        cntry_df["country_code"] = group[0]
+        cntry_df["country_name"] = group[1]["country_name"][-1]
+        cntry_df["continent"] = group[1]["continent"][-1]
+        cntry_df["population"] = group[1]["population"][-1]
         dfs.append(
             cntry_df
         )
     return dfs
 
+# What I intend to do in the following part of the script is to change the data for cases and deaths
+# on Dec. 31st, 2019 for each country / area to be zero. Otherwise, I cannot use forward filling 
+# to replace nan later. 
+
 def fill_first_case_death_with_zero(df): # input is dfs
-    for i in np.arange(0, len(dfs)):
-        if math.isnan(dfs[i].loc[:, "total_cases"].iloc[0]):
-            dfs[i].loc[:,"total_cases"].iloc[0] = 0
-        if math.isnan(dfs[i].loc[:, "total_deaths"].iloc[0]):
-            dfs[i].loc[:, "total_deaths"].iloc[0] = 0
-    return dfs
+    for i in np.arange(0, len(df)):
+        if (df[i].head(1).total_cases.isnull()[0] & df[i].head(1).total_deaths.isnull()[0]):
+            df[i][0:1] = [df[i].country_code[-1],
+            df[i].continent[-1],
+            df[i].country_name[-1],
+            0,
+            0, 
+            df[i].population[-1]
+            ]
+        if (df[i].head(1).total_cases.isnull()[0] & df[i].head(1).total_deaths.notnull()[0]):
+            df[i][0:1] = [df[i].country_code[-1],
+            df[i].continent[-1],
+            df[i].country_name[-1],
+            0,
+            df[i].total_deaths[0],
+            df[i].population[-1]
+            ]
+        if (df[i].head(1).total_cases.notnull()[0] & df[i].head(1).total_deaths.isnull()[0]):
+            df[i][0:1] = [df[i].country_code[-1],
+            df[i].continent[-1],
+            df[i].country_name[-1],
+            df[i].total_cases[0],
+            0,
+            df[i].population[-1]
+            ]
+    return df # output is the dfs with first case & death conditionally filled with zero. 
+              # Later, I name this output to be "dfs_first_zero_filled" 
+
+
+fallBehind_list = get_fallBehind_place_date_dateframe(df)
 
 dfs = extract_cntry_dfs(df)
 
 dfs_first_zero_filled = fill_first_case_death_with_zero(dfs)
 
 def merge_with_meta(df): #input should be dfs_first_zero_filled
-    concat_df = pd.concat(dfs).fillna(method="ffill").reset_index().rename(
+    concat_df = pd.concat(df).fillna(method="ffill").reset_index().rename(
         columns={"index": "date"})
     #To change the original country codes of "KOS" and World to match metadata from WB:
     concat_df.loc[(concat_df.country_code == "OWID_KOS"), ('country_code')] = "XKX"
@@ -58,6 +114,7 @@ def merge_with_meta(df): #input should be dfs_first_zero_filled
     # To get the column of "world_region" in concat_df by merging with WB metadata
     left_join_df = pd.merge(concat_df, metadata, on = "country_code", how = "left")
     left_join_df.loc[:,'date'] = left_join_df.loc[:,'date'].dt.strftime('%Y-%m-%d')
+    # To get the region name for places not found in Wrold Bank data. See README for more details
     left_join_df.loc[(left_join_df.country_code == "AIA"), ('world_region')] = "Latin America & Caribbean"
     left_join_df.loc[(left_join_df.country_code == "BES"), ('world_region')] = "Latin America & Caribbean"
     left_join_df.loc[(left_join_df.country_code == "ESH"), ('world_region')] = "Middle East & North Africa"
@@ -73,7 +130,26 @@ def merge_with_meta(df): #input should be dfs_first_zero_filled
 
 left_join_df = merge_with_meta(dfs_first_zero_filled)
 
-def prepare_data_structure(df, gby="country_code"): # input should be left_join_df
+# In the following step, I converted 
+
+# In the following step, I converted 
+def fallBehind_filled_to_null (df): # input should be left_join_df
+    left_join_copy_group1_with_nan = []
+    for group in df.groupby('country_code'):
+        for i in np.arange(0, len(fallBehind_list)):
+            if group[1].tail(1).country_code.iloc[0] == fallBehind_list.iloc[i, 0]:
+                group[1].tail(len(all_dates) - 1 - fallBehind_list.iloc[i, 2]).total_cases = np.nan
+                group[1].tail(len(all_dates) - 1 - fallBehind_list.iloc[i, 2]).total_deaths = np.nan
+        left_join_copy_group1_with_nan.append(group[1])
+    left_join_copy_group1_with_nan_concated = pd.concat(left_join_copy_group1_with_nan)
+    left_join_copy_group1_concated_with_null = left_join_copy_group1_with_nan_concated
+    left_join_copy_group1_concated_with_null.replace(np.nan, 'null', inplace=True)
+    return left_join_copy_group1_concated_with_null 
+# Later, I'll name the output to be fallBehind_with_null
+
+fallBehind_with_null = fallBehind_filled_to_null(left_join_df) 
+
+def prepare_data_structure(df, gby="country_code"): # fallBehind_with_null
     data = []
     for g in df.groupby([gby]):
         code = g[0]
@@ -93,7 +169,6 @@ def prepare_data_structure(df, gby="country_code"): # input should be left_join_
             continue
     return data
 
-data = prepare_data_structure(left_join_df)
+data = prepare_data_structure(fallBehind_with_null)
 
-open("/Users/Tal/Desktop/covid19-data/output/cntry_stat_owid.json", "w").write(
-    json.dumps(data, separators=(",", ":")))
+open("../output/cntry_stat_owid.json", "w").write(json.dumps(data, separators=(",", ":")))
