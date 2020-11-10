@@ -4,9 +4,8 @@ import sys
 
 import pandas as pd
 
-CASE_DATA = sys.argv[1]
-OUT_FNAME = sys.argv[2]
-
+CASE_DATA = "/Users/Tal/Desktop/covid19-data/output/cases/cases_us_states_nyt.csv"
+OUT_FNAME = "/Users/Tal/Desktop/covid19-data/output/us_state_nyt.json"
 
 def prepare_data_structure(df, gby="state_code"):
     data = []

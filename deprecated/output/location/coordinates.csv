@@ -1,0 +1,458 @@
+country_name,state,lat,lng
+US,Arizona,32.0575,-111.6661
+US,Arizona,32.8162,-111.2845
+US,Arizona,33.2918,-112.4291
+US,California,36.9859,-119.2321
+US,California,40.7909,-121.8474
+US,California,37.6017,-121.7195
+US,California,33.7879,-117.8531
+US,California,38.3105,-121.9018
+US,California,38.0834,-122.7633
+US,California,37.2519,-119.6963
+US,California,36.6066,-120.189
+US,California,37.5091,-120.9876
+US,California,38.578,-122.9888
+US,California,32.7157,-117.1611
+US,California,40.745,-123.8695
+US,California,37.7749,-122.4194
+US,California,34.3705,-119.1391
+US,California,37.8534,-121.9018
+US,California,33.9533,-117.3961
+US,California,38.5025,-122.2654
+US,California,37.0454,-121.958
+US,California,34.0522,-118.2437
+US,California,37.563,-122.3255
+US,California,39.0916,-120.8039
+US,California,36.5761,-120.9876
+US,California,38.196,-120.6805
+US,California,38.4747,-121.3542
+US,California,38.7646,-121.9018
+US,California,37.3541,-121.9552
+US,Colorado,39.6203,-104.3326
+US,Colorado,39.5912,-106.064
+US,Colorado,39.58,-105.2663
+US,Colorado,39.7392,-104.9903
+US,Colorado,39.2587,-104.9389
+US,Colorado,38.5458,-106.9253
+US,Colorado,40.6956,-105.5943
+US,Colorado,39.6553,-106.8287
+US,Colorado,38.9108,-104.4723
+US,Connecticut,41.256,-73.3709
+US,Connecticut,41.7866,-73.2765
+US,Delaware,39.5393,-75.6674
+US,Florida,29.7938,-82.4944
+US,Florida,26.07,-81.4279
+US,Florida,30.769000000000002,-86.9824
+US,Florida,28.3232,-82.4319
+US,Florida,26.8946,-81.9098
+US,Florida,30.5773,-86.6611
+US,Florida,30.5927,-81.8224
+US,Florida,29.028000000000002,-81.0755
+US,Florida,27.8764,-82.7779
+US,Florida,27.4799,-82.3452
+US,Florida,26.663,-81.9535
+US,Florida,26.1901,-80.3659
+US,Florida,27.9904,-82.3018
+US,Georgia,33.8034,-84.3963
+US,Georgia,34.0132,-85.1479
+US,Georgia,33.9191,-84.0167
+US,Georgia,33.4502,-84.4803
+US,Georgia,37.5455,-82.7779
+US,Georgia,33.8999,-84.5641
+US,Georgia,34.2515,-84.4803
+US,Georgia,33.7956,-84.2279
+US,Georgia,30.7917,-82.0843
+US,Hawaii,21.307,-157.8584
+US,Illinois,41.9879,-88.4016
+US,Illinois,42.3334,-88.2668
+US,Illinois,41.7377,-87.6976
+US,Illinois,42.3689,-87.8272
+US,Indiana,41.4277,-85.355
+US,Indiana,41.6228,-86.3377
+US,Indiana,39.8522,-77.2865
+US,Indiana,40.4483,-86.1345
+US,Indiana,39.8362,-86.1752
+US,Indiana,39.4638,-86.1345
+US,Indiana,39.8065,-86.5401
+US,Indiana,40.0106,-86.4997
+US,Iowa,41.6699,-91.5984
+US,Iowa,41.3912,-95.4778
+US,Kansas,38.8454,-94.8521
+US,Kentucky,38.4333,-84.3542
+US,Kentucky,38.0606,-84.4803
+US,Kentucky,38.1938,-85.6435
+US,Louisiana,29.6499,-90.1121
+US,Louisiana,29.9511,-90.0715
+US,Maryland,39.5839,-76.3637
+US,Maryland,38.7849,-76.8721
+US,Maryland,39.1547,-77.2405
+US,Massachusetts,42.3601,-71.0589
+US,Massachusetts,42.4672,-71.2874
+US,Massachusetts,42.632,-70.7829
+US,Massachusetts,42.4097,-71.8571
+US,Massachusetts,42.1767,-71.1449
+US,Massachusetts,42.3118,-73.1822
+US,Michigan,42.2791,-83.3362
+US,Michigan,42.5922,-83.3362
+US,Minnesota,43.9952,-92.3814
+US,Minnesota,44.9964,-93.0616
+US,Minnesota,45.3293,-93.2197
+US,Minnesota,44.8254,-93.7842
+US,Missouri,38.6103,-90.4125
+US,Nebraska,41.3148,-96.1951
+US,Nebraska,42.6712,-97.8722
+US,Nevada,36.0796,-115.094
+US,Nevada,40.5608,-119.6035
+US,New Hampshire,43.9088,-71.82600000000001
+US,New Hampshire,42.9931,-71.0498
+US,New Jersey,39.9259,-75.1196
+US,New Jersey,40.8568,-74.1285
+US,New Jersey,40.6976,-74.2632
+US,New Jersey,40.7453,-74.0535
+US,New Jersey,40.5726,-74.4927
+US,New Jersey,40.9263,-74.077
+US,New Jersey,40.2589,-74.124
+US,New Jersey,40.0712,-74.8649
+US,New Mexico,33.8837,-106.7235
+US,New Mexico,35.0178,-106.6291
+US,New York,40.7128,-74.006
+US,New York,41.122,-73.7949
+US,New York,40.9849,-72.6151
+US,New York,40.6546,-73.5594
+US,New York,43.0324,-73.936
+US,New York,41.8586,-74.3118
+US,New York,41.1489,-73.983
+US,North Carolina,35.7211,-79.1781
+US,North Carolina,34.2465,-80.607
+US,North Carolina,35.8032,-78.5661
+US,Ohio,40.8685,-81.2519
+US,Ohio,41.4339,-81.6758
+US,Oklahoma,36.1593,-95.941
+US,Oregon,44.8446,-122.5927
+US,Oregon,42.6953,-121.6142
+US,Oregon,44.9267,-123.4919
+US,Oregon,45.775,-118.7606
+US,Oregon,45.547,-123.1386
+US,Oregon,43.8325,-121.2617
+US,Oregon,45.5146,-122.5863
+US,Oregon,43.1261,-123.2492
+US,Oregon,42.3345,-122.7647
+US,Pennsylvania,41.6739,-75.2479
+US,Pennsylvania,39.9078,-75.3879
+US,Pennsylvania,41.0458,-75.2479
+US,Pennsylvania,39.9526,-75.1652
+US,Pennsylvania,40.229,-75.3879
+US,Pennsylvania,40.4108,-75.2479
+US,Rhode Island,41.8882,-71.4774
+US,South Carolina,34.7253,-80.6771
+US,South Carolina,34.8606,-81.9535
+US,South Carolina,32.7957,-79.7848
+US,South Carolina,34.3672,-80.5883
+US,South Dakota,43.0985,-98.3965
+US,South Dakota,42.9815,-97.8722
+US,South Dakota,43.6632,-96.8351
+US,South Dakota,44.4797,-98.2213
+US,South Dakota,43.7242,-98.2213
+US,South Dakota,43.8901,-102.2548
+US,Tennessee,36.1343,-86.822
+US,Tennessee,35.1269,-89.9253
+US,Tennessee,36.4933,-82.3452
+US,Tennessee,35.9179,-86.8622
+US,Texas,30.3883,-95.6963
+US,Texas,29.5693,-95.8143
+US,Texas,29.7752,-95.3103
+US,Texas,33.1795,-96.493
+US,Texas,32.7732,-97.3517
+US,Texas,32.4893,-94.8521
+US,Texas,32.7767,-96.79700000000001
+US,Utah,40.9629,-112.0953
+US,Utah,40.8298,-110.9984
+US,Utah,41.2603,-111.9522
+US,Vermont,43.0279,-73.135
+US,Virginia,38.9085,-77.2405
+US,Virginia,38.8816,-77.09100000000001
+US,Virginia,36.8508,-76.2859
+US,Virginia,37.7772,-77.5161
+US,Virginia,39.0768,-77.6536
+US,Virginia,38.2042,-77.6078
+US,Washington,48.1976,-122.5795
+US,Washington,48.033,-121.8339
+US,Washington,45.7466,-122.5194
+US,Washington,47.7425,-123.304
+US,Washington,47.6477,-122.6413
+US,Washington,48.4242,-121.7114
+US,Washington,47.175,-120.9319
+US,Washington,47.6062,-122.3321
+US,Washington,48.8787,-121.9719
+US,Washington,47.1981,-119.3732
+US,Washington,46.8646,-122.7696
+US,Washington,47.0676,-122.1295
+US,Wisconsin,43.0186,-89.5498
+US,Wisconsin,44.7509,-92.3814
+US,Rhode Island,41.6809,-71.5118
+US,Vermont,44.0459,-72.7107
+US,New Mexico,34.8405,-106.2485
+Canada,Manitoba,53.7609,-98.8139
+US,Maine,44.6939,-69.3819
+China,Gansu,37.8099,101.0583
+US,North Carolina,35.6301,-79.8064
+China,Ningxia,37.2692,106.1655
+US,Kansas,38.5266,-96.7265
+France,French Polynesia,-17.6797,149.4068
+US,Louisiana,31.1695,-91.8678
+China,Sichuan,30.6171,102.7103
+US,Ohio,40.3888,-82.7649
+US,New Jersey,40.2989,-74.521
+US,Nebraska,41.1254,-98.2681
+China,Heilongjiang,47.861999999999995,127.7615
+Australia,Australian Capital Territory,-35.4735,149.0124
+China,Fujian,26.0789,117.9874
+US,Idaho,44.2405,-114.4788
+US,Mississippi,32.7416,-89.6787
+US,Arizona,33.7298,-111.4312
+Denmark,Denmark,56.2639,9.5018
+China,Hong Kong,22.3,114.2
+Australia,Queensland,-28.0167,153.4
+Canada,New Brunswick,46.5653,-66.4619
+China,Hebei,39.549,116.1306
+China,Xinjiang,41.1129,85.2401
+China,Yunnan,24.974,101.48700000000001
+US,Hawaii,21.0943,-157.4983
+Australia,Western Australia,-31.9505,115.8605
+France,St Martin,18.0708,-63.0501
+Netherlands,Curacao,12.1696,-68.99
+US,Washington,47.4009,-121.4905
+US,Colorado,39.0598,-105.3111
+China,Tianjin,39.3054,117.323
+US,Utah,40.15,-111.8624
+Canada,Quebec,52.9399,-73.5491
+Netherlands,Netherlands,52.1326,5.2913
+France,France,46.2276,2.2137
+Cruise Ships,Grand Princess,37.6489,-122.6655
+US,Alabama,32.3182,-86.9023
+US,Georgia,33.0406,-83.6431
+US,Montana,46.9219,-110.4544
+US,West Virginia,38.4912,-80.9545
+China,Guizhou,26.8154,106.8748
+Denmark,Faroe Islands,61.8926,-6.9118
+United Kingdom,United Kingdom,55.3781,-3.4360000000000004
+Cruise Ships,Diamond Princess,35.4437,139.638
+France,French Guiana,3.9339,-53.1258
+Canada,Nova Scotia,44.681999999999995,-63.7443
+US,Missouri,38.4561,-92.2884
+US,Illinois,40.3495,-88.9861
+China,Hunan,27.6104,111.7088
+US,Michigan,43.3266,-84.5361
+US,Maryland,39.0639,-76.8021
+China,Liaoning,41.2956,122.6085
+US,Tennessee,35.7478,-86.6923
+China,Hainan,19.1959,109.7453
+US,Wisconsin,44.2685,-89.6165
+China,Macau,22.1667,113.55
+US,Delaware,39.3185,-75.5071
+China,Henan,33.882,113.61399999999999
+China,Qinghai,35.7452,95.9956
+US,Massachusetts,42.2302,-71.5301
+China,Guangxi,23.8298,108.7881
+US,Arkansas,34.9697,-92.3731
+US,South Dakota,44.2998,-99.4388
+US,Guam,13.4443,144.7937
+India,,21.0,78.0
+Qatar,,25.3548,51.1839
+Spain,,40.0,-4.0
+Bhutan,,27.5142,90.4336
+Cameroon,,3.8480000000000003,11.5021
+Taiwan*,,23.7,121.0
+Brazil,,-14.235,-51.9253
+Vietnam,,16.0,108.0
+Albania,,41.1533,20.1683
+Ethiopia,,9.145,40.4897
+Cyprus,,35.1264,33.4299
+Oman,,21.0,57.0
+Greece,,39.0742,21.8243
+Iran,,32.0,53.0
+Martinique,,14.6415,-61.0242
+Italy,,43.0,12.0
+Finland,,64.0,26.0
+Namibia,,-22.9576,18.4904
+Guatemala,,15.7835,-90.2308
+Portugal,,39.3999,-8.2245
+Mauritania,,21.0079,10.9408
+Congo (Brazzaville),,-4.0383,21.7587
+Guyana,,5.0,-58.75
+Germany,,51.0,9.0
+Uzbekistan,,41.3775,64.5853
+South Africa,,-30.5595,22.9375
+Georgia,,42.3154,43.3569
+Saudi Arabia,,24.0,45.0
+Maldives,,3.2028,73.2207
+Gabon,,-0.8037,11.6094
+Guinea,,9.9456,-9.6966
+New Zealand,,-40.9006,174.886
+Ireland,,53.1424,-7.6921
+Saint Lucia,,13.9094,-60.9789
+Barbados,,13.1939,-59.5432
+Jersey,,49.19,-2.11
+Singapore,,1.2833,103.8333
+Cote d'Ivoire,,7.54,-5.5471
+Malaysia,,2.5,112.5
+Costa Rica,,9.7489,-83.7534
+Turkey,,38.9637,35.2433
+Poland,,51.9194,19.1451
+Ghana,,7.9465,-1.0232
+Venezuela,,6.4238,-66.5897
+Kuwait,,29.5,47.75
+Nigeria,,9.082,8.6753
+Kenya,,-0.0236,37.9062
+Togo,,8.6195,0.8248
+Sweden,,63.0,16.0
+Congo (Kinshasa),,-4.0383,21.7587
+Egypt,,26.0,30.0
+Trinidad and Tobago,,10.6918,-61.2225
+Lithuania,,55.1694,23.8813
+Cambodia,,11.55,104.9167
+Slovenia,,46.1512,14.9955
+Eswatini,,-26.5225,31.4659
+Antigua and Barbuda,,17.0608,-61.7964
+The Bahamas,,24.25,-76.0
+Israel,,31.0,35.0
+Belgium,,50.8333,4.0
+Serbia,,44.0165,21.0059
+Norway,,60.472,8.4689
+Switzerland,,46.8182,8.2275
+San Marino,,43.9424,12.4578
+Saint Vincent and the Grenadines,,12.9843,-61.2872
+Panama,,8.538,-80.7821
+The Gambia,,13.4667,-16.6
+Seychelles,,-4.6796,55.492
+Guernsey,,49.45,-2.58
+Bolivia,,-16.2902,-63.5887
+Paraguay,,-23.4425,-58.4438
+Greenland,,71.7069,-42.6043
+Andorra,,42.5063,1.5218
+Azerbaijan,,40.1431,47.5769
+United Arab Emirates,,24.0,54.0
+Burkina Faso,,12.2383,-1.5616
+Chile,,-35.6751,-71.543
+Aruba,,12.5211,-69.9683
+Russia,,60.0,90.0
+Latvia,,56.8796,24.6032
+Monaco,,43.7333,7.4167
+Kosovo,,42.6026,20.903000000000002
+Indonesia,,-0.7893,113.9213
+Philippines,,13.0,122.0
+Benin,,9.3077,2.3158
+Luxembourg,,49.8153,6.1296
+Algeria,,28.0339,1.6596
+Ecuador,,-1.8312,-78.1834
+Malta,,35.9375,14.3754
+Japan,,36.0,138.0
+Honduras,,15.2,-86.2419
+Austria,,47.5162,14.5501
+Estonia,,58.5953,25.0136
+Tunisia,,34.0,9.0
+Mexico,,23.6345,-102.5528
+Iraq,,33.0,44.0
+Kazakhstan,,48.0196,66.9237
+Brunei,,4.5353,114.7277
+Nepal,,28.1667,84.25
+Croatia,,45.1,15.2
+Rwanda,,-1.9403,29.8739
+Jordan,,31.24,36.51
+Uruguay,,-32.5228,-55.7658
+Montenegro,,42.5,19.3
+Iceland,,64.9631,-19.0208
+Suriname,,3.9193,-56.0278
+Bulgaria,,42.7339,25.4858
+Sri Lanka,,7.0,81.0
+Romania,,45.9432,24.9668
+Hungary,,47.1625,19.5033
+Republic of the Congo,,-1.44,15.556
+Colombia,,4.5709,-74.2973
+Armenia,,40.0691,45.0382
+Somalia,,5.1521,46.1996
+Liechtenstein,,47.14,9.55
+Senegal,,14.4974,-14.4524
+Bangladesh,,23.685,90.3563
+Sudan,,12.8628,30.2176
+Slovakia,,48.669,19.699
+"Korea, South",,36.0,128.0
+Morocco,,31.7917,-7.0926
+Moldova,,47.4116,28.3699
+Dominican Republic,,18.7357,-70.1627
+North Macedonia,,41.6086,21.7453
+Thailand,,15.0,101.0
+Afghanistan,,33.0,65.0
+Central African Republic,,6.6111,20.9394
+Ukraine,,48.3794,31.1656
+Peru,,-9.19,-75.0152
+Equatorial Guinea,,1.5,10.0
+Jamaica,,18.1096,-77.2975
+Bahrain,,26.0275,50.55
+Bosnia and Herzegovina,,43.9159,17.6791
+Cuba,,22.0,-80.0
+Mongolia,,46.8625,103.8467
+Czechia,,49.8175,15.472999999999999
+Holy See,,41.9029,12.4534
+Tanzania,,-6.369,34.8888
+Argentina,,-38.4161,-63.6167
+Liberia,,6.4281,-9.4295
+Lebanon,,33.8547,35.8623
+Belarus,,53.7098,27.9534
+Pakistan,,30.3753,69.3451
+China,Inner Mongolia,44.0935,113.9448
+US,Virginia,37.7693,-78.17
+US,Connecticut,41.5978,-72.7554
+Canada,Prince Edward Island,46.5107,-63.4168
+Australia,Victoria,-37.8136,144.9631
+US,Iowa,42.0115,-93.2105
+China,Shaanxi,35.1917,108.8701
+China,Hubei,30.9756,112.2707
+US,New York,42.1657,-74.9481
+China,Anhui,31.8257,117.2264
+US,Alaska,61.3707,-152.4044
+Canada,Alberta,53.9333,-116.5765
+US,North Dakota,47.5289,-99.78399999999999
+US,Minnesota,45.6945,-93.9002
+China,Beijing,40.1824,116.4142
+US,Puerto Rico,18.2208,-66.5901
+US,Florida,27.7663,-81.6868
+France,Reunion,-21.1351,55.2471
+China,Shanghai,31.201999999999998,121.4491
+Australia,New South Wales,-33.8688,151.2093
+US,Kentucky,37.6681,-84.6701
+Australia,South Australia,-34.9285,138.6007
+Canada,Saskatchewan,52.9399,-106.4509
+China,Guangdong,23.3417,113.4244
+China,Chongqing,30.0572,107.874
+United Kingdom,Gibraltar,36.1408,-5.3536
+China,Jilin,43.6661,126.1923
+France,Guadeloupe,16.25,-61.5833
+US,California,36.1162,-119.6816
+China,Tibet,31.6927,88.0924
+France,Mayotte,-12.8275,45.1662
+US,Texas,31.0545,-97.5635
+China,Shanxi,37.5777,112.2922
+US,South Carolina,33.8569,-80.945
+Canada,Ontario,51.2538,-85.3232
+China,Jiangsu,32.9711,119.455
+US,District of Columbia,38.8974,-77.0268
+US,Wyoming,42.756,-107.3025
+United Kingdom,Cayman Islands,19.3133,-81.2546
+US,Indiana,39.8494,-86.2583
+US,Oklahoma,35.5653,-96.9289
+China,Jiangxi,27.614,115.7221
+China,Zhejiang,29.1832,120.0934
+Canada,British Columbia,49.2827,-123.1207
+United Kingdom,Channel Islands,49.3723,-2.3644
+Australia,Tasmania,-41.4545,145.9707
+US,Virgin Islands,18.3358,-64.8963
+China,Shandong,36.3427,118.1498
+US,New Hampshire,43.4525,-71.5639
+US,Nevada,38.3135,-117.0554
+US,District of Columbia,38.9072,-77.0369
+Australia,Northern Territory,-12.4634,130.8456
+France,Saint Barthelemy,17.9,-62.8333
+US,Pennsylvania,40.5908,-77.2098
+Canada,Newfoundland and Labrador,53.1355,-57.6604
+US,Oregon,44.571999999999996,-122.0709

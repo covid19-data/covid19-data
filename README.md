@@ -8,25 +8,30 @@ This repository hosts workflows to process several data sources and cleaned data
 
 ### Historical (daily) case data 
 
-- [`output/cases/cases_ECDC.csv`](https://github.com/covid19-data/covid19-data/blob/master/output/cases/cases_ECDC.csv): European Centre for Disease Prevention and Control (ECDC) historical world-wide case data (currently through [Our World in Data](https://ourworldindata.org/coronavirus-source-data)).
-- [`output/cases/cases_us_states_nyt.csv`](https://github.com/covid19-data/covid19-data/blob/master/output/cases/cases_us_states_nyt.csv): US state-level historical case data from [New York Times](https://github.com/nytimes/covid-19-data)
+- [`owid-covid-data.json`](https://covid.ourworldindata.org/data/owid-covid-data.json): European Centre for Disease Prevention and Control (ECDC) historical world-wide case data (currently through [Our World in Data](https://ourworldindata.org/coronavirus-source-data)).
+
+- [`output/cases/cases_us_states_nyt.csv`](https://github.com/covid19-data/covid19-data/blob/master/output/cases/cases_us_states_nyt.csv): US state-level historical case data from [New York Times](https://github.com/nytimes/covid-19-data).
 
 ### Country metadata 
 
-- Country metadata: [`output/metadata/country/country_metadata.csv`](https://github.com/covid19-data/covid19-data/blob/master/output/metadata/country/country_metadata.csv) from [Worldbank](https://data.worldbank.org/indicator/SP.POP.TOTL).
-- ISO 3166-1 Alpha-3 country code conversion table. 
-    - [`output/metadata/country/country_name_code.csv`](https://github.com/yy/covid19-data/blob/master/output/metadata/country/country_name_code.csv): a conversion table from country name to code (ISO 3166 Alpha 3). Note that multiple names point to the same code.
-    - [`output/metadata/country/country_code_name.csv`](https://github.com/yy/covid19-data/blob/master/output/metadata/country/country_code_name.csv): a conversion table from country code (ISO 3166 Alpha 3) to country name. The shortest country names are picked from the above dataset.
+- World Bank Data: Classification of **world region** (Latin America & Caribben, South Asia, Sub-Saharan African, Europea & Central Asia, Middle East & North Africa, East Asia & Pacific, North America) for each country or area is based on [`data_source/metadata/worldbank/country_metadata.csv`](https://github.com/covid19-data/covid19-data/blob/master/data_sources/metadata/worldbank/country_metadata.csv) from [World Bank](https://data.worldbank.org/indicator/SP.POP.TOTL).
+- ISO-3166-Countries-with-Regional-Codes: For countries or areas not found in World Bank data, their **world region** is found in [`ISO-3166-Countries-with-Regional-Codes`](https://github.com/covid19-data/covid19-data/blob/master/data_sources/metadata/ISO-3166-Countries-with-Regional-Codes/all/all.csv).
+
 
 ### Historical case data for visualizations
 
-- [`cntry_stat_owid.json`](https://github.com/yy/covid19-data/blob/master/output/cntry_stat_owid.json): ECDC historical data merged with Worldbank's country metadata and ISO 3166-1 Alpha-3 data. Used in:
+- [`cntry_stat_owid.json`](https://github.com/covid19-data/covid19-data/blob/master/output/cntry_stat_owid.json): ECDC historical data merged with Worldbank's classification of world regions. Used in:
   - [an interactive visualization of case fatality rate of COVID-19](http://yyahn.com/covid19)
     - Website source code: https://github.com/covid19-data/covid19-dashboard
-    - visualization source code on ObservableHQ: https://observablehq.com/@yy/covid-19-fatality-rate and https://observablehq.com/@yy/covid-19-trends
+    - visualization source code on ObservableHQ: https://observablehq.com/@yy/covid-19-fatality-rate and https://observablehq.com/@yy/covid-19-spreading-trends
   - [An example to create case time series charts in ObservableHQ](https://observablehq.com/@benjyz/covid-chart-alpha) by [benjyz](https://github.com/benjyz)
-- [`us_state_nyt.json`](https://github.com/yy/covid19-data/blob/master/output/us_state_nyt.json): New York Time historical data. Used in:
+  - You can find the data manipulation process of [`cntry_stat_owid.json`](https://github.com/covid19-data/covid19-data/blob/master/output/cntry_stat_owid.json) [here](https://observablehq.com/@hongtaoh/day-46-2020-10-08).
+- [`us_state_nyt.json`](https://github.com/covid19-data/covid19-data/blob/master/output/us_state_nyt.json): New York Time historical data. Used in:
     - [New cases vs. all confirmed interactive visualization](https://observablehq.com/@yy/covid-19-confirmed-vs-new-cases).
+
+### Note
+
+Cases on cruise ships were classified as "international". These data were not shown in the visualizations independently but were included in cases within the data for the "World".
 
 ### Deprecated
 
@@ -35,6 +40,10 @@ WHO dataset is deprecated. See Our World in Data's announcement: [Why we stopped
 - [`output/cases/cases_WHO.csv`](https://github.com/covid19-data/covid19-data/blob/master/output/cases/cases_WHO.csv)
 - https://www.worldometers.info/coronavirus/
 - [`coordinates.csv`](https://github.com/yy/covid19-data/blob/master/output/location/coordinates.csv): Lat Lng location data from JHU dataset (Unreliable).
+
+- ISO 3166-1 Alpha-3 country code conversion table. 
+    - [`output/metadata/country/country_name_code.csv`](https://github.com/yy/covid19-data/blob/master/output/metadata/country/country_name_code.csv): a conversion table from country name to code (ISO 3166 Alpha 3). Note that multiple names point to the same code.
+    - [`output/metadata/country/country_code_name.csv`](https://github.com/yy/covid19-data/blob/master/output/metadata/country/country_code_name.csv): a conversion table from country code (ISO 3166 Alpha 3) to country name. The shortest country names are picked from the above dataset.
 
 ## Usage
 
