@@ -2,15 +2,17 @@ import pandas as pd
 import numpy as np
 import json
 import math
+import http.client as http
+http.HTTPConnection._http_vsn = 10
+http.HTTPConnection._http_vsn_str = 'HTTP/1.0'
 
 # prepare owid raw data:
-df = pd.read_csv("https://covid.ourworldindata.org/data/owid-covid-data.csv", 
-                     index_col = ["date"],
-                     parse_dates = True, 
-                     usecols=["date", "iso_code", "location", 
-                              "population", "continent",
-                              "total_cases", "total_deaths"]).rename(
-    columns = {'iso_code': 'country_code', 'location': 'country_name'})
+df = pd.read_csv("https://covid.ourworldindata.org/data/owid-covid-data.csv",
+    index_col = ['date'], parse_dates = True,
+    usecols=["date", "iso_code", "location", "population", 
+                      "continent", "total_cases", "total_deaths"]).rename(
+    columns = {'iso_code': 'country_code', 'location': 'country_name'}
+)
 
 # prepare metadata from World Bank
 metadata = pd.read_csv("https://raw.githubusercontent.com/hongtaoh/covid19-data/master/data_sources/metadata/worldbank/country_metadata.csv",
@@ -29,7 +31,7 @@ all_dates = pd.date_range(df.index.min(), df.index.max())
 # I changed theose cells to 'null' instead of np.nan, so that Observablehq can read the final output.
 # That's something I'll explain later. 
 
-def get_fallBehind_place_date_dateframe(df): # input is df
+def get_fallBehind_place_date_dateframe(df): # input should be df
     fallBehind_place_list = []
     fallBehind_last_date_available_list = []
     fallBehind_last_date_index_list = []
@@ -45,8 +47,10 @@ def get_fallBehind_place_date_dateframe(df): # input is df
          'fallBehind_last_date_available': fallBehind_last_date_available_list,
          'fallBehind_last_date_index': fallBehind_last_date_index_list}
     fallBehind_list = pd.DataFrame(data = d)
-    return fallBehind_list # output is called fallBehind_list
+    return fallBehind_list
+# output is called fallBehind_list
 
+fallBehind_list = get_fallBehind_place_date_dateframe(df)
 
 def extract_cntry_dfs(df): # input is df
     dfs = []
@@ -63,7 +67,10 @@ def extract_cntry_dfs(df): # input is df
         dfs.append(
             cntry_df
         )
-    return dfs # output is literally dfs
+    return dfs 
+# output is literally dfs
+
+dfs = extract_cntry_dfs(df)
 
 # What I intend to do in the following part of the script is to change the data for cases and deaths
 # on Dec. 31st, 2019 for each country / area to be zero. Otherwise, I cannot use forward filling 
@@ -98,11 +105,6 @@ def fill_first_case_death_with_zero(df): # input is dfs
     return df # output is the dfs with first case & death conditionally filled with zero. 
               # Later, I name this output to be "dfs_first_zero_filled" 
 
-
-fallBehind_list = get_fallBehind_place_date_dateframe(df)
-
-dfs = extract_cntry_dfs(df)
-
 dfs_first_zero_filled = fill_first_case_death_with_zero(dfs)
 
 def merge_with_meta(df): #input should be dfs_first_zero_filled
@@ -114,7 +116,6 @@ def merge_with_meta(df): #input should be dfs_first_zero_filled
     # To get the column of "world_region" in concat_df by merging with WB metadata
     left_join_df = pd.merge(concat_df, metadata, on = "country_code", how = "left")
     left_join_df.loc[:,'date'] = left_join_df.loc[:,'date'].dt.strftime('%Y-%m-%d')
-    # To get the region name for places not found in Wrold Bank data. See README for more details
     left_join_df.loc[(left_join_df.country_code == "AIA"), ('world_region')] = "Latin America & Caribbean"
     left_join_df.loc[(left_join_df.country_code == "BES"), ('world_region')] = "Latin America & Caribbean"
     left_join_df.loc[(left_join_df.country_code == "ESH"), ('world_region')] = "Middle East & North Africa"
@@ -146,10 +147,9 @@ def fallBehind_filled_to_null (df): # input should be left_join_df
     left_join_copy_group1_concated_with_null = left_join_copy_group1_with_nan_concated
     left_join_copy_group1_concated_with_null.replace(np.nan, 'null', inplace=True)
     return left_join_copy_group1_concated_with_null 
-
 # Later, I'll name the output to be fallBehind_with_null
 
-fallBehind_with_null = fallBehind_filled_to_null(left_join_df) 
+fallBehind_with_null = fallBehind_filled_to_null(left_join_df)
 
 def prepare_data_structure(df, gby="country_code"): # input should be fallBehind_with_null
     data = []
@@ -169,8 +169,10 @@ def prepare_data_structure(df, gby="country_code"): # input should be fallBehind
         except KeyError:
             print("metadata doesn't exist for: ", code)
             continue
-    return data # output is literally data
+    return data
 
 data = prepare_data_structure(fallBehind_with_null)
+
+fallBehind_with_null.to_csv("../output/race_chart_data.csv", index=False)
 
 open("../output/cntry_stat_owid.json", "w").write(json.dumps(data, separators=(",", ":")))
