@@ -1,8 +1,0 @@
-name: covid19-data
-channels:
-  - bioconda
-  - conda-forge
-dependencies:
-  - snakemake
-  - pandas
-  - numpy
