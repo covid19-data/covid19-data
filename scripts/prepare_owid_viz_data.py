@@ -1,9 +1,12 @@
 import pandas as pd
 import numpy as np
 import json
-import http.client as http
-http.HTTPConnection._http_vsn = 10
-http.HTTPConnection._http_vsn_str = 'HTTP/1.0'
+# import http.client as http
+# http.HTTPConnection._http_vsn = 10
+# http.HTTPConnection._http_vsn_str = 'HTTP/1.0'
+import httplib
+httplib.HTTPConnection._http_vsn = 10
+httplib.HTTPConnection._http_vsn_str = 'HTTP/1.0'
 
 # prepare owid raw data:
 df = pd.read_csv("https://covid.ourworldindata.org/data/owid-covid-data.csv",
