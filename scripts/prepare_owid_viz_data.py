@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import json
+import os
 import http.client as http
 http.HTTPConnection._http_vsn = 10
 http.HTTPConnection._http_vsn_str = 'HTTP/1.0'
@@ -173,6 +174,8 @@ def prepare_data_structure(df, gby="country_code"): # input should be fallBehind
 
 data = prepare_data_structure(fallBehind_with_null)
 
-fallBehind_with_null.to_csv("~/output/race_chart_data.csv", index=False)
+os.chdir("../output")
 
-open("~/output/cntry_stat_owid.json", "w").write(json.dumps(data, separators=(",", ":")))
+fallBehind_with_null.to_csv("race_chart_data.csv", index=False)
+
+open("cntry_stat_owid.json", "w").write(json.dumps(data, separators=(",", ":")))
