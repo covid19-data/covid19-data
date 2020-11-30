@@ -5,8 +5,10 @@ import http.client as http
 http.HTTPConnection._http_vsn = 10
 http.HTTPConnection._http_vsn_str = 'HTTP/1.0'
 
+# https://covid.ourworldindata.org/data/owid-covid-data.csv
+
 # prepare owid raw data:
-df = pd.read_csv('https://covid.ourworldindata.org/data/owid-covid-data.csv',
+df = pd.read_csv("https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/owid-covid-data.csv",
     index_col = ['date'], parse_dates = True,
     usecols=["date", "iso_code", "location", "population", 
                       "continent", "total_cases", "total_deaths"]).rename(
