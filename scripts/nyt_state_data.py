@@ -1,5 +1,8 @@
 """attach state_code to the NYT data and sort/normalize."""
 import sys
+import http.client as http
+http.HTTPConnection._http_vsn = 10
+http.HTTPConnection._http_vsn_str = 'HTTP/1.0'
 
 import pandas as pd
 
