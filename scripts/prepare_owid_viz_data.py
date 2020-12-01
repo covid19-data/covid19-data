@@ -174,8 +174,8 @@ def prepare_data_structure(df, gby="country_code"): # input should be fallBehind
 
 data = prepare_data_structure(fallBehind_with_null)
 
-os.chdir("../output")
+# os.chdir("../output")
 
-fallBehind_with_null.to_csv("race_chart_data.csv", index=False)
+fallBehind_with_null.to_csv("/Users/Tal/Desktop/covid19-data/output/race_chart_data.csv", index=False)
 
-open("cntry_stat_owid.json", "w").write(json.dumps(data, separators=(",", ":")))
+open("/Users/Tal/Desktop/covid19-data/output/cntry_stat_owid.json", "w").write(json.dumps(data, separators=(",", ":")))
