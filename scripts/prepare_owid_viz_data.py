@@ -117,16 +117,16 @@ def merge_with_meta(df): #input should be dfs_first_zero_filled
     # To get the column of "world_region" in concat_df by merging with WB metadata
     left_join_df = pd.merge(concat_df, metadata, on = "country_code", how = "left")
     left_join_df.loc[:,'date'] = left_join_df.loc[:,'date'].dt.strftime('%Y-%m-%d')
-    left_join_df.loc[(left_join_df.country_code == "AIA"), ('world_region')] = "Latin America & Caribbean"
-    left_join_df.loc[(left_join_df.country_code == "BES"), ('world_region')] = "Latin America & Caribbean"
+#     left_join_df.loc[(left_join_df.country_code == "AIA"), ('world_region')] = "Latin America & Caribbean"
+#     left_join_df.loc[(left_join_df.country_code == "BES"), ('world_region')] = "Latin America & Caribbean"
     left_join_df.loc[(left_join_df.country_code == "ESH"), ('world_region')] = "Middle East & North Africa"
-    left_join_df.loc[(left_join_df.country_code == "FLK"), ('world_region')] = "Latin America & Caribbean"
-    left_join_df.loc[(left_join_df.country_code == "GGY"), ('world_region')] = "Europe & Central Asia"
-    left_join_df.loc[(left_join_df.country_code == "JEY"), ('world_region')] = "Europe & Central Asia"
-    left_join_df.loc[(left_join_df.country_code == "MSR"), ('world_region')] = "Latin America & Caribbean"
+#     left_join_df.loc[(left_join_df.country_code == "FLK"), ('world_region')] = "Latin America & Caribbean"
+#     left_join_df.loc[(left_join_df.country_code == "GGY"), ('world_region')] = "Europe & Central Asia"
+#     left_join_df.loc[(left_join_df.country_code == "JEY"), ('world_region')] = "Europe & Central Asia"
+#     left_join_df.loc[(left_join_df.country_code == "MSR"), ('world_region')] = "Latin America & Caribbean"
     left_join_df.loc[(left_join_df.country_code == "TWN"), ('world_region')] = "East Asia & Pacific"
     left_join_df.loc[(left_join_df.country_code == "VAT"), ('world_region')] = "Europe & Central Asia"
-    left_join_df.loc[(left_join_df.country_code == "WLF"), ('world_region')] = "East Asia & Pacific"
+#     left_join_df.loc[(left_join_df.country_code == "WLF"), ('world_region')] = "East Asia & Pacific"
     left_join_df.loc[(left_join_df.country_code == "WLD"), ('world_region')] = "World"
     return left_join_df
 
