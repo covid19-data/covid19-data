@@ -1,12 +1,14 @@
 import pandas as pd
 import numpy as np
 import json
+import os
 import http.client as http
 http.HTTPConnection._http_vsn = 10
 http.HTTPConnection._http_vsn_str = 'HTTP/1.0'
 
+
 # prepare owid raw data:
-df = pd.read_csv("https://covid.ourworldindata.org/data/owid-covid-data.csv",
+df = pd.read_csv('https://covid.ourworldindata.org/data/owid-covid-data.csv',
     index_col = ['date'], parse_dates = True,
     usecols=["date", "iso_code", "location", "population", 
                       "continent", "total_cases", "total_deaths"]).rename(
@@ -115,16 +117,16 @@ def merge_with_meta(df): #input should be dfs_first_zero_filled
     # To get the column of "world_region" in concat_df by merging with WB metadata
     left_join_df = pd.merge(concat_df, metadata, on = "country_code", how = "left")
     left_join_df.loc[:,'date'] = left_join_df.loc[:,'date'].dt.strftime('%Y-%m-%d')
-    left_join_df.loc[(left_join_df.country_code == "AIA"), ('world_region')] = "Latin America & Caribbean"
-    left_join_df.loc[(left_join_df.country_code == "BES"), ('world_region')] = "Latin America & Caribbean"
+#     left_join_df.loc[(left_join_df.country_code == "AIA"), ('world_region')] = "Latin America & Caribbean"
+#     left_join_df.loc[(left_join_df.country_code == "BES"), ('world_region')] = "Latin America & Caribbean"
     left_join_df.loc[(left_join_df.country_code == "ESH"), ('world_region')] = "Middle East & North Africa"
-    left_join_df.loc[(left_join_df.country_code == "FLK"), ('world_region')] = "Latin America & Caribbean"
-    left_join_df.loc[(left_join_df.country_code == "GGY"), ('world_region')] = "Europe & Central Asia"
-    left_join_df.loc[(left_join_df.country_code == "JEY"), ('world_region')] = "Europe & Central Asia"
-    left_join_df.loc[(left_join_df.country_code == "MSR"), ('world_region')] = "Latin America & Caribbean"
+#     left_join_df.loc[(left_join_df.country_code == "FLK"), ('world_region')] = "Latin America & Caribbean"
+#     left_join_df.loc[(left_join_df.country_code == "GGY"), ('world_region')] = "Europe & Central Asia"
+#     left_join_df.loc[(left_join_df.country_code == "JEY"), ('world_region')] = "Europe & Central Asia"
+#     left_join_df.loc[(left_join_df.country_code == "MSR"), ('world_region')] = "Latin America & Caribbean"
     left_join_df.loc[(left_join_df.country_code == "TWN"), ('world_region')] = "East Asia & Pacific"
     left_join_df.loc[(left_join_df.country_code == "VAT"), ('world_region')] = "Europe & Central Asia"
-    left_join_df.loc[(left_join_df.country_code == "WLF"), ('world_region')] = "East Asia & Pacific"
+#     left_join_df.loc[(left_join_df.country_code == "WLF"), ('world_region')] = "East Asia & Pacific"
     left_join_df.loc[(left_join_df.country_code == "WLD"), ('world_region')] = "World"
     return left_join_df
 
@@ -172,6 +174,8 @@ def prepare_data_structure(df, gby="country_code"): # input should be fallBehind
 
 data = prepare_data_structure(fallBehind_with_null)
 
-fallBehind_with_null.to_csv("../output/race_chart_data.csv", index=False)
+# os.chdir("../output")
 
-open("../output/cntry_stat_owid.json", "w").write(json.dumps(data, separators=(",", ":")))
+fallBehind_with_null.to_csv("/Users/Tal/Desktop/covid19-data/output/race_chart_data.csv", index=False)
+
+open("/Users/Tal/Desktop/covid19-data/output/cntry_stat_owid.json", "w").write(json.dumps(data, separators=(",", ":")))
