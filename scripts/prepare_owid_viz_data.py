@@ -17,17 +17,8 @@ import math
 # #when I run pd.read_csv('url', ...) below
 # -
 
-df = pd.read_csv('https://covid.ourworldindata.org/data/owid-covid-data.csv', 
-                     index_col = ['date'],
-                     parse_dates = True, 
-                     usecols=["date", "iso_code", "location", 
-                              "population", "continent",
-                              "total_cases", "total_deaths"]).rename(
-    columns = {'iso_code': 'country_code', 'location': 'country_name'}
-)
-
 # prepare owid raw data:
-df = pd.read_csv(file_object,
+df = pd.read_csv('https://covid.ourworldindata.org/data/owid-covid-data.csv',
                  index_col = ['date'], 
                  parse_dates = True,
                  usecols=["date", "iso_code", "location", 
