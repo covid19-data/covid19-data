@@ -2,22 +2,22 @@ import pandas as pd
 import numpy as np
 import json
 import math
-import requests
-import io
+# import requests
+# import io
 
-# Download the CSV
+# +
+# #Download the CSV
+# headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:10.0) Gecko/20100101 Firefox/10.0'}
+# url = 'https://covid.ourworldindata.org/data/owid-covid-data.csv'
+# resp = requests.get(url, headers=headers)
+# file_object = io.StringIO(resp.content.decode('utf-8'))
+# #The solution above was based on https://stackoverflow.com/a/38489588, and 
+# #https://stackoverflow.com/a/51093473/13716814. 
+# #If I did not include codes above, I'll see "HTTP 404 forbidden" 
+# #when I run pd.read_csv('url', ...) below
+# -
 
-headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:10.0) Gecko/20100101 Firefox/10.0'}
-url = 'https://covid.ourworldindata.org/data/owid-covid-data.csv'
-resp = requests.get(url, headers=headers)
-
-# The solution above was based on https://stackoverflow.com/a/38489588, and https://stackoverflow.com/a/51093473/13716814.
-# If I did not include codes above, I'll see "HTTP 404 forbidden" when I run `pd.read_csv('url', ...)` below
-
-
-resp
-
-df = pd.read_csv(file_object, 
+df = pd.read_csv('https://covid.ourworldindata.org/data/owid-covid-data.csv', 
                      index_col = ['date'],
                      parse_dates = True, 
                      usecols=["date", "iso_code", "location", 
