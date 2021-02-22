@@ -1,17 +1,29 @@
 import pandas as pd
 import numpy as np
 import json
-import os
-import http.client as http
-http.HTTPConnection._http_vsn = 10
-http.HTTPConnection._http_vsn_str = 'HTTP/1.0'
+import math
+# import requests
+# import io
 
+# +
+# #Download the CSV
+# headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:10.0) Gecko/20100101 Firefox/10.0'}
+# url = 'https://covid.ourworldindata.org/data/owid-covid-data.csv'
+# resp = requests.get(url, headers=headers)
+# file_object = io.StringIO(resp.content.decode('utf-8'))
+# #The solution above was based on https://stackoverflow.com/a/38489588, and 
+# #https://stackoverflow.com/a/51093473/13716814. 
+# #If I did not include codes above, I'll see "HTTP 404 forbidden" 
+# #when I run pd.read_csv('url', ...) below
+# -
 
 # prepare owid raw data:
 df = pd.read_csv('https://covid.ourworldindata.org/data/owid-covid-data.csv',
-    index_col = ['date'], parse_dates = True,
-    usecols=["date", "iso_code", "location", "population", 
-                      "continent", "total_cases", "total_deaths"]).rename(
+                 index_col = ['date'], 
+                 parse_dates = True,
+                 usecols=["date", "iso_code", "location", 
+                          "population", "continent", 
+                          "total_cases", "total_deaths"]).rename(
     columns = {'iso_code': 'country_code', 'location': 'country_name'}
 )
 
@@ -117,15 +129,17 @@ def merge_with_meta(df): #input should be dfs_first_zero_filled
     # To get the column of "world_region" in concat_df by merging with WB metadata
     left_join_df = pd.merge(concat_df, metadata, on = "country_code", how = "left")
     left_join_df.loc[:,'date'] = left_join_df.loc[:,'date'].dt.strftime('%Y-%m-%d')
-#     left_join_df.loc[(left_join_df.country_code == "AIA"), ('world_region')] = "Latin America & Caribbean"
+    left_join_df.loc[(left_join_df.country_code == "AIA"), ('world_region')] = "Latin America & Caribbean"
 #     left_join_df.loc[(left_join_df.country_code == "BES"), ('world_region')] = "Latin America & Caribbean"
     left_join_df.loc[(left_join_df.country_code == "ESH"), ('world_region')] = "Middle East & North Africa"
 #     left_join_df.loc[(left_join_df.country_code == "FLK"), ('world_region')] = "Latin America & Caribbean"
-#     left_join_df.loc[(left_join_df.country_code == "GGY"), ('world_region')] = "Europe & Central Asia"
-#     left_join_df.loc[(left_join_df.country_code == "JEY"), ('world_region')] = "Europe & Central Asia"
+    left_join_df.loc[(left_join_df.country_code == "GGY"), ('world_region')] = "Europe & Central Asia"
+    left_join_df.loc[(left_join_df.country_code == "JEY"), ('world_region')] = "Europe & Central Asia"
+    left_join_df.loc[(left_join_df.country_code == "SHN"), ('world_region')] = "Sub-Saharan Africa"
 #     left_join_df.loc[(left_join_df.country_code == "MSR"), ('world_region')] = "Latin America & Caribbean"
     left_join_df.loc[(left_join_df.country_code == "TWN"), ('world_region')] = "East Asia & Pacific"
     left_join_df.loc[(left_join_df.country_code == "VAT"), ('world_region')] = "Europe & Central Asia"
+    left_join_df.loc[(left_join_df.country_code == "FLK"), ('world_region')] = "Latin America & Caribbean"
 #     left_join_df.loc[(left_join_df.country_code == "WLF"), ('world_region')] = "East Asia & Pacific"
     left_join_df.loc[(left_join_df.country_code == "WLD"), ('world_region')] = "World"
     return left_join_df
