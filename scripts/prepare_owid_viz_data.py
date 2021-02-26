@@ -33,11 +33,9 @@ metadata = pd.read_csv("https://raw.githubusercontent.com/hongtaoh/covid19-data/
     columns = {'Country Code': 'country_code', 'Region': 'world_region'}
 )
 
-df.index.min()
-
 # get the full date range:
-# all_dates = pd.date_range(df.index.min(), df.index.max())
-all_dates = pd.date_range('22/01/2020', df.index.max())
+all_dates = pd.date_range(df.index.min(), df.index.max())
+# all_dates = pd.date_range('22/01/2020', df.index.max())
 
 # The following codes are to find out which places do not have the most up-to-date data. 
 # All 'nan' will be filled by forward filling in steps below. 
