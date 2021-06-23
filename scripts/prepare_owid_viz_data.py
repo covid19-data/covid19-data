@@ -47,53 +47,55 @@ def extract_cntry_dfs(df): # input is df
 
 dfs = extract_cntry_dfs(df)
 
+
 # I used forward filling in `def extract_cntry_dfs`. The problem is that most countries/regions do not have data for the first date, i.e., January 1st, 2020. This means the total_cases and total_deaths on 2021-01-01 for most countries/regions are `nan`. Since it's forward filling, data for following dates that do not have available data will be fillled with `nan`. 
 #
 # To better visualize the trend, we'd better change unavailable data in the beginning to be ZERO. (**I din't fully understand why. Couldn't just leave them as `nan`? Why do we have to change them to zero?**)
 
 # +
-# def fill_first_case_death_with_zero(df): # input should be dfs, NOT df!
-#     for i in np.arange(0, len(df)):
-# # dfs[i] will be a dataframe for each country/region
-# # dfs[i].head(1).total_cases.isnull()[0] will return either True or False
+def fill_first_case_death_with_zero(df): # input should be dfs, NOT df!
+    for i in np.arange(0, len(df)):
+# dfs[i] will be a dataframe for each country/region
+# dfs[i].head(1).total_cases.isnull()[0] will return either True or False
 
-# # There are three if statements. The 1st one: if both the first total_cases and the first total_deaths are null
-# # The 2nd one: if the first total_cases is null and the first total_deaths is NOT null
-# # The 3rd one: if the first total_cases is NOT null and the first total_deaths is null
-#         if (df[i].head(1).total_cases.isnull()[0] & df[i].head(1).total_deaths.isnull()[0]):
-#         # dfs[i].iloc[0:0] is the variable names: country_code, continent, etc.
-#         # dfs[i].iloc[0:1] is the variable names + the first row. 
-#         # Try `dfs[1].iloc[0:1] = [1,'a','c',2,4,'t']` and you'll see that this changes the data of first row 
-#         #   but not the variable names. 
-#             df[i].iloc[0:1] = [df[i].country_code[-1],
-#             df[i].continent[-1],
-#             df[i].country_name[-1],
-#             0,
-#             0, 
-#             df[i].population[-1]
-#             ]
-#         if (df[i].head(1).total_cases.isnull()[0] & df[i].head(1).total_deaths.notnull()[0]):
-#             df[i].iloc[0:1] = [df[i].country_code[-1],
-#             df[i].continent[-1],
-#             df[i].country_name[-1],
-#             0,
-#             df[i].total_deaths[0],
-#             df[i].population[-1]
-#             ]
-#         if (df[i].head(1).total_cases.notnull()[0] & df[i].head(1).total_deaths.isnull()[0]):
-#             df[i].iloc[0:1] = [df[i].country_code[-1],
-#             df[i].continent[-1],
-#             df[i].country_name[-1],
-#             df[i].total_cases[0],
-#             0,
-#             df[i].population[-1]
-#             ]
-#     return df # output is the dfs with first case & death conditionally filled with zero. 
-#               # Later, I name this output to be "dfs_first_zero_filled" 
+# There are three if statements. The 1st one: if both the first total_cases and the first total_deaths are null
+# The 2nd one: if the first total_cases is null and the first total_deaths is NOT null
+# The 3rd one: if the first total_cases is NOT null and the first total_deaths is null
+        if (df[i].head(1).total_cases.isnull()[0] & df[i].head(1).total_deaths.isnull()[0]):
+        # dfs[i].iloc[0:0] is the variable names: country_code, continent, etc.
+        # dfs[i].iloc[0:1] is the variable names + the first row. 
+        # Try `dfs[1].iloc[0:1] = [1,'a','c',2,4,'t']` and you'll see that this changes the data of first row 
+        #   but not the variable names. 
+            df[i].iloc[0:1] = [df[i].country_code[-1],
+            df[i].continent[-1],
+            df[i].country_name[-1],
+            0,
+            0, 
+            df[i].population[-1]
+            ]
+        if (df[i].head(1).total_cases.isnull()[0] & df[i].head(1).total_deaths.notnull()[0]):
+            df[i].iloc[0:1] = [df[i].country_code[-1],
+            df[i].continent[-1],
+            df[i].country_name[-1],
+            0,
+            df[i].total_deaths[0],
+            df[i].population[-1]
+            ]
+        if (df[i].head(1).total_cases.notnull()[0] & df[i].head(1).total_deaths.isnull()[0]):
+            df[i].iloc[0:1] = [df[i].country_code[-1],
+            df[i].continent[-1],
+            df[i].country_name[-1],
+            df[i].total_cases[0],
+            0,
+            df[i].population[-1]
+            ]
+    return df # output is the dfs with first case & death conditionally filled with zero. 
+              # Later, I name this output to be "dfs_first_zero_filled" 
+
+
 # -
 
-# dfs_first_zero_filled = fill_first_case_death_with_zero(dfs)
-dfs_first_zero_filled = dfs
+dfs_first_zero_filled = fill_first_case_death_with_zero(dfs)
 
 def merge_with_meta(df): #input should be dfs_first_zero_filled
     # pd.concat() will stack up each group's data and produce a DataFrame containing all data
