@@ -2,7 +2,7 @@ name: jl
 
 on:
   schedule:
-   - cron: "*/5 * * * *" #runs at every five minute
+   - cron: "*/2 * * * *" #runs at every five minute
 
 jobs:
   build:

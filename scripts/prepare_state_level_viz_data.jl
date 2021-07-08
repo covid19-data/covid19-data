@@ -1,6 +1,7 @@
 using HTTP, CSV, Dates, DataFrames, DataStructures, JSON
 
 NYT_STATE_DATA = "https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv"
+OUT_FNAME_CASES = string(dirname(pwd()), "/output/cases/cases_us_states_nyt.csv")
 OUT_FNAME = string(dirname(pwd()), "/output/us_state_nyt.json")
 
 us_state_abbrev = Dict(
@@ -92,7 +93,7 @@ function normalize_fill_concat(df) # input is df
                 [:date, :state_code, :fips, :state_name, :total_cases, :total_deaths]
                 ])
     end
-    return sort(vcat(dfs..., cols=:union), :state_code)
+    return sort(vcat(dfs..., cols=:union), :state_code) # sort by state_code so AK is the first
 end
 
 function prepare_data_structure(df, gby = :state_code) # input is concat_df
@@ -113,9 +114,9 @@ df = get_df(NYT_STATE_DATA)
 
 concat_df = normalize_fill_concat(df)
 
-data = prepare_data_structure(concat_df)
+CSV.write(OUT_FNAME_CASES, concat_df)
 
-# CSV.write(OUT_FNAME, concat_df)
+data = prepare_data_structure(concat_df)
 
 open(OUT_FNAME, "w") do f
     JSON.print(f, data)
