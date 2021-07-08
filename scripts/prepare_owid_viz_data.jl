@@ -1,6 +1,6 @@
 using DataFrames, CSV, HTTP, Dates, JSON, DataStructures
 
-OUT_FNAME = string(dirname(pwd()), "/output/cntry_stat_owid.json")
+OUT_FNAME = string(pwd(), "/output/cntry_stat_owid.json")
 
 # Thanks to https://stackoverflow.com/a/24841669/13716814 & https://stackoverflow.com/a/59473612/13716814
 

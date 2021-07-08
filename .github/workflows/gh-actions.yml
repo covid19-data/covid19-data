@@ -17,5 +17,5 @@ jobs:
         version: 1.6.1 # install the julia needed
     - name: run julia scripts
       run: |
-        julia prepare_owid_viz_data.jl
-        julia prepare_state_level_viz_data.jl
+        julia scripts/prepare_owid_viz_data.jl
+        julia scripts/prepare_state_level_viz_data.jl

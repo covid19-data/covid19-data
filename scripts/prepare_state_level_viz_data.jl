@@ -1,8 +1,8 @@
 using HTTP, CSV, Dates, DataFrames, DataStructures, JSON
 
 NYT_STATE_DATA = "https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv"
-OUT_FNAME_CASES = string(dirname(pwd()), "/output/cases/cases_us_states_nyt.csv")
-OUT_FNAME = string(dirname(pwd()), "/output/us_state_nyt.json")
+OUT_FNAME_CASES = string(pwd(), "/output/cases/cases_us_states_nyt.csv")
+OUT_FNAME = string(pwd(), "/output/us_state_nyt.json")
 
 us_state_abbrev = Dict(
     "Alabama"=> "AL",
