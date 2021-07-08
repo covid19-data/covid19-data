@@ -13,6 +13,8 @@ df = pd.read_csv('https://covid.ourworldindata.org/data/owid-covid-data.csv',
     columns = {'iso_code': 'country_code', 'location': 'country_name'}
 )
 
+df.head(30)
+
 # prepare metadata from World Bank
 metadata = pd.read_csv("https://raw.githubusercontent.com/hongtaoh/covid19-data/master/data_sources/metadata/worldbank/country_metadata.csv",
                       usecols=["Country Code", "Region"]).rename(
@@ -22,6 +24,9 @@ metadata = pd.read_csv("https://raw.githubusercontent.com/hongtaoh/covid19-data/
 # get the full date range:
 all_dates = pd.date_range(df.index.min(), df.index.max())
 # all_dates = pd.date_range('22/01/2020', df.index.max())
+
+all_dates
+
 
 def extract_cntry_dfs(df): # input is df
     dfs = [] # Initiating dfs, which is a list
@@ -50,7 +55,7 @@ dfs = extract_cntry_dfs(df)
 
 # I used forward filling in `def extract_cntry_dfs`. The problem is that most countries/regions do not have data for the first date, i.e., January 1st, 2020. This means the total_cases and total_deaths on 2021-01-01 for most countries/regions are `nan`. Since it's forward filling, data for following dates that do not have available data will be fillled with `nan`. 
 #
-# To better visualize the trend, we'd better change unavailable data in the beginning to be ZERO. (**I din't fully understand why. Couldn't just leave them as `nan`? Why do we have to change them to zero?**)
+# To better visualize the trend, we need change unavailable data in the beginning to be ZERO. (**I din't fully understand why. Couldn't just leave them as `nan`? Why do we have to change them to zero?**) I tried uncommenting the following lines, but the visualizations are just a mess. 
 
 # +
 def fill_first_case_death_with_zero(df): # input should be dfs, NOT df!
