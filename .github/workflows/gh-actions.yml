@@ -7,6 +7,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest 
+    
     steps:
     - name: checkout repo content
       uses: actions/checkout@v2 # checkout the repository content to github runner.
@@ -15,6 +16,6 @@ jobs:
       with:
         version: 1.6.1 # install the julia needed
     - name: run julia scripts
-    run: |
-      julia prepare_owid_viz_data.jl
-      julia prepare_state_level_viz_data.jl
+      run: |
+        julia prepare_owid_viz_data.jl
+        julia prepare_state_level_viz_data.jl
