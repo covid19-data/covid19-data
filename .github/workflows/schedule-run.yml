@@ -1,0 +1,19 @@
+name: jl
+    
+    on:
+      schedule:
+        - cron: "*/5 * * * *" #runs at every five minute
+    
+    jobs:
+      build:
+        runs-on: ubuntu-latest
+    
+        steps:
+          - name: checkout repo content
+            uses: actions/checkout@v2 # checkout the repository content to github runner.
+          - name: setup julia
+            uses: julia-actions/setup-julia@v1 # install julia
+            with:
+              version: 1.6.1 # install the julia needed
+          - run: julia prepare_owid_viz_data.jl
+          - run: julia prepare_state_level_viz_data.jl
