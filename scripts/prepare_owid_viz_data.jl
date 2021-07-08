@@ -1,3 +1,5 @@
+import Pkg; Pkg.add(["DataFrames", "CSV", "HTTP", "Dates", "JSON", "DataStructures"])
+
 using DataFrames, CSV, HTTP, Dates, JSON, DataStructures
 
 OUT_FNAME = string(pwd(), "/output/cntry_stat_owid.json")
