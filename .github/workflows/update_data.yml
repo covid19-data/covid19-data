@@ -2,7 +2,7 @@ name: jl
 
 on:
   schedule:
-   - cron: "*/1 * * * *" #runs at every five minute
+   - cron: "0 0 * * *" #runs at the end of every day
 
 jobs:
   build:
@@ -24,7 +24,7 @@ jobs:
         julia scripts/prepare_state_level_viz_data.jl
     - name: Commit files
       run: |
-        git config --local user.name "hongtaoh"
+        git config --local user.name "covid19-data"
         git add ./output
         msg="updating data on $(date)"
         git commit -m "$msg"
