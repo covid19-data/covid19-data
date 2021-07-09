@@ -2,7 +2,7 @@ name: jl
 
 on:
   schedule:
-   - cron: "*/59 * * * *" #runs at every five minute
+   - cron: "*/1 * * * *" #runs at every five minute
 
 jobs:
   build:
@@ -11,6 +11,9 @@ jobs:
     steps:
     - name: checkout repo content
       uses: actions/checkout@v2 # checkout the repository content to github runner.
+      with:
+        persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
+        fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
     - name: setup julia
       uses: julia-actions/setup-julia@v1 # install julia
       with:
@@ -19,3 +22,14 @@ jobs:
       run: |
         julia scripts/prepare_owid_viz_data.jl
         julia scripts/prepare_state_level_viz_data.jl
+    - name: Commit files
+      run: |
+        git config --local user.name "hongtaoh"
+        git add ./output
+        msg="updating data on $(date)"
+        git commit -m "$msg"
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        force: true
