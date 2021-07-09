@@ -7,7 +7,7 @@ OUT_FNAME = string(pwd(), "/output/cntry_stat_owid.json")
 # Thanks to https://stackoverflow.com/a/24841669/13716814 & https://stackoverflow.com/a/59473612/13716814
 
 # import OWID raw data
-OWID_DATA = "https://covid.ourworldindata.org/data/owid-covid-data.csv"
+OWID_DATA = "https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/owid-covid-data.csv"
 df_raw = CSV.read(HTTP.get(OWID_DATA).body, 
     DataFrame)[:,[
         "date", "iso_code", "continent", "location", 
