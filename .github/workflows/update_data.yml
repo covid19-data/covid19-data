@@ -1,0 +1,35 @@
+name: jl
+
+on:
+  schedule:
+   - cron: "0 0 * * *" #runs at the end of every day
+
+jobs:
+  build:
+    runs-on: ubuntu-latest 
+    
+    steps:
+    - name: checkout repo content
+      uses: actions/checkout@v2 # checkout the repository content to github runner.
+      with:
+        persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
+        fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
+    - name: setup julia
+      uses: julia-actions/setup-julia@v1 # install julia
+      with:
+        version: 1.6.1 # install the julia needed
+    - name: run julia scripts
+      run: |
+        julia scripts/prepare_owid_viz_data.jl
+        julia scripts/prepare_state_level_viz_data.jl
+    - name: Commit files
+      run: |
+        git config --local user.name "covid19-data"
+        git add ./output
+        msg="updating data on $(date)"
+        git commit -m "$msg"
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        force: true
