@@ -596,6 +596,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,AK,2,Alaska,80207,386
 2021-08-17,AK,2,Alaska,80656,391
 2021-08-18,AK,2,Alaska,81317,395
+2021-08-19,AK,2,Alaska,82000,395
+2021-08-20,AK,2,Alaska,82469,397
 2019-12-31,AL,1,Alabama,0,0
 2020-01-01,AL,1,Alabama,0,0
 2020-01-02,AL,1,Alabama,0,0
@@ -1193,6 +1195,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,AL,1,Alabama,637363,11799
 2021-08-17,AL,1,Alabama,641386,11832
 2021-08-18,AL,1,Alabama,645851,11872
+2021-08-19,AL,1,Alabama,649741,11914
+2021-08-20,AL,1,Alabama,653540,11942
 2019-12-31,AR,5,Arkansas,0,0
 2020-01-01,AR,5,Arkansas,0,0
 2020-01-02,AR,5,Arkansas,0,0
@@ -1790,6 +1794,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,AR,5,Arkansas,420663,6498
 2021-08-17,AR,5,Arkansas,422866,6539
 2021-08-18,AR,5,Arkansas,425551,6565
+2021-08-19,AR,5,Arkansas,429100,6581
+2021-08-20,AR,5,Arkansas,431507,6614
 2019-12-31,AZ,4,Arizona,0,0
 2020-01-01,AZ,4,Arizona,0,0
 2020-01-02,AZ,4,Arizona,0,0
@@ -2387,6 +2393,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,AZ,4,Arizona,967862,18464
 2021-08-17,AZ,4,Arizona,970523,18467
 2021-08-18,AZ,4,Arizona,972925,18504
+2021-08-19,AZ,4,Arizona,976471,18508
+2021-08-20,AZ,4,Arizona,979580,18561
 2019-12-31,CA,6,California,0,0
 2020-01-01,CA,6,California,0,0
 2020-01-02,CA,6,California,0,0
@@ -2984,6 +2992,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,CA,6,California,4232845,64684
 2021-08-17,CA,6,California,4243746,64727
 2021-08-18,CA,6,California,4259451,64816
+2021-08-19,CA,6,California,4277523,64908
+2021-08-20,CA,6,California,4303611,65020
 2019-12-31,CO,8,Colorado,0,0
 2020-01-01,CO,8,Colorado,0,0
 2020-01-02,CO,8,Colorado,0,0
@@ -3581,6 +3591,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,CO,8,Colorado,595455,7198
 2021-08-17,CO,8,Colorado,596918,7205
 2021-08-18,CO,8,Colorado,598755,7213
+2021-08-19,CO,8,Colorado,600031,7217
+2021-08-20,CO,8,Colorado,601759,7229
 2019-12-31,CT,9,Connecticut,0,0
 2020-01-01,CT,9,Connecticut,0,0
 2020-01-02,CT,9,Connecticut,0,0
@@ -4178,6 +4190,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,CT,9,Connecticut,363417,8307
 2021-08-17,CT,9,Connecticut,364298,8304
 2021-08-18,CT,9,Connecticut,364891,8307
+2021-08-19,CT,9,Connecticut,365425,8330
+2021-08-20,CT,9,Connecticut,365856,8337
 2019-12-31,DC,11,District of Columbia,0,0
 2020-01-01,DC,11,District of Columbia,0,0
 2020-01-02,DC,11,District of Columbia,0,0
@@ -4775,6 +4789,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,DC,11,District of Columbia,52777,1150
 2021-08-17,DC,11,District of Columbia,52843,1151
 2021-08-18,DC,11,District of Columbia,52843,1151
+2021-08-19,DC,11,District of Columbia,53162,1155
+2021-08-20,DC,11,District of Columbia,53342,1155
 2019-12-31,DE,10,Delaware,0,0
 2020-01-01,DE,10,Delaware,0,0
 2020-01-02,DE,10,Delaware,0,0
@@ -5372,6 +5388,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,DE,10,Delaware,114770,1838
 2021-08-17,DE,10,Delaware,114912,1840
 2021-08-18,DE,10,Delaware,115236,1849
+2021-08-19,DE,10,Delaware,115665,1851
+2021-08-20,DE,10,Delaware,116073,1851
 2019-12-31,FL,12,Florida,0,0
 2020-01-01,FL,12,Florida,0,0
 2020-01-02,FL,12,Florida,0,0
@@ -5969,6 +5987,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,FL,12,Florida,2933429,41123
 2021-08-17,FL,12,Florida,2955098,41130
 2021-08-18,FL,12,Florida,2978433,41138
+2021-08-19,FL,12,Florida,2994019,41937
+2021-08-20,FL,12,Florida,3027954,42252
 2019-12-31,GA,13,Georgia,0,0
 2020-01-01,GA,13,Georgia,0,0
 2020-01-02,GA,13,Georgia,0,0
@@ -6566,6 +6586,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,GA,13,Georgia,1243895,21299
 2021-08-17,GA,13,Georgia,1251359,21343
 2021-08-18,GA,13,Georgia,1259196,21384
+2021-08-19,GA,13,Georgia,1268776,21431
+2021-08-20,GA,13,Georgia,1277998,21478
 2019-12-31,GU,66,Guam,0,0
 2020-01-01,GU,66,Guam,0,0
 2020-01-02,GU,66,Guam,0,0
@@ -7163,6 +7185,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,GU,66,Guam,9987,144
 2021-08-17,GU,66,Guam,10050,145
 2021-08-18,GU,66,Guam,10087,145
+2021-08-19,GU,66,Guam,10169,145
+2021-08-20,GU,66,Guam,10267,145
 2019-12-31,HI,15,Hawaii,0,0
 2020-01-01,HI,15,Hawaii,0,0
 2020-01-02,HI,15,Hawaii,0,0
@@ -7760,6 +7784,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,HI,15,Hawaii,49727,549
 2021-08-17,HI,15,Hawaii,50180,549
 2021-08-18,HI,15,Hawaii,50821,551
+2021-08-19,HI,15,Hawaii,51565,555
+2021-08-20,HI,15,Hawaii,52401,559
 2019-12-31,IA,19,Iowa,0,0
 2020-01-01,IA,19,Iowa,0,0
 2020-01-02,IA,19,Iowa,0,0
@@ -8357,6 +8383,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,IA,19,Iowa,389223,6210
 2021-08-17,IA,19,Iowa,390978,6210
 2021-08-18,IA,19,Iowa,392970,6226
+2021-08-19,IA,19,Iowa,392970,6226
+2021-08-20,IA,19,Iowa,392970,6226
 2019-12-31,ID,16,Idaho,0,0
 2020-01-01,ID,16,Idaho,0,0
 2020-01-02,ID,16,Idaho,0,0
@@ -8954,6 +8982,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,ID,16,Idaho,209490,2255
 2021-08-17,ID,16,Idaho,210395,2261
 2021-08-18,ID,16,Idaho,211612,2281
+2021-08-19,ID,16,Idaho,212408,2282
+2021-08-20,ID,16,Idaho,213024,2284
 2019-12-31,IL,17,Illinois,0,0
 2020-01-01,IL,17,Illinois,0,0
 2020-01-02,IL,17,Illinois,0,0
@@ -9551,6 +9581,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,IL,17,Illinois,1471240,26123
 2021-08-17,IL,17,Illinois,1474807,26144
 2021-08-18,IL,17,Illinois,1478643,26182
+2021-08-19,IL,17,Illinois,1482024,26197
+2021-08-20,IL,17,Illinois,1486875,26223
 2019-12-31,IN,18,Indiana,0,0
 2020-01-01,IN,18,Indiana,0,0
 2020-01-02,IN,18,Indiana,0,0
@@ -10148,6 +10180,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,IN,18,Indiana,806763,14144
 2021-08-17,IN,18,Indiana,809458,14173
 2021-08-18,IN,18,Indiana,812902,14198
+2021-08-19,IN,18,Indiana,816404,14214
+2021-08-20,IN,18,Indiana,820507,14228
 2019-12-31,KS,20,Kansas,0,0
 2020-01-01,KS,20,Kansas,0,0
 2020-01-02,KS,20,Kansas,0,0
@@ -10744,7 +10778,9 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-15,KS,20,Kansas,349073,5417
 2021-08-16,KS,20,Kansas,351444,5425
 2021-08-17,KS,20,Kansas,351554,5427
-2021-08-18,KS,20,Kansas,351833,5427
+2021-08-18,KS,20,Kansas,354260,5427
+2021-08-19,KS,20,Kansas,354369,5429
+2021-08-20,KS,20,Kansas,357195,5520
 2019-12-31,KY,21,Kentucky,0,0
 2020-01-01,KY,21,Kentucky,0,0
 2020-01-02,KY,21,Kentucky,0,0
@@ -11342,6 +11378,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,KY,21,Kentucky,520349,7504
 2021-08-17,KY,21,Kentucky,523490,7511
 2021-08-18,KY,21,Kentucky,527184,7523
+2021-08-19,KY,21,Kentucky,531954,7532
+2021-08-20,KY,21,Kentucky,536091,7572
 2019-12-31,LA,22,Louisiana,0,0
 2020-01-01,LA,22,Louisiana,0,0
 2020-01-02,LA,22,Louisiana,0,0
@@ -11939,6 +11977,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,LA,22,Louisiana,628146,11584
 2021-08-17,LA,22,Louisiana,631837,11706
 2021-08-18,LA,22,Louisiana,638443,11793
+2021-08-19,LA,22,Louisiana,643993,11851
+2021-08-20,LA,22,Louisiana,649915,11918
 2019-12-31,MA,25,Massachusetts,0,0
 2020-01-01,MA,25,Massachusetts,0,0
 2020-01-02,MA,25,Massachusetts,0,0
@@ -12536,6 +12576,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,MA,25,Massachusetts,737579,18148
 2021-08-17,MA,25,Massachusetts,739047,18154
 2021-08-18,MA,25,Massachusetts,740626,18165
+2021-08-19,MA,25,Massachusetts,742202,18169
+2021-08-20,MA,25,Massachusetts,743735,18175
 2019-12-31,MD,24,Maryland,0,0
 2020-01-01,MD,24,Maryland,0,0
 2020-01-02,MD,24,Maryland,0,0
@@ -13133,6 +13175,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,MD,24,Maryland,480939,9896
 2021-08-17,MD,24,Maryland,481790,9899
 2021-08-18,MD,24,Maryland,482802,9907
+2021-08-19,MD,24,Maryland,483862,9916
+2021-08-20,MD,24,Maryland,485068,9922
 2019-12-31,ME,23,Maine,0,0
 2020-01-01,ME,23,Maine,0,0
 2020-01-02,ME,23,Maine,0,0
@@ -13730,6 +13774,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,ME,23,Maine,72521,904
 2021-08-17,ME,23,Maine,72896,907
 2021-08-18,ME,23,Maine,73087,909
+2021-08-19,ME,23,Maine,73269,921
+2021-08-20,ME,23,Maine,73454,922
 2019-12-31,MI,26,Michigan,0,0
 2020-01-01,MI,26,Michigan,0,0
 2020-01-02,MI,26,Michigan,0,0
@@ -14327,6 +14373,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,MI,26,Michigan,1030884,21296
 2021-08-17,MI,26,Michigan,1031023,21299
 2021-08-18,MI,26,Michigan,1034201,21344
+2021-08-19,MI,26,Michigan,1034375,21344
+2021-08-20,MI,26,Michigan,1038980,21384
 2019-12-31,MN,27,Minnesota,0,0
 2020-01-01,MN,27,Minnesota,0,0
 2020-01-02,MN,27,Minnesota,0,0
@@ -14924,6 +14972,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,MN,27,Minnesota,626403,7827
 2021-08-17,MN,27,Minnesota,629447,7830
 2021-08-18,MN,27,Minnesota,630605,7835
+2021-08-19,MN,27,Minnesota,631951,7843
+2021-08-20,MN,27,Minnesota,633649,7853
 2019-12-31,MO,29,Missouri,0,0
 2020-01-01,MO,29,Missouri,0,0
 2020-01-02,MO,29,Missouri,0,0
@@ -15521,6 +15571,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,MO,29,Missouri,738745,10697
 2021-08-17,MO,29,Missouri,740846,10807
 2021-08-18,MO,29,Missouri,744002,10819
+2021-08-19,MO,29,Missouri,747448,10832
+2021-08-20,MO,29,Missouri,750664,10855
 2019-12-31,MP,69,Northern Mariana Islands,0,0
 2020-01-01,MP,69,Northern Mariana Islands,0,0
 2020-01-02,MP,69,Northern Mariana Islands,0,0
@@ -16118,6 +16170,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,MP,69,Northern Mariana Islands,219,2
 2021-08-17,MP,69,Northern Mariana Islands,220,2
 2021-08-18,MP,69,Northern Mariana Islands,220,2
+2021-08-19,MP,69,Northern Mariana Islands,224,2
+2021-08-20,MP,69,Northern Mariana Islands,224,2
 2019-12-31,MS,28,Mississippi,0,0
 2020-01-01,MS,28,Mississippi,0,0
 2020-01-02,MS,28,Mississippi,0,0
@@ -16715,6 +16769,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,MS,28,Mississippi,388986,7813
 2021-08-17,MS,28,Mississippi,392309,7880
 2021-08-18,MS,28,Mississippi,396394,7916
+2021-08-19,MS,28,Mississippi,401201,7937
+2021-08-20,MS,28,Mississippi,406249,7991
 2019-12-31,MT,30,Montana,0,0
 2020-01-01,MT,30,Montana,0,0
 2020-01-02,MT,30,Montana,0,0
@@ -17312,6 +17368,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,MT,30,Montana,120436,1736
 2021-08-17,MT,30,Montana,121058,1743
 2021-08-18,MT,30,Montana,121494,1749
+2021-08-19,MT,30,Montana,121989,1752
+2021-08-20,MT,30,Montana,122430,1756
 2019-12-31,NC,37,North Carolina,0,0
 2020-01-01,NC,37,North Carolina,0,0
 2020-01-02,NC,37,North Carolina,0,0
@@ -17909,6 +17967,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,NC,37,North Carolina,1122629,13890
 2021-08-17,NC,37,North Carolina,1127239,13912
 2021-08-18,NC,37,North Carolina,1132735,13969
+2021-08-19,NC,37,North Carolina,1139637,14021
+2021-08-20,NC,37,North Carolina,1146288,14072
 2019-12-31,ND,38,North Dakota,0,0
 2020-01-01,ND,38,North Dakota,0,0
 2020-01-02,ND,38,North Dakota,0,0
@@ -18506,6 +18566,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,ND,38,North Dakota,113435,1576
 2021-08-17,ND,38,North Dakota,113704,1579
 2021-08-18,ND,38,North Dakota,113956,1579
+2021-08-19,ND,38,North Dakota,114210,1580
+2021-08-20,ND,38,North Dakota,114512,1581
 2019-12-31,NE,31,Nebraska,0,0
 2020-01-01,NE,31,Nebraska,0,0
 2020-01-02,NE,31,Nebraska,0,0
@@ -19103,6 +19165,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,NE,31,Nebraska,234420,2564
 2021-08-17,NE,31,Nebraska,235075,2566
 2021-08-18,NE,31,Nebraska,235686,2565
+2021-08-19,NE,31,Nebraska,236346,2568
+2021-08-20,NE,31,Nebraska,236755,2569
 2019-12-31,NH,33,New Hampshire,0,0
 2020-01-01,NH,33,New Hampshire,0,0
 2020-01-02,NH,33,New Hampshire,0,0
@@ -19700,6 +19764,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,NH,33,New Hampshire,103462,1395
 2021-08-17,NH,33,New Hampshire,103733,1396
 2021-08-18,NH,33,New Hampshire,103989,1396
+2021-08-19,NH,33,New Hampshire,104263,1397
+2021-08-20,NH,33,New Hampshire,104571,1397
 2019-12-31,NJ,34,New Jersey,0,0
 2020-01-01,NJ,34,New Jersey,0,0
 2020-01-02,NJ,34,New Jersey,0,0
@@ -20297,6 +20363,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,NJ,34,New Jersey,1062238,26696
 2021-08-17,NJ,34,New Jersey,1064059,26715
 2021-08-18,NJ,34,New Jersey,1065736,26721
+2021-08-19,NJ,34,New Jersey,1067758,26731
+2021-08-20,NJ,34,New Jersey,1070698,26739
 2019-12-31,NM,35,New Mexico,0,0
 2020-01-01,NM,35,New Mexico,0,0
 2020-01-02,NM,35,New Mexico,0,0
@@ -20894,6 +20962,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,NM,35,New Mexico,220340,4453
 2021-08-17,NM,35,New Mexico,221087,4457
 2021-08-18,NM,35,New Mexico,221961,4461
+2021-08-19,NM,35,New Mexico,222928,4465
+2021-08-20,NM,35,New Mexico,223796,4474
 2019-12-31,NV,32,Nevada,0,0
 2020-01-01,NV,32,Nevada,0,0
 2020-01-02,NV,32,Nevada,0,0
@@ -21491,6 +21561,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,NV,32,Nevada,373649,6190
 2021-08-17,NV,32,Nevada,374651,6223
 2021-08-18,NV,32,Nevada,376080,6248
+2021-08-19,NV,32,Nevada,377493,6259
+2021-08-20,NV,32,Nevada,378700,6280
 2019-12-31,NY,36,New York,0,0
 2020-01-01,NY,36,New York,0,0
 2020-01-02,NY,36,New York,0,0
@@ -22088,6 +22160,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,NY,36,New York,2207567,53486
 2021-08-17,NY,36,New York,2211095,53519
 2021-08-18,NY,36,New York,2215603,53532
+2021-08-19,NY,36,New York,2220673,53548
+2021-08-20,NY,36,New York,2224579,53564
 2019-12-31,OH,39,Ohio,0,0
 2020-01-01,OH,39,Ohio,0,0
 2020-01-02,OH,39,Ohio,0,0
@@ -22685,6 +22759,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,OH,39,Ohio,1161573,20614
 2021-08-17,OH,39,Ohio,1164808,20648
 2021-08-18,OH,39,Ohio,1168111,20648
+2021-08-19,OH,39,Ohio,1171557,20648
+2021-08-20,OH,39,Ohio,1175340,20689
 2019-12-31,OK,40,Oklahoma,0,0
 2020-01-01,OK,40,Oklahoma,0,0
 2020-01-02,OK,40,Oklahoma,0,0
@@ -23282,6 +23358,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,OK,40,Oklahoma,515801,7594
 2021-08-17,OK,40,Oklahoma,516663,7594
 2021-08-18,OK,40,Oklahoma,519023,7676
+2021-08-19,OK,40,Oklahoma,521525,7676
+2021-08-20,OK,40,Oklahoma,524376,7676
 2019-12-31,OR,41,Oregon,0,0
 2020-01-01,OR,41,Oregon,0,0
 2020-01-02,OR,41,Oregon,0,0
@@ -23879,6 +23957,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,OR,41,Oregon,242843,2971
 2021-08-17,OR,41,Oregon,245758,2986
 2021-08-18,OR,41,Oregon,247866,2997
+2021-08-19,OR,41,Oregon,250835,3016
+2021-08-20,OR,41,Oregon,252977,3033
 2019-12-31,PA,42,Pennsylvania,0,0
 2020-01-01,PA,42,Pennsylvania,0,0
 2020-01-02,PA,42,Pennsylvania,0,0
@@ -24476,6 +24556,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,PA,42,Pennsylvania,1256689,27966
 2021-08-17,PA,42,Pennsylvania,1258774,27993
 2021-08-18,PA,42,Pennsylvania,1261160,28018
+2021-08-19,PA,42,Pennsylvania,1265068,28040
+2021-08-20,PA,42,Pennsylvania,1267612,28059
 2019-12-31,PR,72,Puerto Rico,0,0
 2020-01-01,PR,72,Puerto Rico,0,0
 2020-01-02,PR,72,Puerto Rico,0,0
@@ -25073,6 +25155,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,PR,72,Puerto Rico,192440,2667
 2021-08-17,PR,72,Puerto Rico,192802,2678
 2021-08-18,PR,72,Puerto Rico,193081,2689
+2021-08-19,PR,72,Puerto Rico,193478,2702
+2021-08-20,PR,72,Puerto Rico,194818,2715
 2019-12-31,RI,44,Rhode Island,0,0
 2020-01-01,RI,44,Rhode Island,0,0
 2020-01-02,RI,44,Rhode Island,0,0
@@ -25670,6 +25754,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,RI,44,Rhode Island,158283,2747
 2021-08-17,RI,44,Rhode Island,158614,2747
 2021-08-18,RI,44,Rhode Island,159019,2748
+2021-08-19,RI,44,Rhode Island,159355,2752
+2021-08-20,RI,44,Rhode Island,159710,2753
 2019-12-31,SC,45,South Carolina,0,0
 2020-01-01,SC,45,South Carolina,0,0
 2020-01-02,SC,45,South Carolina,0,0
@@ -26267,6 +26353,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,SC,45,South Carolina,667352,10108
 2021-08-17,SC,45,South Carolina,669638,10115
 2021-08-18,SC,45,South Carolina,673172,10140
+2021-08-19,SC,45,South Carolina,676431,10182
+2021-08-20,SC,45,South Carolina,681659,10213
 2019-12-31,SD,46,South Dakota,0,0
 2020-01-01,SD,46,South Dakota,0,0
 2020-01-02,SD,46,South Dakota,0,0
@@ -26864,6 +26952,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,SD,46,South Dakota,126925,2053
 2021-08-17,SD,46,South Dakota,127320,2055
 2021-08-18,SD,46,South Dakota,127696,2056
+2021-08-19,SD,46,South Dakota,127991,2057
+2021-08-20,SD,46,South Dakota,128295,2057
 2019-12-31,TN,47,Tennessee,0,0
 2020-01-01,TN,47,Tennessee,0,0
 2020-01-02,TN,47,Tennessee,0,0
@@ -27461,6 +27551,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,TN,47,Tennessee,939006,12884
 2021-08-17,TN,47,Tennessee,942488,12916
 2021-08-18,TN,47,Tennessee,947511,12943
+2021-08-19,TN,47,Tennessee,953304,12995
+2021-08-20,TN,47,Tennessee,960942,13041
 2019-12-31,TX,48,Texas,0,0
 2020-01-01,TX,48,Texas,0,0
 2020-01-02,TX,48,Texas,0,0
@@ -28057,7 +28149,9 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-15,TX,48,Texas,3333059,54488
 2021-08-16,TX,48,Texas,3346889,54537
 2021-08-17,TX,48,Texas,3372386,54643
-2021-08-18,TX,48,Texas,3392831,54819
+2021-08-18,TX,48,Texas,3392291,54819
+2021-08-19,TX,48,Texas,3410867,55031
+2021-08-20,TX,48,Texas,3433517,55229
 2019-12-31,UT,49,Utah,0,0
 2020-01-01,UT,49,Utah,0,0
 2020-01-02,UT,49,Utah,0,0
@@ -28655,6 +28749,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,UT,49,Utah,446882,2537
 2021-08-17,UT,49,Utah,447845,2537
 2021-08-18,UT,49,Utah,449334,2549
+2021-08-19,UT,49,Utah,450616,2563
+2021-08-20,UT,49,Utah,451732,2572
 2019-12-31,VA,51,Virginia,0,0
 2020-01-01,VA,51,Virginia,0,0
 2020-01-02,VA,51,Virginia,0,0
@@ -29252,6 +29348,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,VA,51,Virginia,723727,11618
 2021-08-17,VA,51,Virginia,725971,11625
 2021-08-18,VA,51,Virginia,728523,11632
+2021-08-19,VA,51,Virginia,731287,11638
+2021-08-20,VA,51,Virginia,734079,11647
 2019-12-31,VI,78,Virgin Islands,0,0
 2020-01-01,VI,78,Virgin Islands,0,0
 2020-01-02,VI,78,Virgin Islands,0,0
@@ -29849,6 +29947,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,VI,78,Virgin Islands,5295,41
 2021-08-17,VI,78,Virgin Islands,5295,41
 2021-08-18,VI,78,Virgin Islands,5413,41
+2021-08-19,VI,78,Virgin Islands,5432,44
+2021-08-20,VI,78,Virgin Islands,5432,44
 2019-12-31,VT,50,Vermont,0,0
 2020-01-01,VT,50,Vermont,0,0
 2020-01-02,VT,50,Vermont,0,0
@@ -30446,6 +30546,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,VT,50,Vermont,26040,264
 2021-08-17,VT,50,Vermont,26397,264
 2021-08-18,VT,50,Vermont,26494,267
+2021-08-19,VT,50,Vermont,26663,268
+2021-08-20,VT,50,Vermont,26778,270
 2019-12-31,WA,53,Washington,0,0
 2020-01-01,WA,53,Washington,0,0
 2020-01-02,WA,53,Washington,0,0
@@ -31043,6 +31145,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,WA,53,Washington,516226,6295
 2021-08-17,WA,53,Washington,518604,6317
 2021-08-18,WA,53,Washington,522390,6346
+2021-08-19,WA,53,Washington,526305,6378
+2021-08-20,WA,53,Washington,530094,6401
 2019-12-31,WI,55,Wisconsin,0,0
 2020-01-01,WI,55,Wisconsin,0,0
 2020-01-02,WI,55,Wisconsin,0,0
@@ -31640,6 +31744,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,WI,55,Wisconsin,707479,8324
 2021-08-17,WI,55,Wisconsin,709504,8336
 2021-08-18,WI,55,Wisconsin,711171,8353
+2021-08-19,WI,55,Wisconsin,712967,8356
+2021-08-20,WI,55,Wisconsin,714792,8368
 2019-12-31,WV,54,West Virginia,0,0
 2020-01-01,WV,54,West Virginia,0,0
 2020-01-02,WV,54,West Virginia,0,0
@@ -32237,6 +32343,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,WV,54,West Virginia,173479,2978
 2021-08-17,WV,54,West Virginia,174818,2990
 2021-08-18,WV,54,West Virginia,175638,2997
+2021-08-19,WV,54,West Virginia,176608,3001
+2021-08-20,WV,54,West Virginia,177533,3008
 2019-12-31,WY,56,Wyoming,0,0
 2020-01-01,WY,56,Wyoming,0,0
 2020-01-02,WY,56,Wyoming,0,0
@@ -32834,3 +32942,5 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-08-16,WY,56,Wyoming,68944,793
 2021-08-17,WY,56,Wyoming,69356,809
 2021-08-18,WY,56,Wyoming,69844,809
+2021-08-19,WY,56,Wyoming,70150,809
+2021-08-20,WY,56,Wyoming,70671,809
