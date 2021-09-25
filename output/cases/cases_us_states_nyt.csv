@@ -630,6 +630,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,AK,2,Alaska,99590,452
 2021-09-20,AK,2,Alaska,101698,457
 2021-09-21,AK,2,Alaska,102551,463
+2021-09-22,AK,2,Alaska,103795,464
+2021-09-23,AK,2,Alaska,105110,471
 2019-12-31,AL,1,Alabama,0,0
 2020-01-01,AL,1,Alabama,0,0
 2020-01-02,AL,1,Alabama,0,0
@@ -1261,6 +1263,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,AL,1,Alabama,770391,13210
 2021-09-20,AL,1,Alabama,772311,13210
 2021-09-21,AL,1,Alabama,775531,13460
+2021-09-22,AL,1,Alabama,778549,13665
+2021-09-23,AL,1,Alabama,781915,13798
 2019-12-31,AR,5,Arkansas,0,0
 2020-01-01,AR,5,Arkansas,0,0
 2020-01-02,AR,5,Arkansas,0,0
@@ -1892,6 +1896,641 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,AR,5,Arkansas,485056,7445
 2021-09-20,AR,5,Arkansas,485452,7482
 2021-09-21,AR,5,Arkansas,486853,7499
+2021-09-22,AR,5,Arkansas,488316,7528
+2021-09-23,AR,5,Arkansas,489856,7548
+2019-12-31,AS,60,American Samoa,0,0
+2020-01-01,AS,60,American Samoa,0,0
+2020-01-02,AS,60,American Samoa,0,0
+2020-01-03,AS,60,American Samoa,0,0
+2020-01-04,AS,60,American Samoa,0,0
+2020-01-05,AS,60,American Samoa,0,0
+2020-01-06,AS,60,American Samoa,0,0
+2020-01-07,AS,60,American Samoa,0,0
+2020-01-08,AS,60,American Samoa,0,0
+2020-01-09,AS,60,American Samoa,0,0
+2020-01-10,AS,60,American Samoa,0,0
+2020-01-11,AS,60,American Samoa,0,0
+2020-01-12,AS,60,American Samoa,0,0
+2020-01-13,AS,60,American Samoa,0,0
+2020-01-14,AS,60,American Samoa,0,0
+2020-01-15,AS,60,American Samoa,0,0
+2020-01-16,AS,60,American Samoa,0,0
+2020-01-17,AS,60,American Samoa,0,0
+2020-01-18,AS,60,American Samoa,0,0
+2020-01-19,AS,60,American Samoa,0,0
+2020-01-20,AS,60,American Samoa,0,0
+2020-01-21,AS,60,American Samoa,0,0
+2020-01-22,AS,60,American Samoa,0,0
+2020-01-23,AS,60,American Samoa,0,0
+2020-01-24,AS,60,American Samoa,0,0
+2020-01-25,AS,60,American Samoa,0,0
+2020-01-26,AS,60,American Samoa,0,0
+2020-01-27,AS,60,American Samoa,0,0
+2020-01-28,AS,60,American Samoa,0,0
+2020-01-29,AS,60,American Samoa,0,0
+2020-01-30,AS,60,American Samoa,0,0
+2020-01-31,AS,60,American Samoa,0,0
+2020-02-01,AS,60,American Samoa,0,0
+2020-02-02,AS,60,American Samoa,0,0
+2020-02-03,AS,60,American Samoa,0,0
+2020-02-04,AS,60,American Samoa,0,0
+2020-02-05,AS,60,American Samoa,0,0
+2020-02-06,AS,60,American Samoa,0,0
+2020-02-07,AS,60,American Samoa,0,0
+2020-02-08,AS,60,American Samoa,0,0
+2020-02-09,AS,60,American Samoa,0,0
+2020-02-10,AS,60,American Samoa,0,0
+2020-02-11,AS,60,American Samoa,0,0
+2020-02-12,AS,60,American Samoa,0,0
+2020-02-13,AS,60,American Samoa,0,0
+2020-02-14,AS,60,American Samoa,0,0
+2020-02-15,AS,60,American Samoa,0,0
+2020-02-16,AS,60,American Samoa,0,0
+2020-02-17,AS,60,American Samoa,0,0
+2020-02-18,AS,60,American Samoa,0,0
+2020-02-19,AS,60,American Samoa,0,0
+2020-02-20,AS,60,American Samoa,0,0
+2020-02-21,AS,60,American Samoa,0,0
+2020-02-22,AS,60,American Samoa,0,0
+2020-02-23,AS,60,American Samoa,0,0
+2020-02-24,AS,60,American Samoa,0,0
+2020-02-25,AS,60,American Samoa,0,0
+2020-02-26,AS,60,American Samoa,0,0
+2020-02-27,AS,60,American Samoa,0,0
+2020-02-28,AS,60,American Samoa,0,0
+2020-02-29,AS,60,American Samoa,0,0
+2020-03-01,AS,60,American Samoa,0,0
+2020-03-02,AS,60,American Samoa,0,0
+2020-03-03,AS,60,American Samoa,0,0
+2020-03-04,AS,60,American Samoa,0,0
+2020-03-05,AS,60,American Samoa,0,0
+2020-03-06,AS,60,American Samoa,0,0
+2020-03-07,AS,60,American Samoa,0,0
+2020-03-08,AS,60,American Samoa,0,0
+2020-03-09,AS,60,American Samoa,0,0
+2020-03-10,AS,60,American Samoa,0,0
+2020-03-11,AS,60,American Samoa,0,0
+2020-03-12,AS,60,American Samoa,0,0
+2020-03-13,AS,60,American Samoa,0,0
+2020-03-14,AS,60,American Samoa,0,0
+2020-03-15,AS,60,American Samoa,0,0
+2020-03-16,AS,60,American Samoa,0,0
+2020-03-17,AS,60,American Samoa,0,0
+2020-03-18,AS,60,American Samoa,0,0
+2020-03-19,AS,60,American Samoa,0,0
+2020-03-20,AS,60,American Samoa,0,0
+2020-03-21,AS,60,American Samoa,0,0
+2020-03-22,AS,60,American Samoa,0,0
+2020-03-23,AS,60,American Samoa,0,0
+2020-03-24,AS,60,American Samoa,0,0
+2020-03-25,AS,60,American Samoa,0,0
+2020-03-26,AS,60,American Samoa,0,0
+2020-03-27,AS,60,American Samoa,0,0
+2020-03-28,AS,60,American Samoa,0,0
+2020-03-29,AS,60,American Samoa,0,0
+2020-03-30,AS,60,American Samoa,0,0
+2020-03-31,AS,60,American Samoa,0,0
+2020-04-01,AS,60,American Samoa,0,0
+2020-04-02,AS,60,American Samoa,0,0
+2020-04-03,AS,60,American Samoa,0,0
+2020-04-04,AS,60,American Samoa,0,0
+2020-04-05,AS,60,American Samoa,0,0
+2020-04-06,AS,60,American Samoa,0,0
+2020-04-07,AS,60,American Samoa,0,0
+2020-04-08,AS,60,American Samoa,0,0
+2020-04-09,AS,60,American Samoa,0,0
+2020-04-10,AS,60,American Samoa,0,0
+2020-04-11,AS,60,American Samoa,0,0
+2020-04-12,AS,60,American Samoa,0,0
+2020-04-13,AS,60,American Samoa,0,0
+2020-04-14,AS,60,American Samoa,0,0
+2020-04-15,AS,60,American Samoa,0,0
+2020-04-16,AS,60,American Samoa,0,0
+2020-04-17,AS,60,American Samoa,0,0
+2020-04-18,AS,60,American Samoa,0,0
+2020-04-19,AS,60,American Samoa,0,0
+2020-04-20,AS,60,American Samoa,0,0
+2020-04-21,AS,60,American Samoa,0,0
+2020-04-22,AS,60,American Samoa,0,0
+2020-04-23,AS,60,American Samoa,0,0
+2020-04-24,AS,60,American Samoa,0,0
+2020-04-25,AS,60,American Samoa,0,0
+2020-04-26,AS,60,American Samoa,0,0
+2020-04-27,AS,60,American Samoa,0,0
+2020-04-28,AS,60,American Samoa,0,0
+2020-04-29,AS,60,American Samoa,0,0
+2020-04-30,AS,60,American Samoa,0,0
+2020-05-01,AS,60,American Samoa,0,0
+2020-05-02,AS,60,American Samoa,0,0
+2020-05-03,AS,60,American Samoa,0,0
+2020-05-04,AS,60,American Samoa,0,0
+2020-05-05,AS,60,American Samoa,0,0
+2020-05-06,AS,60,American Samoa,0,0
+2020-05-07,AS,60,American Samoa,0,0
+2020-05-08,AS,60,American Samoa,0,0
+2020-05-09,AS,60,American Samoa,0,0
+2020-05-10,AS,60,American Samoa,0,0
+2020-05-11,AS,60,American Samoa,0,0
+2020-05-12,AS,60,American Samoa,0,0
+2020-05-13,AS,60,American Samoa,0,0
+2020-05-14,AS,60,American Samoa,0,0
+2020-05-15,AS,60,American Samoa,0,0
+2020-05-16,AS,60,American Samoa,0,0
+2020-05-17,AS,60,American Samoa,0,0
+2020-05-18,AS,60,American Samoa,0,0
+2020-05-19,AS,60,American Samoa,0,0
+2020-05-20,AS,60,American Samoa,0,0
+2020-05-21,AS,60,American Samoa,0,0
+2020-05-22,AS,60,American Samoa,0,0
+2020-05-23,AS,60,American Samoa,0,0
+2020-05-24,AS,60,American Samoa,0,0
+2020-05-25,AS,60,American Samoa,0,0
+2020-05-26,AS,60,American Samoa,0,0
+2020-05-27,AS,60,American Samoa,0,0
+2020-05-28,AS,60,American Samoa,0,0
+2020-05-29,AS,60,American Samoa,0,0
+2020-05-30,AS,60,American Samoa,0,0
+2020-05-31,AS,60,American Samoa,0,0
+2020-06-01,AS,60,American Samoa,0,0
+2020-06-02,AS,60,American Samoa,0,0
+2020-06-03,AS,60,American Samoa,0,0
+2020-06-04,AS,60,American Samoa,0,0
+2020-06-05,AS,60,American Samoa,0,0
+2020-06-06,AS,60,American Samoa,0,0
+2020-06-07,AS,60,American Samoa,0,0
+2020-06-08,AS,60,American Samoa,0,0
+2020-06-09,AS,60,American Samoa,0,0
+2020-06-10,AS,60,American Samoa,0,0
+2020-06-11,AS,60,American Samoa,0,0
+2020-06-12,AS,60,American Samoa,0,0
+2020-06-13,AS,60,American Samoa,0,0
+2020-06-14,AS,60,American Samoa,0,0
+2020-06-15,AS,60,American Samoa,0,0
+2020-06-16,AS,60,American Samoa,0,0
+2020-06-17,AS,60,American Samoa,0,0
+2020-06-18,AS,60,American Samoa,0,0
+2020-06-19,AS,60,American Samoa,0,0
+2020-06-20,AS,60,American Samoa,0,0
+2020-06-21,AS,60,American Samoa,0,0
+2020-06-22,AS,60,American Samoa,0,0
+2020-06-23,AS,60,American Samoa,0,0
+2020-06-24,AS,60,American Samoa,0,0
+2020-06-25,AS,60,American Samoa,0,0
+2020-06-26,AS,60,American Samoa,0,0
+2020-06-27,AS,60,American Samoa,0,0
+2020-06-28,AS,60,American Samoa,0,0
+2020-06-29,AS,60,American Samoa,0,0
+2020-06-30,AS,60,American Samoa,0,0
+2020-07-01,AS,60,American Samoa,0,0
+2020-07-02,AS,60,American Samoa,0,0
+2020-07-03,AS,60,American Samoa,0,0
+2020-07-04,AS,60,American Samoa,0,0
+2020-07-05,AS,60,American Samoa,0,0
+2020-07-06,AS,60,American Samoa,0,0
+2020-07-07,AS,60,American Samoa,0,0
+2020-07-08,AS,60,American Samoa,0,0
+2020-07-09,AS,60,American Samoa,0,0
+2020-07-10,AS,60,American Samoa,0,0
+2020-07-11,AS,60,American Samoa,0,0
+2020-07-12,AS,60,American Samoa,0,0
+2020-07-13,AS,60,American Samoa,0,0
+2020-07-14,AS,60,American Samoa,0,0
+2020-07-15,AS,60,American Samoa,0,0
+2020-07-16,AS,60,American Samoa,0,0
+2020-07-17,AS,60,American Samoa,0,0
+2020-07-18,AS,60,American Samoa,0,0
+2020-07-19,AS,60,American Samoa,0,0
+2020-07-20,AS,60,American Samoa,0,0
+2020-07-21,AS,60,American Samoa,0,0
+2020-07-22,AS,60,American Samoa,0,0
+2020-07-23,AS,60,American Samoa,0,0
+2020-07-24,AS,60,American Samoa,0,0
+2020-07-25,AS,60,American Samoa,0,0
+2020-07-26,AS,60,American Samoa,0,0
+2020-07-27,AS,60,American Samoa,0,0
+2020-07-28,AS,60,American Samoa,0,0
+2020-07-29,AS,60,American Samoa,0,0
+2020-07-30,AS,60,American Samoa,0,0
+2020-07-31,AS,60,American Samoa,0,0
+2020-08-01,AS,60,American Samoa,0,0
+2020-08-02,AS,60,American Samoa,0,0
+2020-08-03,AS,60,American Samoa,0,0
+2020-08-04,AS,60,American Samoa,0,0
+2020-08-05,AS,60,American Samoa,0,0
+2020-08-06,AS,60,American Samoa,0,0
+2020-08-07,AS,60,American Samoa,0,0
+2020-08-08,AS,60,American Samoa,0,0
+2020-08-09,AS,60,American Samoa,0,0
+2020-08-10,AS,60,American Samoa,0,0
+2020-08-11,AS,60,American Samoa,0,0
+2020-08-12,AS,60,American Samoa,0,0
+2020-08-13,AS,60,American Samoa,0,0
+2020-08-14,AS,60,American Samoa,0,0
+2020-08-15,AS,60,American Samoa,0,0
+2020-08-16,AS,60,American Samoa,0,0
+2020-08-17,AS,60,American Samoa,0,0
+2020-08-18,AS,60,American Samoa,0,0
+2020-08-19,AS,60,American Samoa,0,0
+2020-08-20,AS,60,American Samoa,0,0
+2020-08-21,AS,60,American Samoa,0,0
+2020-08-22,AS,60,American Samoa,0,0
+2020-08-23,AS,60,American Samoa,0,0
+2020-08-24,AS,60,American Samoa,0,0
+2020-08-25,AS,60,American Samoa,0,0
+2020-08-26,AS,60,American Samoa,0,0
+2020-08-27,AS,60,American Samoa,0,0
+2020-08-28,AS,60,American Samoa,0,0
+2020-08-29,AS,60,American Samoa,0,0
+2020-08-30,AS,60,American Samoa,0,0
+2020-08-31,AS,60,American Samoa,0,0
+2020-09-01,AS,60,American Samoa,0,0
+2020-09-02,AS,60,American Samoa,0,0
+2020-09-03,AS,60,American Samoa,0,0
+2020-09-04,AS,60,American Samoa,0,0
+2020-09-05,AS,60,American Samoa,0,0
+2020-09-06,AS,60,American Samoa,0,0
+2020-09-07,AS,60,American Samoa,0,0
+2020-09-08,AS,60,American Samoa,0,0
+2020-09-09,AS,60,American Samoa,0,0
+2020-09-10,AS,60,American Samoa,0,0
+2020-09-11,AS,60,American Samoa,0,0
+2020-09-12,AS,60,American Samoa,0,0
+2020-09-13,AS,60,American Samoa,0,0
+2020-09-14,AS,60,American Samoa,0,0
+2020-09-15,AS,60,American Samoa,0,0
+2020-09-16,AS,60,American Samoa,0,0
+2020-09-17,AS,60,American Samoa,0,0
+2020-09-18,AS,60,American Samoa,0,0
+2020-09-19,AS,60,American Samoa,0,0
+2020-09-20,AS,60,American Samoa,0,0
+2020-09-21,AS,60,American Samoa,0,0
+2020-09-22,AS,60,American Samoa,0,0
+2020-09-23,AS,60,American Samoa,0,0
+2020-09-24,AS,60,American Samoa,0,0
+2020-09-25,AS,60,American Samoa,0,0
+2020-09-26,AS,60,American Samoa,0,0
+2020-09-27,AS,60,American Samoa,0,0
+2020-09-28,AS,60,American Samoa,0,0
+2020-09-29,AS,60,American Samoa,0,0
+2020-09-30,AS,60,American Samoa,0,0
+2020-10-01,AS,60,American Samoa,0,0
+2020-10-02,AS,60,American Samoa,0,0
+2020-10-03,AS,60,American Samoa,0,0
+2020-10-04,AS,60,American Samoa,0,0
+2020-10-05,AS,60,American Samoa,0,0
+2020-10-06,AS,60,American Samoa,0,0
+2020-10-07,AS,60,American Samoa,0,0
+2020-10-08,AS,60,American Samoa,0,0
+2020-10-09,AS,60,American Samoa,0,0
+2020-10-10,AS,60,American Samoa,0,0
+2020-10-11,AS,60,American Samoa,0,0
+2020-10-12,AS,60,American Samoa,0,0
+2020-10-13,AS,60,American Samoa,0,0
+2020-10-14,AS,60,American Samoa,0,0
+2020-10-15,AS,60,American Samoa,0,0
+2020-10-16,AS,60,American Samoa,0,0
+2020-10-17,AS,60,American Samoa,0,0
+2020-10-18,AS,60,American Samoa,0,0
+2020-10-19,AS,60,American Samoa,0,0
+2020-10-20,AS,60,American Samoa,0,0
+2020-10-21,AS,60,American Samoa,0,0
+2020-10-22,AS,60,American Samoa,0,0
+2020-10-23,AS,60,American Samoa,0,0
+2020-10-24,AS,60,American Samoa,0,0
+2020-10-25,AS,60,American Samoa,0,0
+2020-10-26,AS,60,American Samoa,0,0
+2020-10-27,AS,60,American Samoa,0,0
+2020-10-28,AS,60,American Samoa,0,0
+2020-10-29,AS,60,American Samoa,0,0
+2020-10-30,AS,60,American Samoa,0,0
+2020-10-31,AS,60,American Samoa,0,0
+2020-11-01,AS,60,American Samoa,0,0
+2020-11-02,AS,60,American Samoa,0,0
+2020-11-03,AS,60,American Samoa,0,0
+2020-11-04,AS,60,American Samoa,0,0
+2020-11-05,AS,60,American Samoa,0,0
+2020-11-06,AS,60,American Samoa,0,0
+2020-11-07,AS,60,American Samoa,0,0
+2020-11-08,AS,60,American Samoa,0,0
+2020-11-09,AS,60,American Samoa,0,0
+2020-11-10,AS,60,American Samoa,0,0
+2020-11-11,AS,60,American Samoa,0,0
+2020-11-12,AS,60,American Samoa,0,0
+2020-11-13,AS,60,American Samoa,0,0
+2020-11-14,AS,60,American Samoa,0,0
+2020-11-15,AS,60,American Samoa,0,0
+2020-11-16,AS,60,American Samoa,0,0
+2020-11-17,AS,60,American Samoa,0,0
+2020-11-18,AS,60,American Samoa,0,0
+2020-11-19,AS,60,American Samoa,0,0
+2020-11-20,AS,60,American Samoa,0,0
+2020-11-21,AS,60,American Samoa,0,0
+2020-11-22,AS,60,American Samoa,0,0
+2020-11-23,AS,60,American Samoa,0,0
+2020-11-24,AS,60,American Samoa,0,0
+2020-11-25,AS,60,American Samoa,0,0
+2020-11-26,AS,60,American Samoa,0,0
+2020-11-27,AS,60,American Samoa,0,0
+2020-11-28,AS,60,American Samoa,0,0
+2020-11-29,AS,60,American Samoa,0,0
+2020-11-30,AS,60,American Samoa,0,0
+2020-12-01,AS,60,American Samoa,0,0
+2020-12-02,AS,60,American Samoa,0,0
+2020-12-03,AS,60,American Samoa,0,0
+2020-12-04,AS,60,American Samoa,0,0
+2020-12-05,AS,60,American Samoa,0,0
+2020-12-06,AS,60,American Samoa,0,0
+2020-12-07,AS,60,American Samoa,0,0
+2020-12-08,AS,60,American Samoa,0,0
+2020-12-09,AS,60,American Samoa,0,0
+2020-12-10,AS,60,American Samoa,0,0
+2020-12-11,AS,60,American Samoa,0,0
+2020-12-12,AS,60,American Samoa,0,0
+2020-12-13,AS,60,American Samoa,0,0
+2020-12-14,AS,60,American Samoa,0,0
+2020-12-15,AS,60,American Samoa,0,0
+2020-12-16,AS,60,American Samoa,0,0
+2020-12-17,AS,60,American Samoa,0,0
+2020-12-18,AS,60,American Samoa,0,0
+2020-12-19,AS,60,American Samoa,0,0
+2020-12-20,AS,60,American Samoa,0,0
+2020-12-21,AS,60,American Samoa,0,0
+2020-12-22,AS,60,American Samoa,0,0
+2020-12-23,AS,60,American Samoa,0,0
+2020-12-24,AS,60,American Samoa,0,0
+2020-12-25,AS,60,American Samoa,0,0
+2020-12-26,AS,60,American Samoa,0,0
+2020-12-27,AS,60,American Samoa,0,0
+2020-12-28,AS,60,American Samoa,0,0
+2020-12-29,AS,60,American Samoa,0,0
+2020-12-30,AS,60,American Samoa,0,0
+2020-12-31,AS,60,American Samoa,0,0
+2021-01-01,AS,60,American Samoa,0,0
+2021-01-02,AS,60,American Samoa,0,0
+2021-01-03,AS,60,American Samoa,0,0
+2021-01-04,AS,60,American Samoa,0,0
+2021-01-05,AS,60,American Samoa,0,0
+2021-01-06,AS,60,American Samoa,0,0
+2021-01-07,AS,60,American Samoa,0,0
+2021-01-08,AS,60,American Samoa,0,0
+2021-01-09,AS,60,American Samoa,0,0
+2021-01-10,AS,60,American Samoa,0,0
+2021-01-11,AS,60,American Samoa,0,0
+2021-01-12,AS,60,American Samoa,0,0
+2021-01-13,AS,60,American Samoa,0,0
+2021-01-14,AS,60,American Samoa,0,0
+2021-01-15,AS,60,American Samoa,0,0
+2021-01-16,AS,60,American Samoa,0,0
+2021-01-17,AS,60,American Samoa,0,0
+2021-01-18,AS,60,American Samoa,0,0
+2021-01-19,AS,60,American Samoa,0,0
+2021-01-20,AS,60,American Samoa,0,0
+2021-01-21,AS,60,American Samoa,0,0
+2021-01-22,AS,60,American Samoa,0,0
+2021-01-23,AS,60,American Samoa,0,0
+2021-01-24,AS,60,American Samoa,0,0
+2021-01-25,AS,60,American Samoa,0,0
+2021-01-26,AS,60,American Samoa,0,0
+2021-01-27,AS,60,American Samoa,0,0
+2021-01-28,AS,60,American Samoa,0,0
+2021-01-29,AS,60,American Samoa,0,0
+2021-01-30,AS,60,American Samoa,0,0
+2021-01-31,AS,60,American Samoa,0,0
+2021-02-01,AS,60,American Samoa,0,0
+2021-02-02,AS,60,American Samoa,0,0
+2021-02-03,AS,60,American Samoa,0,0
+2021-02-04,AS,60,American Samoa,0,0
+2021-02-05,AS,60,American Samoa,0,0
+2021-02-06,AS,60,American Samoa,0,0
+2021-02-07,AS,60,American Samoa,0,0
+2021-02-08,AS,60,American Samoa,0,0
+2021-02-09,AS,60,American Samoa,0,0
+2021-02-10,AS,60,American Samoa,0,0
+2021-02-11,AS,60,American Samoa,0,0
+2021-02-12,AS,60,American Samoa,0,0
+2021-02-13,AS,60,American Samoa,0,0
+2021-02-14,AS,60,American Samoa,0,0
+2021-02-15,AS,60,American Samoa,0,0
+2021-02-16,AS,60,American Samoa,0,0
+2021-02-17,AS,60,American Samoa,0,0
+2021-02-18,AS,60,American Samoa,0,0
+2021-02-19,AS,60,American Samoa,0,0
+2021-02-20,AS,60,American Samoa,0,0
+2021-02-21,AS,60,American Samoa,0,0
+2021-02-22,AS,60,American Samoa,0,0
+2021-02-23,AS,60,American Samoa,0,0
+2021-02-24,AS,60,American Samoa,0,0
+2021-02-25,AS,60,American Samoa,0,0
+2021-02-26,AS,60,American Samoa,0,0
+2021-02-27,AS,60,American Samoa,0,0
+2021-02-28,AS,60,American Samoa,0,0
+2021-03-01,AS,60,American Samoa,0,0
+2021-03-02,AS,60,American Samoa,0,0
+2021-03-03,AS,60,American Samoa,0,0
+2021-03-04,AS,60,American Samoa,0,0
+2021-03-05,AS,60,American Samoa,0,0
+2021-03-06,AS,60,American Samoa,0,0
+2021-03-07,AS,60,American Samoa,0,0
+2021-03-08,AS,60,American Samoa,0,0
+2021-03-09,AS,60,American Samoa,0,0
+2021-03-10,AS,60,American Samoa,0,0
+2021-03-11,AS,60,American Samoa,0,0
+2021-03-12,AS,60,American Samoa,0,0
+2021-03-13,AS,60,American Samoa,0,0
+2021-03-14,AS,60,American Samoa,0,0
+2021-03-15,AS,60,American Samoa,0,0
+2021-03-16,AS,60,American Samoa,0,0
+2021-03-17,AS,60,American Samoa,0,0
+2021-03-18,AS,60,American Samoa,0,0
+2021-03-19,AS,60,American Samoa,0,0
+2021-03-20,AS,60,American Samoa,0,0
+2021-03-21,AS,60,American Samoa,0,0
+2021-03-22,AS,60,American Samoa,0,0
+2021-03-23,AS,60,American Samoa,0,0
+2021-03-24,AS,60,American Samoa,0,0
+2021-03-25,AS,60,American Samoa,0,0
+2021-03-26,AS,60,American Samoa,0,0
+2021-03-27,AS,60,American Samoa,0,0
+2021-03-28,AS,60,American Samoa,0,0
+2021-03-29,AS,60,American Samoa,0,0
+2021-03-30,AS,60,American Samoa,0,0
+2021-03-31,AS,60,American Samoa,0,0
+2021-04-01,AS,60,American Samoa,0,0
+2021-04-02,AS,60,American Samoa,0,0
+2021-04-03,AS,60,American Samoa,0,0
+2021-04-04,AS,60,American Samoa,0,0
+2021-04-05,AS,60,American Samoa,0,0
+2021-04-06,AS,60,American Samoa,0,0
+2021-04-07,AS,60,American Samoa,0,0
+2021-04-08,AS,60,American Samoa,0,0
+2021-04-09,AS,60,American Samoa,0,0
+2021-04-10,AS,60,American Samoa,0,0
+2021-04-11,AS,60,American Samoa,0,0
+2021-04-12,AS,60,American Samoa,0,0
+2021-04-13,AS,60,American Samoa,0,0
+2021-04-14,AS,60,American Samoa,0,0
+2021-04-15,AS,60,American Samoa,0,0
+2021-04-16,AS,60,American Samoa,0,0
+2021-04-17,AS,60,American Samoa,0,0
+2021-04-18,AS,60,American Samoa,0,0
+2021-04-19,AS,60,American Samoa,0,0
+2021-04-20,AS,60,American Samoa,0,0
+2021-04-21,AS,60,American Samoa,0,0
+2021-04-22,AS,60,American Samoa,0,0
+2021-04-23,AS,60,American Samoa,0,0
+2021-04-24,AS,60,American Samoa,0,0
+2021-04-25,AS,60,American Samoa,0,0
+2021-04-26,AS,60,American Samoa,0,0
+2021-04-27,AS,60,American Samoa,0,0
+2021-04-28,AS,60,American Samoa,0,0
+2021-04-29,AS,60,American Samoa,0,0
+2021-04-30,AS,60,American Samoa,0,0
+2021-05-01,AS,60,American Samoa,0,0
+2021-05-02,AS,60,American Samoa,0,0
+2021-05-03,AS,60,American Samoa,0,0
+2021-05-04,AS,60,American Samoa,0,0
+2021-05-05,AS,60,American Samoa,0,0
+2021-05-06,AS,60,American Samoa,0,0
+2021-05-07,AS,60,American Samoa,0,0
+2021-05-08,AS,60,American Samoa,0,0
+2021-05-09,AS,60,American Samoa,0,0
+2021-05-10,AS,60,American Samoa,0,0
+2021-05-11,AS,60,American Samoa,0,0
+2021-05-12,AS,60,American Samoa,0,0
+2021-05-13,AS,60,American Samoa,0,0
+2021-05-14,AS,60,American Samoa,0,0
+2021-05-15,AS,60,American Samoa,0,0
+2021-05-16,AS,60,American Samoa,0,0
+2021-05-17,AS,60,American Samoa,0,0
+2021-05-18,AS,60,American Samoa,0,0
+2021-05-19,AS,60,American Samoa,0,0
+2021-05-20,AS,60,American Samoa,0,0
+2021-05-21,AS,60,American Samoa,0,0
+2021-05-22,AS,60,American Samoa,0,0
+2021-05-23,AS,60,American Samoa,0,0
+2021-05-24,AS,60,American Samoa,0,0
+2021-05-25,AS,60,American Samoa,0,0
+2021-05-26,AS,60,American Samoa,0,0
+2021-05-27,AS,60,American Samoa,0,0
+2021-05-28,AS,60,American Samoa,0,0
+2021-05-29,AS,60,American Samoa,0,0
+2021-05-30,AS,60,American Samoa,0,0
+2021-05-31,AS,60,American Samoa,0,0
+2021-06-01,AS,60,American Samoa,0,0
+2021-06-02,AS,60,American Samoa,0,0
+2021-06-03,AS,60,American Samoa,0,0
+2021-06-04,AS,60,American Samoa,0,0
+2021-06-05,AS,60,American Samoa,0,0
+2021-06-06,AS,60,American Samoa,0,0
+2021-06-07,AS,60,American Samoa,0,0
+2021-06-08,AS,60,American Samoa,0,0
+2021-06-09,AS,60,American Samoa,0,0
+2021-06-10,AS,60,American Samoa,0,0
+2021-06-11,AS,60,American Samoa,0,0
+2021-06-12,AS,60,American Samoa,0,0
+2021-06-13,AS,60,American Samoa,0,0
+2021-06-14,AS,60,American Samoa,0,0
+2021-06-15,AS,60,American Samoa,0,0
+2021-06-16,AS,60,American Samoa,0,0
+2021-06-17,AS,60,American Samoa,0,0
+2021-06-18,AS,60,American Samoa,0,0
+2021-06-19,AS,60,American Samoa,0,0
+2021-06-20,AS,60,American Samoa,0,0
+2021-06-21,AS,60,American Samoa,0,0
+2021-06-22,AS,60,American Samoa,0,0
+2021-06-23,AS,60,American Samoa,0,0
+2021-06-24,AS,60,American Samoa,0,0
+2021-06-25,AS,60,American Samoa,0,0
+2021-06-26,AS,60,American Samoa,0,0
+2021-06-27,AS,60,American Samoa,0,0
+2021-06-28,AS,60,American Samoa,0,0
+2021-06-29,AS,60,American Samoa,0,0
+2021-06-30,AS,60,American Samoa,0,0
+2021-07-01,AS,60,American Samoa,0,0
+2021-07-02,AS,60,American Samoa,0,0
+2021-07-03,AS,60,American Samoa,0,0
+2021-07-04,AS,60,American Samoa,0,0
+2021-07-05,AS,60,American Samoa,0,0
+2021-07-06,AS,60,American Samoa,0,0
+2021-07-07,AS,60,American Samoa,0,0
+2021-07-08,AS,60,American Samoa,0,0
+2021-07-09,AS,60,American Samoa,0,0
+2021-07-10,AS,60,American Samoa,0,0
+2021-07-11,AS,60,American Samoa,0,0
+2021-07-12,AS,60,American Samoa,0,0
+2021-07-13,AS,60,American Samoa,0,0
+2021-07-14,AS,60,American Samoa,0,0
+2021-07-15,AS,60,American Samoa,0,0
+2021-07-16,AS,60,American Samoa,0,0
+2021-07-17,AS,60,American Samoa,0,0
+2021-07-18,AS,60,American Samoa,0,0
+2021-07-19,AS,60,American Samoa,0,0
+2021-07-20,AS,60,American Samoa,0,0
+2021-07-21,AS,60,American Samoa,0,0
+2021-07-22,AS,60,American Samoa,0,0
+2021-07-23,AS,60,American Samoa,0,0
+2021-07-24,AS,60,American Samoa,0,0
+2021-07-25,AS,60,American Samoa,0,0
+2021-07-26,AS,60,American Samoa,0,0
+2021-07-27,AS,60,American Samoa,0,0
+2021-07-28,AS,60,American Samoa,0,0
+2021-07-29,AS,60,American Samoa,0,0
+2021-07-30,AS,60,American Samoa,0,0
+2021-07-31,AS,60,American Samoa,0,0
+2021-08-01,AS,60,American Samoa,0,0
+2021-08-02,AS,60,American Samoa,0,0
+2021-08-03,AS,60,American Samoa,0,0
+2021-08-04,AS,60,American Samoa,0,0
+2021-08-05,AS,60,American Samoa,0,0
+2021-08-06,AS,60,American Samoa,0,0
+2021-08-07,AS,60,American Samoa,0,0
+2021-08-08,AS,60,American Samoa,0,0
+2021-08-09,AS,60,American Samoa,0,0
+2021-08-10,AS,60,American Samoa,0,0
+2021-08-11,AS,60,American Samoa,0,0
+2021-08-12,AS,60,American Samoa,0,0
+2021-08-13,AS,60,American Samoa,0,0
+2021-08-14,AS,60,American Samoa,0,0
+2021-08-15,AS,60,American Samoa,0,0
+2021-08-16,AS,60,American Samoa,0,0
+2021-08-17,AS,60,American Samoa,0,0
+2021-08-18,AS,60,American Samoa,0,0
+2021-08-19,AS,60,American Samoa,0,0
+2021-08-20,AS,60,American Samoa,0,0
+2021-08-21,AS,60,American Samoa,0,0
+2021-08-22,AS,60,American Samoa,0,0
+2021-08-23,AS,60,American Samoa,0,0
+2021-08-24,AS,60,American Samoa,0,0
+2021-08-25,AS,60,American Samoa,0,0
+2021-08-26,AS,60,American Samoa,0,0
+2021-08-27,AS,60,American Samoa,0,0
+2021-08-28,AS,60,American Samoa,0,0
+2021-08-29,AS,60,American Samoa,0,0
+2021-08-30,AS,60,American Samoa,0,0
+2021-08-31,AS,60,American Samoa,0,0
+2021-09-01,AS,60,American Samoa,0,0
+2021-09-02,AS,60,American Samoa,0,0
+2021-09-03,AS,60,American Samoa,0,0
+2021-09-04,AS,60,American Samoa,0,0
+2021-09-05,AS,60,American Samoa,0,0
+2021-09-06,AS,60,American Samoa,0,0
+2021-09-07,AS,60,American Samoa,0,0
+2021-09-08,AS,60,American Samoa,0,0
+2021-09-09,AS,60,American Samoa,0,0
+2021-09-10,AS,60,American Samoa,0,0
+2021-09-11,AS,60,American Samoa,0,0
+2021-09-12,AS,60,American Samoa,0,0
+2021-09-13,AS,60,American Samoa,0,0
+2021-09-14,AS,60,American Samoa,0,0
+2021-09-15,AS,60,American Samoa,0,0
+2021-09-16,AS,60,American Samoa,0,0
+2021-09-17,AS,60,American Samoa,0,0
+2021-09-18,AS,60,American Samoa,0,0
+2021-09-19,AS,60,American Samoa,0,0
+2021-09-20,AS,60,American Samoa,0,0
+2021-09-21,AS,60,American Samoa,0,0
+2021-09-22,AS,60,American Samoa,1,0
+2021-09-23,AS,60,American Samoa,1,0
 2019-12-31,AZ,4,Arizona,0,0
 2020-01-01,AZ,4,Arizona,0,0
 2020-01-02,AZ,4,Arizona,0,0
@@ -2523,6 +3162,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,AZ,4,Arizona,1066803,19513
 2021-09-20,AZ,4,Arizona,1068823,19513
 2021-09-21,AZ,4,Arizona,1070757,19584
+2021-09-22,AZ,4,Arizona,1072863,19658
+2021-09-23,AZ,4,Arizona,1075876,19727
 2019-12-31,CA,6,California,0,0
 2020-01-01,CA,6,California,0,0
 2020-01-02,CA,6,California,0,0
@@ -3152,8 +3793,10 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-17,CA,6,California,4639199,67948
 2021-09-18,CA,6,California,4647462,68034
 2021-09-19,CA,6,California,4654530,68106
-2021-09-20,CA,6,California,4662868,68158
+2021-09-20,CA,6,California,4663226,68158
 2021-09-21,CA,6,California,4669895,68244
+2021-09-22,CA,6,California,4677452,68402
+2021-09-23,CA,6,California,4687178,68532
 2019-12-31,CO,8,Colorado,0,0
 2020-01-01,CO,8,Colorado,0,0
 2020-01-02,CO,8,Colorado,0,0
@@ -3785,6 +4428,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,CO,8,Colorado,652901,7563
 2021-09-20,CO,8,Colorado,656908,7583
 2021-09-21,CO,8,Colorado,658712,7605
+2021-09-22,CO,8,Colorado,660023,7619
+2021-09-23,CO,8,Colorado,661030,7624
 2019-12-31,CT,9,Connecticut,0,0
 2020-01-01,CT,9,Connecticut,0,0
 2020-01-02,CT,9,Connecticut,0,0
@@ -4416,6 +5061,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,CT,9,Connecticut,384342,8463
 2021-09-20,CT,9,Connecticut,385788,8462
 2021-09-21,CT,9,Connecticut,386182,8477
+2021-09-22,CT,9,Connecticut,386672,8484
+2021-09-23,CT,9,Connecticut,387263,8483
 2019-12-31,DC,11,District of Columbia,0,0
 2020-01-01,DC,11,District of Columbia,0,0
 2020-01-02,DC,11,District of Columbia,0,0
@@ -5047,6 +5694,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,DC,11,District of Columbia,58851,1167
 2021-09-20,DC,11,District of Columbia,59563,1167
 2021-09-21,DC,11,District of Columbia,59712,1171
+2021-09-22,DC,11,District of Columbia,59849,1171
+2021-09-23,DC,11,District of Columbia,60018,1172
 2019-12-31,DE,10,Delaware,0,0
 2020-01-01,DE,10,Delaware,0,0
 2020-01-02,DE,10,Delaware,0,0
@@ -5678,6 +6327,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,DE,10,Delaware,128253,1920
 2021-09-20,DE,10,Delaware,128692,1920
 2021-09-21,DE,10,Delaware,128964,1927
+2021-09-22,DE,10,Delaware,129231,1929
+2021-09-23,DE,10,Delaware,129874,1942
 2019-12-31,FL,12,Florida,0,0
 2020-01-01,FL,12,Florida,0,0
 2020-01-02,FL,12,Florida,0,0
@@ -6309,6 +6960,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,FL,12,Florida,3494954,51240
 2021-09-20,FL,12,Florida,3503976,51884
 2021-09-21,FL,12,Florida,3517177,51889
+2021-09-22,FL,12,Florida,3527250,51892
+2021-09-23,FL,12,Florida,3531465,53105
 2019-12-31,GA,13,Georgia,0,0
 2020-01-01,GA,13,Georgia,0,0
 2020-01-02,GA,13,Georgia,0,0
@@ -6940,6 +7593,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,GA,13,Georgia,1491838,23767
 2021-09-20,GA,13,Georgia,1503350,23947
 2021-09-21,GA,13,Georgia,1510443,24114
+2021-09-22,GA,13,Georgia,1515076,24298
+2021-09-23,GA,13,Georgia,1519511,24498
 2019-12-31,GU,66,Guam,0,0
 2020-01-01,GU,66,Guam,0,0
 2020-01-02,GU,66,Guam,0,0
@@ -7571,6 +8226,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,GU,66,Guam,14318,180
 2021-09-20,GU,66,Guam,14629,182
 2021-09-21,GU,66,Guam,14828,182
+2021-09-22,GU,66,Guam,14828,182
+2021-09-23,GU,66,Guam,15067,185
 2019-12-31,HI,15,Hawaii,0,0
 2020-01-01,HI,15,Hawaii,0,0
 2020-01-02,HI,15,Hawaii,0,0
@@ -8202,6 +8859,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,HI,15,Hawaii,73148,711
 2021-09-20,HI,15,Hawaii,73567,711
 2021-09-21,HI,15,Hawaii,73841,711
+2021-09-22,HI,15,Hawaii,74169,723
+2021-09-23,HI,15,Hawaii,74606,735
 2019-12-31,IA,19,Iowa,0,0
 2020-01-01,IA,19,Iowa,0,0
 2020-01-02,IA,19,Iowa,0,0
@@ -8833,6 +9492,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,IA,19,Iowa,434239,6401
 2021-09-20,IA,19,Iowa,434239,6401
 2021-09-21,IA,19,Iowa,437872,6401
+2021-09-22,IA,19,Iowa,441183,6483
+2021-09-23,IA,19,Iowa,441183,6482
 2019-12-31,ID,16,Idaho,0,0
 2020-01-01,ID,16,Idaho,0,0
 2020-01-02,ID,16,Idaho,0,0
@@ -9464,6 +10125,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,ID,16,Idaho,242388,2637
 2021-09-20,ID,16,Idaho,243650,2650
 2021-09-21,ID,16,Idaho,245458,2663
+2021-09-22,ID,16,Idaho,246817,2688
+2021-09-23,ID,16,Idaho,248152,2721
 2019-12-31,IL,17,Illinois,0,0
 2020-01-01,IL,17,Illinois,0,0
 2020-01-02,IL,17,Illinois,0,0
@@ -10095,6 +10758,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,IL,17,Illinois,1595188,27175
 2021-09-20,IL,17,Illinois,1603442,27275
 2021-09-21,IL,17,Illinois,1606469,27299
+2021-09-22,IL,17,Illinois,1609991,27351
+2021-09-23,IL,17,Illinois,1613862,27398
 2019-12-31,IN,18,Indiana,0,0
 2020-01-01,IN,18,Indiana,0,0
 2020-01-02,IN,18,Indiana,0,0
@@ -10726,6 +11391,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,IN,18,Indiana,929986,15083
 2021-09-20,IN,18,Indiana,937970,15157
 2021-09-21,IN,18,Indiana,940608,15239
+2021-09-22,IN,18,Indiana,944512,15315
+2021-09-23,IN,18,Indiana,948099,15343
 2019-12-31,KS,20,Kansas,0,0
 2020-01-01,KS,20,Kansas,0,0
 2020-01-02,KS,20,Kansas,0,0
@@ -11357,6 +12024,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,KS,20,Kansas,398054,5883
 2021-09-20,KS,20,Kansas,400445,5936
 2021-09-21,KS,20,Kansas,400540,5939
+2021-09-22,KS,20,Kansas,402978,5945
+2021-09-23,KS,20,Kansas,403026,5947
 2019-12-31,KY,21,Kentucky,0,0
 2020-01-01,KY,21,Kentucky,0,0
 2020-01-02,KY,21,Kentucky,0,0
@@ -11988,6 +12657,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,KY,21,Kentucky,654725,8337
 2021-09-20,KY,21,Kentucky,662963,8408
 2021-09-21,KY,21,Kentucky,666269,8450
+2021-09-22,KY,21,Kentucky,670790,8498
+2021-09-23,KY,21,Kentucky,675004,8545
 2019-12-31,LA,22,Louisiana,0,0
 2020-01-01,LA,22,Louisiana,0,0
 2020-01-02,LA,22,Louisiana,0,0
@@ -12619,6 +13290,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,LA,22,Louisiana,725637,13418
 2021-09-20,LA,22,Louisiana,728831,13473
 2021-09-21,LA,22,Louisiana,730099,13558
+2021-09-22,LA,22,Louisiana,732005,13657
+2021-09-23,LA,22,Louisiana,733522,13702
 2019-12-31,MA,25,Massachusetts,0,0
 2020-01-01,MA,25,Massachusetts,0,0
 2020-01-02,MA,25,Massachusetts,0,0
@@ -13250,6 +13923,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,MA,25,Massachusetts,790953,18445
 2021-09-20,MA,25,Massachusetts,795543,18455
 2021-09-21,MA,25,Massachusetts,796925,18480
+2021-09-22,MA,25,Massachusetts,798905,18504
+2021-09-23,MA,25,Massachusetts,800909,18527
 2019-12-31,MD,24,Maryland,0,0
 2020-01-01,MD,24,Maryland,0,0
 2020-01-02,MD,24,Maryland,0,0
@@ -13881,6 +14556,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,MD,24,Maryland,519325,10263
 2021-09-20,MD,24,Maryland,520464,10263
 2021-09-21,MD,24,Maryland,521438,10309
+2021-09-22,MD,24,Maryland,522583,10332
+2021-09-23,MD,24,Maryland,523988,10348
 2019-12-31,ME,23,Maine,0,0
 2020-01-01,ME,23,Maine,0,0
 2020-01-02,ME,23,Maine,0,0
@@ -14512,6 +15189,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,ME,23,Maine,83910,984
 2021-09-20,ME,23,Maine,83910,984
 2021-09-21,ME,23,Maine,84542,1002
+2021-09-22,ME,23,Maine,85156,1007
+2021-09-23,ME,23,Maine,85872,1009
 2019-12-31,MI,26,Michigan,0,0
 2020-01-01,MI,26,Michigan,0,0
 2020-01-02,MI,26,Michigan,0,0
@@ -15143,6 +15822,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,MI,26,Michigan,1107765,21982
 2021-09-20,MI,26,Michigan,1115833,22020
 2021-09-21,MI,26,Michigan,1115997,22020
+2021-09-22,MI,26,Michigan,1123481,22110
+2021-09-23,MI,26,Michigan,1123783,22112
 2019-12-31,MN,27,Minnesota,0,0
 2020-01-01,MN,27,Minnesota,0,0
 2020-01-02,MN,27,Minnesota,0,0
@@ -15774,6 +16455,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,MN,27,Minnesota,681706,8076
 2021-09-20,MN,27,Minnesota,684163,8086
 2021-09-21,MN,27,Minnesota,690484,8104
+2021-09-22,MN,27,Minnesota,692122,8118
+2021-09-23,MN,27,Minnesota,694413,8142
 2019-12-31,MO,29,Missouri,0,0
 2020-01-01,MO,29,Missouri,0,0
 2020-01-02,MO,29,Missouri,0,0
@@ -16405,6 +17088,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,MO,29,Missouri,817992,11766
 2021-09-20,MO,29,Missouri,819417,11768
 2021-09-21,MO,29,Missouri,821413,11955
+2021-09-22,MO,29,Missouri,823641,11971
+2021-09-23,MO,29,Missouri,825827,11999
 2019-12-31,MP,69,Northern Mariana Islands,0,0
 2020-01-01,MP,69,Northern Mariana Islands,0,0
 2020-01-02,MP,69,Northern Mariana Islands,0,0
@@ -17036,6 +17721,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,MP,69,Northern Mariana Islands,258,2
 2021-09-20,MP,69,Northern Mariana Islands,263,2
 2021-09-21,MP,69,Northern Mariana Islands,265,2
+2021-09-22,MP,69,Northern Mariana Islands,265,2
+2021-09-23,MP,69,Northern Mariana Islands,265,2
 2019-12-31,MS,28,Mississippi,0,0
 2020-01-01,MS,28,Mississippi,0,0
 2020-01-02,MS,28,Mississippi,0,0
@@ -17667,6 +18354,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,MS,28,Mississippi,473413,9214
 2021-09-20,MS,28,Mississippi,476100,9270
 2021-09-21,MS,28,Mississippi,477769,9331
+2021-09-22,MS,28,Mississippi,479326,9353
+2021-09-23,MS,28,Mississippi,481397,9395
 2019-12-31,MT,30,Montana,0,0
 2020-01-01,MT,30,Montana,0,0
 2020-01-02,MT,30,Montana,0,0
@@ -18298,6 +18987,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,MT,30,Montana,139844,1877
 2021-09-20,MT,30,Montana,141479,1887
 2021-09-21,MT,30,Montana,142655,1901
+2021-09-22,MT,30,Montana,143970,1914
+2021-09-23,MT,30,Montana,145145,1930
 2019-12-31,NC,37,North Carolina,0,0
 2020-01-01,NC,37,North Carolina,0,0
 2020-01-02,NC,37,North Carolina,0,0
@@ -18929,6 +19620,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,NC,37,North Carolina,1332544,15636
 2021-09-20,NC,37,North Carolina,1348543,15793
 2021-09-21,NC,37,North Carolina,1353006,15829
+2021-09-22,NC,37,North Carolina,1359303,15964
+2021-09-23,NC,37,North Carolina,1365428,16036
 2019-12-31,ND,38,North Dakota,0,0
 2020-01-01,ND,38,North Dakota,0,0
 2020-01-02,ND,38,North Dakota,0,0
@@ -19560,6 +20253,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,ND,38,North Dakota,125829,1618
 2021-09-20,ND,38,North Dakota,126050,1618
 2021-09-21,ND,38,North Dakota,126675,1626
+2021-09-22,ND,38,North Dakota,127316,1628
+2021-09-23,ND,38,North Dakota,127945,1628
 2019-12-31,NE,31,Nebraska,0,0
 2020-01-01,NE,31,Nebraska,0,0
 2020-01-02,NE,31,Nebraska,0,0
@@ -20191,6 +20886,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,NE,31,Nebraska,257787,2626
 2021-09-20,NE,31,Nebraska,259205,2629
 2021-09-21,NE,31,Nebraska,260199,2634
+2021-09-22,NE,31,Nebraska,261080,2643
+2021-09-23,NE,31,Nebraska,261763,2648
 2019-12-31,NH,33,New Hampshire,0,0
 2020-01-01,NH,33,New Hampshire,0,0
 2020-01-02,NH,33,New Hampshire,0,0
@@ -20822,6 +21519,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,NH,33,New Hampshire,114322,1457
 2021-09-20,NH,33,New Hampshire,115401,1458
 2021-09-21,NH,33,New Hampshire,115612,1462
+2021-09-22,NH,33,New Hampshire,115957,1466
+2021-09-23,NH,33,New Hampshire,116710,1469
 2019-12-31,NJ,34,New Jersey,0,0
 2020-01-01,NJ,34,New Jersey,0,0
 2020-01-02,NJ,34,New Jersey,0,0
@@ -21453,6 +22152,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,NJ,34,New Jersey,1133228,27190
 2021-09-20,NJ,34,New Jersey,1134851,27202
 2021-09-21,NJ,34,New Jersey,1137016,27240
+2021-09-22,NJ,34,New Jersey,1139367,27264
+2021-09-23,NJ,34,New Jersey,1141619,27288
 2019-12-31,NM,35,New Mexico,0,0
 2020-01-01,NM,35,New Mexico,0,0
 2020-01-02,NM,35,New Mexico,0,0
@@ -22084,6 +22785,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,NM,35,New Mexico,244720,4677
 2021-09-20,NM,35,New Mexico,246229,4691
 2021-09-21,NM,35,New Mexico,246639,4702
+2021-09-22,NM,35,New Mexico,247353,4721
+2021-09-23,NM,35,New Mexico,248075,4737
 2019-12-31,NV,32,Nevada,0,0
 2020-01-01,NV,32,Nevada,0,0
 2020-01-02,NV,32,Nevada,0,0
@@ -22715,6 +23418,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,NV,32,Nevada,410104,6845
 2021-09-20,NV,32,Nevada,412317,6880
 2021-09-21,NV,32,Nevada,413547,6918
+2021-09-22,NV,32,Nevada,414371,6948
+2021-09-23,NV,32,Nevada,415424,6983
 2019-12-31,NY,36,New York,0,0
 2020-01-01,NY,36,New York,0,0
 2020-01-02,NY,36,New York,0,0
@@ -23346,6 +24051,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,NY,36,New York,2371076,54479
 2021-09-20,NY,36,New York,2374833,54502
 2021-09-21,NY,36,New York,2380164,54559
+2021-09-22,NY,36,New York,2384698,54602
+2021-09-23,NY,36,New York,2389735,54641
 2019-12-31,OH,39,Ohio,0,0
 2020-01-01,OH,39,Ohio,0,0
 2020-01-02,OH,39,Ohio,0,0
@@ -23977,6 +24684,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,OH,39,Ohio,1347205,21471
 2021-09-20,OH,39,Ohio,1352104,21471
 2021-09-21,OH,39,Ohio,1358918,21596
+2021-09-22,OH,39,Ohio,1365800,21596
+2021-09-23,OH,39,Ohio,1373275,21596
 2019-12-31,OK,40,Oklahoma,0,0
 2020-01-01,OK,40,Oklahoma,0,0
 2020-01-02,OK,40,Oklahoma,0,0
@@ -24607,7 +25316,9 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-18,OK,40,Oklahoma,592074,8440
 2021-09-19,OK,40,Oklahoma,592074,8440
 2021-09-20,OK,40,Oklahoma,598072,8440
-2021-09-21,OK,40,Oklahoma,598556,8440
+2021-09-21,OK,40,Oklahoma,598556,8439
+2021-09-22,OK,40,Oklahoma,600800,8715
+2021-09-23,OK,40,Oklahoma,603161,8715
 2019-12-31,OR,41,Oregon,0,0
 2020-01-01,OR,41,Oregon,0,0
 2020-01-02,OR,41,Oregon,0,0
@@ -25239,6 +25950,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,OR,41,Oregon,309841,3569
 2021-09-20,OR,41,Oregon,313161,3594
 2021-09-21,OR,41,Oregon,314841,3624
+2021-09-22,OR,41,Oregon,317107,3649
+2021-09-23,OR,41,Oregon,318915,3661
 2019-12-31,PA,42,Pennsylvania,0,0
 2020-01-01,PA,42,Pennsylvania,0,0
 2020-01-02,PA,42,Pennsylvania,0,0
@@ -25870,6 +26583,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,PA,42,Pennsylvania,1380364,28862
 2021-09-20,PA,42,Pennsylvania,1382933,28864
 2021-09-21,PA,42,Pennsylvania,1387872,28932
+2021-09-22,PA,42,Pennsylvania,1392266,28998
+2021-09-23,PA,42,Pennsylvania,1397755,29030
 2019-12-31,PR,72,Puerto Rico,0,0
 2020-01-01,PR,72,Puerto Rico,0,0
 2020-01-02,PR,72,Puerto Rico,0,0
@@ -26501,6 +27216,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,PR,72,Puerto Rico,212609,3074
 2021-09-20,PR,72,Puerto Rico,212812,3076
 2021-09-21,PR,72,Puerto Rico,212847,3092
+2021-09-22,PR,72,Puerto Rico,213208,3105
+2021-09-23,PR,72,Puerto Rico,213365,3109
 2019-12-31,RI,44,Rhode Island,0,0
 2020-01-01,RI,44,Rhode Island,0,0
 2020-01-02,RI,44,Rhode Island,0,0
@@ -27132,6 +27849,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,RI,44,Rhode Island,168449,2812
 2021-09-20,RI,44,Rhode Island,169350,2815
 2021-09-21,RI,44,Rhode Island,169686,2816
+2021-09-22,RI,44,Rhode Island,170009,2818
+2021-09-23,RI,44,Rhode Island,170293,2820
 2019-12-31,SC,45,South Carolina,0,0
 2020-01-01,SC,45,South Carolina,0,0
 2020-01-02,SC,45,South Carolina,0,0
@@ -27763,6 +28482,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,SC,45,South Carolina,819204,11614
 2021-09-20,SC,45,South Carolina,830260,11721
 2021-09-21,SC,45,South Carolina,832466,11828
+2021-09-22,SC,45,South Carolina,834880,11913
+2021-09-23,SC,45,South Carolina,838079,11957
 2019-12-31,SD,46,South Dakota,0,0
 2020-01-01,SD,46,South Dakota,0,0
 2020-01-02,SD,46,South Dakota,0,0
@@ -28394,6 +29115,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,SD,46,South Dakota,139956,2100
 2021-09-20,SD,46,South Dakota,140402,2105
 2021-09-21,SD,46,South Dakota,141141,2108
+2021-09-22,SD,46,South Dakota,141745,2109
+2021-09-23,SD,46,South Dakota,142330,2115
 2019-12-31,TN,47,Tennessee,0,0
 2020-01-01,TN,47,Tennessee,0,0
 2020-01-02,TN,47,Tennessee,0,0
@@ -29025,6 +29748,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,TN,47,Tennessee,1151186,14225
 2021-09-20,TN,47,Tennessee,1163270,14334
 2021-09-21,TN,47,Tennessee,1163270,14334
+2021-09-22,TN,47,Tennessee,1172596,14560
+2021-09-23,TN,47,Tennessee,1176400,14623
 2019-12-31,TX,48,Texas,0,0
 2020-01-01,TX,48,Texas,0,0
 2020-01-02,TX,48,Texas,0,0
@@ -29656,6 +30381,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,TX,48,Texas,3926755,62323
 2021-09-20,TX,48,Texas,3938756,62432
 2021-09-21,TX,48,Texas,3954709,62778
+2021-09-22,TX,48,Texas,3972002,63162
+2021-09-23,TX,48,Texas,3982646,63608
 2019-12-31,UT,49,Utah,0,0
 2020-01-01,UT,49,Utah,0,0
 2020-01-02,UT,49,Utah,0,0
@@ -30287,6 +31014,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,UT,49,Utah,491073,2787
 2021-09-20,UT,49,Utah,494466,2804
 2021-09-21,UT,49,Utah,495796,2829
+2021-09-22,UT,49,Utah,497521,2841
+2021-09-23,UT,49,Utah,499120,2860
 2019-12-31,VA,51,Virginia,0,0
 2020-01-01,VA,51,Virginia,0,0
 2020-01-02,VA,51,Virginia,0,0
@@ -30918,6 +31647,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,VA,51,Virginia,827197,12242
 2021-09-20,VA,51,Virginia,836140,12312
 2021-09-21,VA,51,Virginia,839475,12364
+2021-09-22,VA,51,Virginia,843212,12409
+2021-09-23,VA,51,Virginia,846979,12463
 2019-12-31,VI,78,Virgin Islands,0,0
 2020-01-01,VI,78,Virgin Islands,0,0
 2020-01-02,VI,78,Virgin Islands,0,0
@@ -31549,6 +32280,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,VI,78,Virgin Islands,6439,67
 2021-09-20,VI,78,Virgin Islands,6458,67
 2021-09-21,VI,78,Virgin Islands,6489,67
+2021-09-22,VI,78,Virgin Islands,6557,69
+2021-09-23,VI,78,Virgin Islands,6557,69
 2019-12-31,VT,50,Vermont,0,0
 2020-01-01,VT,50,Vermont,0,0
 2020-01-02,VT,50,Vermont,0,0
@@ -32180,6 +32913,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,VT,50,Vermont,31634,298
 2021-09-20,VT,50,Vermont,31764,298
 2021-09-21,VT,50,Vermont,31911,301
+2021-09-22,VT,50,Vermont,32079,301
+2021-09-23,VT,50,Vermont,32368,301
 2019-12-31,WA,53,Washington,0,0
 2020-01-01,WA,53,Washington,0,0
 2020-01-02,WA,53,Washington,0,0
@@ -32810,7 +33545,9 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-18,WA,53,Washington,623254,7256
 2021-09-19,WA,53,Washington,623254,7256
 2021-09-20,WA,53,Washington,630603,7319
-2021-09-21,WA,53,Washington,633424,7372
+2021-09-21,WA,53,Washington,633534,7372
+2021-09-22,WA,53,Washington,635636,7423
+2021-09-23,WA,53,Washington,640094,7487
 2019-12-31,WI,55,Wisconsin,0,0
 2020-01-01,WI,55,Wisconsin,0,0
 2020-01-02,WI,55,Wisconsin,0,0
@@ -33442,6 +34179,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,WI,55,Wisconsin,772089,8703
 2021-09-20,WI,55,Wisconsin,779921,8713
 2021-09-21,WI,55,Wisconsin,784048,8731
+2021-09-22,WI,55,Wisconsin,787194,8754
+2021-09-23,WI,55,Wisconsin,790787,8775
 2019-12-31,WV,54,West Virginia,0,0
 2020-01-01,WV,54,West Virginia,0,0
 2020-01-02,WV,54,West Virginia,0,0
@@ -34073,6 +34812,8 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,WV,54,West Virginia,223117,3370
 2021-09-20,WV,54,West Virginia,224435,3424
 2021-09-21,WV,54,West Virginia,225772,3441
+2021-09-22,WV,54,West Virginia,227506,3467
+2021-09-23,WV,54,West Virginia,228983,3492
 2019-12-31,WY,56,Wyoming,0,0
 2020-01-01,WY,56,Wyoming,0,0
 2020-01-02,WY,56,Wyoming,0,0
@@ -34704,3 +35445,5 @@ date,state_code,fips,state_name,total_cases,total_deaths
 2021-09-19,WY,56,Wyoming,83958,918
 2021-09-20,WY,56,Wyoming,85499,918
 2021-09-21,WY,56,Wyoming,86052,955
+2021-09-22,WY,56,Wyoming,86594,955
+2021-09-23,WY,56,Wyoming,87351,955
