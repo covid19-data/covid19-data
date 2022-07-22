@@ -17,8 +17,8 @@ GEM
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
     racc (1.5.2)
-    thread_safe (0.3.5)
-    tzinfo (1.2.2)
+    thread_safe (0.3.6)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
 
 PLATFORMS
